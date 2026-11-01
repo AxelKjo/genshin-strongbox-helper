@@ -1,0 +1,273 @@
+import * as cheerio from 'cheerio'
+import type { AnyNode } from 'domhandler'
+import type { StatKey } from '../../src/types/artifacts'
+import { normalizeStat, normalizeStatList } from '../../src/lib/stats'
+import type { TargetSetConfig } from './config'
+import { GB_BASE } from './config'
+import { absoluteGbUrl, fetchCached } from './http'
+
+export interface GBUsageRef {
+  slug: string
+  characterName: string
+  buildId: string
+  rank: string
+  href: string
+}
+
+export interface GBArtifactSet {
+  id: string
+  name: string
+  rarity: number
+  iconUrl: string
+  twoPiece: string
+  fourPiece: string
+  users: GBUsageRef[]
+}
+
+export interface GBPieceCountUsage {
+  buildId: string
+  rank: number
+  pieceCount: 2 | 4
+  label: string
+  conditional: boolean
+}
+
+export interface GBBuildData {
+  id: string
+  name: string
+  nameEs?: string
+  version: string
+  versionEs?: string
+  isBestRole: boolean
+  setUsages: GBPieceCountUsage[]
+  mainStats: { sands: StatKey[]; goblet: StatKey[]; circlet: StatKey[] }
+  substats: StatKey[]
+  notes: string
+  notesEs?: string
+}
+
+export interface GBCharacterData {
+  slug: string
+  name: { en: string; es: string }
+  element: string
+  iconUrl: string
+  lastUpdated: { en: string; es: string }
+  builds: GBBuildData[]
+}
+
+const CONDITIONAL_LABEL = /\b(?:only|requires?|requiring|when|if|depending|depends?|furina|c[1-6]|constellation|meme|niche|situational|hyperspecific|teams?\s+with|paired\s+with|enabler|conditional)\b/i
+
+function textOf($: cheerio.CheerioAPI, el: cheerio.Cheerio<AnyNode>): string {
+  return el.text().replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim()
+}
+
+function hasConditionalLabel(label: string): boolean {
+  return CONDITIONAL_LABEL.test(label)
+}
+
+export async function fetchArtifactIndex(lang: 'en' | 'es'): Promise<GBArtifactSet[]> {
+  const url = `${GB_BASE}/${lang}/artifacts`
+  const { html } = await fetchCached(url, { namespace: `genshin-builds/${lang}` })
+  const $ = cheerio.load(html)
+  const sets: GBArtifactSet[] = []
+  $('article[data-artifact-card]').each((_, article) => {
+    const node = $(article)
+    const id = node.attr('data-id') ?? ''
+    const name = node.attr('data-name') ?? ''
+    if (!id || !name) return
+    const icon = node.find('.artifact-set-entry-image img').first().attr('src') ?? ''
+    const rarity = Number.parseInt(node.attr('data-rarity') ?? '0', 10)
+    let twoPiece = ''
+    let fourPiece = ''
+    node.find('.artifact-set-bonus').each((__, bonus) => {
+      const bonusNode = $(bonus)
+      const label = textOf($, bonusNode.find('h3').first())
+      const value = textOf($, bonusNode.find('div').first())
+      if (label === '2P') twoPiece = value
+      if (label === '4P') fourPiece = value
+    })
+    const users: GBUsageRef[] = []
+    node.find('.artifact-set-usage-list a').each((__, chip) => {
+      const link = $(chip)
+      const href = link.attr('href') ?? ''
+      const match = href.match(/\/genshin-builds\/[a-z]{2}\/([^?/#]+)\?build=([^&#]+)/)
+      if (!match) return
+      users.push({
+        slug: match[1],
+        characterName: textOf($, link.find('.artifact-set-usage-character').first()),
+        buildId: decodeURIComponent(match[2]),
+        rank: textOf($, link.find('.usage-rank-number, .rank-number').first()) || '1',
+        href,
+      })
+    })
+    sets.push({
+      id,
+      name,
+      rarity,
+      iconUrl: absoluteGbUrl(icon),
+      twoPiece,
+      fourPiece,
+      users,
+    })
+  })
+  return sets
+}
+
+function parseBuildPanels($: cheerio.CheerioAPI, targetSets: TargetSetConfig[]): GBBuildData[] {
+  const builds: GBBuildData[] = []
+  $('button[data-build-tab]').each((_, button) => {
+    const btn = $(button)
+    const id = btn.attr('data-id') ?? ''
+    const name = textOf($, btn.find('.build-switcher-name').first())
+    const version = btn.attr('data-last-updated') ?? ''
+    const isBestRole = btn.find('.build-badge').text().toLowerCase().includes('best role')
+    const panel = $(`section[data-build-panel][data-id="${id}"]`).first()
+    if (!panel.length) return
+
+    const setUsages: GBPieceCountUsage[] = []
+    panel.find('.artifact-sets-card .rank-group').each((__, group) => {
+      const groupNode = $(group)
+      const rankText = textOf($, groupNode.find('.rank-number').first())
+      const rank = /^\d+$/.test(rankText) ? Number.parseInt(rankText, 10) : Number.POSITIVE_INFINITY
+      groupNode.find('.inline-info-label.artifact-info-label').each((___, labelNode) => {
+        const labelEl = $(labelNode)
+        const visibleLabel = textOf($, labelEl)
+        const popoverHtml = labelEl.find('[data-info-popover-html]').attr('data-info-popover-html') ?? ''
+        const popover = cheerio.load(popoverHtml)
+        const popoverText = popover.text()
+        const popoverName = textOf($, popover('.info-popover-name').first())
+        const label =
+          textOf($, labelEl.find('.recommendation-label-emphasized').first()) ||
+          popoverName ||
+          visibleLabel
+        const suffix =
+          textOf($, labelEl.find('.artifact-piece-suffix').first()) ||
+          textOf($, labelEl.nextAll('.artifact-piece-suffix').first())
+        const pieceMatch = suffix.match(/\((\d)\)/)
+        const haystack = `${label} ${popoverText}`.toLowerCase()
+        const target = targetSets.find((set) =>
+          [set.en, set.es, ...set.aliases].some((alias) => haystack.includes(alias.toLowerCase())),
+        )
+        if (!target) return
+        const pieceCount = pieceMatch?.[1] === '4' ? 4 : pieceMatch?.[1] === '2' ? 2 : null
+        if (!pieceCount) return
+        setUsages.push({
+          buildId: id,
+          rank,
+          pieceCount,
+          label,
+          conditional: hasConditionalLabel(visibleLabel),
+        })
+      })
+    })
+
+    const mainStats: GBBuildData['mainStats'] = { sands: [], goblet: [], circlet: [] }
+    const statsCard = panel.find('.artifact-stats-card').first()
+    statsCard.find('.stat-row').each((__, row) => {
+      const rowNode = $(row)
+      const slotText = textOf($, rowNode.find('strong').first()).toLowerCase()
+      const slot = slotText.includes('sands') ? 'sands' : slotText.includes('goblet') ? 'goblet' : slotText.includes('circlet') ? 'circlet' : null
+      if (!slot) return
+      const emphasized = rowNode.find('.recommendation-label-emphasized')
+      const values: string[] = []
+      if (emphasized.length > 0) {
+        emphasized.each((___, el) => { values.push(textOf($, $(el))) })
+      } else {
+        values.push(...textOf($, rowNode.find('span').last()).split('/'))
+      }
+      for (const value of values) {
+        const stat = normalizeStat(value)
+        if (stat && !mainStats[slot].includes(stat)) mainStats[slot].push(stat)
+      }
+    })
+
+    const substats: StatKey[] = []
+    const substatSection = statsCard.find('.recommendation-section').filter((_, section) => {
+      return textOf($, $(section).find('h3').first()).toLowerCase() === 'substats'
+    }).first()
+    substatSection.find('.rank-row').each((__, row) => {
+      const label = textOf($, $(row).find('.recommendation-label-emphasized').first())
+      for (const stat of normalizeStatList(label)) {
+        if (!substats.includes(stat)) substats.push(stat)
+      }
+    })
+
+    const noteParagraphs: string[] = []
+    panel.find('.notes-card .notes-content p').each((__, paragraph) => {
+      const text = textOf($, $(paragraph))
+      if (text.length > 20) noteParagraphs.push(text)
+    })
+    const notes = noteParagraphs.slice(0, 2).join(' ').slice(0, 900)
+    builds.push({ id, name, version, isBestRole, setUsages, mainStats, substats, notes })
+  })
+  return builds
+}
+
+export async function fetchCharacter(
+  slug: string,
+  targetSets: TargetSetConfig[],
+): Promise<GBCharacterData> {
+  const [en, es] = await Promise.all([
+    fetchCached(`${GB_BASE}/en/${slug}`, { namespace: 'genshin-builds/en' }),
+    fetchCached(`${GB_BASE}/es/${slug}`, { namespace: 'genshin-builds/es' }),
+  ])
+  const $en = cheerio.load(en.html)
+  const $es = cheerio.load(es.html)
+  const enBuilds = parseBuildPanels($en, targetSets)
+  const esBuilds = parseBuildPanels($es, targetSets)
+  const byId = new Map(esBuilds.map((build) => [build.id, build]))
+  const builds: GBBuildData[] = enBuilds.map((build) => {
+    const esBuild = byId.get(build.id)
+    if (!esBuild) return build
+    return {
+      ...build,
+      nameEs: esBuild.name,
+      versionEs: esBuild.version,
+      notesEs: esBuild.notes,
+    }
+  })
+
+  return {
+    slug,
+    name: {
+      en: textOf($en, $en('h1#character-title').first()),
+      es: textOf($es, $es('h1#character-title').first()),
+    },
+    element: (($en('body').attr('data-element') ?? '').trim() || 'unknown'),
+    iconUrl: absoluteGbUrl($en('.character-art-stage img.character-image').first().attr('src') ?? ''),
+    lastUpdated: {
+      en: textOf($en, $en('.last-updated strong').first()),
+      es: textOf($es, $es('.last-updated strong').first()),
+    },
+    builds,
+  }
+}
+
+export function getBuildById(data: GBCharacterData, buildId: string): GBBuildData | undefined {
+  return data.builds.find((build) => build.id === buildId)
+}
+
+export function pickSetUsage(
+  data: GBCharacterData,
+  preferredBuildId?: string,
+): { build: GBBuildData; usage: GBPieceCountUsage } | null {
+  const candidates: { build: GBBuildData; usage: GBPieceCountUsage }[] = []
+  for (const build of data.builds) {
+    if (!build.isBestRole) continue
+    for (const usage of build.setUsages) {
+      if (usage.conditional) continue
+      if (!Number.isFinite(usage.rank) || usage.rank > 2) continue
+      candidates.push({ build, usage })
+    }
+  }
+  if (candidates.length === 0) return null
+  const score = (candidate: { build: GBBuildData; usage: GBPieceCountUsage }) => {
+    let value = 0
+    if (candidate.build.id === preferredBuildId) value += 1000
+    if (candidate.usage.pieceCount === 4) value += 200
+    value += 100 - Math.min(candidate.usage.rank, 99)
+    return value
+  }
+  candidates.sort((a, b) => score(b) - score(a))
+  return candidates[0]
+}

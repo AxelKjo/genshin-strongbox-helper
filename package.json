@@ -1,0 +1,38 @@
+{
+  "name": "genshin-artifact-triage",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "scrape": "tsx scripts/scraper/build-dataset.ts",
+    "scrape:images": "tsx scripts/scraper/download-artifact-images.ts",
+    "scrape:test-gb": "tsx scripts/scraper/test-gb.ts",
+    "scrape:test-kqm": "tsx scripts/scraper/test-kqm.ts",
+    "typecheck": "tsc -b",
+    "typecheck:scripts": "tsc -p tsconfig.scripts.json",
+    "scrape:all": "tsx scripts/scraper/build-dataset.ts --all"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "lucide-react": "^1.64.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "autoprefixer": "^10.6.2",
+    "oxlint": "^1.89.0",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^3.4.19",
+    "tsx": "^4.23.15",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.5"
+  }
+}

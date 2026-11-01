@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.cache/
+/tmp/
+.env
+.env.local
+*.log
+.DS_Store
+.vscode/
+PROMPT_PLAN.md
