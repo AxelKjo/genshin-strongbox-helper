@@ -8,6 +8,8 @@ import { Avatar } from './Avatar'
 import { CharacterCard } from './CharacterCard'
 import { SlotRuleCard } from './SlotRuleCard'
 
+const VERDICT_ORDER = { MUST_KEEP: 0, SITUATIONAL_KEEP: 1, SAFE_DISCARD: 2 } as const
+
 interface SetDetailProps {
   set: ArtifactSetTriage
   lang: Lang
@@ -15,6 +17,7 @@ interface SetDetailProps {
 
 export function SetDetail({ set, lang }: SetDetailProps) {
   const [showDescription, setShowDescription] = useState(false)
+  const [reverseOrder, setReverseOrder] = useState(false)
   const [artworkFailed, setArtworkFailed] = useState(false)
 
   return (
@@ -70,43 +73,70 @@ export function SetDetail({ set, lang }: SetDetailProps) {
       </header>
 
       <section>
-        <div className="grid gap-4 xl:grid-cols-3">
+        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
           {(['sands', 'goblet', 'circlet'] as const).map((slot) => {
+            const orderedRules = [...set.slotRules[slot]].sort(
+              (a, b) => (VERDICT_ORDER[a.verdict] - VERDICT_ORDER[b.verdict]) * (reverseOrder ? -1 : 1),
+            )
+            const keepRules = orderedRules.filter((rule) => rule.verdict !== 'SAFE_DISCARD')
+            const discardRules = orderedRules.filter((rule) => rule.verdict === 'SAFE_DISCARD')
+            const discardBlock = discardRules.length > 0 ? (
+              <article className="rounded-2xl border border-coralDiscard/30 bg-coralDiscard/5 p-4">
+                <p className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-coralDiscard">
+                  <Trash2 className="h-3.5 w-3.5" aria-hidden /> {t('safeDiscard', lang)}
+                </p>
+                <div className="mt-2 flex flex-wrap gap-1.5">
+                  {discardRules.map((rule) => (
+                    <span key={rule.mainStat} className="rounded-md border border-coralDiscard/25 bg-abyss/50 px-2 py-1 text-sm font-medium text-coralDiscard/90">
+                      {statLabel(rule.mainStat, lang)}
+                    </span>
+                  ))}
+                </div>
+                <p className="mt-2 text-xs leading-relaxed text-slate-400">
+                  {lang === 'en'
+                    ? 'No current user of this set wants these main stats on this slot. Recycle them unless the substats make them a premium off-piece.'
+                    : 'Ningún personaje actual de este set quiere estas estadísticas principales en esta pieza. Recíclalas salvo que las subestadísticas las conviertan en una pieza externa premium.'}
+                </p>
+              </article>
+            ) : null
             return (
               <div key={slot} className="space-y-3">
                 <h3 className="inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-[0.2em] text-slate-300">
                   <img src={`/icons/slots/${slot}.svg`} alt={t(slot, lang)} className="h-6 w-6 object-contain" />
                   {t(slot, lang)}
                 </h3>
-                {set.slotRules[slot]
-                  .filter((rule) => rule.verdict !== 'SAFE_DISCARD')
-                  .map((rule) => (
-                    <SlotRuleCard key={rule.mainStat} set={set} rule={rule} lang={lang} />
-                  ))}
-                {set.slotRules[slot].some((rule) => rule.verdict === 'SAFE_DISCARD') && (
-                  <article className="rounded-2xl border border-coralDiscard/30 bg-coralDiscard/5 p-4">
-                    <p className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-coralDiscard">
-                      <Trash2 className="h-3.5 w-3.5" aria-hidden /> {t('safeDiscard', lang)}
-                    </p>
-                    <div className="mt-2 flex flex-wrap gap-1.5">
-                      {set.slotRules[slot]
-                        .filter((rule) => rule.verdict === 'SAFE_DISCARD')
-                        .map((rule) => (
-                          <span key={rule.mainStat} className="rounded-md border border-coralDiscard/25 bg-abyss/50 px-2 py-1 text-sm font-medium text-coralDiscard/90">
-                            {statLabel(rule.mainStat, lang)}
-                          </span>
-                        ))}
-                    </div>
-                    <p className="mt-2 text-xs leading-relaxed text-slate-400">
-                      {lang === 'en'
-                        ? 'No current user of this set wants these main stats on this slot. Recycle them unless the substats make them a premium off-piece.'
-                        : 'Ningún personaje actual de este set quiere estas estadísticas principales en esta pieza. Recíclalas salvo que las subestadísticas las conviertan en una pieza externa premium.'}
-                    </p>
-                  </article>
-                )}
+                {reverseOrder && discardBlock}
+                {keepRules.map((rule) => (
+                  <SlotRuleCard key={rule.mainStat} set={set} rule={rule} lang={lang} />
+                ))}
+                {!reverseOrder && discardBlock}
               </div>
             )
           })}
+        </div>
+
+        <div className="mt-4 flex justify-start">
+          <button
+            type="button"
+            role="switch"
+            aria-checked={reverseOrder}
+            onClick={() => setReverseOrder((current) => !current)}
+            className="inline-flex items-center gap-2.5 rounded-full border border-white/10 bg-abyssSoft/70 px-4 py-2 text-sm font-semibold text-slate-300 transition hover:border-gold/30 hover:text-goldSoft"
+          >
+            <span
+              className={`relative h-5 w-9 rounded-full border transition ${
+                reverseOrder ? 'border-gold/40 bg-gold/25' : 'border-white/15 bg-abyss'
+              }`}
+              aria-hidden
+            >
+              <span
+                className={`absolute left-0.5 top-0.5 h-4 w-4 rounded-full transition ${
+                  reverseOrder ? 'translate-x-4 bg-gold' : 'bg-slate-400'
+                }`}
+              />
+            </span>
+            {t('reverseOrder', lang)}
+          </button>
         </div>
       </section>
 
@@ -118,7 +148,7 @@ export function SetDetail({ set, lang }: SetDetailProps) {
           </span>
           {t('flowerPlume', lang)}
         </h2>
-        <div className="mt-4 grid gap-3 lg:grid-cols-2">
+        <div className="mt-4 grid gap-3 lg:grid-cols-2 2xl:grid-cols-3">
           {set.flowerAndPlumeRules.keepCombinations.map((combo, index) => {
             const users = combo.usedBy
               .map((id) => set.characters.find((character) => character.characterId === id))
@@ -161,7 +191,7 @@ export function SetDetail({ set, lang }: SetDetailProps) {
           <h2 className="font-display text-xl text-goldSoft">{t('characterBreakdown', lang)}</h2>
           <span className="text-xs text-slate-500">{set.characters.length} {t('characters', lang)}</span>
         </div>
-        <div className="grid gap-3 lg:grid-cols-2">
+        <div className="grid gap-3 lg:grid-cols-2 2xl:grid-cols-3">
           {set.characters.map((character) => (
             <CharacterCard key={character.characterId} character={character} lang={lang} />
           ))}

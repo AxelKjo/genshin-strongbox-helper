@@ -7,6 +7,7 @@ import { SetDetail } from './components/SetDetail'
 import { SetSidebar } from './components/SetSidebar'
 
 const LANG_KEY = 'genshin-artifact-triage:lang'
+const SHELL_WIDTH = 'mx-auto w-full max-w-[1800px] px-4 sm:px-6 lg:px-8'
 
 function getInitialLang(): Lang {
   const queryLang = new URLSearchParams(window.location.search).get('lang')
@@ -46,7 +47,9 @@ export default function App() {
   const [error, setError] = useState(false)
   const [query, setQuery] = useState('')
   const [selectedId, setSelectedId] = useState<string | null>(null)
-  const [sidebarExpanded, setSidebarExpanded] = useState(false)
+  const [sidebarExpanded, setSidebarExpanded] = useState(
+    () => window.matchMedia('(min-width: 1536px)').matches,
+  )
 
   useEffect(() => {
     try {
@@ -87,10 +90,10 @@ export default function App() {
   const selectedSet = dataset?.sets.find((set) => set.id === effectiveSelectedId) ?? null
 
   return (
-    <div className="min-h-screen bg-abyss text-slate-100">
+    <div className="min-h-screen overflow-x-clip bg-abyss text-slate-100">
       <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_15%_-10%,rgba(211,188,142,0.13),transparent_35%),radial-gradient(circle_at_90%_10%,rgba(78,120,180,0.12),transparent_30%)]" aria-hidden />
       <header className="sticky top-0 z-20 border-b border-gold/15 bg-abyss/90 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-[1600px] flex-wrap items-center justify-between gap-3 px-4 py-3 sm:px-6">
+        <div className={`${SHELL_WIDTH} flex flex-wrap items-center justify-between gap-3 py-3`}>
           <div className="flex items-center gap-3">
             <span className="flex h-10 w-10 items-center justify-center rounded-xl border border-gold/30 bg-gold/10 shadow-glow">
               <img src="/favicon.png" alt="" className="h-7 w-7 object-contain" aria-hidden />
@@ -107,7 +110,7 @@ export default function App() {
         </div>
       </header>
 
-      <main className="relative mx-auto max-w-[1600px] px-4 py-5 sm:px-6">
+      <main className={`relative ${SHELL_WIDTH} py-5`}>
         {!dataset && !error && (
           <div className="flex min-h-[60vh] items-center justify-center">
             <p className="animate-pulse rounded-2xl border border-gold/20 bg-abyssSoft/70 px-5 py-3 text-sm text-goldSoft">{t('loading', lang)}</p>
@@ -119,7 +122,13 @@ export default function App() {
           </div>
         )}
         {dataset && (
-          <div className={`grid gap-5 ${sidebarExpanded ? 'lg:grid-cols-[300px_minmax(0,1fr)] xl:grid-cols-[330px_minmax(0,1fr)]' : 'lg:grid-cols-[88px_minmax(0,1fr)] xl:grid-cols-[96px_minmax(0,1fr)]'}`}>
+          <div
+            className={`grid gap-5 xl:gap-6 ${
+              sidebarExpanded
+                ? 'lg:grid-cols-[280px_minmax(0,1fr)] xl:grid-cols-[300px_minmax(0,1fr)] 2xl:grid-cols-[340px_minmax(0,1fr)]'
+                : 'lg:grid-cols-[96px_minmax(0,1fr)] xl:grid-cols-[104px_minmax(0,1fr)]'
+            }`}
+          >
             <div className="min-w-0 lg:sticky lg:top-[76px] lg:h-[calc(100vh-96px)]">
               <SetSidebar
                 sets={filteredSets}
@@ -147,8 +156,8 @@ export default function App() {
         )}
       </main>
 
-      <footer className="relative border-t border-white/5 px-4 py-5 text-xs text-slate-400 sm:px-6">
-        <div className="mx-auto flex max-w-[1600px] flex-col items-center justify-between gap-2 text-center sm:flex-row sm:text-left">
+      <footer className="relative border-t border-white/5 py-5 text-xs text-slate-400">
+        <div className={`${SHELL_WIDTH} flex flex-col items-center justify-between gap-2 text-center sm:flex-row sm:text-left`}>
           <p>
             {t('footerDataFrom', lang)}{' '}
             <a

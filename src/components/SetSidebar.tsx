@@ -103,7 +103,7 @@ export function SetSidebar({
             >
               <Avatar src={set.imageUrl || set.iconUrl} alt={set.name[lang]} size="md" />
               <span className={`min-w-0 flex-1 ${expanded ? '' : 'lg:hidden'}`}>
-                <span className={`block truncate text-base font-semibold ${active ? 'text-goldSoft' : 'text-slate-100'}`}>{set.name[lang]}</span>
+                <span className={`line-clamp-2 block text-base font-semibold leading-snug ${active ? 'text-goldSoft' : 'text-slate-100'}`}>{set.name[lang]}</span>
                 <span className="mt-1 flex items-center gap-2 text-xs text-slate-400">
                   <Star className="h-3 w-3 text-gold/80" aria-hidden /> {set.rarity}★
                   <span className="text-slate-600">•</span>

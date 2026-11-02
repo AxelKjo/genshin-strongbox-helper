@@ -23,6 +23,10 @@ export const UI = {
   description: { en: 'Description', es: 'Descripción' },
   summary: { en: 'Verdict', es: 'Veredicto' },
   keepMatrix: { en: 'Keep vs. Discard matrix', es: 'Matriz Conservar vs. Descartar' },
+  reverseOrder: {
+    en: 'Reverse order (Show discards on top)',
+    es: 'Invertir orden (Mostrar descartes arriba)',
+  },
   sands: { en: 'Sands', es: 'Arenas' },
   goblet: { en: 'Goblet', es: 'Cáliz' },
   circlet: { en: 'Circlet', es: 'Tiara' },
