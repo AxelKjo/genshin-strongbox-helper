@@ -1,14 +1,12 @@
 import { useState } from 'react'
-import { ChevronDown, Crown, Flower2, Gem, Trash2 } from 'lucide-react'
-import type { ArtifactSetTriage, SlotKey } from '../types/artifacts'
+import { ChevronDown, Trash2 } from 'lucide-react'
+import type { ArtifactSetTriage } from '../types/artifacts'
 import type { Lang } from '../lib/i18n'
 import { t } from '../lib/i18n'
 import { statLabel } from '../lib/stats'
 import { Avatar } from './Avatar'
 import { CharacterCard } from './CharacterCard'
 import { SlotRuleCard } from './SlotRuleCard'
-
-const SLOT_ICONS: Record<SlotKey, typeof Gem> = { sands: Gem, goblet: Crown, circlet: Crown }
 
 interface SetDetailProps {
   set: ArtifactSetTriage
@@ -74,11 +72,11 @@ export function SetDetail({ set, lang }: SetDetailProps) {
       <section>
         <div className="grid gap-4 xl:grid-cols-3">
           {(['sands', 'goblet', 'circlet'] as const).map((slot) => {
-            const Icon = SLOT_ICONS[slot]
             return (
               <div key={slot} className="space-y-3">
-                <h3 className="flex items-center gap-2 text-sm font-bold uppercase tracking-[0.2em] text-slate-300">
-                  <Icon className="h-4 w-4 text-gold" aria-hidden /> {t(slot, lang)}
+                <h3 className="inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-[0.2em] text-slate-300">
+                  <img src={`/icons/slots/${slot}.svg`} alt={t(slot, lang)} className="h-6 w-6 object-contain" />
+                  {t(slot, lang)}
                 </h3>
                 {set.slotRules[slot]
                   .filter((rule) => rule.verdict !== 'SAFE_DISCARD')
@@ -114,7 +112,11 @@ export function SetDetail({ set, lang }: SetDetailProps) {
 
       <section className="rounded-3xl border border-white/10 bg-abyssSoft/60 p-5">
         <h2 className="flex items-center gap-2 font-display text-xl text-goldSoft">
-          <Flower2 className="h-5 w-5 text-gold" aria-hidden /> {t('flowerPlume', lang)}
+          <span className="inline-flex items-center gap-1.5" aria-hidden>
+            <img src="/icons/slots/flower.svg" alt="" className="h-6 w-6 object-contain" />
+            <img src="/icons/slots/plume.svg" alt="" className="h-6 w-6 object-contain" />
+          </span>
+          {t('flowerPlume', lang)}
         </h2>
         <div className="mt-4 grid gap-3 lg:grid-cols-2">
           {set.flowerAndPlumeRules.keepCombinations.map((combo, index) => {
