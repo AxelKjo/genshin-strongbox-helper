@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T00:54:28.394Z",
+  "generatedAt": "2026-11-01T04:32:50.358Z",
   "version": "MVP-3-sets",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
@@ -23,8 +23,8 @@
         }
       },
       "summaryVerdict": {
-        "en": "Aubade of Morningstar and Moon is a 5★ set used by Columbina, Ineffa, Linnea. Keep Sands with HP%, Energy Recharge, ATK%, DEF%, Goblets with HP%, ATK%, DEF% and Circlets with CRIT Rate, CRIT DMG, DEF%. Everything else is fodder unless it is a strong off-piece.",
-        "es": "Alborada de la Estrella del Alba y la Luna es un set de 5★ usado por Colombina, Ineffa, Linnéa. Conserva Arenas con Vida%, Recarga de Energía, ATQ%, DEF%, Cálices con Vida%, ATQ%, DEF% y Tiaras con Prob. CRIT, Daño CRIT, DEF%. El resto es material de reciclaje salvo que sea una gran pieza externa."
+        "en": "Aubade of Morningstar and Moon is a 5★ set used by Columbina, Ineffa, Linnea. Keep Sands with Energy Recharge, HP%, ATK%, DEF%, Goblets with HP%, ATK%, DEF% and Circlets with CRIT Rate, CRIT DMG, HP%, DEF%. Everything else is fodder unless it is a strong off-piece.",
+        "es": "Alborada de la Estrella del Alba y la Luna es un set de 5★ usado por Colombina, Ineffa, Linnéa. Conserva Arenas con Recarga de Energía, Vida%, ATQ%, DEF%, Cálices con Vida%, ATQ%, DEF% y Tiaras con Prob. CRIT, Daño CRIT, Vida%, DEF%. El resto es material de reciclaje salvo que sea una gran pieza externa."
       },
       "flowerAndPlumeRules": {
         "keepCombinations": [
@@ -111,14 +111,20 @@
                 "characters": [
                   "columbina"
                 ]
+              },
+              {
+                "name": "HP",
+                "characters": [
+                  "columbina"
+                ]
               }
             ],
             "usedBy": [
               "columbina"
             ],
             "reasoning": {
-              "en": "Columbina can use HP% on Sands for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > Elemental Mastery.",
-              "es": "Colombina puede(n) usar Vida% en Arenas para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > Maestría Elemental."
+              "en": "Columbina can use HP% on Sands for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > Elemental Mastery > Flat HP.",
+              "es": "Colombina puede(n) usar Vida% en Arenas para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > Maestría Elemental > Vida plana."
             }
           },
           {
@@ -227,6 +233,12 @@
                 ]
               },
               {
+                "name": "HP",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
                 "name": "DEF%",
                 "characters": [
                   "linnea"
@@ -238,8 +250,8 @@
               "linnea"
             ],
             "reasoning": {
-              "en": "Columbina, Linnea can use Energy Recharge on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Elemental Mastery > HP% > DEF%.",
-              "es": "Colombina, Linnéa puede(n) usar Recarga de Energía en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Maestría Elemental > Vida% > DEF%."
+              "en": "Columbina, Linnea can use Energy Recharge on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Elemental Mastery > HP% > Flat HP > DEF%.",
+              "es": "Colombina, Linnéa puede(n) usar Recarga de Energía en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Maestría Elemental > Vida% > Vida plana > DEF%."
             }
           },
           {
@@ -281,14 +293,20 @@
                 "characters": [
                   "columbina"
                 ]
+              },
+              {
+                "name": "HP",
+                "characters": [
+                  "columbina"
+                ]
               }
             ],
             "usedBy": [
               "columbina"
             ],
             "reasoning": {
-              "en": "Columbina can use HP% on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > Elemental Mastery.",
-              "es": "Colombina puede(n) usar Vida% en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > Maestría Elemental."
+              "en": "Columbina can use HP% on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > Elemental Mastery > Flat HP.",
+              "es": "Colombina puede(n) usar Vida% en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > Maestría Elemental > Vida plana."
             }
           },
           {
@@ -459,12 +477,45 @@
         "circlet": [
           {
             "mainStat": "HP%",
-            "verdict": "SAFE_DISCARD",
-            "substats": [],
-            "usedBy": [],
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "HP",
+                "characters": [
+                  "columbina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "columbina"
+            ],
             "reasoning": {
-              "en": "No current Aubade of Morningstar and Moon user needs HP% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "Columbina can use HP% on Circlet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > Elemental Mastery > Flat HP.",
+              "es": "Colombina puede(n) usar Vida% en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > Maestría Elemental > Vida plana."
             }
           },
           {
@@ -559,6 +610,12 @@
                 ]
               },
               {
+                "name": "HP",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
                 "name": "ATK%",
                 "characters": [
                   "ineffa"
@@ -577,8 +634,8 @@
               "linnea"
             ],
             "reasoning": {
-              "en": "Columbina, Ineffa, Linnea can use CRIT Rate on Circlet for this set. Useful substats for this piece: Energy Recharge > CRIT DMG > Elemental Mastery > HP% > ATK% > DEF%.",
-              "es": "Colombina, Ineffa, Linnéa puede(n) usar Prob. CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Daño CRIT > Maestría Elemental > Vida% > ATQ% > DEF%."
+              "en": "Columbina, Ineffa, Linnea can use CRIT Rate on Circlet for this set. Useful substats for this piece: Energy Recharge > CRIT DMG > Elemental Mastery > HP% > Flat HP > ATK% > DEF%.",
+              "es": "Colombina, Ineffa, Linnéa puede(n) usar Prob. CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Daño CRIT > Maestría Elemental > Vida% > Vida plana > ATQ% > DEF%."
             }
           },
           {
@@ -616,6 +673,12 @@
                 ]
               },
               {
+                "name": "HP",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
                 "name": "ATK%",
                 "characters": [
                   "ineffa"
@@ -634,8 +697,8 @@
               "linnea"
             ],
             "reasoning": {
-              "en": "Columbina, Ineffa, Linnea can use CRIT DMG on Circlet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > Elemental Mastery > HP% > ATK% > DEF%.",
-              "es": "Colombina, Ineffa, Linnéa puede(n) usar Daño CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Maestría Elemental > Vida% > ATQ% > DEF%."
+              "en": "Columbina, Ineffa, Linnea can use CRIT DMG on Circlet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > Elemental Mastery > HP% > Flat HP > ATK% > DEF%.",
+              "es": "Colombina, Ineffa, Linnéa puede(n) usar Daño CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Maestría Elemental > Vida% > Vida plana > ATQ% > DEF%."
             }
           },
           {
@@ -667,15 +730,16 @@
           "tier": "BiS",
           "mainStats": {
             "sands": [
-              "HP%",
-              "ER%"
+              "ER%",
+              "HP%"
             ],
             "goblet": [
               "HP%"
             ],
             "circlet": [
               "CRIT Rate",
-              "CRIT DMG"
+              "CRIT DMG",
+              "HP%"
             ]
           },
           "substatsPriority": [
@@ -683,15 +747,18 @@
             "CRIT Rate",
             "CRIT DMG",
             "HP%",
-            "EM"
+            "EM",
+            "HP"
           ],
           "notes": {
-            "en": "Columbina blesses her team with a large buff to Lunar reactions, while also inflicting good amounts of Lunar damage herself, mimicking whatever lunar reaction is dominant in your team. Starting at [C1], Columbina should use her Burst before her Skill so the extra Gravity Interference triggered by C1 will be buffed by her Burst.",
+            "en": "Columbina blesses her team with a large buff to Lunar reactions, while also inflicting good amounts of Lunar damage herself, mimicking whatever lunar reaction is dominant in your team. Starting at [C1], Columbina should use her Burst before her Skill so the extra Gravity Interference triggered by C1 will be buffed by her Burst. In Ascendant Gleam teams, 4pc Aubade is Columbina’s best set for personal damage from off-field thanks to the large 60% Lunar Reaction DMG buff. Columbina usually uses 4pc SMS for team DPS, but 4pc Aubade can be used instead if there is a better holder of 4pc SMS (normally another support unit).",
             "es": "Colombina blesses her team with a large buff to Lunar reactions, while also inflicting good amounts of Lunar damage herself, mimicking whatever lunar reaction is dominant in your team. Starting at [C1], Colombina should use her Habilidad definitiva before her Habilidad Elemental so the extra Gravity Interference triggered by C1 will be buffed by her Habilidad definitiva."
           },
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
+            "gbVersion": "6.7",
             "kqmVersion": "7.0",
+            "resolutionReason": "KQM newer (7.0 > 6.7) and recommends set",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/columbina-quickguide/"
           }
@@ -735,7 +802,9 @@
           },
           "sourceValidation": {
             "primarySource": "Genshin-Builds",
-            "kqmVersion": "Luna V",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.4",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.4)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/ineffa-quickguide/"
           }
@@ -781,7 +850,9 @@
           },
           "sourceValidation": {
             "primarySource": "Genshin-Builds",
-            "kqmVersion": "Luna VI",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.5",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.5)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/linnea-quickguide/"
           }
@@ -1587,7 +1658,9 @@
           },
           "sourceValidation": {
             "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
             "kqmVersion": "4.0",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.0)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/lyney-quickguide/"
           }
@@ -1633,7 +1706,9 @@
           },
           "sourceValidation": {
             "primarySource": "KQM",
-            "kqmVersion": "Luna IV",
+            "gbVersion": "6.2",
+            "kqmVersion": "6.3",
+            "resolutionReason": "KQM newer (6.3 > 6.2) and recommends set",
             "genshinBuildsUpdated": "6.2 / Luna III",
             "kqmUrl": "https://keqingmains.com/q/neuvillette-quickguide/"
           }
@@ -1677,7 +1752,9 @@
           },
           "sourceValidation": {
             "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
             "kqmVersion": "4.4",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.4)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/xiao-quickguide/"
           }
@@ -1723,7 +1800,9 @@
           },
           "sourceValidation": {
             "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
             "kqmVersion": "7.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/gaming-quickguide/"
           }
@@ -1765,8 +1844,10 @@
             "es": "Wriothesley as a Superconductor estelar DPS uses his enhanced Ataque Normal and Ataque Cargado to deal Superconductor estelar DMG. In this role, he is played with a character that can enable the Destello Estelar reactions (i.e. Odette, Cryo Viajero) so he can fully take advantage of his Witch's Revelation Passive. As he only gets his enhanced Ataque Cargado when he is under 60% HP, it is strongly discouraged to play Wriothesley with a healer."
           },
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "Both (Consensus)",
+            "gbVersion": "7.0",
             "kqmVersion": "7.0",
+            "resolutionReason": "Versions match (7.0 = 7.0) and KQM recommends set",
             "genshinBuildsUpdated": "7.0",
             "kqmUrl": "https://keqingmains.com/q/wriothesley-quickguide/"
           }
@@ -1793,39 +1874,26 @@
         }
       },
       "summaryVerdict": {
-        "en": "Celestial Gift is a 5★ set used by Durin, Mona, Nicole, Prune. Keep Sands with ATK%, Energy Recharge, Goblets with Pyro DMG Bonus, ATK%, Hydro DMG Bonus and Circlets with CRIT Rate, CRIT DMG, ATK%. Everything else is fodder unless it is a strong off-piece.",
-        "es": "Dádiva Celestial es un set de 5★ usado por Durin, Mona, Nicole, Prune. Conserva Arenas con ATQ%, Recarga de Energía, Cálices con Bono de Daño Pyro, ATQ%, Bono de Daño Hydro y Tiaras con Prob. CRIT, Daño CRIT, ATQ%. El resto es material de reciclaje salvo que sea una gran pieza externa."
+        "en": "Celestial Gift is a 5★ set used by Durin, Mona, Nicole, Prune. Keep Sands with ATK%, Elemental Mastery, Energy Recharge, Goblets with Pyro DMG Bonus, ATK%, Hydro DMG Bonus and Circlets with CRIT Rate, CRIT DMG, ATK%. Everything else is fodder unless it is a strong off-piece.",
+        "es": "Dádiva Celestial es un set de 5★ usado por Durin, Mona, Nicole, Prune. Conserva Arenas con ATQ%, Maestría Elemental, Recarga de Energía, Cálices con Bono de Daño Pyro, ATQ%, Bono de Daño Hydro y Tiaras con Prob. CRIT, Daño CRIT, ATQ%. El resto es material de reciclaje salvo que sea una gran pieza externa."
       },
       "flowerAndPlumeRules": {
         "keepCombinations": [
           {
             "substats": [
-              "CRIT Rate",
-              "CRIT DMG",
-              "ATK%",
-              "ER%"
-            ],
-            "usedBy": [
-              "durin"
-            ],
-            "reasoning": {
-              "en": "Durin can use CRIT Rate + CRIT DMG + ATK% + Energy Recharge on this set's Flower and Plume.",
-              "es": "Durin busca(n) Prob. CRIT + Daño CRIT + ATQ% + Recarga de Energía en la Flor y la Pluma de este set."
-            }
-          },
-          {
-            "substats": [
               "ER%",
               "CRIT Rate",
               "CRIT DMG",
-              "ATK%"
+              "ATK%",
+              "EM"
             ],
             "usedBy": [
+              "durin",
               "mona"
             ],
             "reasoning": {
-              "en": "Mona can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% on this set's Flower and Plume.",
-              "es": "Mona busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% en la Flor y la Pluma de este set."
+              "en": "Durin, Mona can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Durin, Mona busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
             }
           },
           {
@@ -1846,8 +1914,8 @@
           }
         ],
         "discardRule": {
-          "en": "Flowers and plumes with no CRIT Rate, CRIT DMG, ATK%, Energy Recharge and no useful upgrades can be safely recycled in the Relic Strongbox.",
-          "es": "Las Flores y Plumas sin Prob. CRIT, Daño CRIT, ATQ%, Recarga de Energía ni mejoras útiles se pueden reciclar sin riesgo en el Relicario."
+          "en": "Flowers and plumes with no Energy Recharge, CRIT Rate, CRIT DMG, ATK%, Elemental Mastery and no useful upgrades can be safely recycled in the Relic Strongbox.",
+          "es": "Las Flores y Plumas sin Recarga de Energía, Prob. CRIT, Daño CRIT, ATQ%, Maestría Elemental ni mejoras útiles se pueden reciclar sin riesgo en el Relicario."
         }
       },
       "slotRules": {
@@ -1867,6 +1935,15 @@
             "verdict": "MUST_KEEP",
             "substats": [
               {
+                "name": "ER%",
+                "characters": [
+                  "durin",
+                  "mona",
+                  "nicole",
+                  "prune"
+                ]
+              },
+              {
                 "name": "CRIT Rate",
                 "characters": [
                   "durin",
@@ -1885,12 +1962,16 @@
                 ]
               },
               {
-                "name": "ER%",
+                "name": "EM",
                 "characters": [
                   "durin",
-                  "mona",
-                  "nicole",
-                  "prune"
+                  "mona"
+                ]
+              },
+              {
+                "name": "ATK",
+                "characters": [
+                  "durin"
                 ]
               }
             ],
@@ -1901,8 +1982,8 @@
               "prune"
             ],
             "reasoning": {
-              "en": "Durin, Mona, Nicole, Prune can use ATK% on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Energy Recharge.",
-              "es": "Durin, Mona, Nicole, Prune puede(n) usar ATQ% en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Recarga de Energía."
+              "en": "Durin, Mona, Nicole, Prune can use ATK% on Sands for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > Elemental Mastery > Flat ATK.",
+              "es": "Durin, Mona, Nicole, Prune puede(n) usar ATQ% en Arenas para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > Maestría Elemental > ATQ plana."
             }
           },
           {
@@ -1942,6 +2023,12 @@
                   "nicole",
                   "prune"
                 ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "mona"
+                ]
               }
             ],
             "usedBy": [
@@ -1950,18 +2037,51 @@
               "prune"
             ],
             "reasoning": {
-              "en": "Mona, Nicole, Prune can use Energy Recharge on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > ATK%.",
-              "es": "Mona, Nicole, Prune puede(n) usar Recarga de Energía en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > ATQ%."
+              "en": "Mona, Nicole, Prune can use Energy Recharge on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > ATK% > Elemental Mastery.",
+              "es": "Mona, Nicole, Prune puede(n) usar Recarga de Energía en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > ATQ% > Maestría Elemental."
             }
           },
           {
             "mainStat": "EM",
-            "verdict": "SAFE_DISCARD",
-            "substats": [],
-            "usedBy": [],
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "durin"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "durin"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "durin"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "durin"
+                ]
+              },
+              {
+                "name": "ATK",
+                "characters": [
+                  "durin"
+                ]
+              }
+            ],
+            "usedBy": [
+              "durin"
+            ],
             "reasoning": {
-              "en": "No current Celestial Gift user needs Elemental Mastery on Sands. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Dádiva Celestial necesita Maestría Elemental en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "Durin can use Elemental Mastery on Sands for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > ATK% > Flat ATK.",
+              "es": "Durin puede(n) usar Maestría Elemental en Arenas para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ% > ATQ plana."
             }
           }
         ],
@@ -1981,10 +2101,17 @@
             "verdict": "MUST_KEEP",
             "substats": [
               {
+                "name": "ER%",
+                "characters": [
+                  "durin",
+                  "nicole",
+                  "prune"
+                ]
+              },
+              {
                 "name": "CRIT Rate",
                 "characters": [
                   "durin",
-                  "mona",
                   "nicole",
                   "prune"
                 ]
@@ -1993,30 +2120,31 @@
                 "name": "CRIT DMG",
                 "characters": [
                   "durin",
-                  "mona",
                   "nicole",
                   "prune"
                 ]
               },
               {
-                "name": "ER%",
+                "name": "EM",
                 "characters": [
-                  "durin",
-                  "mona",
-                  "nicole",
-                  "prune"
+                  "durin"
+                ]
+              },
+              {
+                "name": "ATK",
+                "characters": [
+                  "durin"
                 ]
               }
             ],
             "usedBy": [
               "durin",
-              "mona",
               "nicole",
               "prune"
             ],
             "reasoning": {
-              "en": "Durin, Mona, Nicole, Prune can use ATK% on Goblet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Energy Recharge.",
-              "es": "Durin, Mona, Nicole, Prune puede(n) usar ATQ% en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Recarga de Energía."
+              "en": "Durin, Nicole, Prune can use ATK% on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > Elemental Mastery > Flat ATK.",
+              "es": "Durin, Nicole, Prune puede(n) usar ATQ% en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > Maestría Elemental > ATQ plana."
             }
           },
           {
@@ -2044,6 +2172,12 @@
             "verdict": "MUST_KEEP",
             "substats": [
               {
+                "name": "ER%",
+                "characters": [
+                  "durin"
+                ]
+              },
+              {
                 "name": "CRIT Rate",
                 "characters": [
                   "durin"
@@ -2062,7 +2196,13 @@
                 ]
               },
               {
-                "name": "ER%",
+                "name": "EM",
+                "characters": [
+                  "durin"
+                ]
+              },
+              {
+                "name": "ATK",
                 "characters": [
                   "durin"
                 ]
@@ -2072,8 +2212,8 @@
               "durin"
             ],
             "reasoning": {
-              "en": "Durin can use Pyro DMG Bonus on Goblet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > ATK% > Energy Recharge.",
-              "es": "Durin puede(n) usar Bono de Daño Pyro en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > ATQ% > Recarga de Energía."
+              "en": "Durin can use Pyro DMG Bonus on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > ATK% > Elemental Mastery > Flat ATK.",
+              "es": "Durin puede(n) usar Bono de Daño Pyro en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ% > Maestría Elemental > ATQ plana."
             }
           },
           {
@@ -2103,14 +2243,20 @@
                 "characters": [
                   "mona"
                 ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "mona"
+                ]
               }
             ],
             "usedBy": [
               "mona"
             ],
             "reasoning": {
-              "en": "Mona can use Hydro DMG Bonus on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > ATK%.",
-              "es": "Mona puede(n) usar Bono de Daño Hydro en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ%."
+              "en": "Mona can use Hydro DMG Bonus on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > ATK% > Elemental Mastery.",
+              "es": "Mona puede(n) usar Bono de Daño Hydro en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ% > Maestría Elemental."
             }
           },
           {
@@ -2245,6 +2391,15 @@
             "verdict": "MUST_KEEP",
             "substats": [
               {
+                "name": "ER%",
+                "characters": [
+                  "durin",
+                  "mona",
+                  "nicole",
+                  "prune"
+                ]
+              },
+              {
                 "name": "CRIT DMG",
                 "characters": [
                   "durin",
@@ -2263,12 +2418,16 @@
                 ]
               },
               {
-                "name": "ER%",
+                "name": "EM",
                 "characters": [
                   "durin",
-                  "mona",
-                  "nicole",
-                  "prune"
+                  "mona"
+                ]
+              },
+              {
+                "name": "ATK",
+                "characters": [
+                  "durin"
                 ]
               }
             ],
@@ -2279,8 +2438,8 @@
               "prune"
             ],
             "reasoning": {
-              "en": "Durin, Mona, Nicole, Prune can use CRIT Rate on Circlet for this set. Useful substats for this piece: CRIT DMG > ATK% > Energy Recharge.",
-              "es": "Durin, Mona, Nicole, Prune puede(n) usar Prob. CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Daño CRIT > ATQ% > Recarga de Energía."
+              "en": "Durin, Mona, Nicole, Prune can use CRIT Rate on Circlet for this set. Useful substats for this piece: Energy Recharge > CRIT DMG > ATK% > Elemental Mastery > Flat ATK.",
+              "es": "Durin, Mona, Nicole, Prune puede(n) usar Prob. CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Daño CRIT > ATQ% > Maestría Elemental > ATQ plana."
             }
           },
           {
@@ -2288,30 +2447,47 @@
             "verdict": "MUST_KEEP",
             "substats": [
               {
+                "name": "ER%",
+                "characters": [
+                  "durin",
+                  "mona"
+                ]
+              },
+              {
                 "name": "CRIT Rate",
                 "characters": [
-                  "durin"
+                  "durin",
+                  "mona"
                 ]
               },
               {
                 "name": "ATK%",
                 "characters": [
-                  "durin"
+                  "durin",
+                  "mona"
                 ]
               },
               {
-                "name": "ER%",
+                "name": "EM",
+                "characters": [
+                  "durin",
+                  "mona"
+                ]
+              },
+              {
+                "name": "ATK",
                 "characters": [
                   "durin"
                 ]
               }
             ],
             "usedBy": [
-              "durin"
+              "durin",
+              "mona"
             ],
             "reasoning": {
-              "en": "Durin can use CRIT DMG on Circlet for this set. Useful substats for this piece: CRIT Rate > ATK% > Energy Recharge.",
-              "es": "Durin puede(n) usar Daño CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > ATQ% > Recarga de Energía."
+              "en": "Durin, Mona can use CRIT DMG on Circlet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > ATK% > Elemental Mastery > Flat ATK.",
+              "es": "Durin, Mona puede(n) usar Daño CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > ATQ% > Maestría Elemental > ATQ plana."
             }
           },
           {
@@ -2343,7 +2519,8 @@
           "tier": "BiS",
           "mainStats": {
             "sands": [
-              "ATK%"
+              "ATK%",
+              "EM"
             ],
             "goblet": [
               "Pyro DMG%",
@@ -2355,18 +2532,22 @@
             ]
           },
           "substatsPriority": [
+            "ER%",
             "CRIT Rate",
             "CRIT DMG",
             "ATK%",
-            "ER%"
+            "EM",
+            "ATK"
           ],
           "notes": {
-            "en": "This playstyle uses Durin's Purity form to decrease the Elemental Resistance of Pyro, Dendro, Electro, Anemo and Geo when reactions with those elements and Pyro occur. Purity form is Durin's default Burst, it can be swapped to (if in Denial form) via an E E Q rotation.",
+            "en": "This playstyle uses Durin's Purity form to decrease the Elemental Resistance of Pyro, Dendro, Electro, Anemo and Geo when reactions with those elements and Pyro occur. Purity form is Durin's default Burst, it can be swapped to (if in Denial form) via an E E Q rotation. 4pc CG is typically Durin’s best support-oriented artifact set for teammates who appreciate its Elemental DMG% buff. This set also buffs his own damage. It may be suboptimal in teams where Durin is the only Hexerei character, however.Its 2pc set bonus also helps Durin reach his ER requirements more easily.",
             "es": "This playstyle uses Durin's Purity form to decrease the Elemental Resistance of Pyro, Dendro, Electro, Anemo and Geo when reactions with those elements and Pyro occur. Purity form is Durin's default Habilidad definitiva, it can be swapped to (if in Denial form) via an E E Q rotation."
           },
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
+            "gbVersion": "6.7",
             "kqmVersion": "7.1",
+            "resolutionReason": "KQM newer (7.1 > 6.7) and recommends set",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/durin-quickguide/"
           }
@@ -2391,26 +2572,29 @@
               "ATK%"
             ],
             "goblet": [
-              "Hydro DMG%",
-              "ATK%"
+              "Hydro DMG%"
             ],
             "circlet": [
-              "CRIT Rate"
+              "CRIT Rate",
+              "CRIT DMG"
             ]
           },
           "substatsPriority": [
             "ER%",
             "CRIT Rate",
             "CRIT DMG",
-            "ATK%"
+            "ATK%",
+            "EM"
           ],
           "notes": {
-            "en": "Mona can use her Burst to apply the Omen debuff on enemies and allow teammates to deal more damage. This is most commonly seen in Freeze teams. Mona's main role on a Freeze team is to provide Omen debuff from her Burst as it is extendable via Freeze mechanics. Note that you must apply Cryo before casting Mona's Burst for the extension to happen. Omen Freeze extension can be done by reapplying Cryo and Hydro aura consistently (this can be done with Cryo / Hydro infused Venti Burst + on-field Cryo / Hydro aura).",
+            "en": "Mona can use her Burst to apply the Omen debuff on enemies and allow teammates to deal more damage. This is most commonly seen in Freeze teams. Mona's main role on a Freeze team is to provide Omen debuff from her Burst as it is extendable via Freeze mechanics. Note that you must apply Cryo before casting Mona's Burst for the extension to happen. Omen Freeze extension can be done by reapplying Cryo and Hydro aura consistently (this can be done with Cryo / Hydro infused Venti Burst + on-field Cryo / Hydro aura). 4pc CG is Mona’s default support set in teams with another Hexerei character. Its 2pc effect helps her reach her ER requirements, while its 4pc effect buffs herself and the on-fielder.If there is another Hexerei character on the team who can hold this set, then Mona typically opts for either 4pc NO or 4pc TotM instead.",
             "es": "Mona can use her Habilidad definitiva to apply the Omen debuff on enemies and allow teammates to deal more damage. This is most commonly seen in Congelación teams. Mona's main role on a Congelación team is to provide Omen debuff from her Habilidad definitiva as it is extendable via Congelación mechanics. Note that you must apply Cryo before casting Mona's Habilidad definitiva for the extension to happen. Omen Congelación extension can be done by reapplying Cryo and Hydro aura consistently (this can be done with Cryo / Hydro infused Venti Habilidad definitiva + on-field Cryo / Hydro aura)."
           },
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
+            "gbVersion": "6.7",
             "kqmVersion": "7.1",
+            "resolutionReason": "KQM newer (7.1 > 6.7) and recommends set",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/mona-quickguide/"
           }
@@ -2453,8 +2637,10 @@
             "es": "Nicole is a potent Support that provides both a shield and a sizeable ATQ buff to the entire team. The party member on field also gets an additional ATK buff after 3 seconds or instantly if they are a Hexerei character. Nicole needs 4000 Attack to reach her full Attack buff."
           },
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
-            "kqmVersion": "Luna VIII",
+            "primarySource": "Both (Consensus)",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.7",
+            "resolutionReason": "Versions match (6.7 = 6.7) and KQM recommends set",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/nicole-quickguide/"
           }
@@ -2498,7 +2684,9 @@
           },
           "sourceValidation": {
             "primarySource": "Genshin-Builds",
-            "kqmVersion": "Luna VII",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.6",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/prune-quickguide/"
           }

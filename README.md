@@ -56,3 +56,20 @@ Run `npm run scrape:all` (or `npm run scrape -- --all`) to remove the MVP filter
 - Notes and body-text mentions never create a character-set link. A set must appear as a main recommendation in the corresponding build or guide.
 - KQM evidence is taken only from the main artifact-set table. Niche sections and rows that depend on a specific enabler, constellation or team condition are ignored.
 - `primarySource` is chosen by comparing the build/guide version. KQM wins only when it is newer **and** its main artifact table lists the set as a standard recommendation; otherwise Genshin-Builds is used.
+
+## Data Sources & Attribution (Fuentes y Atribución)
+
+Stat priorities and artifact recommendations are derived from the theorycrafting work of these community teams. Thank you to:
+
+- **[Genshin-Builds](https://genshin-impact-helper-team.github.io/genshin-builds/)** — builds, artifact rankings, main stats, and substat priorities in English and Spanish.
+- **[KeqingMains (KQM)](https://keqingmains.com/)** — character guides, artifact recommendations, and substat priorities.
+
+Las prioridades de estadísticas y las recomendaciones de artefactos provienen del trabajo de theorycrafting de estos equipos de la comunidad. Gracias a **Genshin-Builds** y **KeqingMains (KQM)** por hacer públicos sus análisis y guías.
+
+This project is not affiliated with either team. Any mistakes in interpretation or presentation belong to this project, not to the source teams.
+
+## Legal & Disclaimer
+
+This is an unofficial, non-commercial fan-made tool. Genshin Impact, game content, and materials are trademarks and copyrights of HoYoverse / Cognosphere Pte. Ltd. Not affiliated with or endorsed by HoYoverse.
+
+The MIT License in this repository covers only the software source code and user interface. Game trademarks, icons, artwork, names, and game data remain the property of their respective owners.

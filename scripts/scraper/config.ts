@@ -56,7 +56,7 @@ export function artifactImageUrl(setId: string): string {
 }
 
 export const REQUEST_HEADERS = {
-  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 GenshinArtifactTriage/1.0',
+  'user-agent': 'GenshinStrongboxHelper/1.0 (+https://github.com/AxelKjo/genshin-strongbox-helper)',
   accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
   'accept-language': 'en-US,en;q=0.9,es;q=0.8',
 }

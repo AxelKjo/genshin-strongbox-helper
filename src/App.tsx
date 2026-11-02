@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Sparkles } from 'lucide-react'
 import type { ArtifactSetTriage, TriageDataset } from './types/artifacts'
 import type { Lang } from './lib/i18n'
 import { t } from './lib/i18n'
@@ -93,8 +92,8 @@ export default function App() {
       <header className="sticky top-0 z-20 border-b border-gold/15 bg-abyss/90 backdrop-blur-xl">
         <div className="mx-auto flex max-w-[1600px] flex-wrap items-center justify-between gap-3 px-4 py-3 sm:px-6">
           <div className="flex items-center gap-3">
-            <span className="flex h-10 w-10 items-center justify-center rounded-xl border border-gold/30 bg-gold/10 text-gold shadow-glow">
-              <Sparkles className="h-5 w-5" aria-hidden />
+            <span className="flex h-10 w-10 items-center justify-center rounded-xl border border-gold/30 bg-gold/10 shadow-glow">
+              <img src="/favicon.png" alt="" className="h-7 w-7 object-contain" aria-hidden />
             </span>
             <div>
               <h1 className="font-display text-lg leading-tight text-goldSoft sm:text-xl">{t('appTitle', lang)}</h1>
@@ -148,8 +147,31 @@ export default function App() {
         )}
       </main>
 
-      <footer className="relative border-t border-white/5 px-4 py-6 text-center text-[11px] text-slate-600 sm:px-6">
-        Genshin Artifact Triage · Data from Genshin-Builds (EN/ES) and KeqingMains · Not affiliated with HoYoverse.
+      <footer className="relative border-t border-white/5 px-4 py-5 text-xs text-slate-400 sm:px-6">
+        <div className="mx-auto flex max-w-[1600px] flex-col items-center justify-between gap-2 text-center sm:flex-row sm:text-left">
+          <p>
+            {t('footerDataFrom', lang)}{' '}
+            <a
+              href="https://genshin-impact-helper-team.github.io/genshin-builds/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-slate-300 underline decoration-white/20 underline-offset-2 transition-colors hover:text-goldSoft hover:decoration-gold/40"
+            >
+              Genshin-Builds
+            </a>{' '}
+            {t('footerAnd', lang)}{' '}
+            <a
+              href="https://keqingmains.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-slate-300 underline decoration-white/20 underline-offset-2 transition-colors hover:text-goldSoft hover:decoration-gold/40"
+            >
+              KeqingMains
+            </a>
+            .
+          </p>
+          <p className="text-slate-500">{t('footerDisclaimer', lang)}</p>
+        </div>
       </footer>
     </div>
   )

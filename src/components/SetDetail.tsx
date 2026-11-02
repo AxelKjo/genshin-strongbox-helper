@@ -1,12 +1,11 @@
 import { useState } from 'react'
-import { ChevronDown, Crown, Flower2, Gem, Info, Star, Trash2 } from 'lucide-react'
+import { ChevronDown, Crown, Flower2, Gem, Trash2 } from 'lucide-react'
 import type { ArtifactSetTriage, SlotKey } from '../types/artifacts'
 import type { Lang } from '../lib/i18n'
 import { t } from '../lib/i18n'
 import { statLabel } from '../lib/stats'
 import { Avatar } from './Avatar'
 import { CharacterCard } from './CharacterCard'
-import { PieceEvaluator } from './PieceEvaluator'
 import { SlotRuleCard } from './SlotRuleCard'
 
 const SLOT_ICONS: Record<SlotKey, typeof Gem> = { sands: Gem, goblet: Crown, circlet: Crown }
@@ -36,13 +35,10 @@ export function SetDetail({ set, lang }: SetDetailProps) {
           <div className="min-w-0 flex-1 pr-24 sm:pr-40 lg:pr-48">
             <div className="flex flex-wrap items-center gap-2">
               <h1 className="font-display text-2xl text-goldSoft sm:text-3xl">{set.name[lang]}</h1>
-              <span className="inline-flex items-center gap-1 rounded-full border border-gold/30 bg-gold/10 px-2 py-0.5 text-xs font-semibold text-gold">
-                <Star className="h-3 w-3" aria-hidden /> {set.rarity}★
+              <span className="inline-flex items-center rounded-full border border-gold/30 bg-gold/10 px-2 py-0.5 text-xs font-semibold text-gold">
+                {set.rarity}★
               </span>
             </div>
-            <p className="mt-1 text-xs uppercase tracking-[0.18em] text-slate-500">
-              {set.name.en} · {set.name.es}
-            </p>
             <div className="mt-3">
               <button
                 type="button"
@@ -155,12 +151,6 @@ export function SetDetail({ set, lang }: SetDetailProps) {
               </article>
             )
           })}
-          <div className="rounded-2xl border border-coralDiscard/30 bg-coralDiscard/5 p-4 lg:col-span-2">
-            <p className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.18em] text-coralDiscard">
-              <Trash2 className="h-3.5 w-3.5" aria-hidden /> {t('discardRule', lang)}
-            </p>
-            <p className="mt-2 text-xs leading-relaxed text-slate-300">{set.flowerAndPlumeRules.discardRule[lang]}</p>
-          </div>
         </div>
       </section>
 
@@ -175,16 +165,6 @@ export function SetDetail({ set, lang }: SetDetailProps) {
           ))}
         </div>
       </section>
-
-      <section className="rounded-3xl border border-gold/15 bg-abyssSoft/60 p-5">
-        <h2 className="flex items-center gap-2 text-base font-bold uppercase tracking-[0.18em] text-gold">
-          <Info className="h-4 w-4" aria-hidden /> {t('summary', lang)}
-        </h2>
-        <p className="mt-2 text-base leading-relaxed text-slate-200">{set.summaryVerdict[lang]}</p>
-        <p className="mt-3 text-xs leading-relaxed text-slate-500">{t('sourceRule', lang)}</p>
-      </section>
-
-      <PieceEvaluator key={set.id} set={set} lang={lang} />
     </div>
   )
 }

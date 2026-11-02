@@ -1,10 +1,10 @@
 export type Lang = 'en' | 'es'
 
 export const UI = {
-  appTitle: { en: 'Genshin Artifact Triage', es: 'Clasificador de Artefactos' },
+  appTitle: { en: 'Genshin Strongbox Helper', es: 'Genshin Strongbox Helper' },
   appSubtitle: {
-    en: 'Keep what matters. Recycle the rest.',
-    es: 'Conserva lo que importa. Recicla el resto.',
+    en: 'Artifact keep-vs-discard guide for Genshin Impact.',
+    es: 'Guía para saber qué artefactos conservar y descartar en Genshin Impact.',
   },
   searchPlaceholder: {
     en: 'Search set or character...',
@@ -27,7 +27,7 @@ export const UI = {
   goblet: { en: 'Goblet', es: 'Cáliz' },
   circlet: { en: 'Circlet', es: 'Tiara' },
   flowerPlume: { en: 'Flower & Plume', es: 'Flor y Pluma' },
-  mustKeep: { en: 'Must keep', es: 'Conservar siempre' },
+  mustKeep: { en: 'Keep', es: 'Conservar' },
   situational: { en: 'Situational', es: 'Situacional' },
   safeDiscard: { en: 'Safe discard', es: 'Descartar' },
   targetSubstats: { en: 'Target substats', es: 'Subestadísticas objetivo' },
@@ -70,6 +70,12 @@ export const UI = {
     en: 'The most recently updated source wins. KQM prevails only when its guide is newer and recommends the set.',
     es: 'Prevalece la fuente actualizada al parche más reciente. KQM solo gana cuando su guía es más nueva y recomienda el set.',
   },
+  footerDataFrom: { en: 'Data from', es: 'Datos de' },
+  footerAnd: { en: 'and', es: 'y' },
+  footerDisclaimer: {
+    en: 'Unofficial, non-commercial fan-made tool. Not affiliated with or endorsed by HoYoverse.',
+    es: 'Herramienta no oficial y sin ánimo de lucro creada por fans. No está afiliada ni respaldada por HoYoverse.',
+  },
   usage: {
     '4pc BiS': { en: '4pc BiS', es: '4pc BiS' },
     '4pc Alternative': { en: '4pc Alternative', es: '4pc Alternativa' },
@@ -80,7 +86,7 @@ export const UI = {
     Alternative: { en: 'Alternative', es: 'Alternativa' },
   } as const,
   verdict: {
-    MUST_KEEP: { en: 'Must keep', es: 'Conservar siempre' },
+    MUST_KEEP: { en: 'Keep', es: 'Conservar' },
     SITUATIONAL_KEEP: { en: 'Situational', es: 'Situacional' },
     SAFE_DISCARD: { en: 'Safe discard', es: 'Descartar sin riesgo' },
   } as const,

@@ -4,7 +4,6 @@ import type {
   ArtifactSetTriage,
   CharacterUsage,
   LocalizedText,
-  PrimarySource,
   SlotKey,
   SlotTriageRule,
   StatKey,
@@ -28,7 +27,7 @@ import {
   type GBArtifactSet,
   type GBCharacterData,
 } from './genshin-builds'
-import { fetchKqmGuide, parseVersion, type KqmGuide } from './kqm-parser'
+import { fetchKqmGuide, formatVersion, parseVersion, type KqmGuide } from './kqm-parser'
 import { mapWithConcurrency } from './http'
 
 const ROLE_ES: Record<string, string> = {
@@ -86,6 +85,54 @@ function compareVersions(kqm: KqmGuide | null, gbVersion: string): number {
   return kqm.version.major - gb.major || kqm.version.minor - gb.minor
 }
 
+function resolvePrimarySource(
+  kqm: KqmGuide | null,
+  gbVersionRaw: string,
+  recommendedForThisSet: boolean,
+): Pick<CharacterUsage['sourceValidation'], 'primarySource' | 'gbVersion' | 'kqmVersion' | 'resolutionReason'> {
+  const gbVersion = formatVersion(parseVersion(gbVersionRaw)) ?? gbVersionRaw
+  const kqmVersion = formatVersion(kqm?.version)
+  if (!kqm) {
+    return { primarySource: 'Genshin-Builds', gbVersion, resolutionReason: 'Fallback to GB: no KQM guide' }
+  }
+  if (!kqm.version || !kqmVersion) {
+    return { primarySource: 'Genshin-Builds', gbVersion, resolutionReason: 'Fallback to GB: KQM version missing' }
+  }
+  if (!recommendedForThisSet) {
+    return {
+      primarySource: 'Genshin-Builds',
+      gbVersion,
+      kqmVersion,
+      resolutionReason: 'Fallback to GB: set not in KQM standard recommendations',
+    }
+  }
+  const comparison = compareVersions(kqm, gbVersionRaw)
+  if (comparison > 0) {
+    return {
+      primarySource: 'KQM',
+      gbVersion,
+      kqmVersion,
+      resolutionReason: parseVersion(gbVersionRaw)
+        ? `KQM newer (${kqmVersion} > ${gbVersion}) and recommends set`
+        : 'KQM recommends set; GB version unavailable',
+    }
+  }
+  if (comparison < 0) {
+    return {
+      primarySource: 'Genshin-Builds',
+      gbVersion,
+      kqmVersion,
+      resolutionReason: `Genshin-Builds newer (${gbVersion} > ${kqmVersion})`,
+    }
+  }
+  return {
+    primarySource: 'Both (Consensus)',
+    gbVersion,
+    kqmVersion,
+    resolutionReason: `Versions match (${kqmVersion} = ${gbVersion}) and KQM recommends set`,
+  }
+}
+
 function fitStats(
   preferred: { sands: StatKey[]; goblet: StatKey[]; circlet: StatKey[] },
   fallback: { sands: StatKey[]; goblet: StatKey[]; circlet: StatKey[] },
@@ -124,19 +171,8 @@ function resolveCharacter(
       : '2pc Combo'
   const tier: UsageTier = usageType === '4pc BiS' ? 'BiS' : 'Alternative'
 
-  let primarySource: PrimarySource = 'Genshin-Builds'
-  if (kqm) {
-    const recommendation = compareVersions(kqm, build.version)
-    if (!recommendedForThisSet) {
-      primarySource = 'Genshin-Builds'
-    } else if (recommendation > 0) {
-      primarySource = 'KQM'
-    } else if (recommendation === 0) {
-      primarySource = 'Both (Consensus)'
-    } else {
-      primarySource = 'Genshin-Builds'
-    }
-  }
+  const sourceResolution = resolvePrimarySource(kqm, build.version, recommendedForThisSet)
+  const { primarySource } = sourceResolution
 
   const gbStats = build.mainStats
   const kqmStats = kqm?.mainStats ?? { sands: [], goblet: [], circlet: [] }
@@ -169,8 +205,7 @@ function resolveCharacter(
         es: notesEs.slice(0, 1200),
       },
       sourceValidation: {
-        primarySource,
-        kqmVersion: kqm?.version?.raw,
+        ...sourceResolution,
         genshinBuildsUpdated: build.version,
         kqmUrl: kqm?.url,
       },
@@ -414,6 +449,19 @@ async function main() {
   await mkdir(path.dirname(DATA_OUTPUT), { recursive: true })
   await writeFile(DATA_OUTPUT, `${JSON.stringify(dataset, null, 2)}\n`, 'utf8')
   console.log(`[build-dataset] wrote ${DATA_OUTPUT} (${sets.length} sets, ${sets.reduce((total, set) => total + set.characters.length, 0)} character usages)`)
+
+  const auditRows = sets.flatMap((set) =>
+    set.characters.map((character) => ({
+      Personaje: character.name.en,
+      Set: set.name.en,
+      'Versión GB': character.sourceValidation.gbVersion,
+      'Versión KQM': character.sourceValidation.kqmVersion ?? '—',
+      'Fuente Ganadora': character.sourceValidation.primarySource,
+      Motivo: character.sourceValidation.resolutionReason,
+    })),
+  )
+  console.log('\n[build-dataset] source resolution audit')
+  console.table(auditRows)
 }
 
 main().catch((error) => {

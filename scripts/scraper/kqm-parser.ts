@@ -106,7 +106,7 @@ function romanToNumber(roman: string): number {
 }
 
 export function parseVersion(raw: string): KqmVersion | undefined {
-  const numeric = raw.match(/(\d+)\s*\.\s*(\d+)/)
+  const numeric = raw.match(/(\d+)\s*[.:]\s*(\d+)/)
   if (numeric) {
     return { raw: `${numeric[1]}.${numeric[2]}`, major: Number(numeric[1]), minor: Number(numeric[2]) }
   }
@@ -116,6 +116,10 @@ export function parseVersion(raw: string): KqmVersion | undefined {
     return { raw: `Luna ${luna[1].toUpperCase()}`, major: 6, minor }
   }
   return undefined
+}
+
+export function formatVersion(version: KqmVersion | undefined): string | undefined {
+  return version ? `${version.major}.${version.minor}` : undefined
 }
 
 function cleanText(value: string): string {
@@ -129,53 +133,46 @@ function parseMainStatsTable($: cheerio.CheerioAPI, table: cheerio.Cheerio<AnyNo
   if (!headers.some((h) => h.includes('sands')) || !headers.some((h) => h.includes('goblet')) || !headers.some((h) => h.includes('circlet'))) {
     return null
   }
-  const values = rows.eq(1).find('td,th').map((_, cell) => cleanText($(cell).text())).get()
   const result: { sands: StatKey[]; goblet: StatKey[]; circlet: StatKey[] } = { sands: [], goblet: [], circlet: [] }
-  headers.forEach((header, index) => {
-    const slot = header.includes('sands') ? 'sands' : header.includes('goblet') ? 'goblet' : header.includes('circlet') ? 'circlet' : null
-    if (!slot) return
-    for (const stat of normalizeStatList(values[index] ?? '')) {
-      if (!result[slot].includes(stat)) result[slot].push(stat)
-    }
+  rows.slice(1).each((_, row) => {
+    const values = $(row).find('td,th').map((__, cell) => cleanText($(cell).text())).get()
+    headers.forEach((header, index) => {
+      const slot = header.includes('sands') ? 'sands' : header.includes('goblet') ? 'goblet' : header.includes('circlet') ? 'circlet' : null
+      if (!slot) return
+      for (const stat of normalizeStatList(values[index] ?? '')) {
+        if (!result[slot].includes(stat)) result[slot].push(stat)
+      }
+    })
   })
   return result
 }
 
-const KQM_CONDITIONAL = [
-  /\bonly\b/i,
+const KQM_DISQUALIFIERS = [
+  /\bnot recommended\b/i,
+  /\bnot worth\b/i,
+  /\bfor fun\b/i,
+  /\bmeme\b/i,
+  /\bhyperspecific\b/i,
+  /\bniche\b/i,
+  /\bsituational(?:ly)?\b/i,
   /\brequires?\b/i,
   /\brequiring\b/i,
-  /\bwhen\b/i,
-  /\bif\b/i,
-  /\bunless\b/i,
-  /\bdepending\b/i,
-  /\bdepends?\b/i,
-  /\bfurina\b/i,
-  /\bc[1-6]\b/i,
-  /\bconstellation/i,
-  /\bmeme\b/i,
-  /\bniche\b/i,
-  /\bsituational\b/i,
-  /\bhyperspecific\b/i,
-  /\bteams?\s+with\b/i,
+  /\bonly\s+(?:if|when|with|in|for|works?|usable|recommended|worth)\b/i,
   /\bpaired\s+with\b/i,
   /\benabler\b/i,
   /\bright conditions\b/i,
   /\bsecond-best\b/i,
-  /\bsuboptimal\b/i,
-  /\bworse\b/i,
-  /\bfor fun\b/i,
-  /\bnot recommended\b/i,
-  /\bnot worth\b/i,
-  /\bbetter\b/i,
-  /\boutside of\b/i,
+  /\bc[1-6]\b/i,
+  /\bconstellation/i,
+  /\bfurina\b/i,
+  /\bunless\b/i,
 ]
 
-const KQM_POSITIVE = /\b(?:best|bis|best-in-slot|default|top option|preferred|most recommended|recommended|strong|great|on par|competitive|standard)\b/i
+const KQM_POSITIVE = /\b(?:best|bis|best-in-slot|default|top option|preferred|most recommended|recommended|strong|great|good|solid|excellent|viable|on par|competitive|standard)\b/i
 
 function isStandardKqmRecommendation(row: KqmArtifactRow): boolean {
   const haystack = `${row.label} ${row.description}`
-  if (KQM_CONDITIONAL.some((pattern) => pattern.test(haystack))) return false
+  if (KQM_DISQUALIFIERS.some((pattern) => pattern.test(haystack))) return false
   return KQM_POSITIVE.test(row.description)
 }
 
@@ -238,10 +235,18 @@ export async function fetchKqmGuide(
     const title = cleanText($('title').text())
     if (!/quick guide/i.test(title)) continue
 
-    const bodyText = cleanText($('body').text())
-    const versionMatch = bodyText.match(/Updated for Version[^0-9A-Za-z]*(\d+\s*\.\s*\d+|Luna\s+[IVX]+)/i)
-    const rawVersion = versionMatch?.[1]?.trim() ?? ''
-    const version = parseVersion(rawVersion)
+    const versionPattern = /version\s*:?\s*[^0-9A-Za-z]*(\d+\s*[.:]\s*\d+|luna\s+[ivx]+)/i
+    const headingTexts = $('h1,h2,h3,h4,h5,h6')
+      .map((_, heading) => cleanText($(heading).text()))
+      .get()
+      .filter((text) => text.length <= 160)
+    const versionHeading =
+      headingTexts.find((text) => /updated\s+(?:for|to)\s+version/i.test(text)) ??
+      headingTexts.find((text) => /^\s*version\b/i.test(text))
+    const versionMatch =
+      versionHeading?.match(versionPattern) ??
+      cleanText($('body').text()).match(/(?:updated\s+(?:for|to)\s+)?version\s*:?\s*[^0-9A-Za-z]*(\d+\s*[.:]\s*\d+|luna\s+[ivx]+)/i)
+    const version = parseVersion(versionMatch?.[1]?.trim() ?? '')
 
     const merged: KqmGuide['mainStats'] = { sands: [], goblet: [], circlet: [] }
     $('table').each((_, table) => {
@@ -256,7 +261,7 @@ export async function fetchKqmGuide(
 
     const substats: StatKey[] = []
     const priorityTexts: string[] = []
-    $('.substats, p').each((_, element) => {
+    $('.substats, p, li').each((_, element) => {
       const text = cleanText($(element).text())
       const match = text.match(/Stat Priority\s*:\s*(.+)$/i)
       if (match) priorityTexts.push(match[1])

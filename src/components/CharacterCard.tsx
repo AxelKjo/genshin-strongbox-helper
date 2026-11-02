@@ -1,4 +1,4 @@
-import { ExternalLink, ShieldCheck, Swords } from 'lucide-react'
+import { ExternalLink } from 'lucide-react'
 import type { CharacterUsage } from '../types/artifacts'
 import type { Lang } from '../lib/i18n'
 import { UI, t } from '../lib/i18n'
@@ -17,13 +17,7 @@ interface CharacterCardProps {
 
 export function CharacterCard({ character, lang }: CharacterCardProps) {
   const source = character.sourceValidation
-  const sourceLabel =
-    source.primarySource === 'KQM'
-      ? `${t('validatedKqm', lang)}${source.kqmVersion ? ` v${source.kqmVersion}` : ''}`
-      : source.primarySource === 'Both (Consensus)'
-        ? t('consensus', lang)
-        : t('gbSource', lang)
-  const SourceIcon = source.primarySource === 'Genshin-Builds' ? Swords : ShieldCheck
+  const genshinBuildsUrl = `https://genshin-impact-helper-team.github.io/genshin-builds/${lang}/${character.characterId}`
 
   return (
     <article className="rounded-2xl border border-white/10 bg-abyssSoft/70 p-4 transition hover:border-gold/30">
@@ -57,19 +51,20 @@ export function CharacterCard({ character, lang }: CharacterCardProps) {
         <p className="mt-1 text-sm text-goldSoft">{character.substatsPriority.map((stat) => statLabel(stat, lang)).join(' > ')}</p>
       </div>
 
-      {character.notes[lang] && <p className="mt-3 line-clamp-3 text-xs leading-relaxed text-slate-400">{character.notes[lang]}</p>}
-
-      <div className="mt-3 flex flex-wrap items-center justify-between gap-2 border-t border-white/5 pt-3">
-        <span className="inline-flex items-center gap-1.5 text-[11px] text-slate-400">
-          <SourceIcon className="h-3.5 w-3.5 text-gold/70" aria-hidden />
-          {sourceLabel}
-        </span>
-        <span className="text-[11px] text-slate-500">GB: {source.genshinBuildsUpdated ?? '—'}</span>
+      <div className="mt-3 flex flex-wrap items-center justify-end gap-x-3 gap-y-1.5 border-t border-white/5 pt-3">
+        <a
+          href={genshinBuildsUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1 text-[11px] text-gold/70 hover:text-gold"
+        >
+          Genshin-Builds <ExternalLink className="h-3 w-3" aria-hidden />
+        </a>
         {source.kqmUrl && (
           <a
             href={source.kqmUrl}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-1 text-[11px] text-gold/70 hover:text-gold"
           >
             KQM <ExternalLink className="h-3 w-3" aria-hidden />

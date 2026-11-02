@@ -32,8 +32,10 @@ export interface CharacterUsage {
   notes: LocalizedText
   sourceValidation: {
     primarySource: PrimarySource
+    gbVersion: string
     kqmVersion?: string
     genshinBuildsUpdated?: string
+    resolutionReason: string
     kqmUrl?: string
   }
 }
