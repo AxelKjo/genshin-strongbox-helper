@@ -70,6 +70,21 @@ export function normalizeStat(raw: string): StatKey | null {
   return ALIASES[token] ?? null
 }
 
+// Energy Recharge is often ranked first only until the team requirement is met.
+// Preserve that caveat whenever Genshin-Builds or KQM states it.
+export function hasErUntilRequirement(raw: string): boolean {
+  return /(?:\bER\b%?|energy\s+recharge)[^.;]{0,160}?(?:\buntil\b[^.;]{0,60}?\b(?:requirement|requirements|required|req)\b|\bto\s+meet\b[^.;]{0,40}?\b(?:requirement|requirements|required)\b)/i.test(raw)
+}
+
+export function hasCritTie(raw: string): boolean {
+  return raw.split(/\s*>\s*/).some((segment) => {
+    const hasRate = /\bcrit(?:ical)?\s*rate\b/i.test(segment)
+    const hasDmg = /\bcrit(?:ical)?\s*(?:dmg|damage)\b/i.test(segment)
+    if (hasRate && hasDmg) return true
+    return /(?:^|[^a-z])crit(?:ical)?(?![a-z])(?!\s*(?:rate|dmg|damage))/i.test(segment)
+  })
+}
+
 export function normalizeStatList(raw: string): StatKey[] {
   const parts = raw
     .replace(/&gt;/g, '>')
@@ -81,7 +96,7 @@ export function normalizeStatList(raw: string): StatKey[] {
   for (const part of parts) {
     const stat = normalizeStat(part)
     if (stat && !out.includes(stat)) out.push(stat)
-    if (/\bcrit\b/i.test(part)) {
+    if (/^\s*crit(?:ical)?\s*$/i.test(part)) {
       for (const crit of ['CRIT Rate', 'CRIT DMG'] as StatKey[]) {
         if (!out.includes(crit)) out.push(crit)
       }

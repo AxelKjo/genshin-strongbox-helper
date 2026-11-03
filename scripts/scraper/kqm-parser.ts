@@ -1,7 +1,7 @@
 import * as cheerio from 'cheerio'
 import type { AnyNode } from 'domhandler'
 import type { StatKey } from '../../src/types/artifacts'
-import { normalizeStatList } from '../../src/lib/stats'
+import { hasCritTie, hasErUntilRequirement, normalizeStatList } from '../../src/lib/stats'
 import { KQM_BASE } from './config'
 import { fetchCached } from './http'
 
@@ -24,6 +24,8 @@ export interface KqmGuide {
   version?: KqmVersion
   mainStats: { sands: StatKey[]; goblet: StatKey[]; circlet: StatKey[] }
   substats: StatKey[]
+  critTie: boolean
+  erUntilRequirement: boolean
   recommendsSet: boolean
   recommendedSets: string[]
   setRecommendations: KqmSetRecommendation[]
@@ -47,6 +49,7 @@ const SLUG_OVERRIDES: Record<string, string> = {
   'shikanoin-heizou': 'heizou',
   'arataki-itto': 'itto',
   'yae-miko': 'yae',
+  'yumemizuki-mizuki': 'mizuki',
   'kuki-shinobu': 'kuki-shinobu',
   'yun-jin': 'yunjin',
   'hu-tao': 'hu-tao',
@@ -150,6 +153,7 @@ function parseMainStatsTable($: cheerio.CheerioAPI, table: cheerio.Cheerio<AnyNo
 const KQM_DISQUALIFIERS = [
   /\bnot recommended\b/i,
   /\bnot worth\b/i,
+  /\bnot\b[^.]{0,60}\b(?:best|bis|best-in-slot)\b/i,
   /\bfor fun\b/i,
   /\bmeme\b/i,
   /\bhyperspecific\b/i,
@@ -266,7 +270,11 @@ export async function fetchKqmGuide(
       const match = text.match(/Stat Priority\s*:\s*(.+)$/i)
       if (match) priorityTexts.push(match[1])
     })
+    let critTie = false
+    let erUntilRequirement = false
     for (const priority of priorityTexts) {
+      if (hasCritTie(priority)) critTie = true
+      if (hasErUntilRequirement(priority)) erUntilRequirement = true
       for (const stat of normalizeStatList(priority)) {
         if (!substats.includes(stat)) substats.push(stat)
       }
@@ -305,6 +313,8 @@ export async function fetchKqmGuide(
       version,
       mainStats: merged,
       substats,
+      critTie,
+      erUntilRequirement,
       recommendsSet,
       recommendedSets,
       setRecommendations,

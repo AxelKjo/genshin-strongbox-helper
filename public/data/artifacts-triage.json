@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-01T04:32:50.358Z",
-  "version": "MVP-3-sets",
+  "generatedAt": "2026-11-03T04:29:07.296Z",
+  "version": "MVP-5-sets",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
     {
@@ -23,8 +23,8 @@
         }
       },
       "summaryVerdict": {
-        "en": "Aubade of Morningstar and Moon is a 5★ set used by Columbina, Ineffa, Linnea. Keep Sands with Energy Recharge, HP%, ATK%, DEF%, Goblets with HP%, ATK%, DEF% and Circlets with CRIT Rate, CRIT DMG, HP%, DEF%. Everything else is fodder unless it is a strong off-piece.",
-        "es": "Alborada de la Estrella del Alba y la Luna es un set de 5★ usado por Colombina, Ineffa, Linnéa. Conserva Arenas con Recarga de Energía, Vida%, ATQ%, DEF%, Cálices con Vida%, ATQ%, DEF% y Tiaras con Prob. CRIT, Daño CRIT, Vida%, DEF%. El resto es material de reciclaje salvo que sea una gran pieza externa."
+        "en": "Aubade of Morningstar and Moon is a 5★ set used by Columbina, Ineffa, Linnea. Keep Sands with Energy Recharge, HP%, ATK%, DEF%, Goblets with HP%, ATK%, DEF% and Circlets with CRIT Rate, CRIT DMG, HP%. Everything else is fodder unless it is a strong off-piece.",
+        "es": "Alborada de la Estrella del Alba y la Luna es un set de 5★ usado por Colombina, Ineffa, Linnéa. Conserva Arenas con Recarga de Energía, Vida%, ATQ%, DEF%, Cálices con Vida%, ATQ%, DEF% y Tiaras con Prob. CRIT, Daño CRIT, Vida%. El resto es material de reciclaje salvo que sea una gran pieza externa."
       },
       "flowerAndPlumeRules": {
         "keepCombinations": [
@@ -530,39 +530,12 @@
           },
           {
             "mainStat": "DEF%",
-            "verdict": "MUST_KEEP",
-            "substats": [
-              {
-                "name": "CRIT Rate",
-                "characters": [
-                  "linnea"
-                ]
-              },
-              {
-                "name": "CRIT DMG",
-                "characters": [
-                  "linnea"
-                ]
-              },
-              {
-                "name": "EM",
-                "characters": [
-                  "linnea"
-                ]
-              },
-              {
-                "name": "ER%",
-                "characters": [
-                  "linnea"
-                ]
-              }
-            ],
-            "usedBy": [
-              "linnea"
-            ],
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
             "reasoning": {
-              "en": "Linnea can use DEF% on Circlet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Elemental Mastery > Energy Recharge.",
-              "es": "Linnéa puede(n) usar DEF% en Tiara para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Maestría Elemental > Recarga de Energía."
+              "en": "No current Aubade of Morningstar and Moon user needs DEF% on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
             }
           },
           {
@@ -750,6 +723,8 @@
             "EM",
             "HP"
           ],
+          "critTie": true,
+          "erUntilRequirement": true,
           "notes": {
             "en": "Columbina blesses her team with a large buff to Lunar reactions, while also inflicting good amounts of Lunar damage herself, mimicking whatever lunar reaction is dominant in your team. Starting at [C1], Columbina should use her Burst before her Skill so the extra Gravity Interference triggered by C1 will be buffed by her Burst. In Ascendant Gleam teams, 4pc Aubade is Columbina’s best set for personal damage from off-field thanks to the large 60% Lunar Reaction DMG buff. Columbina usually uses 4pc SMS for team DPS, but 4pc Aubade can be used instead if there is a better holder of 4pc SMS (normally another support unit).",
             "es": "Colombina blesses her team with a large buff to Lunar reactions, while also inflicting good amounts of Lunar damage herself, mimicking whatever lunar reaction is dominant in your team. Starting at [C1], Colombina should use her Habilidad definitiva before her Habilidad Elemental so the extra Gravity Interference triggered by C1 will be buffed by her Habilidad definitiva."
@@ -796,6 +771,8 @@
             "EM",
             "ER%"
           ],
+          "critTie": true,
+          "erUntilRequirement": false,
           "notes": {
             "en": "Ineffa transforms all instances of the Electro-Charged reaction into Lunar-Charged while she's in the team, which has its own scalings and can even crit. Both her Skill and Burst deploy her robot companion, Birgitta, to the field, who can deal damage and apply Electro while off-field. Additionally, Ineffa's Skill can also provide a shield. Her Burst also provides an Elemental Mastery buff based on a portion of Ineffa's ATK (her A4 talent). Birgitta stays on-field longer than both of Ineffa's Skill and Burst individual cooldowns, meaning that Birgitta has 100% field uptime.",
             "es": "Ineffa transforms all instances of the electrocargado lunar reaction into electrocargado lunar while she's in the team, which has its own scalings and can even crit. Both her Habilidad Elemental and Habilidad definitiva deploy her robot companion, Birgitta, to the field, who can deal damage and apply Electro while off-field. Additionally, Ineffa's Habilidad Elemental can also provide a shield. Her Habilidad definitiva also provides an Maestría Elemental buff based on a portion of Ineffa's ATK (her A4 talent). Birgitta stays on-field longer than both of Ineffa's Habilidad Elemental and Habilidad definitiva individual cooldowns, meaning that Birgitta has 100% field uptime."
@@ -833,8 +810,7 @@
             ],
             "circlet": [
               "CRIT Rate",
-              "CRIT DMG",
-              "DEF%"
+              "CRIT DMG"
             ]
           },
           "substatsPriority": [
@@ -844,6 +820,8 @@
             "EM",
             "ER%"
           ],
+          "critTie": true,
+          "erUntilRequirement": false,
           "notes": {
             "en": "Linnea is a potent support for Geo units, providing Off-Field Damage with her companion Lumi, Lunar-Crystallize DMG when Moondrifts are present, and also providing Geo Resistance shredding and teamwide healing. In addition, when Ascendant Gleam is active, Lumi can also boost the team's Elemental Mastery, and further amplifies the Geo Resistance shredding. Linnea can feed Lumi into her Ultimate Power form to execute the Million Ton Crush, a huge Lunar-Crystallize DMG nuke.",
             "es": "Linnéa is a potent support for Geo units, providing Off-Field Damage with her companion Lumi, Cristalización lunar DMG when Moondrifts are present, and also providing Geo Resistance shredding and teamwide healing. In addition, when Ascendant Gleam is active, Lumi can also boost the team's Maestría Elemental, and further amplifies the Geo Resistance shredding. Linnéa can feed Lumi into her Ultimate Power form to execute the Million Ton Crush, a huge Cristalización lunar DMG nuke."
@@ -1652,6 +1630,8 @@
             "ATK%",
             "ER%"
           ],
+          "critTie": true,
+          "erUntilRequirement": false,
           "notes": {
             "en": "Lyney does high damage using his Charged Attacks along with supplemental damage from his Skill and Burst. Because of his A4, he is commonly used in Mono-Pyro teams. Weapon rankings assume Lyney is used with Bennett or Nicole and using Marechaussee Hunter (4).",
             "es": "Lyney does high damage using his Ataque Cargados along with supplemental damage from his Habilidad Elemental and Habilidad definitiva. Because of his A4, he is commonly used in Mono-Pyro teams. Weapon rankings assume Lyney is used with Bennett or Nicole and using Cazador Fantasmal (4)."
@@ -1700,6 +1680,8 @@
             "HP%",
             "HP"
           ],
+          "critTie": true,
+          "erUntilRequirement": true,
           "notes": {
             "en": "DPS Neuvillette centers around using his Charged Attacks to deal damage. Weapon options similar to Prototype Amber can be used better by other characters, so it's not recommended to pull or upgrade these weapons just for Neuvillette. Marechaussee’s Charged Attack DMG% and hefty CRIT Rate make it Neuvillette’s BiS by a sizable margin. Furthermore, stacks on the 4-piece effect are obtained quickly due to the HP drain from Neuvillette’s Charged Attack.It is highly recommended to farm or strongbox this set.",
             "es": "DPS Neuvillette centers around using his Ataque Cargados to deal damage. Weapon options similar to Prototipo Ámbar can be used better by other characters, so it's not recommended to pull or upgrade these weapons just for Neuvillette."
@@ -1746,6 +1728,8 @@
             "CRIT DMG",
             "ATK%"
           ],
+          "critTie": true,
+          "erUntilRequirement": true,
           "notes": {
             "en": "Xiao is a Hypercarry that is centered around plunge attacks. Due to his expensive Burst, Xiao usually requires a high amount of Energy Recharge and/or at least one Anemo battery (Sucrose, [C6] Faruzan, Xianyun) on his team to help him recharge his Burst. Xiao's Optimal Skill Rotation: E E Q Plunge Combo",
             "es": "Xiao is a Hypercarry that is centered around plunge attacks. Due to his expensive Habilidad definitiva, Xiao usually requires a high amount of Recarga de Energía and/or at least one Anemo battery (Sacarosa, [C6] Faruzán, Xianyun) on his team to help him recharge his Habilidad definitiva. Xiao's Optimal Habilidad Elemental Rotation: E E Q Plunge Combo"
@@ -1794,6 +1778,8 @@
             "EM",
             "ATK%"
           ],
+          "critTie": true,
+          "erUntilRequirement": true,
           "notes": {
             "en": "Gaming can reliably Vaporize or Melt most, if not all, of his Skill-enhanced Plunge Attacks. This allows him to deal high amounts of damage during his Burst's Wushou state.",
             "es": "Gaming can reliably Vaporización or Derretido most, if not all, of his Habilidad Elemental-enhanced Plunge Attacks. This allows him to deal high amounts of damage during his Habilidad definitiva's Wushou state."
@@ -1839,6 +1825,8 @@
             "ATK%",
             "EM"
           ],
+          "critTie": true,
+          "erUntilRequirement": false,
           "notes": {
             "en": "Wriothesley as a Stellar-Conduct DPS uses his enhanced Normal Attack and Charged Attack to deal Stellar-Conduct DMG. In this role, he is played with a character that can enable the Stellar Glimmer reactions (i.e. Odette, Cryo Traveler) so he can fully take advantage of his Witch's Revelation Passive. As he only gets his enhanced Charged Attack when he is under 60% HP, it is strongly discouraged to play Wriothesley with a healer.",
             "es": "Wriothesley as a Superconductor estelar DPS uses his enhanced Ataque Normal and Ataque Cargado to deal Superconductor estelar DMG. In this role, he is played with a character that can enable the Destello Estelar reactions (i.e. Odette, Cryo Viajero) so he can fully take advantage of his Witch's Revelation Passive. As he only gets his enhanced Ataque Cargado when he is under 60% HP, it is strongly discouraged to play Wriothesley with a healer."
@@ -1900,16 +1888,15 @@
             "substats": [
               "ER%",
               "ATK%",
-              "CRIT Rate",
-              "CRIT DMG"
+              "CRIT Rate"
             ],
             "usedBy": [
               "nicole",
               "prune"
             ],
             "reasoning": {
-              "en": "Nicole, Prune can use Energy Recharge + ATK% + CRIT Rate + CRIT DMG on this set's Flower and Plume.",
-              "es": "Nicole, Prune busca(n) Recarga de Energía + ATQ% + Prob. CRIT + Daño CRIT en la Flor y la Pluma de este set."
+              "en": "Nicole, Prune can use Energy Recharge + ATK% + CRIT Rate on this set's Flower and Plume.",
+              "es": "Nicole, Prune busca(n) Recarga de Energía + ATQ% + Prob. CRIT en la Flor y la Pluma de este set."
             }
           }
         ],
@@ -1956,9 +1943,7 @@
                 "name": "CRIT DMG",
                 "characters": [
                   "durin",
-                  "mona",
-                  "nicole",
-                  "prune"
+                  "mona"
                 ]
               },
               {
@@ -2009,7 +1994,7 @@
                 ]
               },
               {
-                "name": "CRIT DMG",
+                "name": "ATK%",
                 "characters": [
                   "mona",
                   "nicole",
@@ -2017,11 +2002,9 @@
                 ]
               },
               {
-                "name": "ATK%",
+                "name": "CRIT DMG",
                 "characters": [
-                  "mona",
-                  "nicole",
-                  "prune"
+                  "mona"
                 ]
               },
               {
@@ -2037,8 +2020,8 @@
               "prune"
             ],
             "reasoning": {
-              "en": "Mona, Nicole, Prune can use Energy Recharge on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > ATK% > Elemental Mastery.",
-              "es": "Mona, Nicole, Prune puede(n) usar Recarga de Energía en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > ATQ% > Maestría Elemental."
+              "en": "Mona, Nicole, Prune can use Energy Recharge on Sands for this set. Useful substats for this piece: CRIT Rate > ATK% > CRIT DMG > Elemental Mastery.",
+              "es": "Mona, Nicole, Prune puede(n) usar Recarga de Energía en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > ATQ% > Daño CRIT > Maestría Elemental."
             }
           },
           {
@@ -2119,9 +2102,7 @@
               {
                 "name": "CRIT DMG",
                 "characters": [
-                  "durin",
-                  "nicole",
-                  "prune"
+                  "durin"
                 ]
               },
               {
@@ -2348,13 +2329,6 @@
                   "nicole",
                   "prune"
                 ]
-              },
-              {
-                "name": "CRIT DMG",
-                "characters": [
-                  "nicole",
-                  "prune"
-                ]
               }
             ],
             "usedBy": [
@@ -2362,8 +2336,8 @@
               "prune"
             ],
             "reasoning": {
-              "en": "Nicole, Prune can use ATK% on Circlet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG.",
-              "es": "Nicole, Prune puede(n) usar ATQ% en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT."
+              "en": "Nicole, Prune can use ATK% on Circlet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate.",
+              "es": "Nicole, Prune puede(n) usar ATQ% en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT."
             }
           },
           {
@@ -2400,7 +2374,7 @@
                 ]
               },
               {
-                "name": "CRIT DMG",
+                "name": "ATK%",
                 "characters": [
                   "durin",
                   "mona",
@@ -2409,12 +2383,10 @@
                 ]
               },
               {
-                "name": "ATK%",
+                "name": "CRIT DMG",
                 "characters": [
                   "durin",
-                  "mona",
-                  "nicole",
-                  "prune"
+                  "mona"
                 ]
               },
               {
@@ -2438,8 +2410,8 @@
               "prune"
             ],
             "reasoning": {
-              "en": "Durin, Mona, Nicole, Prune can use CRIT Rate on Circlet for this set. Useful substats for this piece: Energy Recharge > CRIT DMG > ATK% > Elemental Mastery > Flat ATK.",
-              "es": "Durin, Mona, Nicole, Prune puede(n) usar Prob. CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Daño CRIT > ATQ% > Maestría Elemental > ATQ plana."
+              "en": "Durin, Mona, Nicole, Prune can use CRIT Rate on Circlet for this set. Useful substats for this piece: Energy Recharge > ATK% > CRIT DMG > Elemental Mastery > Flat ATK.",
+              "es": "Durin, Mona, Nicole, Prune puede(n) usar Prob. CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > ATQ% > Daño CRIT > Maestría Elemental > ATQ plana."
             }
           },
           {
@@ -2539,6 +2511,8 @@
             "EM",
             "ATK"
           ],
+          "critTie": true,
+          "erUntilRequirement": true,
           "notes": {
             "en": "This playstyle uses Durin's Purity form to decrease the Elemental Resistance of Pyro, Dendro, Electro, Anemo and Geo when reactions with those elements and Pyro occur. Purity form is Durin's default Burst, it can be swapped to (if in Denial form) via an E E Q rotation. 4pc CG is typically Durin’s best support-oriented artifact set for teammates who appreciate its Elemental DMG% buff. This set also buffs his own damage. It may be suboptimal in teams where Durin is the only Hexerei character, however.Its 2pc set bonus also helps Durin reach his ER requirements more easily.",
             "es": "This playstyle uses Durin's Purity form to decrease the Elemental Resistance of Pyro, Dendro, Electro, Anemo and Geo when reactions with those elements and Pyro occur. Purity form is Durin's default Habilidad definitiva, it can be swapped to (if in Denial form) via an E E Q rotation."
@@ -2586,6 +2560,8 @@
             "ATK%",
             "EM"
           ],
+          "critTie": true,
+          "erUntilRequirement": true,
           "notes": {
             "en": "Mona can use her Burst to apply the Omen debuff on enemies and allow teammates to deal more damage. This is most commonly seen in Freeze teams. Mona's main role on a Freeze team is to provide Omen debuff from her Burst as it is extendable via Freeze mechanics. Note that you must apply Cryo before casting Mona's Burst for the extension to happen. Omen Freeze extension can be done by reapplying Cryo and Hydro aura consistently (this can be done with Cryo / Hydro infused Venti Burst + on-field Cryo / Hydro aura). 4pc CG is Mona’s default support set in teams with another Hexerei character. Its 2pc effect helps her reach her ER requirements, while its 4pc effect buffs herself and the on-fielder.If there is another Hexerei character on the team who can hold this set, then Mona typically opts for either 4pc NO or 4pc TotM instead.",
             "es": "Mona can use her Habilidad definitiva to apply the Omen debuff on enemies and allow teammates to deal more damage. This is most commonly seen in Congelación teams. Mona's main role on a Congelación team is to provide Omen debuff from her Habilidad definitiva as it is extendable via Congelación mechanics. Note that you must apply Cryo before casting Mona's Habilidad definitiva for the extension to happen. Omen Congelación extension can be done by reapplying Cryo and Hydro aura consistently (this can be done with Cryo / Hydro infused Venti Habilidad definitiva + on-field Cryo / Hydro aura)."
@@ -2629,9 +2605,10 @@
           "substatsPriority": [
             "ER%",
             "ATK%",
-            "CRIT Rate",
-            "CRIT DMG"
+            "CRIT Rate"
           ],
+          "critTie": false,
+          "erUntilRequirement": true,
           "notes": {
             "en": "Nicole is a potent Support that provides both a shield and a sizeable Flat ATK buff to the entire team. The party member on field also gets an additional ATK buff after 3 seconds or instantly if they are a Hexerei character. Nicole needs 4000 Attack to reach her full Attack buff.",
             "es": "Nicole is a potent Support that provides both a shield and a sizeable ATQ buff to the entire team. The party member on field also gets an additional ATK buff after 3 seconds or instantly if they are a Hexerei character. Nicole needs 4000 Attack to reach her full Attack buff."
@@ -2675,9 +2652,10 @@
           "substatsPriority": [
             "ER%",
             "ATK%",
-            "CRIT Rate",
-            "CRIT DMG"
+            "CRIT Rate"
           ],
+          "critTie": false,
+          "erUntilRequirement": true,
           "notes": {
             "en": "Prune is a support that relies on triggering the Swirl reaction to buff characters. Triggering Swirl will convert her Banehunter Oathhammer (Skill) into the element she Swirls, and as long as her A4 talent is unlocked, hitting opponents with a converted Banehunter Oathhammer or her Burst will activate the Tolling Rally effect, which will provide DMG buffs to the team based on Prune's ATK. In addition, when a Hexerei character under Tolling Rally triggers a reaction, Prune gains an ATK% boost, and if that reaction was Swirl, the triggering character also gains an ATK% boost. Prune's [C1] let's her restore 2 Energy every 1.8 seconds whenever a converted Banehunter Oathhammer hits opponents. How much total energy she can restore depends how often Prune is able to trigger Swirl during the duration of her Burst. Prune's [C6] increases her Burst duration by 4 seconds.",
             "es": "Prune is a support that relies on triggering the Torbellino reaction to buff characters. Triggering Torbellino will convert her Banehunter Oathhammer (Habilidad Elemental) into the element she Swirls, and as long as her A4 talent is unlocked, hitting opponents with a converted Banehunter Oathhammer or her Habilidad definitiva will activate the Tolling Rally effect, which will provide DMG buffs to the team based on Prune's ATK. In addition, when a Hexerei character under Tolling Rally triggers a reaction, Prune gains an ATQ% boost, and if that reaction was Torbellino, the triggering character also gains an ATQ% boost. Prune's [C1] let's her restore 2 Energy every 1.8 seconds whenever a converted Banehunter Oathhammer hits opponents. How much total energy she can restore depends how often Prune is able to trigger Torbellino during the duration of her Habilidad definitiva. Prune's [C6] incr"
@@ -2689,6 +2667,1113 @@
             "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/prune-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "heart-of-the-furnace",
+      "name": {
+        "en": "Heart of the Furnace",
+        "es": "Corazón Forjado"
+      },
+      "rarity": 5,
+      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/heart-of-the-furnace.g0DiPGSX_ZdECmi.webp",
+      "imageUrl": "/images/artifacts/heart-of-the-furnace.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "ATK +18%.",
+          "es": "ATQ +18%."
+        },
+        "fourPiece": {
+          "en": "Increases the equipping character's ATK by 12% for 12s when they trigger a Stellar Glimmer reaction or deal Stellar Glimmer reaction DMG. Also increases Stellar Glimmer reaction DMG dealt by all nearby party members by 50%. The above effects can trigger even when the equipping character is not on the field, and the DMG bonus from multiple Artifact Sets with the same name do not stack.",
+          "es": "Durante 12 s después de que el portador de este conjunto de artefactos cause una reacción de Destello Estelar o inflija daño de Destello Estelar, su ATQ aumentará en un 12% y el daño de Destello Estelar de todos los personajes cercanos del equipo aumentará en un 50%. Este efecto se puede activar incluso cuando el portador está en tu equipo pero no en uso. Los bonos de daño otorgados por este conjunto de artefactos no se pueden acumular con los de otro conjunto del mismo tipo."
+        }
+      },
+      "summaryVerdict": {
+        "en": "Heart of the Furnace is a 5★ set used by Alyosha, Odette. Keep Sands with ATK%, Energy Recharge, Goblets with ATK% and Circlets with ATK%, CRIT Rate, CRIT DMG. Everything else is fodder unless it is a strong off-piece.",
+        "es": "Corazón Forjado es un set de 5★ usado por Aliosha, Odette. Conserva Arenas con ATQ%, Recarga de Energía, Cálices con ATQ% y Tiaras con ATQ%, Prob. CRIT, Daño CRIT. El resto es material de reciclaje salvo que sea una gran pieza externa."
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "ER%",
+              "ATK%",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "alyosha"
+            ],
+            "reasoning": {
+              "en": "Alyosha can use Energy Recharge + ATK% + CRIT Rate on this set's Flower and Plume.",
+              "es": "Aliosha busca(n) Recarga de Energía + ATQ% + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "odette"
+            ],
+            "reasoning": {
+              "en": "Odette can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Odette busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          }
+        ],
+        "discardRule": {
+          "en": "Flowers and plumes with no Energy Recharge, ATK%, CRIT Rate, CRIT DMG, Elemental Mastery and no useful upgrades can be safely recycled in the Relic Strongbox.",
+          "es": "Las Flores y Plumas sin Recarga de Energía, ATQ%, Prob. CRIT, Daño CRIT, Maestría Elemental ni mejoras útiles se pueden reciclar sin riesgo en el Relicario."
+        }
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs HP% on Sands. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "alyosha",
+                  "odette"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "alyosha"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "odette"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "odette"
+                ]
+              }
+            ],
+            "usedBy": [
+              "alyosha",
+              "odette"
+            ],
+            "reasoning": {
+              "en": "Alyosha, Odette can use ATK% on Sands for this set. Useful substats for this piece: CRIT Rate > Energy Recharge > CRIT DMG > Elemental Mastery.",
+              "es": "Aliosha, Odette puede(n) usar ATQ% en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Recarga de Energía > Daño CRIT > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs DEF% on Sands. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ATK%",
+                "characters": [
+                  "alyosha"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "alyosha"
+                ]
+              }
+            ],
+            "usedBy": [
+              "alyosha"
+            ],
+            "reasoning": {
+              "en": "Alyosha can use Energy Recharge on Sands for this set. Useful substats for this piece: ATK% > CRIT Rate.",
+              "es": "Aliosha puede(n) usar Recarga de Energía en Arenas para este set. Subestadísticas útiles para esta pieza: ATQ% > Prob. CRIT."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs Elemental Mastery on Sands. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Maestría Elemental en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs HP% on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "alyosha",
+                  "odette"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "alyosha"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "odette"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "odette"
+                ]
+              }
+            ],
+            "usedBy": [
+              "alyosha",
+              "odette"
+            ],
+            "reasoning": {
+              "en": "Alyosha, Odette can use ATK% on Goblet for this set. Useful substats for this piece: CRIT Rate > Energy Recharge > CRIT DMG > Elemental Mastery.",
+              "es": "Aliosha, Odette puede(n) usar ATQ% en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Recarga de Energía > Daño CRIT > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs DEF% on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs Elemental Mastery on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Maestría Elemental en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs Pyro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Pyro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs Hydro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Hydro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs HP% on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "alyosha"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "alyosha"
+                ]
+              }
+            ],
+            "usedBy": [
+              "alyosha"
+            ],
+            "reasoning": {
+              "en": "Alyosha can use ATK% on Circlet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate.",
+              "es": "Aliosha puede(n) usar ATQ% en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs DEF% on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ATK%",
+                "characters": [
+                  "alyosha",
+                  "odette"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "alyosha"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "odette"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "odette"
+                ]
+              }
+            ],
+            "usedBy": [
+              "alyosha",
+              "odette"
+            ],
+            "reasoning": {
+              "en": "Alyosha, Odette can use CRIT Rate on Circlet for this set. Useful substats for this piece: ATK% > Energy Recharge > CRIT DMG > Elemental Mastery.",
+              "es": "Aliosha, Odette puede(n) usar Prob. CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: ATQ% > Recarga de Energía > Daño CRIT > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "odette"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "odette"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "odette"
+                ]
+              }
+            ],
+            "usedBy": [
+              "odette"
+            ],
+            "reasoning": {
+              "en": "Odette can use CRIT DMG on Circlet for this set. Useful substats for this piece: CRIT Rate > ATK% > Elemental Mastery.",
+              "es": "Odette puede(n) usar Daño CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > ATQ% > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Heart of the Furnace user needs Healing Bonus on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "alyosha",
+          "name": {
+            "en": "Alyosha",
+            "es": "Aliosha"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.BLFvsxFJ_Z1Yfikc.webp",
+          "element": "Electro",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "ATK%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "ATK%",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "Alyosha is a Stellar-Conduct support who can heal the active character with Tugarin, who is summoned by his Burst. His Skill or the end of his Normal Attack string applies the Hunter's Mark. Consuming the mark with these abilities (or having Tugarin hit a marked target) grants the team Hunter's Precision, boosting the ATK of on-field characters. While in a Polestar Field, Alyosha also grants a 20% Stellar-Conduct DMG buff. His Burst can additionally taunt enemies. Alyosha's [C1] gives him 15 Energy when a teammate triggers an Electro-related reaction, effectively changing his Burst cost from 70 to 55. This has a cooldown of 18 seconds.",
+            "es": "Aliosha is a Superconductor estelar support who can heal the active character with Tugarin, who is summoned by his Habilidad definitiva. His Habilidad Elemental or the end of his Ataque Normal string applies the Hunter's Mark. Consuming the mark with these abilities (or having Tugarin hit a marked target) grants the team Hunter's Precision, boosting the ATK of on-field characters. While in a Campo estrellapolar, Aliosha also grants a 20% Superconductor estelar DMG buff. His Habilidad definitiva can additionally taunt enemies. Aliosha's [C1] gives him 15 Energy when a teammate triggers an Electro-related reaction, effectively changing his Habilidad definitiva cost from 70 to 55. This has a cooldown of 18 seconds."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "7.0",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 7.0)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/alyosha-quickguide/"
+          }
+        },
+        {
+          "characterId": "odette",
+          "name": {
+            "en": "Odette",
+            "es": "Odette"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.CaCWemOS_Z1kjML8.webp",
+          "element": "Cryo",
+          "role": {
+            "en": "Off-field DPS",
+            "es": "Off-field DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "notes": {
+            "en": "Odette is an off-field damage support in Stellar Glimmer teams. E E activates her Solo Dance Double, which continues attacking off-field, dealing continuous Cryo and Stellar Glimmer DMG every 2s. It is generally recommended to skip her Burst entirely due to rotation length cost.",
+            "es": "Odette is an off-field damage support in Destello Estelar teams. E E activates her Solo Dance Double, which continues attacking off-field, dealing continuous Cryo and Destello Estelar DMG every 2s. It is generally recommended to skip her Habilidad definitiva entirely due to rotation length cost."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "7.0",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 7.0)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/odette-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scarlet-proof",
+      "name": {
+        "en": "Scarlet Proof",
+        "es": "Testimonio Escarlata"
+      },
+      "rarity": 5,
+      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/scarlet-proof.B5ZbKtus_2fXjvT.webp",
+      "imageUrl": "/images/artifacts/scarlet-proof.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "ATK +18%.",
+          "es": "ATQ +18%."
+        },
+        "fourPiece": {
+          "en": "Increases the equipping character's CRIT Rate by 16%, and their Stellar Swirl reaction DMG dealt by 40%, for 10s after they trigger a Stellar Swirl reaction.",
+          "es": "Durante 10 s después de que el portador de este conjunto de artefactos cause una reacción de Torbellino Estelar, su Prob. CRIT aumentará en un 16% y su daño de Torbellino Estelar aumentará en un 40%."
+        }
+      },
+      "summaryVerdict": {
+        "en": "Scarlet Proof is a 5★ set used by Vesna, Yumemizuki Mizuki. Keep Sands with ATK%, Elemental Mastery, Goblets with ATK%, Elemental Mastery and Circlets with CRIT Rate, CRIT DMG. Everything else is fodder unless it is a strong off-piece.",
+        "es": "Testimonio Escarlata es un set de 5★ usado por Vesna, Yumemizuki Mizuki. Conserva Arenas con ATQ%, Maestría Elemental, Cálices con ATQ%, Maestría Elemental y Tiaras con Prob. CRIT, Daño CRIT. El resto es material de reciclaje salvo que sea una gran pieza externa."
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM",
+              "ER%"
+            ],
+            "usedBy": [
+              "vesna"
+            ],
+            "reasoning": {
+              "en": "Vesna can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Vesna busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM",
+              "ER%"
+            ],
+            "usedBy": [
+              "yumemizuki-mizuki"
+            ],
+            "reasoning": {
+              "en": "Yumemizuki Mizuki can use CRIT Rate + CRIT DMG + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Yumemizuki Mizuki busca(n) Prob. CRIT + Daño CRIT + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          }
+        ],
+        "discardRule": {
+          "en": "Flowers and plumes with no CRIT Rate, CRIT DMG, ATK%, Elemental Mastery, Energy Recharge and no useful upgrades can be safely recycled in the Relic Strongbox.",
+          "es": "Las Flores y Plumas sin Prob. CRIT, Daño CRIT, ATQ%, Maestría Elemental, Recarga de Energía ni mejoras útiles se pueden reciclar sin riesgo en el Relicario."
+        }
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs HP% on Sands. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "vesna"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "vesna"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "vesna"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "vesna"
+                ]
+              }
+            ],
+            "usedBy": [
+              "vesna"
+            ],
+            "reasoning": {
+              "en": "Vesna can use ATK% on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Elemental Mastery > Energy Recharge.",
+              "es": "Vesna puede(n) usar ATQ% en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Maestría Elemental > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs DEF% on Sands. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs Energy Recharge on Sands. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Recarga de Energía en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "yumemizuki-mizuki"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "yumemizuki-mizuki"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "yumemizuki-mizuki"
+                ]
+              }
+            ],
+            "usedBy": [
+              "yumemizuki-mizuki"
+            ],
+            "reasoning": {
+              "en": "Yumemizuki Mizuki can use Elemental Mastery on Sands in niche builds. Keep only if it rolls CRIT Rate > CRIT DMG > Energy Recharge.",
+              "es": "Yumemizuki Mizuki puede(n) usar Maestría Elemental en Arenas en builds de nicho. Consérvala solo si sube Prob. CRIT > Daño CRIT > Recarga de Energía."
+            }
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs HP% on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "vesna"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "vesna"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "vesna"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "vesna"
+                ]
+              }
+            ],
+            "usedBy": [
+              "vesna"
+            ],
+            "reasoning": {
+              "en": "Vesna can use ATK% on Goblet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Elemental Mastery > Energy Recharge.",
+              "es": "Vesna puede(n) usar ATQ% en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Maestría Elemental > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs DEF% on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "yumemizuki-mizuki"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "yumemizuki-mizuki"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "yumemizuki-mizuki"
+                ]
+              }
+            ],
+            "usedBy": [
+              "yumemizuki-mizuki"
+            ],
+            "reasoning": {
+              "en": "Yumemizuki Mizuki can use Elemental Mastery on Goblet in niche builds. Keep only if it rolls CRIT Rate > CRIT DMG > Energy Recharge.",
+              "es": "Yumemizuki Mizuki puede(n) usar Maestría Elemental en Cáliz en builds de nicho. Consérvala solo si sube Prob. CRIT > Daño CRIT > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs Pyro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Pyro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs Hydro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Hydro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs HP% on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs ATK% on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs DEF% on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "vesna",
+                  "yumemizuki-mizuki"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "vesna",
+                  "yumemizuki-mizuki"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "vesna",
+                  "yumemizuki-mizuki"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "vesna"
+                ]
+              }
+            ],
+            "usedBy": [
+              "vesna",
+              "yumemizuki-mizuki"
+            ],
+            "reasoning": {
+              "en": "Vesna, Yumemizuki Mizuki can use CRIT Rate on Circlet for this set. Useful substats for this piece: CRIT DMG > Elemental Mastery > Energy Recharge > ATK%.",
+              "es": "Vesna, Yumemizuki Mizuki puede(n) usar Prob. CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Daño CRIT > Maestría Elemental > Recarga de Energía > ATQ%."
+            }
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "vesna",
+                  "yumemizuki-mizuki"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "vesna",
+                  "yumemizuki-mizuki"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "vesna",
+                  "yumemizuki-mizuki"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "vesna"
+                ]
+              }
+            ],
+            "usedBy": [
+              "vesna",
+              "yumemizuki-mizuki"
+            ],
+            "reasoning": {
+              "en": "Vesna, Yumemizuki Mizuki can use CRIT DMG on Circlet for this set. Useful substats for this piece: CRIT Rate > Elemental Mastery > Energy Recharge > ATK%.",
+              "es": "Vesna, Yumemizuki Mizuki puede(n) usar Daño CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Maestría Elemental > Recarga de Energía > ATQ%."
+            }
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scarlet Proof user needs Healing Bonus on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "vesna",
+          "name": {
+            "en": "Vesna",
+            "es": "Vesna"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.BbXSSlLB_Z2jn62v.webp",
+          "element": "Anemo",
+          "role": {
+            "en": "Stellar Swirl DPS",
+            "es": "Torbellino lunar DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "notes": {
+            "en": "Vesna is an On-Field DPS who focuses on using her Skill to inflict Stellar Swirl damage. While in her Skill-Enhanced state, she can use a Special Skill consisting of 3 stages, with each stage dealing more damage than the previous one. She can use this Special Skill up to 5 times at [C0], or up to 6 times at [C1]. Progressing through these stages requires Skill Charges, which can be obtained through the following methods:",
+            "es": "Vesna is an On-Field DPS who focuses on using her Habilidad Elemental to inflict Torbellino lunar damage. While in her Habilidad Elemental-Enhanced state, she can use a Special Habilidad Elemental consisting of 3 stages, with each stage dealing more damage than the previous one. She can use this Special Habilidad Elemental up to 5 times at [C0], or up to 6 times at [C1]. Progressing through these stages requires Habilidad Elemental Charges, which can be obtained through the following methods:"
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "resolutionReason": "Fallback to GB: no KQM guide",
+            "genshinBuildsUpdated": "7.1"
+          }
+        },
+        {
+          "characterId": "yumemizuki-mizuki",
+          "name": {
+            "en": "Yumemizuki Mizuki",
+            "es": "Yumemizuki Mizuki"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.E9jxJd1Y_TBdeM.webp",
+          "element": "Anemo",
+          "role": {
+            "en": "Stellar Swirl DPS",
+            "es": "Torbellino lunar DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "notes": {
+            "en": "Yumemizuki Mizuki is an on-field DPS that focuses on triggering the Stellar Swirl reaction, and doing her own damage of the same type. After her Witch's Revelation buffs, Yumemizuki Mizuki's role in a team has now shifted from driving reactions, to being generally the main damage contributor.",
+            "es": "Yumemizuki Mizuki is an on-field DPS that focuses on triggering the Torbellino lunar reaction, and doing her own damage of the same type. After her Witch's Revelation buffs, Yumemizuki Mizuki's role in a team has now shifted from driving reactions, to being generally the main damage contributor."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "7.0",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/mizuki-quickguide/"
           }
         }
       ]

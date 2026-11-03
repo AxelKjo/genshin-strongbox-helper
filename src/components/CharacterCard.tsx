@@ -18,6 +18,19 @@ interface CharacterCardProps {
 export function CharacterCard({ character, lang }: CharacterCardProps) {
   const source = character.sourceValidation
   const genshinBuildsUrl = `https://genshin-impact-helper-team.github.io/genshin-builds/${lang}/${character.characterId}`
+  const substatsText = character.substatsPriority
+    .map((stat, index, stats) => {
+      const next = stats[index + 1]
+      const critTie =
+        character.critTie &&
+        ((stat === 'CRIT Rate' && next === 'CRIT DMG') || (stat === 'CRIT DMG' && next === 'CRIT Rate'))
+      const label =
+        stat === 'ER%' && character.erUntilRequirement
+          ? `${statLabel(stat, lang)} (${UI.erUntilRequirement[lang]})`
+          : statLabel(stat, lang)
+      return `${label}${next ? (critTie ? ' ≈ ' : ' > ') : ''}`
+    })
+    .join('')
 
   return (
     <article className="rounded-2xl border border-white/10 bg-abyssSoft/70 p-4 transition hover:border-gold/30">
@@ -48,7 +61,7 @@ export function CharacterCard({ character, lang }: CharacterCardProps) {
 
       <div className="mt-3">
         <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-slate-500">{t('substats', lang)}</p>
-        <p className="mt-1 text-sm text-goldSoft">{character.substatsPriority.map((stat) => statLabel(stat, lang)).join(' > ')}</p>
+        <p className="mt-1 text-sm text-goldSoft">{substatsText}</p>
       </div>
 
       <div className="mt-3 flex flex-wrap items-center justify-end gap-x-3 gap-y-1.5 border-t border-white/5 pt-3">

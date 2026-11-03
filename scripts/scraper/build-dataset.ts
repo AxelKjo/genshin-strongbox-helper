@@ -70,6 +70,10 @@ function capitalize(value: string): string {
   return value.charAt(0).toUpperCase() + value.slice(1)
 }
 
+function normalizeBonusText(value: string): string {
+  return value.replace(/\breaction dealt by\b/gi, 'reaction DMG dealt by')
+}
+
 function joinLocalized(values: LocalizedText[], lang: 'en' | 'es'): string {
   return values.map((value) => value[lang]).join(', ')
 }
@@ -156,7 +160,7 @@ function resolveCharacter(
   indexRank: string,
   kqm: KqmGuide | null,
 ): ResolvedCharacter | null {
-  const picked = pickSetUsage(character, preferredBuildId)
+  const picked = pickSetUsage(character, preferredBuildId, target.id)
   if (!picked) return null
   const { build, usage } = picked
   const targetNames = [target.en, target.es, ...target.aliases]
@@ -177,8 +181,20 @@ function resolveCharacter(
   const gbStats = build.mainStats
   const kqmStats = kqm?.mainStats ?? { sands: [], goblet: [], circlet: [] }
   const mainStats = primarySource === 'KQM' ? fitStats(kqmStats, gbStats) : fitStats(gbStats, kqmStats)
-  const substatsPriority =
-    primarySource === 'KQM' && kqm?.substats.length ? kqm.substats : build.substats.length ? build.substats : kqm?.substats ?? []
+  for (const slot of ['sands', 'goblet', 'circlet'] as const) {
+    if (!mainStats[slot].length) {
+      throw new Error(
+        `Missing ${slot} main stats for ${character.name.en} (${target.en}); check the Genshin-Builds row for combined labels such as "CRIT Rate / CRIT DMG".`,
+      )
+    }
+  }
+  const kqmSubstats = kqm?.substats ?? []
+  const useKqmSubstats =
+    primarySource === 'KQM' ? kqmSubstats.length > 0 : !build.substats.length && kqmSubstats.length > 0
+  const substatsPriority = uniqueStats(useKqmSubstats ? kqmSubstats : build.substats)
+  const critTie = useKqmSubstats ? Boolean(kqm?.critTie) : build.critTie
+  const erUntilRequirement =
+    substatsPriority[0] === 'ER%' && (build.erUntilRequirement || Boolean(kqm?.erUntilRequirement))
 
   const matchedContextName = kqm?.recommendedSets.find((name) => targetNames.includes(name))
   const kqmContext = matchedContextName ? kqm?.setContexts[matchedContextName] ?? '' : ''
@@ -199,7 +215,9 @@ function resolveCharacter(
       usageType,
       tier,
       mainStats,
-      substatsPriority: uniqueStats(substatsPriority),
+      substatsPriority,
+      critTie,
+      erUntilRequirement,
       notes: {
         en: notesEn.slice(0, 1200),
         es: notesEs.slice(0, 1200),
@@ -339,8 +357,14 @@ function makeSetTriage(
     iconUrl: en.iconUrl,
     imageUrl: artifactImageUrl(target.id),
     bonuses: {
-      twoPiece: { en: en.twoPiece, es: es?.twoPiece ?? en.twoPiece },
-      fourPiece: { en: en.fourPiece, es: es?.fourPiece ?? en.fourPiece },
+      twoPiece: {
+        en: normalizeBonusText(en.twoPiece),
+        es: normalizeBonusText(es?.twoPiece ?? en.twoPiece),
+      },
+      fourPiece: {
+        en: normalizeBonusText(en.fourPiece),
+        es: normalizeBonusText(es?.fourPiece ?? en.fourPiece),
+      },
     },
     summaryVerdict: buildSummary(en, setNames, characters),
     flowerAndPlumeRules: buildFlowerAndPlume(en, characters),
@@ -441,7 +465,7 @@ async function main() {
 
   const dataset = {
     generatedAt: new Date().toISOString(),
-    version: 'MVP-3-sets',
+    version: 'MVP-5-sets',
     source: 'Genshin-Builds (EN/ES) + KeqingMains Quickguides',
     sets,
   }

@@ -33,6 +33,18 @@ export const TARGET_SETS: TargetSetConfig[] = [
     es: 'Dádiva Celestial',
     aliases: ['Dádiva Celestial', 'Dadiva Celestial'],
   },
+  {
+    id: 'heart-of-the-furnace',
+    en: 'Heart of the Furnace',
+    es: 'Corazón Forjado',
+    aliases: ['Corazon Forjado', 'Heart of Furnace'],
+  },
+  {
+    id: 'scarlet-proof',
+    en: 'Scarlet Proof',
+    es: 'Testimonio Escarlata',
+    aliases: ['Testimonio escarlata', 'Scarlet Proof'],
+  },
 ]
 
 export function getTargetSets(argv: string[] = process.argv.slice(2)): TargetSetConfig[] {

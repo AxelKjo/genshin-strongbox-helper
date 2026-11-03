@@ -1,7 +1,7 @@
 import * as cheerio from 'cheerio'
 import type { AnyNode } from 'domhandler'
 import type { StatKey } from '../../src/types/artifacts'
-import { normalizeStat, normalizeStatList } from '../../src/lib/stats'
+import { hasCritTie, hasErUntilRequirement, normalizeStat, normalizeStatList } from '../../src/lib/stats'
 import type { TargetSetConfig } from './config'
 import { GB_BASE } from './config'
 import { absoluteGbUrl, fetchCached } from './http'
@@ -26,6 +26,7 @@ export interface GBArtifactSet {
 
 export interface GBPieceCountUsage {
   buildId: string
+  setId: string
   rank: number
   pieceCount: 2 | 4
   label: string
@@ -42,6 +43,8 @@ export interface GBBuildData {
   setUsages: GBPieceCountUsage[]
   mainStats: { sands: StatKey[]; goblet: StatKey[]; circlet: StatKey[] }
   substats: StatKey[]
+  critTie: boolean
+  erUntilRequirement: boolean
   notes: string
   notesEs?: string
 }
@@ -59,6 +62,23 @@ const CONDITIONAL_LABEL = /\b(?:only|requires?|requiring|when|if|depending|depen
 
 function textOf($: cheerio.CheerioAPI, el: cheerio.Cheerio<AnyNode>): string {
   return el.text().replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim()
+}
+
+// Genshin-Builds may pack several recommendations into one label, such as
+// "CRIT Rate / CRIT DMG". Split the label before normalizing it; treating the
+// whole string as one stat silently drops the recommendation.
+function parseMainStatValues(value: string): StatKey[] {
+  const stats: StatKey[] = []
+  for (const part of value.split(/\s*(?:\/|,|\bor\b)\s*/i)) {
+    const stat = normalizeStat(part)
+    if (stat && !stats.includes(stat)) stats.push(stat)
+    if (/^\s*crit(?:ical)?\s*$/i.test(part)) {
+      for (const crit of ['CRIT Rate', 'CRIT DMG'] as StatKey[]) {
+        if (!stats.includes(crit)) stats.push(crit)
+      }
+    }
+  }
+  return stats
 }
 
 function hasConditionalLabel(label: string): boolean {
@@ -153,6 +173,7 @@ function parseBuildPanels($: cheerio.CheerioAPI, targetSets: TargetSetConfig[]):
         if (!pieceCount) return
         setUsages.push({
           buildId: id,
+          setId: target.id,
           rank,
           pieceCount,
           label,
@@ -173,24 +194,31 @@ function parseBuildPanels($: cheerio.CheerioAPI, targetSets: TargetSetConfig[]):
       if (emphasized.length > 0) {
         emphasized.each((___, el) => { values.push(textOf($, $(el))) })
       } else {
-        values.push(...textOf($, rowNode.find('span').last()).split('/'))
+        values.push(textOf($, rowNode.find('span').last()))
       }
       for (const value of values) {
-        const stat = normalizeStat(value)
-        if (stat && !mainStats[slot].includes(stat)) mainStats[slot].push(stat)
+        for (const stat of parseMainStatValues(value)) {
+          if (!mainStats[slot].includes(stat)) mainStats[slot].push(stat)
+        }
       }
     })
 
     const substats: StatKey[] = []
+    let critTie = false
     const substatSection = statsCard.find('.recommendation-section').filter((_, section) => {
       return textOf($, $(section).find('h3').first()).toLowerCase() === 'substats'
     }).first()
     substatSection.find('.rank-row').each((__, row) => {
       const label = textOf($, $(row).find('.recommendation-label-emphasized').first())
+      if (hasCritTie(label)) critTie = true
       for (const stat of normalizeStatList(label)) {
         if (!substats.includes(stat)) substats.push(stat)
       }
     })
+
+    const erUntilRequirement =
+      hasErUntilRequirement(textOf($, substatSection)) ||
+      hasErUntilRequirement(textOf($, panel.find('.notes-card')))
 
     const noteParagraphs: string[] = []
     panel.find('.notes-card .notes-content p').each((__, paragraph) => {
@@ -198,7 +226,7 @@ function parseBuildPanels($: cheerio.CheerioAPI, targetSets: TargetSetConfig[]):
       if (text.length > 20) noteParagraphs.push(text)
     })
     const notes = noteParagraphs.slice(0, 2).join(' ').slice(0, 900)
-    builds.push({ id, name, version, isBestRole, setUsages, mainStats, substats, notes })
+    builds.push({ id, name, version, isBestRole, setUsages, mainStats, substats, critTie, erUntilRequirement, notes })
   })
   return builds
 }
@@ -250,11 +278,13 @@ export function getBuildById(data: GBCharacterData, buildId: string): GBBuildDat
 export function pickSetUsage(
   data: GBCharacterData,
   preferredBuildId?: string,
+  targetSetId?: string,
 ): { build: GBBuildData; usage: GBPieceCountUsage } | null {
   const candidates: { build: GBBuildData; usage: GBPieceCountUsage }[] = []
   for (const build of data.builds) {
     if (!build.isBestRole) continue
     for (const usage of build.setUsages) {
+      if (targetSetId && usage.setId !== targetSetId) continue
       if (usage.conditional) continue
       if (!Number.isFinite(usage.rank) || usage.rank > 2) continue
       candidates.push({ build, usage })

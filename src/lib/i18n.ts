@@ -42,6 +42,7 @@ export const UI = {
   role: { en: 'Role', es: 'Rol' },
   mainStats: { en: 'Main stats', es: 'Estadísticas principales' },
   substats: { en: 'Substats', es: 'Subestadísticas' },
+  erUntilRequirement: { en: 'Until Req', es: 'Hasta lo requerido' },
   source: { en: 'Source', es: 'Fuente' },
   validatedKqm: { en: 'Validated with KQM', es: 'Validado con KQM' },
   gbSource: { en: 'Genshin-Builds', es: 'Genshin-Builds' },
@@ -66,16 +67,10 @@ export const UI = {
   },
   offPiece: { en: 'Off-piece candidate', es: 'Candidata a pieza externa' },
   allSets: { en: 'All sets', es: 'Todos los sets' },
-  mvpNote: {
-    en: 'MVP dataset: Aubade, Marechaussee Hunter and Celestial Gift.',
-    es: 'Dataset MVP: Alborada, Cazador Fantasmal y Dádiva Celestial.',
-  },
   sourceRule: {
     en: 'The most recently updated source wins. KQM prevails only when its guide is newer and recommends the set.',
     es: 'Prevalece la fuente actualizada al parche más reciente. KQM solo gana cuando su guía es más nueva y recomienda el set.',
   },
-  footerDataFrom: { en: 'Data from', es: 'Datos de' },
-  footerAnd: { en: 'and', es: 'y' },
   footerDisclaimer: {
     en: 'Unofficial, non-commercial fan-made tool. Not affiliated with or endorsed by HoYoverse.',
     es: 'Herramienta no oficial y sin ánimo de lucro creada por fans. No está afiliada ni respaldada por HoYoverse.',
@@ -94,6 +89,21 @@ export const UI = {
     SITUATIONAL_KEEP: { en: 'Situational', es: 'Situacional' },
     SAFE_DISCARD: { en: 'Safe discard', es: 'Descartar sin riesgo' },
   } as const,
+}
+
+export const FOOTER_ATTRIBUTION: Record<Lang, { before: string; between: string; after: string }> = {
+  en: {
+    before: 'Stat priorities and character builds are sourced from the outstanding work of ',
+    between: ' and ',
+    after: '. Please consider visiting the original sources for their full comprehensive guides.',
+  },
+  es: {
+    before:
+      'Las prioridades de estadísticas y builds de personajes provienen del excelente trabajo de ',
+    between: ' y ',
+    after:
+      '. Por favor, considera visitar las fuentes originales para consultar las guías completas.',
+  },
 }
 
 export function t<K extends keyof typeof UI>(key: K, lang: Lang): string {

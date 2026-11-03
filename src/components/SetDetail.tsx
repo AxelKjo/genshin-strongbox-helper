@@ -13,11 +13,11 @@ const VERDICT_ORDER = { MUST_KEEP: 0, SITUATIONAL_KEEP: 1, SAFE_DISCARD: 2 } as 
 interface SetDetailProps {
   set: ArtifactSetTriage
   lang: Lang
+  reverseOrder: boolean
 }
 
-export function SetDetail({ set, lang }: SetDetailProps) {
+export function SetDetail({ set, lang, reverseOrder }: SetDetailProps) {
   const [showDescription, setShowDescription] = useState(false)
-  const [reverseOrder, setReverseOrder] = useState(false)
   const [artworkFailed, setArtworkFailed] = useState(false)
 
   return (
@@ -114,30 +114,6 @@ export function SetDetail({ set, lang }: SetDetailProps) {
             )
           })}
         </div>
-
-        <div className="mt-4 flex justify-start">
-          <button
-            type="button"
-            role="switch"
-            aria-checked={reverseOrder}
-            onClick={() => setReverseOrder((current) => !current)}
-            className="inline-flex items-center gap-2.5 rounded-full border border-white/10 bg-abyssSoft/70 px-4 py-2 text-sm font-semibold text-slate-300 transition hover:border-gold/30 hover:text-goldSoft"
-          >
-            <span
-              className={`relative h-5 w-9 rounded-full border transition ${
-                reverseOrder ? 'border-gold/40 bg-gold/25' : 'border-white/15 bg-abyss'
-              }`}
-              aria-hidden
-            >
-              <span
-                className={`absolute left-0.5 top-0.5 h-4 w-4 rounded-full transition ${
-                  reverseOrder ? 'translate-x-4 bg-gold' : 'bg-slate-400'
-                }`}
-              />
-            </span>
-            {t('reverseOrder', lang)}
-          </button>
-        </div>
       </section>
 
       <section className="rounded-3xl border border-white/10 bg-abyssSoft/60 p-5">
@@ -158,15 +134,7 @@ export function SetDetail({ set, lang }: SetDetailProps) {
                 <p className="text-xs font-bold uppercase tracking-[0.18em] text-emeraldKeep">{t('keepCombinations', lang)}</p>
                 <div className="mt-2 flex flex-wrap gap-1.5">
                   {combo.substats.map((stat) => (
-                    <span key={stat} className="inline-flex items-center gap-2 rounded-md border border-emeraldKeep/25 bg-abyss/50 px-2 py-1 text-sm text-emeraldKeep">
-                      {users.length > 0 && (
-                        <span
-                          className="inline-flex min-w-6 items-center justify-center rounded border border-emeraldKeep/30 bg-emeraldKeep/10 px-1.5 py-0.5 text-xs font-bold leading-none tabular-nums"
-                          title={users.map((character) => character.name[lang]).join(', ')}
-                        >
-                          {users.map((_, index) => index + 1).join(', ')}
-                        </span>
-                      )}
+                    <span key={stat} className="inline-flex items-center rounded-md border border-emeraldKeep/25 bg-abyss/50 px-2 py-1 text-sm text-emeraldKeep">
                       {statLabel(stat, lang)}
                     </span>
                   ))}

@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { ArtifactSetTriage, TriageDataset } from './types/artifacts'
 import type { Lang } from './lib/i18n'
-import { t } from './lib/i18n'
+import { FOOTER_ATTRIBUTION, t } from './lib/i18n'
 import { LanguageToggle } from './components/LanguageToggle'
+import { ReverseOrderToggle } from './components/ReverseOrderToggle'
 import { SetDetail } from './components/SetDetail'
 import { SetSidebar } from './components/SetSidebar'
 
@@ -47,6 +48,7 @@ export default function App() {
   const [error, setError] = useState(false)
   const [query, setQuery] = useState('')
   const [selectedId, setSelectedId] = useState<string | null>(null)
+  const [reverseOrder, setReverseOrder] = useState(false)
   const [sidebarExpanded, setSidebarExpanded] = useState(
     () => window.matchMedia('(min-width: 1536px)').matches,
   )
@@ -103,8 +105,8 @@ export default function App() {
               <p className="text-xs text-slate-400">{t('appSubtitle', lang)}</p>
             </div>
           </div>
-          <div className="flex items-center gap-3">
-            <span className="hidden rounded-full border border-white/10 bg-abyssSoft/70 px-3 py-1 text-[11px] text-slate-400 md:inline-flex">{t('mvpNote', lang)}</span>
+          <div className="flex w-full flex-wrap items-center justify-end gap-2 sm:w-auto sm:gap-3">
+            <ReverseOrderToggle lang={lang} checked={reverseOrder} onChange={setReverseOrder} />
             <LanguageToggle lang={lang} onChange={setLang} />
           </div>
         </div>
@@ -147,7 +149,7 @@ export default function App() {
             </div>
             <div className="min-w-0">
               {selectedSet ? (
-                <SetDetail set={selectedSet} lang={lang} />
+                <SetDetail set={selectedSet} lang={lang} reverseOrder={reverseOrder} />
               ) : (
                 <p className="rounded-2xl border border-white/10 bg-abyssSoft/60 p-6 text-sm text-slate-400">{t('noResults', lang)}</p>
               )}
@@ -157,27 +159,27 @@ export default function App() {
       </main>
 
       <footer className="relative border-t border-white/5 py-5 text-xs text-slate-400">
-        <div className={`${SHELL_WIDTH} flex flex-col items-center justify-between gap-2 text-center sm:flex-row sm:text-left`}>
-          <p>
-            {t('footerDataFrom', lang)}{' '}
+        <div className={`${SHELL_WIDTH} flex flex-col items-center gap-3 text-center`}>
+          <p className="max-w-4xl leading-relaxed">
+            {FOOTER_ATTRIBUTION[lang].before}
             <a
               href="https://genshin-impact-helper-team.github.io/genshin-builds/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium text-slate-300 underline decoration-white/20 underline-offset-2 transition-colors hover:text-goldSoft hover:decoration-gold/40"
             >
-              Genshin-Builds
-            </a>{' '}
-            {t('footerAnd', lang)}{' '}
+              Genshin-Builds (Genshin Impact Helper Team)
+            </a>
+            {FOOTER_ATTRIBUTION[lang].between}
             <a
               href="https://keqingmains.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium text-slate-300 underline decoration-white/20 underline-offset-2 transition-colors hover:text-goldSoft hover:decoration-gold/40"
             >
-              KeqingMains
+              KeqingMains (KQM)
             </a>
-            .
+            {FOOTER_ATTRIBUTION[lang].after}
           </p>
           <p className="text-slate-500">{t('footerDisclaimer', lang)}</p>
         </div>

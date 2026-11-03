@@ -29,6 +29,8 @@ export interface CharacterUsage {
     circlet: StatKey[]
   }
   substatsPriority: StatKey[]
+  critTie: boolean
+  erUntilRequirement: boolean
   notes: LocalizedText
   sourceValidation: {
     primarySource: PrimarySource
