@@ -39,18 +39,25 @@ const ROLE_ES: Record<string, string> = {
   'DPS & Buff Support': 'DPS y soporte de buffs',
   'Elemental Mastery Support': 'Soporte de Maestría Elemental',
   'Freeze DPS': 'DPS de Congelación',
+  'Geo Quickswap DPS & Support': 'DPS y soporte de cambio rápido Geo',
   'High Energy Requirement (Off-Field DPS)': 'Altos requisitos de energía (DPS fuera de campo)',
   'High Energy Requirement Off-Field DPS & Buff Support': 'DPS fuera de campo con altos requisitos de energía y soporte de buffs',
   'Lunar-Crystallize DPS': 'DPS de Cristalización Lunar',
   'Off-Field Aggravate DPS': 'DPS fuera de campo de Intensificación',
   'Off-Field DPS': 'DPS fuera de campo',
   'Off-Field DPS & Buff and Heal Support': 'DPS fuera de campo y soporte de buffs y curación',
+  'Off-field DPS': 'DPS fuera de campo',
   'Off-field DPS & Buff & Shield Support': 'DPS fuera de campo y soporte de buffs y escudos',
+  'On-Field DPS': 'DPS en campo',
+  'Physical DPS': 'DPS Físico',
   'Plunge DPS': 'DPS de Caída',
   'Quickbloom DPS': 'DPS Quickbloom',
   'Shield & Buff Support': 'Soporte de escudos y buffs',
   'Spread DPS': 'DPS de Propagación',
+  'Stellar Glimmer DPS': 'DPS de Destello Estelar',
+  'Stellar Swirl DPS': 'DPS de Torbellino Estelar',
   'Stellar-Conduct DPS': 'DPS de Superconductor Estelar',
+  'Stellar-Conduct Off-Field DPS': 'DPS fuera de campo de Superconductor Estelar',
   'Vaporize DPS': 'DPS de Vaporización',
 }
 
@@ -465,7 +472,7 @@ async function main() {
 
   const dataset = {
     generatedAt: new Date().toISOString(),
-    version: 'MVP-5-sets',
+    version: 'MVP-7-sets',
     source: 'Genshin-Builds (EN/ES) + KeqingMains Quickguides',
     sets,
   }

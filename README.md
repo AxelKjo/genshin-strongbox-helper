@@ -4,13 +4,15 @@ Bilingual (ES/EN) artifact keep-vs-discard guide for Genshin Impact. The app is 
 
 ## Current scope
 
-The dataset currently covers five artifact sets:
+The dataset currently covers seven artifact sets:
 
 1. Aubade of Morningstar and Moon / Alborada de la Estrella del Alba y la Luna
 2. Marechaussee Hunter / Cazador Fantasmal
 3. Celestial Gift / Dádiva Celestial
 4. Heart of the Furnace / Corazón Forjado
 5. Scarlet Proof / Testimonio Escarlata
+6. Disenchantment in Deep Shadow / Desilusión Congelada en las Sombras
+7. A Day Carved From Rising Winds / Día de los Vientos Alzantes
 
 The scraper is modular and accepts an optional target-set filter, so the same code can be run for every set later without rewriting it.
 
@@ -30,10 +32,12 @@ npm run build            # typecheck + production build
 npm run lint
 npm run typecheck:scripts
 
-npm run scrape           # all configured target sets (5)
+npm run scrape           # all configured target sets (7)
 npm run scrape -- celestial-gift
 npm run scrape -- heart-of-the-furnace
 npm run scrape -- scarlet-proof
+npm run scrape -- disenchantment-in-deep-shadow
+npm run scrape -- a-day-carved-from-rising-winds
 npm run scrape:images    # download 256x256 set artwork into public/images/artifacts/
 npm run scrape:images -- --force
 npm run scrape:test-gb   # inspect Genshin-Builds extraction

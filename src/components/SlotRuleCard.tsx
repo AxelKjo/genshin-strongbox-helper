@@ -23,6 +23,7 @@ export function SlotRuleCard({ set, rule, lang }: SlotRuleCardProps) {
   const users = rule.usedBy
     .map((id) => set.characters.find((character) => character.characterId === id))
     .filter((character): character is NonNullable<typeof character> => Boolean(character))
+  const singleUser = users.length === 1
   const visibleSubstats = rule.substats.filter((stat) => stat.name !== rule.mainStat)
 
   return (
@@ -44,7 +45,7 @@ export function SlotRuleCard({ set, rule, lang }: SlotRuleCardProps) {
             {users.map((character, index) => (
               <span key={character.characterId} className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-abyss/60 py-1 pl-1 pr-2.5 text-sm text-slate-200" title={character.name[lang]}>
                 <Avatar src={character.iconUrl} alt={character.name[lang]} />
-                <span className="text-xs font-bold tabular-nums text-gold/80">{index + 1}.</span>
+                {!singleUser && <span className="text-xs font-bold tabular-nums text-gold/80">{index + 1}.</span>}
                 <span className="max-w-28 truncate">{character.name[lang]}</span>
               </span>
             ))}
@@ -63,14 +64,31 @@ export function SlotRuleCard({ set, rule, lang }: SlotRuleCardProps) {
               const owners = stat.characters
                 .map((id) => users.find((character) => character.characterId === id)?.name[lang])
                 .filter((name): name is string => Boolean(name))
+              const usedByAll = users.length > 1 && users.every((user) => stat.characters.includes(user.characterId))
+              const numericBadge = indices.join(', ')
+              let badge = usedByAll ? t('allUsers', lang) : numericBadge
+              if (!usedByAll && indices.length > 6) {
+                const missing = users
+                  .map((user, index) => ({ user, index: index + 1 }))
+                  .filter(({ user }) => !stat.characters.includes(user.characterId))
+                const alternative =
+                  missing.length === 1
+                    ? `${t('allBut', lang)} ${missing[0].user.name[lang]}`
+                    : missing.length > 1
+                      ? `${t('allBut', lang)} ${missing.map(({ index }) => index).join(', ')}`
+                      : ''
+                if (alternative && alternative.length < numericBadge.length) {
+                  badge = alternative
+                }
+              }
               return (
                 <span key={stat.name} className="inline-flex items-center gap-2 rounded-lg border border-gold/20 bg-abyss/50 px-3 py-1.5 text-xl font-medium text-goldSoft">
-                  {indices.length > 0 && (
+                  {!singleUser && indices.length > 0 && (
                     <span
-                      className="inline-flex min-w-7 items-center justify-center rounded-md border border-gold/25 bg-gold/15 px-1.5 py-0.5 text-sm font-bold leading-none tabular-nums text-goldSoft"
+                      className="inline-flex min-w-7 items-center justify-center rounded-md border border-gold/25 bg-gold/15 px-1.5 py-0.5 text-sm font-bold leading-none text-goldSoft"
                       title={owners.join(', ')}
                     >
-                      {indices.join(', ')}
+                      {badge}
                     </span>
                   )}
                   {statLabel(stat.name, lang)}

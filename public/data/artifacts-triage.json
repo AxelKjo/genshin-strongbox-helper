@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-03T04:29:07.296Z",
-  "version": "MVP-5-sets",
+  "generatedAt": "2026-11-03T06:43:09.892Z",
+  "version": "MVP-7-sets",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
     {
@@ -3175,7 +3175,7 @@
           "element": "Cryo",
           "role": {
             "en": "Off-field DPS",
-            "es": "Off-field DPS"
+            "es": "DPS fuera de campo"
           },
           "usageType": "4pc BiS",
           "tier": "BiS",
@@ -3693,7 +3693,7 @@
           "element": "Anemo",
           "role": {
             "en": "Stellar Swirl DPS",
-            "es": "Torbellino lunar DPS"
+            "es": "DPS de Torbellino Estelar"
           },
           "usageType": "4pc BiS",
           "tier": "BiS",
@@ -3739,7 +3739,7 @@
           "element": "Anemo",
           "role": {
             "en": "Stellar Swirl DPS",
-            "es": "Torbellino lunar DPS"
+            "es": "DPS de Torbellino Estelar"
           },
           "usageType": "4pc Alternative",
           "tier": "Alternative",
@@ -3774,6 +3774,2707 @@
             "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/mizuki-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "disenchantment-in-deep-shadow",
+      "name": {
+        "en": "Disenchantment in Deep Shadow",
+        "es": "Desilusión Congelada en las Sombras"
+      },
+      "rarity": 5,
+      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/disenchantment-in-deep-shadow.8s6bRp7p_JhrHN.webp",
+      "imageUrl": "/images/artifacts/disenchantment-in-deep-shadow.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "ATK +18%.",
+          "es": "ATQ +18%."
+        },
+        "fourPiece": {
+          "en": "Increases Superconduct Reaction DMG by 80% and Stellar-Conduct Reaction DMG by 40%. When the wielder attacks opponents affected by Superconduct or Stellar-Conduct, this attack's CRIT Rate is increased by 16%.",
+          "es": "El daño infligido por la reacción de Superconductor aumenta en un 80%, y el de la reacción de Superconductor Estelar aumenta en un 40%. Cuando el portador de este conjunto de artefactos ataca a un enemigo afectado por Superconductor o Superconductor Estelar, la Prob. CRIT de dicho ataque aumenta en un 16%."
+        }
+      },
+      "summaryVerdict": {
+        "en": "Disenchantment in Deep Shadow is a 5★ set used by Cryo Traveler, Cyno, Sandrone, Wriothesley. Keep Sands with ATK%, Elemental Mastery, Goblets with ATK%, Elemental Mastery, Physical DMG Bonus and Circlets with CRIT Rate, CRIT DMG. Everything else is fodder unless it is a strong off-piece.",
+        "es": "Desilusión Congelada en las Sombras es un set de 5★ usado por Viajero Cryo, Cyno, Sandrone, Wriothesley. Conserva Arenas con ATQ%, Maestría Elemental, Cálices con ATQ%, Maestría Elemental, Bono de Daño Físico y Tiaras con Prob. CRIT, Daño CRIT. El resto es material de reciclaje salvo que sea una gran pieza externa."
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "cryo-traveler",
+              "cyno",
+              "freminet"
+            ],
+            "reasoning": {
+              "en": "Cryo Traveler, Cyno, Freminet can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Viajero Cryo, Cyno, Fréminet busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM",
+              "ER%"
+            ],
+            "usedBy": [
+              "sandrone",
+              "yae-miko"
+            ],
+            "reasoning": {
+              "en": "Sandrone, Yae Miko can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Sandrone, Yae Miko busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "wriothesley",
+              "odette"
+            ],
+            "reasoning": {
+              "en": "Wriothesley, Odette can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Wriothesley, Odette busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          }
+        ],
+        "discardRule": {
+          "en": "Flowers and plumes with no Energy Recharge, CRIT Rate, CRIT DMG, ATK%, Elemental Mastery and no useful upgrades can be safely recycled in the Relic Strongbox.",
+          "es": "Las Flores y Plumas sin Recarga de Energía, Prob. CRIT, Daño CRIT, ATQ%, Maestría Elemental ni mejoras útiles se pueden reciclar sin riesgo en el Relicario."
+        }
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Disenchantment in Deep Shadow user needs HP% on Sands. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "sandrone",
+                  "wriothesley",
+                  "yae-miko",
+                  "freminet",
+                  "odette"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "sandrone",
+                  "wriothesley",
+                  "yae-miko",
+                  "freminet",
+                  "odette"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "sandrone",
+                  "wriothesley",
+                  "yae-miko",
+                  "freminet",
+                  "odette"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "sandrone",
+                  "yae-miko",
+                  "freminet"
+                ]
+              }
+            ],
+            "usedBy": [
+              "cryo-traveler",
+              "cyno",
+              "sandrone",
+              "wriothesley",
+              "yae-miko",
+              "freminet",
+              "odette"
+            ],
+            "reasoning": {
+              "en": "Cryo Traveler, Cyno, Sandrone, Wriothesley, Yae Miko, Freminet, Odette can use ATK% on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Elemental Mastery > Energy Recharge.",
+              "es": "Viajero Cryo, Cyno, Sandrone, Wriothesley, Yae Miko, Fréminet, Odette puede(n) usar ATQ% en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Maestría Elemental > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Disenchantment in Deep Shadow user needs DEF% on Sands. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Disenchantment in Deep Shadow user needs Energy Recharge on Sands. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Recarga de Energía en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "yae-miko"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "yae-miko"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "yae-miko"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "yae-miko"
+                ]
+              }
+            ],
+            "usedBy": [
+              "yae-miko"
+            ],
+            "reasoning": {
+              "en": "Yae Miko can use Elemental Mastery on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > ATK% > Energy Recharge.",
+              "es": "Yae Miko puede(n) usar Maestría Elemental en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > ATQ% > Recarga de Energía."
+            }
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Disenchantment in Deep Shadow user needs HP% on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "sandrone",
+                  "wriothesley",
+                  "yae-miko",
+                  "odette"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "sandrone",
+                  "wriothesley",
+                  "yae-miko",
+                  "odette"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "sandrone",
+                  "wriothesley",
+                  "yae-miko",
+                  "odette"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "sandrone",
+                  "yae-miko"
+                ]
+              }
+            ],
+            "usedBy": [
+              "cryo-traveler",
+              "cyno",
+              "sandrone",
+              "wriothesley",
+              "yae-miko",
+              "odette"
+            ],
+            "reasoning": {
+              "en": "Cryo Traveler, Cyno, Sandrone, Wriothesley, Yae Miko, Odette can use ATK% on Goblet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Elemental Mastery > Energy Recharge.",
+              "es": "Viajero Cryo, Cyno, Sandrone, Wriothesley, Yae Miko, Odette puede(n) usar ATQ% en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Maestría Elemental > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Disenchantment in Deep Shadow user needs DEF% on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "yae-miko"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "yae-miko"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "yae-miko"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "yae-miko"
+                ]
+              }
+            ],
+            "usedBy": [
+              "yae-miko"
+            ],
+            "reasoning": {
+              "en": "Yae Miko can use Elemental Mastery on Goblet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > ATK% > Energy Recharge.",
+              "es": "Yae Miko puede(n) usar Maestría Elemental en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > ATQ% > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Disenchantment in Deep Shadow user needs Pyro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Pyro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Disenchantment in Deep Shadow user needs Hydro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Hydro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Disenchantment in Deep Shadow user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Disenchantment in Deep Shadow user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Disenchantment in Deep Shadow user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Disenchantment in Deep Shadow user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Disenchantment in Deep Shadow user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "freminet"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "freminet"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "freminet"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "freminet"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "freminet"
+                ]
+              }
+            ],
+            "usedBy": [
+              "freminet"
+            ],
+            "reasoning": {
+              "en": "Freminet can use Physical DMG Bonus on Goblet in niche builds. Keep only if it rolls Energy Recharge > CRIT Rate > CRIT DMG > ATK% > Elemental Mastery.",
+              "es": "Fréminet puede(n) usar Bono de Daño Físico en Cáliz en builds de nicho. Consérvala solo si sube Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ% > Maestría Elemental."
+            }
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Disenchantment in Deep Shadow user needs HP% on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Disenchantment in Deep Shadow user needs ATK% on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Disenchantment in Deep Shadow user needs DEF% on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Disenchantment in Deep Shadow user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "sandrone",
+                  "wriothesley",
+                  "yae-miko",
+                  "freminet",
+                  "odette"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "sandrone",
+                  "wriothesley",
+                  "yae-miko",
+                  "freminet",
+                  "odette"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "sandrone",
+                  "wriothesley",
+                  "yae-miko",
+                  "freminet",
+                  "odette"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "sandrone",
+                  "yae-miko",
+                  "freminet"
+                ]
+              }
+            ],
+            "usedBy": [
+              "cryo-traveler",
+              "cyno",
+              "sandrone",
+              "wriothesley",
+              "yae-miko",
+              "freminet",
+              "odette"
+            ],
+            "reasoning": {
+              "en": "Cryo Traveler, Cyno, Sandrone, Wriothesley, Yae Miko, Freminet, Odette can use CRIT Rate on Circlet for this set. Useful substats for this piece: CRIT DMG > ATK% > Elemental Mastery > Energy Recharge.",
+              "es": "Viajero Cryo, Cyno, Sandrone, Wriothesley, Yae Miko, Fréminet, Odette puede(n) usar Prob. CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Daño CRIT > ATQ% > Maestría Elemental > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "sandrone",
+                  "wriothesley",
+                  "yae-miko",
+                  "freminet",
+                  "odette"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "sandrone",
+                  "wriothesley",
+                  "yae-miko",
+                  "freminet",
+                  "odette"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "sandrone",
+                  "wriothesley",
+                  "yae-miko",
+                  "freminet",
+                  "odette"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "sandrone",
+                  "yae-miko",
+                  "freminet"
+                ]
+              }
+            ],
+            "usedBy": [
+              "cryo-traveler",
+              "cyno",
+              "sandrone",
+              "wriothesley",
+              "yae-miko",
+              "freminet",
+              "odette"
+            ],
+            "reasoning": {
+              "en": "Cryo Traveler, Cyno, Sandrone, Wriothesley, Yae Miko, Freminet, Odette can use CRIT DMG on Circlet for this set. Useful substats for this piece: CRIT Rate > ATK% > Elemental Mastery > Energy Recharge.",
+              "es": "Viajero Cryo, Cyno, Sandrone, Wriothesley, Yae Miko, Fréminet, Odette puede(n) usar Daño CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > ATQ% > Maestría Elemental > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Disenchantment in Deep Shadow user needs Healing Bonus on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "cryo-traveler",
+          "name": {
+            "en": "Cryo Traveler",
+            "es": "Viajero Cryo"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.CV3q5vDk_ZbQj39.webp",
+          "element": "Cryo",
+          "role": {
+            "en": "Stellar Glimmer DPS",
+            "es": "DPS de Destello Estelar"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "Traveler is a DPS character that sets up to deal large amounts of Stellar-Conduct and/or Stellar Swirl damage through their enhanced Charged Attack and Burst. The majority of Traveler's damage comes from their Burst. Because of the Burst's stacking mechanic, make sure you fill up the snowflake icon from their Skill before using their Burst.",
+            "es": "Viajero is a DPS character that sets up to deal large amounts of Superconductor estelar and/or Torbellino lunar damage through their enhanced Ataque Cargado and Habilidad definitiva. The majority of Viajero's damage comes from their Habilidad definitiva. Because of the Habilidad definitiva's stacking mechanic, make sure you fill up the snowflake icon from their Habilidad Elemental before using their Habilidad definitiva."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.0",
+            "resolutionReason": "Fallback to GB: no KQM guide",
+            "genshinBuildsUpdated": "7.0"
+          }
+        },
+        {
+          "characterId": "cyno",
+          "name": {
+            "en": "Cyno",
+            "es": "Cyno"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.DwVhXQvg_2pzXt.webp",
+          "element": "Electro",
+          "role": {
+            "en": "Stellar-Conduct DPS",
+            "es": "DPS de Superconductor Estelar"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "In-depth guide from Cyno Mains Cyno is a DPS character that uses his Burst to change stance and deal Electro damage. The vast majority of his damage in Stellar-Conduct teams is from his Duststalker Bolts, so it is very important to time his Skill uses.",
+            "es": "In-depth guide from Cyno Mains Cyno is a DPS character that uses his Habilidad definitiva to change stance and deal Electro damage. The vast majority of his damage in Superconductor estelar teams is from his Duststalker Bolts, so it is very important to time his Habilidad Elemental uses."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "4.2",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/cyno-quickguide/"
+          }
+        },
+        {
+          "characterId": "sandrone",
+          "name": {
+            "en": "Sandrone",
+            "es": "Sandrone"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.BEno4R3Y_ZWL54r.webp",
+          "element": "Cryo",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "notes": {
+            "en": "Sandrone is used with Electro and Cryo characters to activate her Radiance: Stellar-Conduct state and deal massively increased damage. Sandrone is a character who uses her Charged Attack to deal damage while refreshing its uptime with her Skill. She often uses her Burst for the extra damage it provides. Without consistent Cryo Resonance active, weapons with CRIT Rate will perform slightly better than listed.",
+            "es": "Sandrone is used with Electro and Cryo characters to activate her Radiance: Superconductor estelar state and deal massively increased damage. Sandrone is a character who uses her Ataque Cargado to deal damage while refreshing its uptime with her Habilidad Elemental. She often uses her Habilidad definitiva for the extra damage it provides. Without consistent Cryo Resonance active, weapons with Prob. CRIT will perform slightly better than listed."
+          },
+          "sourceValidation": {
+            "primarySource": "Both (Consensus)",
+            "gbVersion": "7.1",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Versions match (7.1 = 7.1) and KQM recommends set",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/sandrone-quickguide/"
+          }
+        },
+        {
+          "characterId": "wriothesley",
+          "name": {
+            "en": "Wriothesley",
+            "es": "Wriothesley"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.BgQHgWBO_Z1jC6dj.webp",
+          "element": "Cryo",
+          "role": {
+            "en": "Stellar-Conduct DPS",
+            "es": "DPS de Superconductor Estelar"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "notes": {
+            "en": "Wriothesley as a Stellar-Conduct DPS uses his enhanced Normal Attack and Charged Attack to deal Stellar-Conduct DMG. In this role, he is played with a character that can enable the Stellar Glimmer reactions (i.e. Odette, Cryo Traveler) so he can fully take advantage of his Witch's Revelation Passive. As he only gets his enhanced Charged Attack when he is under 60% HP, it is strongly discouraged to play Wriothesley with a healer.",
+            "es": "Wriothesley as a Superconductor estelar DPS uses his enhanced Ataque Normal and Ataque Cargado to deal Superconductor estelar DMG. In this role, he is played with a character that can enable the Destello Estelar reactions (i.e. Odette, Cryo Viajero) so he can fully take advantage of his Witch's Revelation Passive. As he only gets his enhanced Ataque Cargado when he is under 60% HP, it is strongly discouraged to play Wriothesley with a healer."
+          },
+          "sourceValidation": {
+            "primarySource": "Both (Consensus)",
+            "gbVersion": "7.0",
+            "kqmVersion": "7.0",
+            "resolutionReason": "Versions match (7.0 = 7.0) and KQM recommends set",
+            "genshinBuildsUpdated": "7.0",
+            "kqmUrl": "https://keqingmains.com/q/wriothesley-quickguide/"
+          }
+        },
+        {
+          "characterId": "yae-miko",
+          "name": {
+            "en": "Yae Miko",
+            "es": "Yae Miko"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.S6wyVrV7_Z1FJVVa.webp",
+          "element": "Electro",
+          "role": {
+            "en": "Stellar-Conduct Off-Field DPS",
+            "es": "DPS fuera de campo de Superconductor Estelar"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "ATK%",
+              "EM"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "notes": {
+            "en": "Take note that none of Yae Miko's abilities snapshot. Elemental Mastery weapons become more valuable when the team has fewer Stellar Glimmer DMG / Elemental Mastery buffs. Thus, if Yae Miko is [C1] or [C2], weapons that provide Stellar Glimmer DMG / Elemental Mastery buffs perform worse when compared to [C0].",
+            "es": "Take note that none of Yae Miko's abilities snapshot. Maestría Elemental weapons become more valuable when the team has fewer Destello Estelar DMG / Maestría Elemental buffs. Thus, if Yae Miko is [C1] or [C2], weapons that provide Destello Estelar DMG / Maestría Elemental buffs perform worse when compared to [C0]."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "7.0",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 7.0)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/yae-quickguide/"
+          }
+        },
+        {
+          "characterId": "freminet",
+          "name": {
+            "en": "Freminet",
+            "es": "Fréminet"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.CbeGWd_S_Z1EqGe0.webp",
+          "element": "Cryo",
+          "role": {
+            "en": "Physical DPS",
+            "es": "DPS Físico"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Physical DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "Physical DPS Freminet stacks his Pers Timer to max using Normal Attacks and unleashes a powerful Physical Shattering Pressure. Rankings assume he is in a team that can reliably trigger Shatter and Superconduct. Rotation: E Q N2 E E N2 E 2[N1 E N2 (E or NA)]",
+            "es": "Physical DPS Fréminet stacks his Pers Timer to max using Ataque Normals and unleashes a powerful Physical Shattering Pressure. Rankings assume he is in a team that can reliably trigger Shatter and Superconductor. Rotation: E Q N2 E E N2 E 2[N1 E N2 (E or NA)]"
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "6.2",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/freminet-quickguide/"
+          }
+        },
+        {
+          "characterId": "odette",
+          "name": {
+            "en": "Odette",
+            "es": "Odette"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.CaCWemOS_Z1kjML8.webp",
+          "element": "Cryo",
+          "role": {
+            "en": "Off-field DPS",
+            "es": "DPS fuera de campo"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "notes": {
+            "en": "Odette is an off-field damage support in Stellar Glimmer teams. E E activates her Solo Dance Double, which continues attacking off-field, dealing continuous Cryo and Stellar Glimmer DMG every 2s. It is generally recommended to skip her Burst entirely due to rotation length cost.",
+            "es": "Odette is an off-field damage support in Destello Estelar teams. E E activates her Solo Dance Double, which continues attacking off-field, dealing continuous Cryo and Destello Estelar DMG every 2s. It is generally recommended to skip her Habilidad definitiva entirely due to rotation length cost."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "7.0",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 7.0)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/odette-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a-day-carved-from-rising-winds",
+      "name": {
+        "en": "A Day Carved From Rising Winds",
+        "es": "Día de los Vientos Alzantes"
+      },
+      "rarity": 5,
+      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/a-day-carved-from-rising-winds.JHEkslPi_1QNN6n.webp",
+      "imageUrl": "/images/artifacts/a-day-carved-from-rising-winds.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "ATK +18%.",
+          "es": "ATQ +18%."
+        },
+        "fourPiece": {
+          "en": "After a Normal Attack, Charged Attack, Elemental Skill, or Elemental Burst hits an opponent, gain the Blessing of Pastoral Winds effect for 6s: ATK is increased by 25%. If the equipping character has completed Witch's Homework, Blessing of Pastoral Winds will be upgraded to Resolve of Pastoral Winds, which additionally increases the CRIT Rate of the equipping character by 20%. This effect can be triggered even when the character is off-field.",
+          "es": "Tras golpear a un enemigo con un Ataque Normal o Cargado o con la Habilidad Elemental o Definitiva, se obtiene el efecto de “bendición del viento y la poesía” durante 6 s, el cual aumenta el ATQ en un 25%. Si el portador de este conjunto ya ha completado la misión de «Lecciones del Aquelarre», dicho efecto mejorará y se convertirá en “determinación del viento y la poesía”, el cual aumenta adicionalmente en un 20% la Prob. CRIT del portador que haya superado dicha prueba. Este efecto se puede activar incluso cuando el portador está en tu equipo pero no en uso."
+        }
+      },
+      "summaryVerdict": {
+        "en": "A Day Carved From Rising Winds is a 5★ set used by Durin, Klee, Lohen, Razor. Keep Sands with ATK%, Elemental Mastery, Energy Recharge, Goblets with Pyro DMG Bonus, ATK%, Cryo DMG Bonus, Electro DMG Bonus and Circlets with CRIT Rate, CRIT DMG. Everything else is fodder unless it is a strong off-piece.",
+        "es": "Día de los Vientos Alzantes es un set de 5★ usado por Durin, Klee, Lohen, Razor. Conserva Arenas con ATQ%, Maestría Elemental, Recarga de Energía, Cálices con Bono de Daño Pyro, ATQ%, Bono de Daño Cryo, Bono de Daño Electro y Tiaras con Prob. CRIT, Daño CRIT. El resto es material de reciclaje salvo que sea una gran pieza externa."
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "durin",
+              "beidou",
+              "cryo-traveler",
+              "cyno",
+              "fischl",
+              "freminet"
+            ],
+            "reasoning": {
+              "en": "Durin, Beidou, Cryo Traveler, Cyno, Fischl, Freminet can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Durin, Beidou, Viajero Cryo, Cyno, Fischl, Fréminet busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%"
+            ],
+            "usedBy": [
+              "klee",
+              "razor"
+            ],
+            "reasoning": {
+              "en": "Klee, Razor can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% on this set's Flower and Plume.",
+              "es": "Klee, Razor busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "ER%"
+            ],
+            "usedBy": [
+              "lohen",
+              "geo-traveler"
+            ],
+            "reasoning": {
+              "en": "Lohen, Geo Traveler can use CRIT Rate + CRIT DMG + ATK% + Energy Recharge on this set's Flower and Plume.",
+              "es": "Lohen, Viajero Geo busca(n) Prob. CRIT + Daño CRIT + ATQ% + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%"
+            ],
+            "usedBy": [
+              "varka"
+            ],
+            "reasoning": {
+              "en": "Varka can use CRIT Rate + CRIT DMG + ATK% on this set's Flower and Plume.",
+              "es": "Varka busca(n) Prob. CRIT + Daño CRIT + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM",
+              "ER%"
+            ],
+            "usedBy": [
+              "venti",
+              "ineffa",
+              "tartaglia",
+              "vesna"
+            ],
+            "reasoning": {
+              "en": "Venti, Ineffa, Tartaglia, Vesna can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Venti, Ineffa, Tartaglia, Vesna busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          }
+        ],
+        "discardRule": {
+          "en": "Flowers and plumes with no Energy Recharge, CRIT Rate, CRIT DMG, ATK%, Elemental Mastery and no useful upgrades can be safely recycled in the Relic Strongbox.",
+          "es": "Las Flores y Plumas sin Recarga de Energía, Prob. CRIT, Daño CRIT, ATQ%, Maestría Elemental ni mejoras útiles se pueden reciclar sin riesgo en el Relicario."
+        }
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current A Day Carved From Rising Winds user needs HP% on Sands. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "durin",
+                  "klee",
+                  "lohen",
+                  "razor",
+                  "varka",
+                  "venti",
+                  "beidou",
+                  "cryo-traveler",
+                  "cyno",
+                  "fischl",
+                  "freminet",
+                  "geo-traveler",
+                  "ineffa",
+                  "tartaglia",
+                  "vesna"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "durin",
+                  "klee",
+                  "lohen",
+                  "razor",
+                  "varka",
+                  "venti",
+                  "beidou",
+                  "cryo-traveler",
+                  "cyno",
+                  "fischl",
+                  "freminet",
+                  "geo-traveler",
+                  "ineffa",
+                  "tartaglia",
+                  "vesna"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "durin",
+                  "klee",
+                  "lohen",
+                  "razor",
+                  "venti",
+                  "beidou",
+                  "cryo-traveler",
+                  "cyno",
+                  "fischl",
+                  "freminet",
+                  "geo-traveler",
+                  "ineffa",
+                  "tartaglia",
+                  "vesna"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "durin",
+                  "venti",
+                  "beidou",
+                  "cryo-traveler",
+                  "cyno",
+                  "fischl",
+                  "freminet",
+                  "ineffa",
+                  "tartaglia",
+                  "vesna"
+                ]
+              },
+              {
+                "name": "ATK",
+                "characters": [
+                  "durin",
+                  "lohen"
+                ]
+              }
+            ],
+            "usedBy": [
+              "durin",
+              "klee",
+              "lohen",
+              "razor",
+              "varka",
+              "venti",
+              "beidou",
+              "cryo-traveler",
+              "cyno",
+              "fischl",
+              "freminet",
+              "geo-traveler",
+              "ineffa",
+              "tartaglia",
+              "vesna"
+            ],
+            "reasoning": {
+              "en": "Durin, Klee, Lohen, Razor, Varka, Venti, Beidou, Cryo Traveler, Cyno, Fischl, Freminet, Geo Traveler, Ineffa, Tartaglia, Vesna can use ATK% on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Energy Recharge > Elemental Mastery > Flat ATK.",
+              "es": "Durin, Klee, Lohen, Razor, Varka, Venti, Beidou, Viajero Cryo, Cyno, Fischl, Fréminet, Viajero Geo, Ineffa, Tartaglia, Vesna puede(n) usar ATQ% en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Recarga de Energía > Maestría Elemental > ATQ plana."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current A Day Carved From Rising Winds user needs DEF% on Sands. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "razor",
+                  "beidou",
+                  "geo-traveler"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "razor",
+                  "beidou",
+                  "geo-traveler"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "razor",
+                  "beidou",
+                  "geo-traveler"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "beidou"
+                ]
+              }
+            ],
+            "usedBy": [
+              "razor",
+              "beidou",
+              "geo-traveler"
+            ],
+            "reasoning": {
+              "en": "Razor, Beidou, Geo Traveler can use Energy Recharge on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > ATK% > Elemental Mastery.",
+              "es": "Razor, Beidou, Viajero Geo puede(n) usar Recarga de Energía en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > ATQ% > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "durin",
+                  "fischl"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "durin",
+                  "fischl"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "durin",
+                  "fischl"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "durin",
+                  "fischl"
+                ]
+              },
+              {
+                "name": "ATK",
+                "characters": [
+                  "durin"
+                ]
+              }
+            ],
+            "usedBy": [
+              "durin",
+              "fischl"
+            ],
+            "reasoning": {
+              "en": "Durin, Fischl can use Elemental Mastery on Sands for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > ATK% > Flat ATK.",
+              "es": "Durin, Fischl puede(n) usar Maestría Elemental en Arenas para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ% > ATQ plana."
+            }
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current A Day Carved From Rising Winds user needs HP% on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "durin",
+                  "varka",
+                  "cryo-traveler",
+                  "cyno",
+                  "ineffa",
+                  "vesna"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "durin",
+                  "varka",
+                  "cryo-traveler",
+                  "cyno",
+                  "ineffa",
+                  "vesna"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "durin",
+                  "cryo-traveler",
+                  "cyno",
+                  "ineffa",
+                  "vesna"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "durin",
+                  "cryo-traveler",
+                  "cyno",
+                  "ineffa",
+                  "vesna"
+                ]
+              },
+              {
+                "name": "ATK",
+                "characters": [
+                  "durin"
+                ]
+              }
+            ],
+            "usedBy": [
+              "durin",
+              "varka",
+              "cryo-traveler",
+              "cyno",
+              "ineffa",
+              "vesna"
+            ],
+            "reasoning": {
+              "en": "Durin, Varka, Cryo Traveler, Cyno, Ineffa, Vesna can use ATK% on Goblet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Energy Recharge > Elemental Mastery > Flat ATK.",
+              "es": "Durin, Varka, Viajero Cryo, Cyno, Ineffa, Vesna puede(n) usar ATQ% en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Recarga de Energía > Maestría Elemental > ATQ plana."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current A Day Carved From Rising Winds user needs DEF% on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current A Day Carved From Rising Winds user needs Elemental Mastery on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Maestría Elemental en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "durin",
+                  "klee"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "durin",
+                  "klee"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "durin",
+                  "klee"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "durin",
+                  "klee"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "durin"
+                ]
+              },
+              {
+                "name": "ATK",
+                "characters": [
+                  "durin"
+                ]
+              }
+            ],
+            "usedBy": [
+              "durin",
+              "klee"
+            ],
+            "reasoning": {
+              "en": "Durin, Klee can use Pyro DMG Bonus on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > ATK% > Elemental Mastery > Flat ATK.",
+              "es": "Durin, Klee puede(n) usar Bono de Daño Pyro en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ% > Maestría Elemental > ATQ plana."
+            }
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "tartaglia"
+                ]
+              }
+            ],
+            "usedBy": [
+              "tartaglia"
+            ],
+            "reasoning": {
+              "en": "Tartaglia can use Hydro DMG Bonus on Goblet in niche builds. Keep only if it rolls CRIT Rate > CRIT DMG > ATK% > Elemental Mastery > Energy Recharge.",
+              "es": "Tartaglia puede(n) usar Bono de Daño Hydro en Cáliz en builds de nicho. Consérvala solo si sube Prob. CRIT > Daño CRIT > ATQ% > Maestría Elemental > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "lohen",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "lohen",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "lohen",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "lohen",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "ATK",
+                "characters": [
+                  "lohen"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "freminet"
+                ]
+              }
+            ],
+            "usedBy": [
+              "lohen",
+              "freminet"
+            ],
+            "reasoning": {
+              "en": "Lohen, Freminet can use Cryo DMG Bonus on Goblet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > ATK% > Energy Recharge > Flat ATK > Elemental Mastery.",
+              "es": "Lohen, Fréminet puede(n) usar Bono de Daño Cryo en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > ATQ% > Recarga de Energía > ATQ plana > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "razor",
+                  "beidou",
+                  "fischl"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "razor",
+                  "beidou",
+                  "fischl"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "razor",
+                  "beidou",
+                  "fischl"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "razor",
+                  "beidou",
+                  "fischl"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "beidou",
+                  "fischl"
+                ]
+              }
+            ],
+            "usedBy": [
+              "razor",
+              "beidou",
+              "fischl"
+            ],
+            "reasoning": {
+              "en": "Razor, Beidou, Fischl can use Electro DMG Bonus on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > ATK% > Elemental Mastery.",
+              "es": "Razor, Beidou, Fischl puede(n) usar Bono de Daño Electro en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ% > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "venti"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "venti"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "venti"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "venti"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "venti"
+                ]
+              }
+            ],
+            "usedBy": [
+              "venti"
+            ],
+            "reasoning": {
+              "en": "Venti can use Anemo DMG Bonus on Goblet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > ATK% > Elemental Mastery > Energy Recharge.",
+              "es": "Venti puede(n) usar Bono de Daño Anemo en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > ATQ% > Maestría Elemental > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "geo-traveler"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "geo-traveler"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "geo-traveler"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "geo-traveler"
+                ]
+              }
+            ],
+            "usedBy": [
+              "geo-traveler"
+            ],
+            "reasoning": {
+              "en": "Geo Traveler can use Geo DMG Bonus on Goblet in niche builds. Keep only if it rolls CRIT Rate > CRIT DMG > ATK% > Energy Recharge.",
+              "es": "Viajero Geo puede(n) usar Bono de Daño Geo en Cáliz en builds de nicho. Consérvala solo si sube Prob. CRIT > Daño CRIT > ATQ% > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current A Day Carved From Rising Winds user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current A Day Carved From Rising Winds user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current A Day Carved From Rising Winds user needs HP% on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current A Day Carved From Rising Winds user needs ATK% on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current A Day Carved From Rising Winds user needs DEF% on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current A Day Carved From Rising Winds user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "durin",
+                  "klee",
+                  "lohen",
+                  "razor",
+                  "varka",
+                  "venti",
+                  "beidou",
+                  "cryo-traveler",
+                  "cyno",
+                  "fischl",
+                  "freminet",
+                  "geo-traveler",
+                  "ineffa",
+                  "tartaglia",
+                  "vesna"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "durin",
+                  "klee",
+                  "lohen",
+                  "razor",
+                  "varka",
+                  "venti",
+                  "beidou",
+                  "cryo-traveler",
+                  "cyno",
+                  "fischl",
+                  "freminet",
+                  "geo-traveler",
+                  "ineffa",
+                  "tartaglia",
+                  "vesna"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "durin",
+                  "klee",
+                  "lohen",
+                  "razor",
+                  "venti",
+                  "beidou",
+                  "cryo-traveler",
+                  "cyno",
+                  "fischl",
+                  "freminet",
+                  "geo-traveler",
+                  "ineffa",
+                  "tartaglia",
+                  "vesna"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "durin",
+                  "venti",
+                  "beidou",
+                  "cryo-traveler",
+                  "cyno",
+                  "fischl",
+                  "freminet",
+                  "ineffa",
+                  "tartaglia",
+                  "vesna"
+                ]
+              },
+              {
+                "name": "ATK",
+                "characters": [
+                  "durin",
+                  "lohen"
+                ]
+              }
+            ],
+            "usedBy": [
+              "durin",
+              "klee",
+              "lohen",
+              "razor",
+              "varka",
+              "venti",
+              "beidou",
+              "cryo-traveler",
+              "cyno",
+              "fischl",
+              "freminet",
+              "geo-traveler",
+              "ineffa",
+              "tartaglia",
+              "vesna"
+            ],
+            "reasoning": {
+              "en": "Durin, Klee, Lohen, Razor, Varka, Venti, Beidou, Cryo Traveler, Cyno, Fischl, Freminet, Geo Traveler, Ineffa, Tartaglia, Vesna can use CRIT Rate on Circlet for this set. Useful substats for this piece: CRIT DMG > ATK% > Energy Recharge > Elemental Mastery > Flat ATK.",
+              "es": "Durin, Klee, Lohen, Razor, Varka, Venti, Beidou, Viajero Cryo, Cyno, Fischl, Fréminet, Viajero Geo, Ineffa, Tartaglia, Vesna puede(n) usar Prob. CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Daño CRIT > ATQ% > Recarga de Energía > Maestría Elemental > ATQ plana."
+            }
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "durin",
+                  "klee",
+                  "lohen",
+                  "razor",
+                  "varka",
+                  "venti",
+                  "beidou",
+                  "cryo-traveler",
+                  "cyno",
+                  "fischl",
+                  "freminet",
+                  "geo-traveler",
+                  "ineffa",
+                  "tartaglia",
+                  "vesna"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "durin",
+                  "klee",
+                  "lohen",
+                  "razor",
+                  "varka",
+                  "venti",
+                  "beidou",
+                  "cryo-traveler",
+                  "cyno",
+                  "fischl",
+                  "freminet",
+                  "geo-traveler",
+                  "ineffa",
+                  "tartaglia",
+                  "vesna"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "durin",
+                  "klee",
+                  "lohen",
+                  "razor",
+                  "venti",
+                  "beidou",
+                  "cryo-traveler",
+                  "cyno",
+                  "fischl",
+                  "freminet",
+                  "geo-traveler",
+                  "ineffa",
+                  "tartaglia",
+                  "vesna"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "durin",
+                  "venti",
+                  "beidou",
+                  "cryo-traveler",
+                  "cyno",
+                  "fischl",
+                  "freminet",
+                  "ineffa",
+                  "tartaglia",
+                  "vesna"
+                ]
+              },
+              {
+                "name": "ATK",
+                "characters": [
+                  "durin",
+                  "lohen"
+                ]
+              }
+            ],
+            "usedBy": [
+              "durin",
+              "klee",
+              "lohen",
+              "razor",
+              "varka",
+              "venti",
+              "beidou",
+              "cryo-traveler",
+              "cyno",
+              "fischl",
+              "freminet",
+              "geo-traveler",
+              "ineffa",
+              "tartaglia",
+              "vesna"
+            ],
+            "reasoning": {
+              "en": "Durin, Klee, Lohen, Razor, Varka, Venti, Beidou, Cryo Traveler, Cyno, Fischl, Freminet, Geo Traveler, Ineffa, Tartaglia, Vesna can use CRIT DMG on Circlet for this set. Useful substats for this piece: CRIT Rate > ATK% > Energy Recharge > Elemental Mastery > Flat ATK.",
+              "es": "Durin, Klee, Lohen, Razor, Varka, Venti, Beidou, Viajero Cryo, Cyno, Fischl, Fréminet, Viajero Geo, Ineffa, Tartaglia, Vesna puede(n) usar Daño CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > ATQ% > Recarga de Energía > Maestría Elemental > ATQ plana."
+            }
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current A Day Carved From Rising Winds user needs Healing Bonus on Circlet. Recycle it unless the substats make it a premium off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+            }
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "durin",
+          "name": {
+            "en": "Durin",
+            "es": "Durin"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.CXkwmFJ8_Z1pnO8e.webp",
+          "element": "Pyro",
+          "role": {
+            "en": "Buff Support & Off-Field DPS",
+            "es": "Soporte de buffs y DPS fuera de campo"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Pyro DMG%",
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ATK"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "This playstyle uses Durin's Purity form to decrease the Elemental Resistance of Pyro, Dendro, Electro, Anemo and Geo when reactions with those elements and Pyro occur. Purity form is Durin's default Burst, it can be swapped to (if in Denial form) via an E E Q rotation. 4pc Rising Winds is Durin’s best-in-slot artifact set to maximize his personal damage. Its ATK% and CRIT Rate stats are greatly appreciated.This set works in practically all teams, even with Durin in a support role. The only prerequisite is that Durin completes his Witch’s Homework. Definitely farm this set for Durin in a DPS role.",
+            "es": "This playstyle uses Durin's Purity form to decrease the Elemental Resistance of Pyro, Dendro, Electro, Anemo and Geo when reactions with those elements and Pyro occur. Purity form is Durin's default Habilidad definitiva, it can be swapped to (if in Denial form) via an E E Q rotation."
+          },
+          "sourceValidation": {
+            "primarySource": "KQM",
+            "gbVersion": "6.7",
+            "kqmVersion": "7.1",
+            "resolutionReason": "KQM newer (7.1 > 6.7) and recommends set",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/durin-quickguide/"
+          }
+        },
+        {
+          "characterId": "klee",
+          "name": {
+            "en": "Klee",
+            "es": "Klee"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.CyoneoI2_1mrhaW.webp",
+          "element": "Pyro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Pyro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "Being extremely squishy and prone to interruptions, Klee requires good positioning or a shielder. This is partially mitigated in her best teams, which currently focus on Overload with Chevreuse and provide strong stagger, helping Klee avoid getting hit. Even with this consideration, her best teams nomally don't include a shielder, she can often get knocked around and even KO'd in the midst of your rotations.",
+            "es": "Being extremely squishy and prone to interruptions, Klee requires good positioning or a shielder. This is partially mitigated in her best teams, which currently focus on Sobrecarga with Chevreuse and provide strong stagger, helping Klee avoid getting hit. Even with this consideration, her best teams nomally don't include a shielder, she can often get knocked around and even KO'd in the midst of your rotations."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.5",
+            "kqmVersion": "6.3",
+            "resolutionReason": "Genshin-Builds newer (6.5 > 6.3)",
+            "genshinBuildsUpdated": "6.5 / Luna VI",
+            "kqmUrl": "https://keqingmains.com/q/klee-quickguide/"
+          }
+        },
+        {
+          "characterId": "lohen",
+          "name": {
+            "en": "Lohen",
+            "es": "Lohen"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.CpYymuvs_1jCbcs.webp",
+          "element": "Cryo",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Cryo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "ATK",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "notes": {
+            "en": "Lohen is a Cryo DPS who deals the majority of his damage through Normal Attacks and Charged Attacks, but weaves Skill and Burst damage throughout. Lohen's damage is further increased when Off-Field DPS units deal large amounts of damage. General Combo: N1 > CA > N1 > CA > E > N1 > CA > N1 > CA > repeat x3",
+            "es": "Lohen is a Cryo DPS who deals the majority of his damage through Ataque Normals and Ataque Cargados, but weaves Habilidad Elemental and Habilidad definitiva damage throughout. Lohen's damage is further increased when Off-Field DPS units deal large amounts of damage. General Combo: N1 > CA > N1 > CA > E > N1 > CA > N1 > CA > repeat x3"
+          },
+          "sourceValidation": {
+            "primarySource": "Both (Consensus)",
+            "gbVersion": "7.1",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Versions match (7.1 = 7.1) and KQM recommends set",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/lohen-quickguide/"
+          }
+        },
+        {
+          "characterId": "razor",
+          "name": {
+            "en": "Razor",
+            "es": "Razor"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.DsrvAo59_Z2nosSN.webp",
+          "element": "Electro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "DPS Razor focuses on using his Burst and Skill to deal high Electro damage while having non-negligable Normal Attack damage from his Claymore attacks. He is not incredibly reliant on other Hexerei characters, but it does help his Energy Recharge requirements and slightly increases his damage. Razor's DPS is significanly less potent before [C6], and his Energy Recharge requirements are notably higher. Razor tends to prefer his Tap Skill over his Hold Skill for its cooldown advantage.",
+            "es": "DPS Razor focuses on using his Habilidad definitiva and Habilidad Elemental to deal high Electro damage while having non-negligable Ataque Normal damage from his Claymore attacks. He is not incredibly reliant on other Hexerei characters, but it does help his Recarga de Energía requirements and slightly increases his damage. Razor's DPS is significanly less potent before [C6], and his Recarga de Energía requirements are notably higher. Razor tends to prefer his Tap Habilidad Elemental over his Hold Habilidad Elemental for its cooldown advantage."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "4.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/razor-quickguide/"
+          }
+        },
+        {
+          "characterId": "varka",
+          "name": {
+            "en": "Varka",
+            "es": "Varka"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.BRrAv31k_1mn8D4.webp",
+          "element": "Anemo",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "notes": {
+            "en": "Varka is a dual element wielding DPS who adapts his weapon based on your team. Varka always wants a second Hex character, a second Anemo character and two characters of the same PHEC type (Pyro/Hydro/Electro/Cryo) on the team. Not fulfilling these conditions will make his damage plummet.",
+            "es": "Varka is a dual element wielding DPS who adapts his weapon based on your team. Varka always wants a second Hex character, a second Anemo character and two characters of the same PHEC type (Pyro/Hydro/Electro/Cryo) on the team. Not fulfilling these conditions will make his damage plummet."
+          },
+          "sourceValidation": {
+            "primarySource": "Both (Consensus)",
+            "gbVersion": "7.1",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Versions match (7.1 = 7.1) and KQM recommends set",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/varka-quickguide/"
+          }
+        },
+        {
+          "characterId": "venti",
+          "name": {
+            "en": "Venti",
+            "es": "Venti"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.BqDHB9lN_Zh0Ko6.webp",
+          "element": "Anemo",
+          "role": {
+            "en": "On-Field DPS",
+            "es": "DPS en campo"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Anemo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "notes": {
+            "en": "Venti, when paired with another Hexerei character, can be used as a strong, Normal-attacking, On-Field DPS who has large amounts of damage from multiple sources.",
+            "es": "Venti, when paired with another Hexerei character, can be used as a strong, Normal-attacking, On-Field DPS who has large amounts of damage from multiple sources."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.4",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.4)",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/venti-quickguide/"
+          }
+        },
+        {
+          "characterId": "beidou",
+          "name": {
+            "en": "Beidou",
+            "es": "Beidou"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.CLLqttnp_24H5vy.webp",
+          "element": "Electro",
+          "role": {
+            "en": "High Energy Requirement (Off-Field DPS)",
+            "es": "Altos requisitos de energía (DPS fuera de campo)"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "Beidou combines off-field damage with defensive utility in form of interruption resistance, damage reduction and a small shield at [C1]. At [C6] she additionally reduces Electro RES of nearby targets.In Stellar Glimmer teams at [C6] she additionally reduces Cryo RES and buffs the active character's Elemental Mastery. Beidou's Burst hits require more than one enemy to bounce and can bounce onto the same target several times. Due to this, Beidou's damage is highest when facing 2 enemies.",
+            "es": "Beidou combines off-field damage with defensive utility in form of interruption resistance, damage reduction and a small shield at [C1]. At [C6] she additionally reduces Electro RES of nearby targets.In Destello Estelar teams at [C6] she additionally reduces Cryo RES and buffs the active character's Maestría Elemental. Beidou's Habilidad definitiva hits require more than one enemy to bounce and can bounce onto the same target several times. Due to this, Beidou's damage is highest when facing 2 enemies."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "5.8",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/beidou-quickguide/"
+          }
+        },
+        {
+          "characterId": "cryo-traveler",
+          "name": {
+            "en": "Cryo Traveler",
+            "es": "Viajero Cryo"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.CV3q5vDk_ZbQj39.webp",
+          "element": "Cryo",
+          "role": {
+            "en": "Stellar Glimmer DPS",
+            "es": "DPS de Destello Estelar"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "Traveler is a DPS character that sets up to deal large amounts of Stellar-Conduct and/or Stellar Swirl damage through their enhanced Charged Attack and Burst. The majority of Traveler's damage comes from their Burst. Because of the Burst's stacking mechanic, make sure you fill up the snowflake icon from their Skill before using their Burst.",
+            "es": "Viajero is a DPS character that sets up to deal large amounts of Superconductor estelar and/or Torbellino lunar damage through their enhanced Ataque Cargado and Habilidad definitiva. The majority of Viajero's damage comes from their Habilidad definitiva. Because of the Habilidad definitiva's stacking mechanic, make sure you fill up the snowflake icon from their Habilidad Elemental before using their Habilidad definitiva."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.0",
+            "resolutionReason": "Fallback to GB: no KQM guide",
+            "genshinBuildsUpdated": "7.0"
+          }
+        },
+        {
+          "characterId": "cyno",
+          "name": {
+            "en": "Cyno",
+            "es": "Cyno"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.DwVhXQvg_2pzXt.webp",
+          "element": "Electro",
+          "role": {
+            "en": "Stellar-Conduct DPS",
+            "es": "DPS de Superconductor Estelar"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "In-depth guide from Cyno Mains Cyno is a DPS character that uses his Burst to change stance and deal Electro damage. The vast majority of his damage in Stellar-Conduct teams is from his Duststalker Bolts, so it is very important to time his Skill uses.",
+            "es": "In-depth guide from Cyno Mains Cyno is a DPS character that uses his Habilidad definitiva to change stance and deal Electro damage. The vast majority of his damage in Superconductor estelar teams is from his Duststalker Bolts, so it is very important to time his Habilidad Elemental uses."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "4.2",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/cyno-quickguide/"
+          }
+        },
+        {
+          "characterId": "fischl",
+          "name": {
+            "en": "Fischl",
+            "es": "Fischl"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.n96Y_l1V_1pf0M6.webp",
+          "element": "Electro",
+          "role": {
+            "en": "Off-Field Aggravate DPS",
+            "es": "DPS fuera de campo de Intensificación"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "It is recommended to level up Fischl to level 90. Both Fischl's Skill and Burst summon Oz, therefore it is best to alternate between them to have high uptime.",
+            "es": "It is recommended to level up Fischl to level 90. Both Fischl's Habilidad Elemental and Habilidad definitiva summon Oz, therefore it is best to alternate between them to have high uptime."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.4",
+            "kqmVersion": "4.0",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.4 / Luna V",
+            "kqmUrl": "https://keqingmains.com/q/fischl-quickguide/"
+          }
+        },
+        {
+          "characterId": "freminet",
+          "name": {
+            "en": "Freminet",
+            "es": "Fréminet"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.CbeGWd_S_Z1EqGe0.webp",
+          "element": "Cryo",
+          "role": {
+            "en": "Cryo DPS",
+            "es": "DPS Cryo"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Cryo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "Cryo DPS Freminet uses Level Zero Shattering Pressure instances to deal Cryo damage with his Skill. Rankings assume he can reliably trigger Shatter. Rotation: E Q E 4[E E (N1 or N2)]",
+            "es": "Cryo DPS Fréminet uses Level Zero Shattering Pressure instances to deal Cryo damage with his Habilidad Elemental. Rankings assume he can reliably trigger Shatter. Rotation: E Q E 4[E E (N1 or N2)]"
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "6.2",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/freminet-quickguide/"
+          }
+        },
+        {
+          "characterId": "geo-traveler",
+          "name": {
+            "en": "Geo Traveler",
+            "es": "Viajero Geo"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.CV3q5vDk_ZbQj39.webp",
+          "element": "Geo",
+          "role": {
+            "en": "Geo Quickswap DPS & Support",
+            "es": "DPS y soporte de cambio rápido Geo"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%"
+            ],
+            "goblet": [
+              "Geo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "notes": {
+            "en": "The Geo Traveler is ideally played as a quick swap DPS, swapping them in for short amounts of time to drop their Skill or Burst. While dealing decent damage of their own, the Geo Traveler is also a great battery for Geo units.",
+            "es": "The Geo Viajero is ideally played as a quick swap DPS, swapping them in for short amounts of time to drop their Habilidad Elemental or Habilidad definitiva. While dealing decent damage of their own, the Geo Viajero is also a great battery for Geo units."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.0",
+            "resolutionReason": "Fallback to GB: no KQM guide",
+            "genshinBuildsUpdated": "7.0"
+          }
+        },
+        {
+          "characterId": "ineffa",
+          "name": {
+            "en": "Ineffa",
+            "es": "Ineffa"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.BqfsFqAW_20oq9P.webp",
+          "element": "Electro",
+          "role": {
+            "en": "Off-field DPS & Buff & Shield Support",
+            "es": "DPS fuera de campo y soporte de buffs y escudos"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "notes": {
+            "en": "Ineffa transforms all instances of the Electro-Charged reaction into Lunar-Charged while she's in the team, which has its own scalings and can even crit. Both her Skill and Burst deploy her robot companion, Birgitta, to the field, who can deal damage and apply Electro while off-field. Additionally, Ineffa's Skill can also provide a shield. Her Burst also provides an Elemental Mastery buff based on a portion of Ineffa's ATK (her A4 talent). Birgitta stays on-field longer than both of Ineffa's Skill and Burst individual cooldowns, meaning that Birgitta has 100% field uptime.",
+            "es": "Ineffa transforms all instances of the electrocargado lunar reaction into electrocargado lunar while she's in the team, which has its own scalings and can even crit. Both her Habilidad Elemental and Habilidad definitiva deploy her robot companion, Birgitta, to the field, who can deal damage and apply Electro while off-field. Additionally, Ineffa's Habilidad Elemental can also provide a shield. Her Habilidad definitiva also provides an Maestría Elemental buff based on a portion of Ineffa's ATK (her A4 talent). Birgitta stays on-field longer than both of Ineffa's Habilidad Elemental and Habilidad definitiva individual cooldowns, meaning that Birgitta has 100% field uptime."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.4",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/ineffa-quickguide/"
+          }
+        },
+        {
+          "characterId": "tartaglia",
+          "name": {
+            "en": "Tartaglia",
+            "es": "Tartaglia"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.ClyghYGR_1NHL37.webp",
+          "element": "Hydro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Hydro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "notes": {
+            "en": "Tartaglia is an On-Field DPS who uses Normal Attacks and Charged Attacks during his Skill-enhanced state to deal damage and apply Hydro. Tartaglia applies a very large amount of Hydro during his Skill duration, which makes it infeasible to Vaporize his Normal Attacks or Charged Attacks. Pairing him with off-field units who benefit from the high application (e.g., Xiangling or Durin) is recommended. Tartaglia’s Skill cooldown is based on how long you spend attacking with him while on-field. It’s important to know your team rotation to avoid cooldown misalignments.",
+            "es": "Tartaglia is an On-Field DPS who uses Ataque Normals and Ataque Cargados during his Habilidad Elemental-enhanced state to deal damage and apply Hydro. Tartaglia applies a very large amount of Hydro during his Habilidad Elemental duration, which makes it infeasible to Vaporización his Ataque Normals or Ataque Cargados. Pairing him with off-field units who benefit from the high application (e.g., Xiangling or Durin) is recommended. Tartaglia’s Habilidad Elemental cooldown is based on how long you spend attacking with him while on-field. It’s important to know your team rotation to avoid cooldown misalignments."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "4.0",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/tartaglia-quickguide/"
+          }
+        },
+        {
+          "characterId": "vesna",
+          "name": {
+            "en": "Vesna",
+            "es": "Vesna"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.BbXSSlLB_Z2jn62v.webp",
+          "element": "Anemo",
+          "role": {
+            "en": "Stellar Swirl DPS",
+            "es": "DPS de Torbellino Estelar"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "notes": {
+            "en": "Vesna is an On-Field DPS who focuses on using her Skill to inflict Stellar Swirl damage. While in her Skill-Enhanced state, she can use a Special Skill consisting of 3 stages, with each stage dealing more damage than the previous one. She can use this Special Skill up to 5 times at [C0], or up to 6 times at [C1]. Progressing through these stages requires Skill Charges, which can be obtained through the following methods:",
+            "es": "Vesna is an On-Field DPS who focuses on using her Habilidad Elemental to inflict Torbellino lunar damage. While in her Habilidad Elemental-Enhanced state, she can use a Special Habilidad Elemental consisting of 3 stages, with each stage dealing more damage than the previous one. She can use this Special Habilidad Elemental up to 5 times at [C0], or up to 6 times at [C1]. Progressing through these stages requires Habilidad Elemental Charges, which can be obtained through the following methods:"
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "resolutionReason": "Fallback to GB: no KQM guide",
+            "genshinBuildsUpdated": "7.1"
           }
         }
       ]

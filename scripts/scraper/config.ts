@@ -45,6 +45,22 @@ export const TARGET_SETS: TargetSetConfig[] = [
     es: 'Testimonio Escarlata',
     aliases: ['Testimonio escarlata', 'Scarlet Proof'],
   },
+  {
+    id: 'disenchantment-in-deep-shadow',
+    en: 'Disenchantment in Deep Shadow',
+    es: 'Desilusión Congelada en las Sombras',
+    aliases: [
+      'Desilusión Congelada en las Sombras',
+      'Desilusion Congelada en las Sombras',
+      'Disenchantment',
+    ],
+  },
+  {
+    id: 'a-day-carved-from-rising-winds',
+    en: 'A Day Carved From Rising Winds',
+    es: 'Día de los Vientos Alzantes',
+    aliases: ['Día de los Vientos Alzantes', 'Dia de los Vientos Alzantes', 'Rising Winds'],
+  },
 ]
 
 export function getTargetSets(argv: string[] = process.argv.slice(2)): TargetSetConfig[] {

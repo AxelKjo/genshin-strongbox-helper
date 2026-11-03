@@ -64,6 +64,11 @@ function textOf($: cheerio.CheerioAPI, el: cheerio.Cheerio<AnyNode>): string {
   return el.text().replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim()
 }
 
+function normalizeSpanishCharacterName(name: string): string {
+  const match = name.match(/^(Anemo|Geo|Electro|Dendro|Hydro|Pyro|Cryo)\s+(Viajero|Viajera)$/i)
+  return match ? `${match[2]} ${match[1]}` : name
+}
+
 // Genshin-Builds may pack several recommendations into one label, such as
 // "CRIT Rate / CRIT DMG". Split the label before normalizing it; treating the
 // whole string as one stat silently drops the recommendation.
@@ -259,7 +264,7 @@ export async function fetchCharacter(
     slug,
     name: {
       en: textOf($en, $en('h1#character-title').first()),
-      es: textOf($es, $es('h1#character-title').first()),
+      es: normalizeSpanishCharacterName(textOf($es, $es('h1#character-title').first())),
     },
     element: (($en('body').attr('data-element') ?? '').trim() || 'unknown'),
     iconUrl: absoluteGbUrl($en('.character-art-stage img.character-image').first().attr('src') ?? ''),

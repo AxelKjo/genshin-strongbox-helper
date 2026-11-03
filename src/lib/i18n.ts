@@ -36,6 +36,8 @@ export const UI = {
   safeDiscard: { en: 'Safe discard', es: 'Descartar' },
   targetSubstats: { en: 'Target substats', es: 'Subestadísticas objetivo' },
   usedBy: { en: 'Used by', es: 'Usado por' },
+  allUsers: { en: 'All', es: 'Todos' },
+  allBut: { en: 'All but', es: 'Todos menos' },
   keepCombinations: { en: 'Keep combinations', es: 'Combinaciones a conservar' },
   discardRule: { en: 'Discard rule', es: 'Regla de descarte' },
   characterBreakdown: { en: 'Character breakdown', es: 'Desglose por personaje' },
