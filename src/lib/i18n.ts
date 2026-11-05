@@ -24,8 +24,8 @@ export const UI = {
   summary: { en: 'Verdict', es: 'Veredicto' },
   keepMatrix: { en: 'Keep vs. Discard matrix', es: 'Matriz Conservar vs. Descartar' },
   reverseOrder: {
-    en: 'Reverse order (Show discards on top)',
-    es: 'Invertir orden (Mostrar descartes arriba)',
+    en: 'Reverse order (Show discards on bottom)',
+    es: 'Invertir orden (Mostrar descartes abajo)',
   },
   sands: { en: 'Sands', es: 'Arenas' },
   goblet: { en: 'Goblet', es: 'Cáliz' },

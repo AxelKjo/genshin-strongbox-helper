@@ -76,7 +76,7 @@ export function SetDetail({ set, lang, reverseOrder }: SetDetailProps) {
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
           {(['sands', 'goblet', 'circlet'] as const).map((slot) => {
             const orderedRules = [...set.slotRules[slot]].sort(
-              (a, b) => (VERDICT_ORDER[a.verdict] - VERDICT_ORDER[b.verdict]) * (reverseOrder ? -1 : 1),
+              (a, b) => (VERDICT_ORDER[a.verdict] - VERDICT_ORDER[b.verdict]) * (reverseOrder ? 1 : -1),
             )
             const keepRules = orderedRules.filter((rule) => rule.verdict !== 'SAFE_DISCARD')
             const discardRules = orderedRules.filter((rule) => rule.verdict === 'SAFE_DISCARD')
@@ -105,11 +105,11 @@ export function SetDetail({ set, lang, reverseOrder }: SetDetailProps) {
                   <img src={`/icons/slots/${slot}.svg`} alt={t(slot, lang)} className="h-6 w-6 object-contain" />
                   {t(slot, lang)}
                 </h3>
-                {reverseOrder && discardBlock}
+                {!reverseOrder && discardBlock}
                 {keepRules.map((rule) => (
                   <SlotRuleCard key={rule.mainStat} set={set} rule={rule} lang={lang} />
                 ))}
-                {!reverseOrder && discardBlock}
+                {reverseOrder && discardBlock}
               </div>
             )
           })}

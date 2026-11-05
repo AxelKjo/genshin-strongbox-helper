@@ -4,7 +4,7 @@ Bilingual (ES/EN) artifact keep-vs-discard guide for Genshin Impact. The app is 
 
 ## Current scope
 
-The tool currently covers 17 artifact sets, ordered chronologically by release patch (oldest to newest):
+The tool currently covers 17 artifact sets:
 
 1. Marechaussee Hunter / Cazador Fantasmal
 2. Song of Days Past / Son de Antaño
