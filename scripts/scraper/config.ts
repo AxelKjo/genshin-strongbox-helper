@@ -169,6 +169,17 @@ export const TARGET_SETS: TargetSetConfig[] = [
     ],
   },
   {
+    id: 'golden-troupe',
+    en: 'Golden Troupe',
+    es: 'Compañía Dorada',
+    aliases: [
+      'Compañía Dorada',
+      'Compania Dorada',
+      'Golden Troupe',
+      'Troupe',
+    ],
+  },
+  {
     id: 'marechaussee-hunter',
     en: 'Marechaussee Hunter',
     es: 'Cazador Fantasmal',

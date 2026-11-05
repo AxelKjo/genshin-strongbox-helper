@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T15:48:11.920Z",
+  "generatedAt": "2026-11-05T17:28:45.978Z",
   "version": "MVP-9-sets",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
@@ -14352,6 +14352,1595 @@
             "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/noelle-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "golden-troupe",
+      "name": {
+        "en": "Golden Troupe",
+        "es": "Compañía Dorada"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "4.0",
+        "major": 4,
+        "minor": 0
+      },
+      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/golden-troupe.CS5noWTI_Z1x7EKQ.webp",
+      "imageUrl": "/images/artifacts/golden-troupe.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Increases Elemental Skill DMG by 20%.",
+          "es": "Daño de Habilidad Elemental +20%."
+        },
+        "fourPiece": {
+          "en": "Increases Elemental Skill DMG by 25%. Additionally, when not on the field, Elemental Skill DMG will be further increased by 25%. This effect will be cleared 2s after taking the field.",
+          "es": "Aumenta en un 25% el daño infligido con la Habilidad Elemental. Además, cuando el personaje está en tu equipo pero no en uso, el daño de dicha habilidad aumenta en un 25% adicional. Este efecto se anula 2 s después de entrar en el campo de batalla."
+        }
+      },
+      "summaryVerdict": {
+        "en": "Golden Troupe is a 5★ set used by Albedo, Chiori, Escoffier, Fischl. Keep Sands with DEF%, ATK%, Energy Recharge, Elemental Mastery, Goblets with DEF%, Geo DMG Bonus, Cryo DMG Bonus, ATK% and Circlets with CRIT Rate, CRIT DMG, Elemental Mastery. Everything else is fodder unless it is a strong off-piece.",
+        "es": "Compañía Dorada es un set de 5★ usado por Albedo, Chiori, Escoffier, Fischl. Conserva Arenas con DEF%, ATQ%, Recarga de Energía, Maestría Elemental, Cálices con DEF%, Bono de Daño Geo, Bono de Daño Cryo, ATQ% y Tiaras con Prob. CRIT, Daño CRIT, Maestría Elemental. El resto es material de reciclaje salvo que sea una gran pieza externa."
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "DEF%",
+              "ER%",
+              "ATK%"
+            ],
+            "usedBy": [
+              "albedo"
+            ],
+            "reasoning": {
+              "en": "Albedo can use CRIT Rate + CRIT DMG + DEF% + Energy Recharge + ATK% on this set's Flower and Plume.",
+              "es": "Albedo busca(n) Prob. CRIT + Daño CRIT + DEF% + Recarga de Energía + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "DEF%",
+              "ATK%",
+              "ER%"
+            ],
+            "usedBy": [
+              "chiori"
+            ],
+            "reasoning": {
+              "en": "Chiori can use CRIT Rate + CRIT DMG + DEF% + ATK% + Energy Recharge on this set's Flower and Plume.",
+              "es": "Chiori busca(n) Prob. CRIT + Daño CRIT + DEF% + ATQ% + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%"
+            ],
+            "usedBy": [
+              "escoffier"
+            ],
+            "reasoning": {
+              "en": "Escoffier can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% on this set's Flower and Plume.",
+              "es": "Escoffier busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "fischl",
+              "freminet",
+              "navia"
+            ],
+            "reasoning": {
+              "en": "Fischl, Freminet, Navia can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Fischl, Fréminet, Navia busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "HP%",
+              "CRIT Rate",
+              "CRIT DMG"
+            ],
+            "usedBy": [
+              "furina"
+            ],
+            "reasoning": {
+              "en": "Furina can use Energy Recharge + HP% + CRIT Rate + CRIT DMG on this set's Flower and Plume.",
+              "es": "Furina busca(n) Recarga de Energía + Vida% + Prob. CRIT + Daño CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "ER%"
+            ],
+            "usedBy": [
+              "geo-traveler",
+              "kinich"
+            ],
+            "reasoning": {
+              "en": "Geo Traveler, Kinich can use CRIT Rate + CRIT DMG + ATK% + Energy Recharge on this set's Flower and Plume.",
+              "es": "Viajero Geo, Kinich busca(n) Prob. CRIT + Daño CRIT + ATQ% + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM",
+              "ATK%"
+            ],
+            "usedBy": [
+              "nahida"
+            ],
+            "reasoning": {
+              "en": "Nahida can use Energy Recharge + CRIT Rate + CRIT DMG + Elemental Mastery + ATK% on this set's Flower and Plume.",
+              "es": "Nahida busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + Maestría Elemental + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "ER%",
+              "EM"
+            ],
+            "usedBy": [
+              "shikanoin-heizou"
+            ],
+            "reasoning": {
+              "en": "Shikanoin Heizou can use CRIT Rate + CRIT DMG + ATK% + Energy Recharge + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Shikanoin Heizou busca(n) Prob. CRIT + Daño CRIT + ATQ% + Recarga de Energía + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          }
+        ],
+        "discardRule": {
+          "en": "Flowers and plumes with no CRIT Rate, CRIT DMG, DEF%, Energy Recharge, ATK%, Elemental Mastery, HP% and no useful upgrades can be safely recycled in the Relic Strongbox.",
+          "es": "Las Flores y Plumas sin Prob. CRIT, Daño CRIT, DEF%, Recarga de Energía, ATQ%, Maestría Elemental, Vida% ni mejoras útiles se pueden reciclar sin riesgo en el Relicario."
+        }
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "furina"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "furina"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "furina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "furina"
+            ],
+            "reasoning": {
+              "en": "Furina can use HP% on Sands for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG.",
+              "es": "Furina puede(n) usar Vida% en Arenas para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "escoffier",
+                  "fischl",
+                  "geo-traveler",
+                  "freminet",
+                  "kinich",
+                  "navia",
+                  "shikanoin-heizou"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "escoffier",
+                  "fischl",
+                  "geo-traveler",
+                  "freminet",
+                  "kinich",
+                  "navia",
+                  "shikanoin-heizou"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "escoffier",
+                  "fischl",
+                  "geo-traveler",
+                  "freminet",
+                  "kinich",
+                  "navia",
+                  "shikanoin-heizou"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "fischl",
+                  "freminet",
+                  "navia",
+                  "shikanoin-heizou"
+                ]
+              }
+            ],
+            "usedBy": [
+              "escoffier",
+              "fischl",
+              "geo-traveler",
+              "freminet",
+              "kinich",
+              "navia",
+              "shikanoin-heizou"
+            ],
+            "reasoning": {
+              "en": "Escoffier, Fischl, Geo Traveler, Freminet, Kinich, Navia, Shikanoin Heizou can use ATK% on Sands for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > Elemental Mastery.",
+              "es": "Escoffier, Fischl, Viajero Geo, Fréminet, Kinich, Navia, Shikanoin Heizou puede(n) usar ATQ% en Arenas para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "albedo",
+                  "chiori"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "albedo",
+                  "chiori"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "albedo",
+                  "chiori"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "albedo",
+                  "chiori"
+                ]
+              }
+            ],
+            "usedBy": [
+              "albedo",
+              "chiori"
+            ],
+            "reasoning": {
+              "en": "Albedo, Chiori can use DEF% on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Energy Recharge > ATK%.",
+              "es": "Albedo, Chiori puede(n) usar DEF% en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Recarga de Energía > ATQ%."
+            }
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "escoffier",
+                  "furina",
+                  "geo-traveler"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "escoffier",
+                  "furina",
+                  "geo-traveler"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "escoffier",
+                  "geo-traveler"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "furina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "escoffier",
+              "furina",
+              "geo-traveler"
+            ],
+            "reasoning": {
+              "en": "Escoffier, Furina, Geo Traveler can use Energy Recharge on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > ATK% > HP%.",
+              "es": "Escoffier, Furina, Viajero Geo puede(n) usar Recarga de Energía en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > ATQ% > Vida%."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "fischl",
+                  "nahida"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "fischl",
+                  "nahida"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "fischl",
+                  "nahida"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "fischl",
+                  "nahida"
+                ]
+              }
+            ],
+            "usedBy": [
+              "fischl",
+              "nahida"
+            ],
+            "reasoning": {
+              "en": "Fischl, Nahida can use Elemental Mastery on Sands for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > ATK%.",
+              "es": "Fischl, Nahida puede(n) usar Maestría Elemental en Arenas para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ%."
+            }
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "furina"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "furina"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "furina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "furina"
+            ],
+            "reasoning": {
+              "en": "Furina can use HP% on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG.",
+              "es": "Furina puede(n) usar Vida% en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "escoffier"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "escoffier"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "escoffier"
+                ]
+              }
+            ],
+            "usedBy": [
+              "escoffier"
+            ],
+            "reasoning": {
+              "en": "Escoffier can use ATK% on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG.",
+              "es": "Escoffier puede(n) usar ATQ% en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "albedo"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "albedo"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "albedo"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "albedo"
+                ]
+              }
+            ],
+            "usedBy": [
+              "albedo"
+            ],
+            "reasoning": {
+              "en": "Albedo can use DEF% on Goblet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Energy Recharge > ATK%.",
+              "es": "Albedo puede(n) usar DEF% en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Recarga de Energía > ATQ%."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "nahida"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "nahida"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "nahida"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "nahida"
+                ]
+              }
+            ],
+            "usedBy": [
+              "nahida"
+            ],
+            "reasoning": {
+              "en": "Nahida can use Elemental Mastery on Goblet in niche builds. Keep only if it rolls Energy Recharge > CRIT Rate > CRIT DMG > ATK%.",
+              "es": "Nahida puede(n) usar Maestría Elemental en Cáliz en builds de nicho. Consérvala solo si sube Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ%."
+            }
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Golden Troupe user needs Pyro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Compañía Dorada necesita Bono de Daño Pyro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "furina"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "furina"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "furina"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "furina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "furina"
+            ],
+            "reasoning": {
+              "en": "Furina can use Hydro DMG Bonus on Goblet for this set. Useful substats for this piece: Energy Recharge > HP% > CRIT Rate > CRIT DMG.",
+              "es": "Furina puede(n) usar Bono de Daño Hydro en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Vida% > Prob. CRIT > Daño CRIT."
+            }
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "escoffier",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "escoffier",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "escoffier",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "escoffier",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "freminet"
+                ]
+              }
+            ],
+            "usedBy": [
+              "escoffier",
+              "freminet"
+            ],
+            "reasoning": {
+              "en": "Escoffier, Freminet can use Cryo DMG Bonus on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > ATK% > Elemental Mastery.",
+              "es": "Escoffier, Fréminet puede(n) usar Bono de Daño Cryo en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ% > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "fischl"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "fischl"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "fischl"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "fischl"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "fischl"
+                ]
+              }
+            ],
+            "usedBy": [
+              "fischl"
+            ],
+            "reasoning": {
+              "en": "Fischl can use Electro DMG Bonus on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > ATK% > Elemental Mastery.",
+              "es": "Fischl puede(n) usar Bono de Daño Electro en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ% > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "shikanoin-heizou"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "shikanoin-heizou"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "shikanoin-heizou"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "shikanoin-heizou"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "shikanoin-heizou"
+                ]
+              }
+            ],
+            "usedBy": [
+              "shikanoin-heizou"
+            ],
+            "reasoning": {
+              "en": "Shikanoin Heizou can use Anemo DMG Bonus on Goblet in niche builds. Keep only if it rolls CRIT Rate > CRIT DMG > ATK% > Energy Recharge > Elemental Mastery.",
+              "es": "Shikanoin Heizou puede(n) usar Bono de Daño Anemo en Cáliz en builds de nicho. Consérvala solo si sube Prob. CRIT > Daño CRIT > ATQ% > Recarga de Energía > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "albedo",
+                  "chiori",
+                  "geo-traveler",
+                  "navia"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "albedo",
+                  "chiori",
+                  "geo-traveler",
+                  "navia"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "albedo",
+                  "chiori",
+                  "geo-traveler",
+                  "navia"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "albedo",
+                  "chiori",
+                  "geo-traveler",
+                  "navia"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "albedo",
+                  "chiori"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "navia"
+                ]
+              }
+            ],
+            "usedBy": [
+              "albedo",
+              "chiori",
+              "geo-traveler",
+              "navia"
+            ],
+            "reasoning": {
+              "en": "Albedo, Chiori, Geo Traveler, Navia can use Geo DMG Bonus on Goblet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Energy Recharge > ATK% > DEF% > Elemental Mastery.",
+              "es": "Albedo, Chiori, Viajero Geo, Navia puede(n) usar Bono de Daño Geo en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Recarga de Energía > ATQ% > DEF% > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kinich",
+                  "nahida"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "kinich",
+                  "nahida"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "kinich",
+                  "nahida"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "kinich",
+                  "nahida"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "nahida"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kinich",
+              "nahida"
+            ],
+            "reasoning": {
+              "en": "Kinich, Nahida can use Dendro DMG Bonus on Goblet in niche builds. Keep only if it rolls CRIT Rate > CRIT DMG > ATK% > Energy Recharge > Elemental Mastery.",
+              "es": "Kinich, Nahida puede(n) usar Bono de Daño Dendro en Cáliz en builds de nicho. Consérvala solo si sube Prob. CRIT > Daño CRIT > ATQ% > Recarga de Energía > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Golden Troupe user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Compañía Dorada necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Golden Troupe user needs HP% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Compañía Dorada necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Golden Troupe user needs ATK% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Compañía Dorada necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Golden Troupe user needs DEF% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Compañía Dorada necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "nahida"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "nahida"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "nahida"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "nahida"
+                ]
+              }
+            ],
+            "usedBy": [
+              "nahida"
+            ],
+            "reasoning": {
+              "en": "Nahida can use Elemental Mastery on Circlet in niche builds. Keep only if it rolls Energy Recharge > CRIT Rate > CRIT DMG > ATK%.",
+              "es": "Nahida puede(n) usar Maestría Elemental en Tiara en builds de nicho. Consérvala solo si sube Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ%."
+            }
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "albedo",
+                  "chiori",
+                  "escoffier",
+                  "fischl",
+                  "furina",
+                  "geo-traveler",
+                  "freminet",
+                  "kinich",
+                  "nahida",
+                  "navia",
+                  "shikanoin-heizou"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "albedo",
+                  "chiori",
+                  "escoffier",
+                  "fischl",
+                  "furina",
+                  "geo-traveler",
+                  "freminet",
+                  "kinich",
+                  "nahida",
+                  "navia",
+                  "shikanoin-heizou"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "albedo",
+                  "chiori",
+                  "escoffier",
+                  "fischl",
+                  "geo-traveler",
+                  "freminet",
+                  "kinich",
+                  "nahida",
+                  "navia",
+                  "shikanoin-heizou"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "fischl",
+                  "freminet",
+                  "nahida",
+                  "navia",
+                  "shikanoin-heizou"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "albedo",
+                  "chiori"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "furina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "albedo",
+              "chiori",
+              "escoffier",
+              "fischl",
+              "furina",
+              "geo-traveler",
+              "freminet",
+              "kinich",
+              "nahida",
+              "navia",
+              "shikanoin-heizou"
+            ],
+            "reasoning": {
+              "en": "Albedo, Chiori, Escoffier, Fischl, Furina, Geo Traveler, Freminet, Kinich, Nahida, Navia, Shikanoin Heizou can use CRIT Rate on Circlet for this set. Useful substats for this piece: CRIT DMG > Energy Recharge > ATK% > Elemental Mastery > DEF% > HP%.",
+              "es": "Albedo, Chiori, Escoffier, Fischl, Furina, Viajero Geo, Fréminet, Kinich, Nahida, Navia, Shikanoin Heizou puede(n) usar Prob. CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Daño CRIT > Recarga de Energía > ATQ% > Maestría Elemental > DEF% > Vida%."
+            }
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "albedo",
+                  "chiori",
+                  "escoffier",
+                  "fischl",
+                  "furina",
+                  "geo-traveler",
+                  "freminet",
+                  "kinich",
+                  "nahida",
+                  "navia",
+                  "shikanoin-heizou"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "albedo",
+                  "chiori",
+                  "escoffier",
+                  "fischl",
+                  "furina",
+                  "geo-traveler",
+                  "freminet",
+                  "kinich",
+                  "nahida",
+                  "navia",
+                  "shikanoin-heizou"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "albedo",
+                  "chiori",
+                  "escoffier",
+                  "fischl",
+                  "geo-traveler",
+                  "freminet",
+                  "kinich",
+                  "nahida",
+                  "navia",
+                  "shikanoin-heizou"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "fischl",
+                  "freminet",
+                  "nahida",
+                  "navia",
+                  "shikanoin-heizou"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "albedo",
+                  "chiori"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "furina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "albedo",
+              "chiori",
+              "escoffier",
+              "fischl",
+              "furina",
+              "geo-traveler",
+              "freminet",
+              "kinich",
+              "nahida",
+              "navia",
+              "shikanoin-heizou"
+            ],
+            "reasoning": {
+              "en": "Albedo, Chiori, Escoffier, Fischl, Furina, Geo Traveler, Freminet, Kinich, Nahida, Navia, Shikanoin Heizou can use CRIT DMG on Circlet for this set. Useful substats for this piece: CRIT Rate > Energy Recharge > ATK% > Elemental Mastery > DEF% > HP%.",
+              "es": "Albedo, Chiori, Escoffier, Fischl, Furina, Viajero Geo, Fréminet, Kinich, Nahida, Navia, Shikanoin Heizou puede(n) usar Daño CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Recarga de Energía > ATQ% > Maestría Elemental > DEF% > Vida%."
+            }
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Golden Troupe user needs Healing Bonus on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Compañía Dorada necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "albedo",
+          "name": {
+            "en": "Albedo",
+            "es": "Albedo"
+          },
+          "iconUrl": "/images/characters/albedo.png",
+          "element": "Geo",
+          "role": {
+            "en": "Off-Field DPS",
+            "es": "DPS fuera de campo"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "DEF%"
+            ],
+            "goblet": [
+              "DEF%",
+              "Geo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "DEF%",
+            "ER%",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.5",
+            "kqmVersion": "6.4",
+            "resolutionReason": "Genshin-Builds newer (6.5 > 6.4)",
+            "genshinBuildsUpdated": "6.5 / Luna VI",
+            "kqmUrl": "https://keqingmains.com/q/albedo-quickguide/"
+          }
+        },
+        {
+          "characterId": "chiori",
+          "name": {
+            "en": "Chiori",
+            "es": "Chiori"
+          },
+          "iconUrl": "/images/characters/chiori.png",
+          "element": "Geo",
+          "role": {
+            "en": "Off-Field DPS",
+            "es": "DPS fuera de campo"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "DEF%"
+            ],
+            "goblet": [
+              "Geo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "DEF%",
+            "ATK%",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/chiori-quickguide/"
+          }
+        },
+        {
+          "characterId": "escoffier",
+          "name": {
+            "en": "Escoffier",
+            "es": "Escoffier"
+          },
+          "iconUrl": "/images/characters/escoffier.png",
+          "element": "Cryo",
+          "role": {
+            "en": "High Energy Requirement (Off-Field DPS, 1-2 Cryo Team Members)",
+            "es": "High Energy Requirement (Off-Field DPS, 1-2 Cryo Team Members)"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "Cryo DMG%",
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "KQM",
+            "gbVersion": "6.7",
+            "kqmVersion": "7.1",
+            "resolutionReason": "KQM newer (7.1 > 6.7) and recommends set",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/escoffier-quickguide/"
+          }
+        },
+        {
+          "characterId": "fischl",
+          "name": {
+            "en": "Fischl",
+            "es": "Fischl"
+          },
+          "iconUrl": "/images/characters/fischl.png",
+          "element": "Electro",
+          "role": {
+            "en": "Off-Field Aggravate DPS",
+            "es": "DPS fuera de campo de Intensificación"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.4",
+            "kqmVersion": "4.0",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.4 / Luna V",
+            "kqmUrl": "https://keqingmains.com/q/fischl-quickguide/"
+          }
+        },
+        {
+          "characterId": "furina",
+          "name": {
+            "en": "Furina",
+            "es": "Furina"
+          },
+          "iconUrl": "/images/characters/furina.png",
+          "element": "Hydro",
+          "role": {
+            "en": "High Energy Requirement (Off-Field DPS & Buff Support)",
+            "es": "High Energy Requirement (Off-Field DPS & Buff Support)"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "HP%"
+            ],
+            "goblet": [
+              "HP%",
+              "Hydro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "HP%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "HP"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "6.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/furina-quickguide/"
+          }
+        },
+        {
+          "characterId": "geo-traveler",
+          "name": {
+            "en": "Geo Traveler",
+            "es": "Viajero Geo"
+          },
+          "iconUrl": "/images/characters/geo-traveler.png",
+          "element": "Geo",
+          "role": {
+            "en": "Geo Quickswap DPS & Support",
+            "es": "DPS y soporte de cambio rápido Geo"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%"
+            ],
+            "goblet": [
+              "Geo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.0",
+            "resolutionReason": "Fallback to GB: no KQM guide",
+            "genshinBuildsUpdated": "7.0"
+          }
+        },
+        {
+          "characterId": "freminet",
+          "name": {
+            "en": "Freminet",
+            "es": "Fréminet"
+          },
+          "iconUrl": "/images/characters/freminet.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Cryo DPS",
+            "es": "DPS Cryo"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Cryo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "6.2",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.2)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/freminet-quickguide/"
+          }
+        },
+        {
+          "characterId": "kinich",
+          "name": {
+            "en": "Kinich",
+            "es": "Kinich"
+          },
+          "iconUrl": "/images/characters/kinich.png",
+          "element": "Dendro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Dendro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "5.6",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/kinich-quickguide/"
+          }
+        },
+        {
+          "characterId": "nahida",
+          "name": {
+            "en": "Nahida",
+            "es": "Nahida"
+          },
+          "iconUrl": "/images/characters/nahida.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Buff Support & Damage",
+            "es": "Buff Support & Damage"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "EM"
+            ],
+            "goblet": [
+              "EM",
+              "Dendro DMG%"
+            ],
+            "circlet": [
+              "EM",
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.0",
+            "kqmVersion": "5.6",
+            "resolutionReason": "Genshin-Builds newer (6.0 > 5.6)",
+            "genshinBuildsUpdated": "6.0 / Luna I",
+            "kqmUrl": "https://keqingmains.com/q/nahida-quickguide/"
+          }
+        },
+        {
+          "characterId": "navia",
+          "name": {
+            "en": "Navia",
+            "es": "Navia"
+          },
+          "iconUrl": "/images/characters/navia.png",
+          "element": "Geo",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Geo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "5.4",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 5.4)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/navia-quickguide/"
+          }
+        },
+        {
+          "characterId": "shikanoin-heizou",
+          "name": {
+            "en": "Shikanoin Heizou",
+            "es": "Shikanoin Heizou"
+          },
+          "iconUrl": "/images/characters/shikanoin-heizou.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Anemo DPS",
+            "es": "DPS Anemo"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Anemo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "ER%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.4",
+            "kqmVersion": "3.8",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.4",
+            "kqmUrl": "https://keqingmains.com/q/heizou-quickguide/"
           }
         }
       ]
