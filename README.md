@@ -4,23 +4,25 @@ Bilingual (ES/EN) artifact keep-vs-discard guide for Genshin Impact. The app is 
 
 ## Current scope
 
-The tool currently covers 15 artifact sets:
+The tool currently covers 17 artifact sets, ordered chronologically by release patch (oldest to newest):
 
-1. Aubade of Morningstar and Moon / Alborada de la Estrella del Alba y la Luna
-2. Marechaussee Hunter / Cazador Fantasmal
-3. Celestial Gift / Dádiva Celestial
-4. Heart of the Furnace / Corazón Forjado
-5. Scarlet Proof / Testimonio Escarlata
-6. Disenchantment in Deep Shadow / Desilusión Congelada en las Sombras
-7. A Day Carved From Rising Winds / Día de los Vientos Alzantes
-8. Night of the Sky's Unveiling / Noche de la Revelación del Cielo
-9. Silken Moon's Serenade / Serenata de la Luna Tejida
-10. Long Night's Oath / Juramento de la Noche
-11. Finale of the Deep Galleries / Réquiem del Corredor
-12. Obsidian Codex / Códice de Obsidiana
-13. Scroll of the Hero of Cinder City / Pergamino del Héroe de la Ciudad de las Cenizas
-14. Fragment of Harmonic Whimsy / Fragmento de la Armonía Fantasiosa
-15. Unfinished Reverie / Ensoñación Inacabada
+1. Marechaussee Hunter / Cazador Fantasmal
+2. Song of Days Past / Son de Antaño
+3. Nighttime Whispers in the Echoing Woods / Murmullo del Bosque Reverberante
+4. Fragment of Harmonic Whimsy / Fragmento de la Armonía Fantasiosa
+5. Unfinished Reverie / Ensoñación Inacabada
+6. Obsidian Codex / Códice de Obsidiana
+7. Scroll of the Hero of Cinder City / Pergamino del Héroe de la Ciudad de las Cenizas
+8. Long Night's Oath / Juramento de la Noche
+9. Finale of the Deep Galleries / Réquiem del Corredor
+10. Night of the Sky's Unveiling / Noche de la Revelación del Cielo
+11. Silken Moon's Serenade / Serenata de la Luna Tejida
+12. Aubade of Morningstar and Moon / Alborada de la Estrella del Alba y la Luna
+13. A Day Carved From Rising Winds / Día de los Vientos Alzantes
+14. Celestial Gift / Dádiva Celestial
+15. Disenchantment in Deep Shadow / Desilusión Congelada en las Sombras
+16. Heart of the Furnace / Corazón Forjado
+17. Scarlet Proof / Testimonio Escarlata
 
 The scraper is modular and accepts an optional target-set filter, so the same code can be run for every set later without rewriting it.
 
@@ -40,7 +42,7 @@ npm run build            # typecheck + production build
 npm run lint
 npm run typecheck:scripts
 
-npm run scrape           # all configured target sets (15)
+npm run scrape           # all configured target sets (17)
 npm run scrape -- celestial-gift
 npm run scrape -- heart-of-the-furnace
 npm run scrape -- scarlet-proof
@@ -52,6 +54,8 @@ npm run scrape -- obsidian-codex
 npm run scrape -- scroll-of-the-hero-of-cinder-city
 npm run scrape -- fragment-of-harmonic-whimsy
 npm run scrape -- unfinished-reverie
+npm run scrape -- song-of-days-past
+npm run scrape -- nighttime-whispers-in-the-echoing-woods
 npm run scrape:images    # download 256x256 set artwork into public/images/artifacts/
 npm run scrape:images -- --force
 npm run scrape:test-gb   # inspect Genshin-Builds extraction
@@ -61,7 +65,7 @@ npm run scrape:all       # remove the target-set filter and process every indexe
 
 ## Pipeline
 
-- `scripts/scraper/config.ts` — target-set filter (`TARGET_SETS`), locales, cache and concurrency settings. When adding a new set, add its entry here, update the `Current scope` list in `README.md`, fetch its assets (`npm run scrape:images`), and execute `npm run scrape`.
+- `scripts/scraper/config.ts` — target-set filter (`TARGET_SETS`), locales, cache and concurrency settings. When adding a new set, add its entry in chronological patch order (oldest to newest), update the `Current scope` list in `README.md` in that same patch order, fetch its assets (`npm run scrape:images`), and execute `npm run scrape`.
 - `scripts/scraper/http.ts` — cached fetch with retries and concurrency helper.
 - `scripts/scraper/genshin-builds.ts` — artifact index + character build parser (EN/ES).
 - `scripts/scraper/kqm-parser.ts` — KQM slug normalization, version parsing, main stats and substats.

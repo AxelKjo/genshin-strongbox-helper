@@ -12,28 +12,6 @@ export const KQM_BASE = 'https://keqingmains.com'
 
 export const TARGET_SETS: TargetSetConfig[] = [
   {
-    id: 'aubade-of-morningstar-and-moon',
-    en: 'Aubade of Morningstar and Moon',
-    es: 'Alborada de la Estrella del Alba y la Luna',
-    aliases: [
-      'Alborada de la Estrella Matutina y la Luna',
-      'Alborada de la Estrella del Alba y la Luna',
-      'Aubade',
-    ],
-  },
-  {
-    id: 'marechaussee-hunter',
-    en: 'Marechaussee Hunter',
-    es: 'Cazador Fantasmal',
-    aliases: ['Cazador Fantasmal', 'Marechaussee'],
-  },
-  {
-    id: 'celestial-gift',
-    en: 'Celestial Gift',
-    es: 'Dádiva Celestial',
-    aliases: ['Dádiva Celestial', 'Dadiva Celestial'],
-  },
-  {
     id: 'heart-of-the-furnace',
     en: 'Heart of the Furnace',
     es: 'Corazón Forjado',
@@ -46,6 +24,12 @@ export const TARGET_SETS: TargetSetConfig[] = [
     aliases: ['Testimonio escarlata', 'Scarlet Proof'],
   },
   {
+    id: 'celestial-gift',
+    en: 'Celestial Gift',
+    es: 'Dádiva Celestial',
+    aliases: ['Dádiva Celestial', 'Dadiva Celestial'],
+  },
+  {
     id: 'disenchantment-in-deep-shadow',
     en: 'Disenchantment in Deep Shadow',
     es: 'Desilusión Congelada en las Sombras',
@@ -53,6 +37,16 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Desilusión Congelada en las Sombras',
       'Desilusion Congelada en las Sombras',
       'Disenchantment',
+    ],
+  },
+  {
+    id: 'aubade-of-morningstar-and-moon',
+    en: 'Aubade of Morningstar and Moon',
+    es: 'Alborada de la Estrella del Alba y la Luna',
+    aliases: [
+      'Alborada de la Estrella Matutina y la Luna',
+      'Alborada de la Estrella del Alba y la Luna',
+      'Aubade',
     ],
   },
   {
@@ -151,6 +145,34 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Unfinished Reverie',
       'Reverie',
     ],
+  },
+  {
+    id: 'song-of-days-past',
+    en: 'Song of Days Past',
+    es: 'Son de Antaño',
+    aliases: [
+      'Son de Antaño',
+      'Son de Antano',
+      'Song of Days Past',
+      'Days Past',
+    ],
+  },
+  {
+    id: 'nighttime-whispers-in-the-echoing-woods',
+    en: 'Nighttime Whispers in the Echoing Woods',
+    es: 'Murmullo del Bosque Reverberante',
+    aliases: [
+      'Murmullo del Bosque Reverberante',
+      'Nighttime Whispers in the Echoing Woods',
+      'Nighttime Whispers',
+      'Echoing Woods',
+    ],
+  },
+  {
+    id: 'marechaussee-hunter',
+    en: 'Marechaussee Hunter',
+    es: 'Cazador Fantasmal',
+    aliases: ['Cazador Fantasmal', 'Marechaussee'],
   },
 ]
 
