@@ -2,7 +2,7 @@ import { CheckCircle2, AlertTriangle, Trash2 } from 'lucide-react'
 import type { ArtifactSetTriage, SlotTriageRule, Verdict } from '../types/artifacts'
 import type { Lang } from '../lib/i18n'
 import { UI, t } from '../lib/i18n'
-import { statLabel } from '../lib/stats'
+import { isFlatStat, statLabel } from '../lib/stats'
 import { Avatar } from './Avatar'
 
 const VERDICT_STYLES: Record<Verdict, { border: string; bg: string; text: string; icon: typeof CheckCircle2 }> = {
@@ -24,7 +24,7 @@ export function SlotRuleCard({ set, rule, lang }: SlotRuleCardProps) {
     .map((id) => set.characters.find((character) => character.characterId === id))
     .filter((character): character is NonNullable<typeof character> => Boolean(character))
   const singleUser = users.length === 1
-  const visibleSubstats = rule.substats.filter((stat) => stat.name !== rule.mainStat)
+  const visibleSubstats = rule.substats.filter((stat) => stat.name !== rule.mainStat && !isFlatStat(stat.name))
 
   return (
     <article className={`rounded-2xl border ${style.border} ${style.bg} p-4`}>

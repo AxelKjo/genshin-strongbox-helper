@@ -3,7 +3,7 @@ import { ChevronDown, Trash2 } from 'lucide-react'
 import type { ArtifactSetTriage } from '../types/artifacts'
 import type { Lang } from '../lib/i18n'
 import { t } from '../lib/i18n'
-import { statLabel } from '../lib/stats'
+import { isFlatStat, statLabel } from '../lib/stats'
 import { Avatar } from './Avatar'
 import { CharacterCard } from './CharacterCard'
 import { SlotRuleCard } from './SlotRuleCard'
@@ -133,7 +133,7 @@ export function SetDetail({ set, lang, reverseOrder }: SetDetailProps) {
               <article key={`${combo.substats.join('-')}-${index}`} className="rounded-2xl border border-emeraldKeep/25 bg-emeraldKeep/5 p-4">
                 <p className="text-xs font-bold uppercase tracking-[0.18em] text-emeraldKeep">{t('keepCombinations', lang)}</p>
                 <div className="mt-2 flex flex-wrap gap-1.5">
-                  {combo.substats.map((stat) => (
+                  {combo.substats.filter((stat) => !isFlatStat(stat)).map((stat) => (
                     <span key={stat} className="inline-flex items-center rounded-md border border-emeraldKeep/25 bg-abyss/50 px-2 py-1 text-sm text-emeraldKeep">
                       {statLabel(stat, lang)}
                     </span>

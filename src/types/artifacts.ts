@@ -37,7 +37,6 @@ export interface CharacterUsage {
   substatsPriority: StatKey[]
   critTie: boolean
   erUntilRequirement: boolean
-  notes: LocalizedText
   sourceValidation: {
     primarySource: PrimarySource
     gbVersion: string

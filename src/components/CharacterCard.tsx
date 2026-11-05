@@ -67,18 +67,20 @@ export function CharacterCard({ character, lang }: CharacterCardProps) {
           href={genshinBuildsUrl}
           target="_blank"
           rel="noopener noreferrer"
+          title="Genshin Impact Helper Team (GitHub Pages)"
           className="inline-flex items-center gap-1 text-[11px] text-gold/70 hover:text-gold"
         >
-          Genshin-Builds <ExternalLink className="h-3 w-3" aria-hidden />
+          Genshin-Builds (Genshin Impact Helper Team) <ExternalLink className="h-3 w-3" aria-hidden />
         </a>
         {source.kqmUrl && (
           <a
             href={source.kqmUrl}
             target="_blank"
             rel="noopener noreferrer"
+            title="KeqingMains Quickguide"
             className="inline-flex items-center gap-1 text-[11px] text-gold/70 hover:text-gold"
           >
-            KQM <ExternalLink className="h-3 w-3" aria-hidden />
+            KQM Quickguide <ExternalLink className="h-3 w-3" aria-hidden />
           </a>
         )}
       </div>

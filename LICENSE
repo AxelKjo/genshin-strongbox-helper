@@ -20,6 +20,20 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Third-party notice: This MIT License applies exclusively to the software
-source code and user interface in this repository. Game trademarks, icons,
-artwork, names, and game data remain the property of their respective owners.
+THIRD-PARTY ASSETS AND INTELLECTUAL PROPERTY NOTICE:
+
+1. Software Codebase: This MIT License applies exclusively to the original
+   software source code, scripts, and user interface styling contained in this
+   repository.
+2. Game Assets and Trademarks: Genshin Impact, including all visual artwork,
+   icons, character designs, names, and proprietary terminology, are trademarks
+   and copyrighted works of Cognosphere Pte. Ltd. / HoYoverse. They are not
+   licensed under this MIT License and remain the sole property of their
+   respective owners.
+3. Community Data Research: Theorycrafting data, stat recommendations, and
+   curated priorities reflect the analytical work of independent community
+   groups (including the Genshin Impact Helper Team and KeqingMains). These data
+   compilations remain the intellectual property of their respective creators,
+   are utilized here for community reference under fair attribution, and are not
+   licensed under this project's MIT License.
+

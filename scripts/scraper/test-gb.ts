@@ -30,7 +30,6 @@ async function main() {
       console.log('  main:', build.mainStats)
       console.log('  substats:', build.substats)
       console.log('  target usage:', usage?.usage)
-      console.log('  notes:', build.notes.slice(0, 180))
     }
   }
 }

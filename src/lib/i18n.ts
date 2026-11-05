@@ -51,7 +51,10 @@ export const UI = {
   erUntilRequirement: { en: 'Until Req', es: 'Hasta requisito' },
   source: { en: 'Source', es: 'Fuente' },
   validatedKqm: { en: 'Validated with KQM', es: 'Validado con KQM' },
-  gbSource: { en: 'Genshin-Builds', es: 'Genshin-Builds' },
+  gbSource: {
+    en: 'Genshin-Builds (Genshin Impact Helper Team)',
+    es: 'Genshin-Builds (Genshin Impact Helper Team)',
+  },
   consensus: { en: 'Both agree', es: 'Ambas fuentes coinciden' },
   evaluator: { en: 'Does my piece work?', es: '¿Sirve mi pieza?' },
   evaluatorHelp: {

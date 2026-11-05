@@ -106,6 +106,17 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Deep Galleries',
     ],
   },
+  {
+    id: 'obsidian-codex',
+    en: 'Obsidian Codex',
+    es: 'Códice de Obsidiana',
+    aliases: [
+      'Códice de Obsidiana',
+      'Codice de Obsidiana',
+      'Obsidian Codex',
+      'Obsidian',
+    ],
+  },
 ]
 
 export function getTargetSets(argv: string[] = process.argv.slice(2)): TargetSetConfig[] {
@@ -121,18 +132,32 @@ export const CACHE_ROOT = '.cache'
 export const DATA_OUTPUT = 'public/data/artifacts-triage.json'
 export const ARTIFACT_IMAGE_DIR = 'public/images/artifacts'
 export const ARTIFACT_IMAGE_PUBLIC_PATH = '/images/artifacts'
+export const CHARACTER_IMAGE_DIR = 'public/images/characters'
+export const CHARACTER_IMAGE_PUBLIC_PATH = '/images/characters'
 export const AMBER_CATALOG_URL = 'https://gi.yatta.moe/api/v2/en/reliquary'
+export const AMBER_AVATAR_CATALOG_URL = 'https://gi.yatta.moe/api/v2/en/avatar'
 export const ENKA_ASSET_BASE = 'https://enka.network/ui'
 
 export function artifactImageUrl(setId: string): string {
   return `${ARTIFACT_IMAGE_PUBLIC_PATH}/${setId}.png`
 }
 
+export function characterImageUrl(characterId: string): string {
+  return `${CHARACTER_IMAGE_PUBLIC_PATH}/${characterId}.png`
+}
+
+// Explicit, polite identification of the offline research bot and public repository
 export const REQUEST_HEADERS = {
-  'user-agent': 'GenshinStrongboxHelper/1.0 (+https://github.com/AxelKjo/genshin-strongbox-helper)',
+  'user-agent':
+    'GenshinStrongboxHelper-Bot/1.0 (+https://github.com/AxelKjo/genshin-strongbox-helper; OpenSource Fan Tool; Respectful Cache)',
   accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
   'accept-language': 'en-US,en;q=0.9,es;q=0.8',
 }
+
+// Polite delay between network fetches (in milliseconds) on cache-miss
+export const NETWORK_DELAY_MS = 350
+// Timeout for outbound requests
+export const REQUEST_TIMEOUT_MS = 15000
 
 export const KQM_CONCURRENCY = 3
 export const GB_CONCURRENCY = 4

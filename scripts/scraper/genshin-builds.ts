@@ -1,3 +1,11 @@
+/**
+ * Parser for Genshin Impact Helper Team (GIHT) recommendations.
+ * Source: https://genshin-impact-helper-team.github.io/genshin-builds/
+ * 
+ * Community theorycrafting data, builds, and recommendations are curated
+ * by the Genshin Impact Helper Team and utilized under fair community attribution.
+ */
+
 import * as cheerio from 'cheerio'
 import type { AnyNode } from 'domhandler'
 import type { StatKey } from '../../src/types/artifacts'
@@ -46,8 +54,6 @@ export interface GBBuildData {
   substats: StatKey[]
   critTie: boolean
   erUntilRequirement: boolean
-  notes: string
-  notesEs?: string
 }
 
 export interface GBCharacterData {
@@ -228,13 +234,7 @@ function parseBuildPanels($: cheerio.CheerioAPI, targetSets: TargetSetConfig[]):
       hasErUntilRequirement(textOf($, substatSection)) ||
       hasErUntilRequirement(textOf($, panel.find('.notes-card')))
 
-    const noteParagraphs: string[] = []
-    panel.find('.notes-card .notes-content p').each((__, paragraph) => {
-      const text = textOf($, $(paragraph))
-      if (text.length > 20) noteParagraphs.push(text)
-    })
-    const notes = noteParagraphs.slice(0, 2).join(' ').slice(0, 900)
-    builds.push({ id, name, version, isBestRole, setUsages, mainStats, substats, critTie, erUntilRequirement, notes })
+    builds.push({ id, name, version, isBestRole, setUsages, mainStats, substats, critTie, erUntilRequirement })
   })
   return builds
 }
@@ -259,7 +259,6 @@ export async function fetchCharacter(
       ...build,
       nameEs: esBuild.name,
       versionEs: esBuild.version,
-      notesEs: esBuild.notes,
     }
   })
 

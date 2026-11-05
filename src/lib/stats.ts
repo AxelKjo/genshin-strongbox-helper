@@ -27,6 +27,12 @@ export const ELEMENTAL_DMG_STATS: StatKey[] = [
   'Anemo DMG%', 'Geo DMG%', 'Dendro DMG%', 'Physical DMG%',
 ]
 
+export const FLAT_STATS: readonly StatKey[] = ['HP', 'ATK', 'DEF']
+
+export function isFlatStat(stat: StatKey): boolean {
+  return FLAT_STATS.includes(stat)
+}
+
 export const SLOT_MAIN_STATS: Record<'sands' | 'goblet' | 'circlet', StatKey[]> = {
   sands: ['HP%', 'ATK%', 'DEF%', 'ER%', 'EM'],
   goblet: ['HP%', 'ATK%', 'DEF%', 'EM', ...ELEMENTAL_DMG_STATS],

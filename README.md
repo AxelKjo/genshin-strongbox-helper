@@ -1,6 +1,6 @@
-# Genshin Artifact Triage
+# Genshin Artifact Triage (Genshin Strongbox Helper)
 
-Bilingual (ES/EN) artifact keep-vs-discard guide for Genshin Impact. The app is powered by a cached scraping pipeline that cross-checks **Genshin-Builds (EN/ES)** with **KeqingMains quickguides** and resolves disagreements using the most recently updated source.
+Bilingual (ES/EN) artifact keep-vs-discard guide for Genshin Impact. The app is powered by an offline, cached data pipeline that cross-references community theorycrafting recommendations from the **Genshin-Builds (Genshin Impact Helper Team)** and **KeqingMains (KQM Quickguides)**, resolving discrepancies based on guide version freshness and other criteria.
 
 ## Current scope
 
@@ -57,34 +57,57 @@ npm run scrape:all       # remove the target-set filter and process every indexe
 - `scripts/scraper/kqm-parser.ts` — KQM slug normalization, version parsing, main stats and substats.
 - `scripts/scraper/build-dataset.ts` — source resolution, triage rules and JSON generation.
 - `scripts/scraper/download-artifact-images.ts` — resolves set artwork through the Project Amber catalog and caches 256x256 PNGs from Enka.Network under `public/images/artifacts/`.
+- `scripts/scraper/download-character-images.ts` — resolves character portraits through Project Amber and Enka.Network, caching 256x256 PNGs locally under `public/images/characters/` to eliminate hotlinking.
 
 Run `npm run scrape:all` (or `npm run scrape -- --all`) to remove the target-set filter and process every set returned by the Genshin-Builds index. No scraper rewrite is needed.
 
-## Data rules
+## Data & Triage Methodology
 
-- No invented stat recommendations: every main stat and substat comes from Genshin-Builds or KQM.
-- Genshin-Builds can combine several recommendations in one label, e.g. `CRIT Rate / CRIT DMG`. Split and normalize each part instead of treating the whole label as one stat. If a selected build ends with an empty Sands, Goblet or Circlet, treat it as a parser regression and inspect the raw Genshin-Builds row before regenerating the dataset.
-- Preserve unordered substat recommendations. A combined Genshin-Builds label (`CRIT Rate / CRIT DMG`) or a generic KQM `CRIT` means CRIT Rate and CRIT DMG are tied and must be displayed with `≈`, not with an invented priority. Only use `>` when the source explicitly ranks one above the other.
-- Energy Recharge is often a temporary top priority. When Genshin-Builds or KQM marks it as `until requirement(s)`, annotate the substat as `Until Req` / `Hasta lo requerido` instead of presenting it as a permanent first priority.
-- Each set stores `releaseVersion` from Genshin-Builds' `data-version-released` attribute as `raw`, `major` and `minor`. The sidebar is sorted newest patch first using `major` and `minor`; do not use `gbVersion`, `kqmVersion` or the dataset version for this ordering.
-- Characters are linked to a set only through the main artifact ranking of their best role. Rank 1 entries are tagged `tier: "BiS"` and Rank 2 entries `tier: "Alternative"`; Rank 3+ and conditional/situational labels are excluded.
-- Notes and body-text mentions never create a character-set link. A set must appear as a main recommendation in the corresponding build or guide.
-- KQM evidence is taken only from the main artifact-set table. Niche sections and rows that depend on a specific enabler, constellation or team condition are ignored.
-- `primarySource` is chosen by comparing the build/guide version. KQM wins only when it is newer **and** its main artifact table lists the set as a standard recommendation; otherwise Genshin-Builds is used.
+To keep artifact triage fast, reliable, and clean, recommendations adhere to the following criteria:
 
-## Data Sources & Attribution (Fuentes y Atribución)
+- **No Hallucinated Stats:** All main stat and substat priorities are sourced directly from the established community guides credited in this file.
+- **Standard Builds Only:** Focuses on primary roles, linking characters to sets where they rank as **Best-in-Slot (BiS)** or **Alternative** (most of the time meaning 2nd best, such as Wriothesley with Marechaussee Hunter). Highly niche, or non-standard builds are omitted.
+- **Preserved Stat Ties:** Combined stat labels (such as `CRIT Rate / CRIT DMG`) are treated as equal priorities (`≈`) rather than assuming an arbitrary ranking.
 
-Stat priorities and artifact recommendations are derived from the theorycrafting work of these community teams. Thank you to:
+## Data Sources & Community Attribution (Fuentes y Atribución Comunitaria)
 
-- **[Genshin-Builds (Genshin Impact Helper Team)](https://genshin-impact-helper-team.github.io/genshin-builds/)** — builds, artifact rankings, main stats, and substat priorities in English and Spanish.
-- **[KeqingMains (KQM)](https://keqingmains.com/)** — character guides, artifact recommendations, and substat priorities.
+Statistical priorities and build recommendations are factual compilations derived from the theorycrafting created and maintained by:
 
-Las prioridades de estadísticas y las recomendaciones de artefactos provienen del trabajo de theorycrafting de estos equipos de la comunidad. Gracias a **Genshin-Builds (Genshin Impact Helper Team)** y **KeqingMains (KQM)** por hacer públicos sus análisis y guías.
+- **[Genshin Impact Helper Team (Genshin-Builds)](https://genshin-impact-helper-team.github.io/genshin-builds/en)**
+- **[KeqingMains (KQM)](https://keqingmains.com/)**
 
-This project is not affiliated with either team. Any mistakes in interpretation or presentation belong to this project, not to the source teams.
+Sincere thanks to both teams for their continuous dedication and invaluable contributions to the Genshin Impact community.
 
-## Legal & Disclaimer
+---
 
-This is an unofficial, non-commercial fan-made tool. Genshin Impact, game content, and materials are trademarks and copyrights of HoYoverse / Cognosphere Pte. Ltd. Not affiliated with or endorsed by HoYoverse.
+Las prioridades de estadísticas y recomendaciones de builds son compilaciones fácticas derivadas del trabajo de theorycrafting mantenido por:
 
-The MIT License in this repository covers only the software source code and user interface. Game trademarks, icons, artwork, names, and game data remain the property of their respective owners.
+- **[Genshin Impact Helper Team (Genshin-Builds)](https://genshin-impact-helper-team.github.io/genshin-builds/en)**
+- **[KeqingMains (KQM)](https://keqingmains.com/)**
+
+Agradecemos sinceramente a ambos colectivos por su constante dedicación e inestimable aporte a la comunidad de jugadores.
+
+> [!NOTE]
+> **Independence & Data Curation:** This project is strictly independent and is neither affiliated with nor endorsed by the Genshin Impact Helper Team or KeqingMains. 
+> 
+> Recommendations shown here are condensed for the purposes of this tool. Any discrepancies, omissions, or loss of guide-specific nuance belong solely to this tool, not to the original research teams. For in-depth explanations and full contextual builds, please consult the original source guides directly.
+
+### Community Opt-out & Attribution Requests
+If you are a maintainer, author, or representative of the **Genshin Impact Helper Team** or **KeqingMains**, and you wish to update how your team is credited, request changes to how your data is linked, or ask for the exclusion of specific guides, please open a GitHub issue or reach out to me directly.
+
+---
+
+## Authorship & AI Development Transparency (Transparencia de Autoría y Desarrollo)
+
+In the interest of full intellectual honesty and modern open-source transparency:
+
+- Human Direction & Domain QA: Product conception, cross-validation heuristics between data sources, scope definition, UI/UX direction, auditing of artifact rules and general QA.
+- AI-Assisted Engineering: Technical architecture specification, scraping pipeline implementation, and React/TypeScript/Tailwind CSS code generation orchestrated via AI coding agents.
+---
+
+## Legal Disclaimer & Intellectual Property
+
+- **Genshin Impact** is a registered trademark of **Cognosphere Pte. Ltd. / HoYoverse**.
+- Game content, artwork, item icons, character illustrations, and in-game terminology are copyright and intellectual property of **HoYoverse / Cognosphere Pte. Ltd.**
+- This project is a non-commercial, open-source, fan-created utility produced in compliance with fair-use and community fan content guidelines. No monetization, advertising, or paid access exists in this project.
+- The **MIT License** accompanying this repository governs exclusively the programmatic source code, custom scripts, and architectural templates written for this application. It does not license or confer rights over third-party trademarks, game assets, or community-authored guide texts.

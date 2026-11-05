@@ -14,7 +14,6 @@ export interface KqmVersion {
 export interface KqmSetRecommendation {
   name: string
   label: string
-  description: string
   standard: boolean
 }
 
@@ -29,8 +28,6 @@ export interface KqmGuide {
   recommendsSet: boolean
   recommendedSets: string[]
   setRecommendations: KqmSetRecommendation[]
-  setContexts: Record<string, string>
-  setContext: string
   playstyle: string
 }
 
@@ -293,17 +290,11 @@ export async function fetchKqmGuide(
       setRecommendations.push({
         name,
         label: row.label,
-        description: row.description,
         standard: isStandardKqmRecommendation(row),
       })
     }
     const recommendedSets = setRecommendations.filter((entry) => entry.standard).map((entry) => entry.name)
-    const setContexts: Record<string, string> = {}
-    for (const entry of setRecommendations) {
-      if (entry.standard) setContexts[entry.name] = entry.description
-    }
     const recommendsSet = recommendedSets.length > 0
-    const setContext = recommendedSets[0] ? setContexts[recommendedSets[0]] : ''
 
     const playstyle = cleanText($('h1').first().parent().find('h2').first().text()) || title.replace(/\s*-\s*KQM\s*$/i, '')
 
@@ -318,8 +309,6 @@ export async function fetchKqmGuide(
       recommendsSet,
       recommendedSets,
       setRecommendations,
-      setContexts,
-      setContext,
       playstyle,
     }
   }

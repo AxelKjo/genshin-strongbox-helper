@@ -11,12 +11,13 @@ import type {
   UsageType,
   Verdict,
 } from '../../src/types/artifacts'
-import { SLOT_MAIN_STATS, statLabel } from '../../src/lib/stats'
+import { SLOT_MAIN_STATS, isFlatStat, statLabel } from '../../src/lib/stats'
 import {
   DATA_OUTPUT,
   GB_CONCURRENCY,
   KQM_CONCURRENCY,
   artifactImageUrl,
+  characterImageUrl,
   getTargetSets,
   type TargetSetConfig,
 } from './config'
@@ -205,17 +206,13 @@ function resolveCharacter(
   const erUntilRequirement =
     substatsPriority[0] === 'ER%' && (build.erUntilRequirement || Boolean(kqm?.erUntilRequirement))
 
-  const matchedContextName = kqm?.recommendedSets.find((name) => targetNames.includes(name))
-  const kqmContext = matchedContextName ? kqm?.setContexts[matchedContextName] ?? '' : ''
-  const notesEn = [build.notes, primarySource === 'KQM' ? kqmContext : ''].filter(Boolean).join(' ')
-  const notesEs = build.notesEs ?? build.notes
-
+  // Strictly factual data compilation: No copyrighted guide prose or creative commentary is preserved.
   return {
     kqm,
     usage: {
       characterId: character.slug,
       name: character.name,
-      iconUrl: character.iconUrl,
+      iconUrl: characterImageUrl(character.slug),
       element: capitalize(character.element),
       role: {
         en: build.name || usage.label,
@@ -227,10 +224,6 @@ function resolveCharacter(
       substatsPriority,
       critTie,
       erUntilRequirement,
-      notes: {
-        en: notesEn.slice(0, 1200),
-        es: notesEs.slice(0, 1200),
-      },
       sourceValidation: {
         ...sourceResolution,
         genshinBuildsUpdated: build.version,
@@ -259,7 +252,7 @@ function buildSlotRules(
     const substatUsers = new Map<StatKey, string[]>()
     for (const character of users) {
       for (const stat of character.substatsPriority) {
-        if (stat === mainStat) continue
+        if (stat === mainStat || isFlatStat(stat)) continue
         const owners = substatUsers.get(stat)
         if (owners) {
           if (!owners.includes(character.characterId)) owners.push(character.characterId)
@@ -305,7 +298,7 @@ function buildFlowerAndPlume(set: GBArtifactSet, characters: CharacterUsage[]) {
   const combos = new Map<string, { substats: StatKey[]; usedBy: string[]; names: LocalizedText[] }>()
   for (const character of characters) {
     const stats = uniqueStats(
-      character.substatsPriority.filter((stat) => !['HP', 'ATK', 'DEF'].includes(stat)),
+      character.substatsPriority.filter((stat) => !isFlatStat(stat)),
     )
     if (stats.length === 0) continue
     const key = stats.join('|')
@@ -320,7 +313,7 @@ function buildFlowerAndPlume(set: GBArtifactSet, characters: CharacterUsage[]) {
     }
   }
   const topStats = uniqueStats(
-    characters.flatMap((character) => character.substatsPriority).filter((stat) => !['HP', 'ATK', 'DEF'].includes(stat)),
+    characters.flatMap((character) => character.substatsPriority).filter((stat) => !isFlatStat(stat)),
   )
   return {
     keepCombinations: [...combos.values()].slice(0, 8).map((combo) => ({

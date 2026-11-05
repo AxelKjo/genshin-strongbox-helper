@@ -20,7 +20,6 @@ async function main() {
     console.log('  slug:', guide.slug, 'version:', guide.version, 'recommends:', guide.recommendsSet)
     console.log('  main:', guide.mainStats)
     console.log('  substats:', guide.substats)
-    console.log('  context:', guide.setContext.slice(0, 220))
   }
 }
 
