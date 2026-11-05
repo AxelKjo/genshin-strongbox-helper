@@ -117,6 +117,41 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Obsidian',
     ],
   },
+  {
+    id: 'scroll-of-the-hero-of-cinder-city',
+    en: 'Scroll of the Hero of Cinder City',
+    es: 'Pergamino del Héroe de la Ciudad de las Cenizas',
+    aliases: [
+      'Pergamino del Héroe de la Ciudad de las Cenizas',
+      'Pergamino del Heroe de la Ciudad de las Cenizas',
+      'Scroll of the Hero of Cinder City',
+      'Cinder City',
+      'Hero of Cinder City',
+    ],
+  },
+  {
+    id: 'fragment-of-harmonic-whimsy',
+    en: 'Fragment of Harmonic Whimsy',
+    es: 'Fragmento de la Armonía Fantasiosa',
+    aliases: [
+      'Fragmento de la Armonía Fantasiosa',
+      'Fragmento de la Armonia Fantasiosa',
+      'Fragment of Harmonic Whimsy',
+      'Harmonic Whimsy',
+      'Whimsy',
+    ],
+  },
+  {
+    id: 'unfinished-reverie',
+    en: 'Unfinished Reverie',
+    es: 'Ensoñación Inacabada',
+    aliases: [
+      'Ensoñación Inacabada',
+      'Ensonacion Inacabada',
+      'Unfinished Reverie',
+      'Reverie',
+    ],
+  },
 ]
 
 export function getTargetSets(argv: string[] = process.argv.slice(2)): TargetSetConfig[] {

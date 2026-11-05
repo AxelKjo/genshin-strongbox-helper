@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T05:35:41.106Z",
+  "generatedAt": "2026-11-05T06:22:32.408Z",
   "version": "MVP-9-sets",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
@@ -10032,6 +10032,3801 @@
             "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/varesa-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scroll-of-the-hero-of-cinder-city",
+      "name": {
+        "en": "Scroll of the Hero of Cinder City",
+        "es": "Pergamino del Héroe de la Ciudad de las Cenizas"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "5.0",
+        "major": 5,
+        "minor": 0
+      },
+      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/scroll-of-the-hero-of-cinder-city.BktAVmRa_Z7J2b3.webp",
+      "imageUrl": "/images/artifacts/scroll-of-the-hero-of-cinder-city.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "When a nearby party member triggers a Nightsoul Burst, the equipping character regenerates 6 Elemental Energy.",
+          "es": "Cuando un personaje cercano del equipo causa una explosión noctámbula, el portador de este conjunto recupera 6 pts. de Energía Elemental."
+        },
+        "fourPiece": {
+          "en": "After the equipping character triggers a reaction related to their Elemental Type, all nearby party members gain a 12% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 15s. If the equipping character is in the Nightsoul's Blessing state when triggering this effect, all nearby party members gain an additional 28% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 20s. The equipping character can trigger this effect while off-field, and the DMG bonus from Artifact Sets with the same name do not stack.",
+          "es": "Cuando el portador de este conjunto causa una Reacción Elemental relacionada con su tipo elemental, los Bonos de Daño Elemental relacionados con esa Reacción Elemental de todos los personajes cercanos del equipo aumentan en un 12% durante 15 s. Si el portador de este conjunto está en el estado de bendición noctámbula cuando se activa este efecto, los Bonos de Daño Elemental relacionados con esa Reacción Elemental de dichos personajes aumentan en un 28% adicional durante 20 s. Estos efectos se pueden activar incluso cuando el portador está en tu equipo pero no en uso. Los bonos de daño otorgados por este conjunto de artefactos no se pueden acumular con los de otro conjunto del mismo tipo."
+        }
+      },
+      "summaryVerdict": {
+        "en": "Scroll of the Hero of Cinder City is a 5★ set used by Candace, Citlali, Diona, Faruzan. Keep Sands with HP%, Energy Recharge, Elemental Mastery, ATK%, Goblets with HP%, Hydro DMG Bonus, Elemental Mastery, Anemo DMG Bonus and Circlets with HP%, CRIT Rate, CRIT DMG, Elemental Mastery. Everything else is fodder unless it is a strong off-piece.",
+        "es": "Pergamino del Héroe de la Ciudad de las Cenizas es un set de 5★ usado por Candace, Citlalí, Diona, Faruzán. Conserva Arenas con Vida%, Recarga de Energía, Maestría Elemental, ATQ%, Cálices con Vida%, Bono de Daño Hydro, Maestría Elemental, Bono de Daño Anemo y Tiaras con Vida%, Prob. CRIT, Daño CRIT, Maestría Elemental. El resto es material de reciclaje salvo que sea una gran pieza externa."
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "EM",
+              "HP%"
+            ],
+            "usedBy": [
+              "candace"
+            ],
+            "reasoning": {
+              "en": "Candace can use Energy Recharge + CRIT Rate + Elemental Mastery + HP% on this set's Flower and Plume.",
+              "es": "Candace busca(n) Recarga de Energía + Prob. CRIT + Maestría Elemental + Vida% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "EM",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "citlali"
+            ],
+            "reasoning": {
+              "en": "Citlali can use Energy Recharge + Elemental Mastery + CRIT Rate on this set's Flower and Plume.",
+              "es": "Citlalí busca(n) Recarga de Energía + Maestría Elemental + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "HP%",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "diona",
+              "dahlia",
+              "layla"
+            ],
+            "reasoning": {
+              "en": "Diona, Dahlia, Layla can use Energy Recharge + HP% + CRIT Rate on this set's Flower and Plume.",
+              "es": "Diona, Dahlia, Laila busca(n) Recarga de Energía + Vida% + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%"
+            ],
+            "usedBy": [
+              "faruzan",
+              "rosaria"
+            ],
+            "reasoning": {
+              "en": "Faruzan, Rosaria can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% on this set's Flower and Plume.",
+              "es": "Faruzán, Rosaria busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "ATK%",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "iansan",
+              "nicole"
+            ],
+            "reasoning": {
+              "en": "Iansan, Nicole can use Energy Recharge + ATK% + CRIT Rate on this set's Flower and Plume.",
+              "es": "Iansán, Nicole busca(n) Recarga de Energía + ATQ% + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "DEF%"
+            ],
+            "usedBy": [
+              "kachina"
+            ],
+            "reasoning": {
+              "en": "Kachina can use Energy Recharge + CRIT Rate + CRIT DMG + DEF% on this set's Flower and Plume.",
+              "es": "Kachina busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + DEF% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "ororon"
+            ],
+            "reasoning": {
+              "en": "Ororon can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Ororon busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "DEF%"
+            ],
+            "usedBy": [
+              "pyro-traveler"
+            ],
+            "reasoning": {
+              "en": "Pyro Traveler can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + DEF% on this set's Flower and Plume.",
+              "es": "Viajero Pyro busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + DEF% en la Flor y la Pluma de este set."
+            }
+          }
+        ],
+        "discardRule": {
+          "en": "Flowers and plumes with no Energy Recharge, CRIT Rate, Elemental Mastery, HP%, CRIT DMG, ATK%, DEF% and no useful upgrades can be safely recycled in the Relic Strongbox.",
+          "es": "Las Flores y Plumas sin Recarga de Energía, Prob. CRIT, Maestría Elemental, Vida%, Daño CRIT, ATQ%, DEF% ni mejoras útiles se pueden reciclar sin riesgo en el Relicario."
+        }
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "candace",
+                  "diona",
+                  "sigewinne",
+                  "chevreuse",
+                  "dahlia",
+                  "dehya",
+                  "layla"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "candace",
+                  "diona",
+                  "zhongli",
+                  "chevreuse",
+                  "dahlia",
+                  "layla"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "candace",
+                  "chevreuse"
+                ]
+              }
+            ],
+            "usedBy": [
+              "candace",
+              "diona",
+              "sigewinne",
+              "zhongli",
+              "barbara",
+              "chevreuse",
+              "dahlia",
+              "dehya",
+              "layla"
+            ],
+            "reasoning": {
+              "en": "Candace, Diona, Sigewinne, Zhongli, Barbara, Chevreuse, Dahlia, Dehya, Layla can use HP% on Sands for this set. Useful substats for this piece: CRIT Rate > Energy Recharge > Elemental Mastery.",
+              "es": "Candace, Diona, Sigewinne, Zhongli, Bárbara, Chevreuse, Dahlia, Dehya, Laila puede(n) usar Vida% en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Recarga de Energía > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "iansan",
+                  "ororon",
+                  "pyro-traveler",
+                  "charlotte",
+                  "ifa",
+                  "lisa",
+                  "mavuika",
+                  "nicole",
+                  "qiqi",
+                  "rosaria",
+                  "shenhe",
+                  "xingqiu"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "iansan",
+                  "ororon",
+                  "pyro-traveler",
+                  "charlotte",
+                  "ifa",
+                  "lisa",
+                  "nicole",
+                  "qiqi",
+                  "rosaria",
+                  "shenhe",
+                  "xingqiu"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "ororon",
+                  "pyro-traveler",
+                  "charlotte",
+                  "ifa",
+                  "lisa",
+                  "mavuika",
+                  "rosaria",
+                  "shenhe",
+                  "xingqiu"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "ororon",
+                  "ifa",
+                  "lisa",
+                  "mavuika"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "pyro-traveler",
+                  "qiqi"
+                ]
+              }
+            ],
+            "usedBy": [
+              "iansan",
+              "ororon",
+              "pyro-traveler",
+              "charlotte",
+              "ifa",
+              "lisa",
+              "mavuika",
+              "nicole",
+              "qiqi",
+              "rosaria",
+              "shenhe",
+              "xingqiu"
+            ],
+            "reasoning": {
+              "en": "Iansan, Ororon, Pyro Traveler, Charlotte, Ifa, Lisa, Mavuika, Nicole, Qiqi, Rosaria, Shenhe, Xingqiu can use ATK% on Sands for this set. Useful substats for this piece: CRIT Rate > Energy Recharge > CRIT DMG > Elemental Mastery > DEF%.",
+              "es": "Iansán, Ororon, Viajero Pyro, Charlotte, Ifá, Lisa, Mavuika, Nicole, Qiqi, Rosaria, Shenhe, Xingchiu puede(n) usar ATQ% en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Recarga de Energía > Daño CRIT > Maestría Elemental > DEF%."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kachina",
+                  "xilonen",
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kachina",
+                  "xilonen",
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "kachina",
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "xinyan"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kachina",
+              "xilonen",
+              "xinyan"
+            ],
+            "reasoning": {
+              "en": "Kachina, Xilonen, Xinyan can use DEF% on Sands for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > ATK%.",
+              "es": "Kachina, Xilonen, Xinyan puede(n) usar DEF% en Arenas para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ%."
+            }
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "candace",
+                  "citlali",
+                  "diona",
+                  "faruzan",
+                  "iansan",
+                  "kachina",
+                  "ororon",
+                  "pyro-traveler",
+                  "xilonen",
+                  "xinyan",
+                  "charlotte",
+                  "chevreuse",
+                  "dahlia",
+                  "electro-traveler",
+                  "gorou",
+                  "layla",
+                  "lisa",
+                  "nicole",
+                  "qiqi",
+                  "rosaria",
+                  "shenhe",
+                  "xingqiu"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "faruzan",
+                  "iansan",
+                  "ororon",
+                  "pyro-traveler",
+                  "xinyan",
+                  "charlotte",
+                  "electro-traveler",
+                  "lisa",
+                  "nicole",
+                  "qiqi",
+                  "rosaria",
+                  "shenhe",
+                  "xingqiu"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "faruzan",
+                  "kachina",
+                  "ororon",
+                  "pyro-traveler",
+                  "xinyan",
+                  "charlotte",
+                  "electro-traveler",
+                  "lisa",
+                  "rosaria",
+                  "shenhe",
+                  "xingqiu"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "kachina",
+                  "pyro-traveler",
+                  "xilonen",
+                  "xinyan",
+                  "gorou",
+                  "qiqi"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "candace",
+                  "citlali",
+                  "ororon",
+                  "chevreuse",
+                  "lisa"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "candace",
+                  "diona",
+                  "chevreuse",
+                  "dahlia",
+                  "layla"
+                ]
+              }
+            ],
+            "usedBy": [
+              "candace",
+              "citlali",
+              "diona",
+              "faruzan",
+              "iansan",
+              "kachina",
+              "ororon",
+              "pyro-traveler",
+              "xilonen",
+              "xinyan",
+              "charlotte",
+              "chevreuse",
+              "dahlia",
+              "electro-traveler",
+              "gorou",
+              "layla",
+              "lisa",
+              "nicole",
+              "qiqi",
+              "rosaria",
+              "shenhe",
+              "xingqiu"
+            ],
+            "reasoning": {
+              "en": "Candace, Citlali, Diona, Faruzan, Iansan, Kachina, Ororon, Pyro Traveler, Xilonen, Xinyan, Charlotte, Chevreuse, Dahlia, Electro Traveler, Gorou, Layla, Lisa, Nicole, Qiqi, Rosaria, Shenhe, Xingqiu can use Energy Recharge on Sands for this set. Useful substats for this piece: CRIT Rate > ATK% > CRIT DMG > DEF% > Elemental Mastery > HP%.",
+              "es": "Candace, Citlalí, Diona, Faruzán, Iansán, Kachina, Ororon, Viajero Pyro, Xilonen, Xinyan, Charlotte, Chevreuse, Dahlia, Viajero Electro, Gorou, Laila, Lisa, Nicole, Qiqi, Rosaria, Shenhe, Xingchiu puede(n) usar Recarga de Energía en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > ATQ% > Daño CRIT > DEF% > Maestría Elemental > Vida%."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "candace",
+                  "citlali",
+                  "lisa",
+                  "mavuika"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "candace",
+                  "citlali",
+                  "lisa"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "lisa",
+                  "mavuika"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "lisa",
+                  "mavuika"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "candace"
+                ]
+              }
+            ],
+            "usedBy": [
+              "candace",
+              "citlali",
+              "lisa",
+              "mavuika"
+            ],
+            "reasoning": {
+              "en": "Candace, Citlali, Lisa, Mavuika can use Elemental Mastery on Sands for this set. Useful substats for this piece: CRIT Rate > Energy Recharge > CRIT DMG > ATK% > HP%.",
+              "es": "Candace, Citlalí, Lisa, Mavuika puede(n) usar Maestría Elemental en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Recarga de Energía > Daño CRIT > ATQ% > Vida%."
+            }
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "candace",
+                  "diona",
+                  "sigewinne",
+                  "chevreuse",
+                  "dahlia",
+                  "dehya",
+                  "layla"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "candace",
+                  "diona",
+                  "zhongli",
+                  "chevreuse",
+                  "dahlia",
+                  "layla"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "candace",
+                  "chevreuse"
+                ]
+              }
+            ],
+            "usedBy": [
+              "candace",
+              "diona",
+              "sigewinne",
+              "zhongli",
+              "barbara",
+              "chevreuse",
+              "dahlia",
+              "dehya",
+              "layla"
+            ],
+            "reasoning": {
+              "en": "Candace, Diona, Sigewinne, Zhongli, Barbara, Chevreuse, Dahlia, Dehya, Layla can use HP% on Goblet for this set. Useful substats for this piece: CRIT Rate > Energy Recharge > Elemental Mastery.",
+              "es": "Candace, Diona, Sigewinne, Zhongli, Bárbara, Chevreuse, Dahlia, Dehya, Laila puede(n) usar Vida% en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Recarga de Energía > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "iansan",
+                  "charlotte",
+                  "nicole",
+                  "qiqi",
+                  "shenhe"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "iansan",
+                  "charlotte",
+                  "nicole",
+                  "qiqi",
+                  "shenhe"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "charlotte",
+                  "shenhe"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "qiqi"
+                ]
+              }
+            ],
+            "usedBy": [
+              "iansan",
+              "charlotte",
+              "nicole",
+              "qiqi",
+              "shenhe"
+            ],
+            "reasoning": {
+              "en": "Iansan, Charlotte, Nicole, Qiqi, Shenhe can use ATK% on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > DEF%.",
+              "es": "Iansán, Charlotte, Nicole, Qiqi, Shenhe puede(n) usar ATQ% en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > DEF%."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kachina",
+                  "xilonen",
+                  "xinyan",
+                  "gorou"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kachina",
+                  "xilonen",
+                  "xinyan",
+                  "gorou"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "kachina",
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "xinyan"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kachina",
+              "xilonen",
+              "xinyan",
+              "gorou"
+            ],
+            "reasoning": {
+              "en": "Kachina, Xilonen, Xinyan, Gorou can use DEF% on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > ATK%.",
+              "es": "Kachina, Xilonen, Xinyan, Gorou puede(n) usar DEF% en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ%."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "candace",
+                  "citlali"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "candace",
+                  "citlali"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "candace"
+                ]
+              }
+            ],
+            "usedBy": [
+              "candace",
+              "citlali"
+            ],
+            "reasoning": {
+              "en": "Candace, Citlali can use Elemental Mastery on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > HP%.",
+              "es": "Candace, Citlalí puede(n) usar Maestría Elemental en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Vida%."
+            }
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "pyro-traveler",
+                  "mavuika"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "pyro-traveler",
+                  "mavuika"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "pyro-traveler",
+                  "mavuika"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "mavuika"
+                ]
+              }
+            ],
+            "usedBy": [
+              "pyro-traveler",
+              "mavuika"
+            ],
+            "reasoning": {
+              "en": "Pyro Traveler, Mavuika can use Pyro DMG Bonus on Goblet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > ATK% > Energy Recharge > DEF% > Elemental Mastery.",
+              "es": "Viajero Pyro, Mavuika puede(n) usar Bono de Daño Pyro en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > ATQ% > Recarga de Energía > DEF% > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "candace",
+                  "xingqiu"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "candace",
+                  "xingqiu"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "candace"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "candace"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "xingqiu"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "xingqiu"
+                ]
+              }
+            ],
+            "usedBy": [
+              "candace",
+              "xingqiu"
+            ],
+            "reasoning": {
+              "en": "Candace, Xingqiu can use Hydro DMG Bonus on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > Elemental Mastery > HP% > CRIT DMG > ATK%.",
+              "es": "Candace, Xingchiu puede(n) usar Bono de Daño Hydro en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Maestría Elemental > Vida% > Daño CRIT > ATQ%."
+            }
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "rosaria"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "rosaria"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "rosaria"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "rosaria"
+                ]
+              }
+            ],
+            "usedBy": [
+              "rosaria"
+            ],
+            "reasoning": {
+              "en": "Rosaria can use Cryo DMG Bonus on Goblet in niche builds. Keep only if it rolls Energy Recharge > CRIT Rate > CRIT DMG > ATK%.",
+              "es": "Rosaria puede(n) usar Bono de Daño Cryo en Cáliz en builds de nicho. Consérvala solo si sube Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ%."
+            }
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "ororon",
+                  "electro-traveler",
+                  "lisa"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "ororon",
+                  "electro-traveler",
+                  "lisa"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "ororon",
+                  "electro-traveler",
+                  "lisa"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "ororon",
+                  "electro-traveler",
+                  "lisa"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "ororon",
+                  "lisa"
+                ]
+              }
+            ],
+            "usedBy": [
+              "ororon",
+              "electro-traveler",
+              "lisa"
+            ],
+            "reasoning": {
+              "en": "Ororon, Electro Traveler, Lisa can use Electro DMG Bonus on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > ATK% > Elemental Mastery.",
+              "es": "Ororon, Viajero Electro, Lisa puede(n) usar Bono de Daño Electro en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ% > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "faruzan",
+                  "ifa"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "faruzan",
+                  "ifa"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "faruzan",
+                  "ifa"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "faruzan",
+                  "ifa"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "ifa"
+                ]
+              }
+            ],
+            "usedBy": [
+              "faruzan",
+              "ifa"
+            ],
+            "reasoning": {
+              "en": "Faruzan, Ifa can use Anemo DMG Bonus on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > ATK% > Elemental Mastery.",
+              "es": "Faruzán, Ifá puede(n) usar Bono de Daño Anemo en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > ATQ% > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kachina",
+                  "gorou"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kachina",
+                  "gorou"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "kachina",
+                  "gorou"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "kachina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kachina",
+              "gorou"
+            ],
+            "reasoning": {
+              "en": "Kachina, Gorou can use Geo DMG Bonus on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > DEF% > CRIT DMG.",
+              "es": "Kachina, Gorou puede(n) usar Bono de Daño Geo en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > DEF% > Daño CRIT."
+            }
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scroll of the Hero of Cinder City user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Pergamino del Héroe de la Ciudad de las Cenizas necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Scroll of the Hero of Cinder City user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Pergamino del Héroe de la Ciudad de las Cenizas necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "candace",
+                  "diona",
+                  "sigewinne",
+                  "chevreuse",
+                  "dahlia",
+                  "dehya",
+                  "layla"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "candace",
+                  "diona",
+                  "zhongli",
+                  "chevreuse",
+                  "dahlia",
+                  "layla"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "candace",
+                  "chevreuse"
+                ]
+              }
+            ],
+            "usedBy": [
+              "candace",
+              "diona",
+              "sigewinne",
+              "zhongli",
+              "chevreuse",
+              "dahlia",
+              "dehya",
+              "layla"
+            ],
+            "reasoning": {
+              "en": "Candace, Diona, Sigewinne, Zhongli, Chevreuse, Dahlia, Dehya, Layla can use HP% on Circlet for this set. Useful substats for this piece: CRIT Rate > Energy Recharge > Elemental Mastery.",
+              "es": "Candace, Diona, Sigewinne, Zhongli, Chevreuse, Dahlia, Dehya, Laila puede(n) usar Vida% en Tiara para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Recarga de Energía > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "iansan",
+                  "charlotte",
+                  "nicole",
+                  "qiqi",
+                  "shenhe"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "iansan",
+                  "charlotte",
+                  "nicole",
+                  "qiqi",
+                  "shenhe"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "charlotte",
+                  "shenhe"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "qiqi"
+                ]
+              }
+            ],
+            "usedBy": [
+              "iansan",
+              "charlotte",
+              "nicole",
+              "qiqi",
+              "shenhe"
+            ],
+            "reasoning": {
+              "en": "Iansan, Charlotte, Nicole, Qiqi, Shenhe can use ATK% on Circlet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > DEF%.",
+              "es": "Iansán, Charlotte, Nicole, Qiqi, Shenhe puede(n) usar ATQ% en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > DEF%."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "xilonen",
+                  "xinyan",
+                  "gorou"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "xilonen",
+                  "xinyan",
+                  "gorou"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "xinyan"
+                ]
+              }
+            ],
+            "usedBy": [
+              "xilonen",
+              "xinyan",
+              "gorou"
+            ],
+            "reasoning": {
+              "en": "Xilonen, Xinyan, Gorou can use DEF% on Circlet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > ATK% > CRIT DMG.",
+              "es": "Xilonen, Xinyan, Gorou puede(n) usar DEF% en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > ATQ% > Daño CRIT."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "candace",
+                  "citlali"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "candace",
+                  "citlali"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "candace"
+                ]
+              }
+            ],
+            "usedBy": [
+              "candace",
+              "citlali"
+            ],
+            "reasoning": {
+              "en": "Candace, Citlali can use Elemental Mastery on Circlet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > HP%.",
+              "es": "Candace, Citlalí puede(n) usar Maestría Elemental en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Vida%."
+            }
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "candace",
+                  "citlali",
+                  "diona",
+                  "faruzan",
+                  "iansan",
+                  "kachina",
+                  "ororon",
+                  "pyro-traveler",
+                  "xilonen",
+                  "zhongli",
+                  "charlotte",
+                  "electro-traveler",
+                  "gorou",
+                  "ifa",
+                  "layla",
+                  "lisa",
+                  "nicole",
+                  "rosaria",
+                  "xingqiu"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "faruzan",
+                  "iansan",
+                  "ororon",
+                  "pyro-traveler",
+                  "charlotte",
+                  "electro-traveler",
+                  "ifa",
+                  "lisa",
+                  "mavuika",
+                  "nicole",
+                  "rosaria",
+                  "xingqiu"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "faruzan",
+                  "kachina",
+                  "ororon",
+                  "pyro-traveler",
+                  "charlotte",
+                  "electro-traveler",
+                  "ifa",
+                  "lisa",
+                  "mavuika",
+                  "rosaria",
+                  "xingqiu"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "candace",
+                  "citlali",
+                  "ororon",
+                  "ifa",
+                  "lisa",
+                  "mavuika"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "candace",
+                  "diona",
+                  "sigewinne",
+                  "zhongli",
+                  "dehya",
+                  "layla"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "kachina",
+                  "pyro-traveler",
+                  "xilonen",
+                  "gorou"
+                ]
+              }
+            ],
+            "usedBy": [
+              "candace",
+              "citlali",
+              "diona",
+              "faruzan",
+              "iansan",
+              "kachina",
+              "ororon",
+              "pyro-traveler",
+              "sigewinne",
+              "xilonen",
+              "zhongli",
+              "charlotte",
+              "dehya",
+              "electro-traveler",
+              "gorou",
+              "ifa",
+              "layla",
+              "lisa",
+              "mavuika",
+              "nicole",
+              "rosaria",
+              "xingqiu"
+            ],
+            "reasoning": {
+              "en": "Candace, Citlali, Diona, Faruzan, Iansan, Kachina, Ororon, Pyro Traveler, Sigewinne, Xilonen, Zhongli, Charlotte, Dehya, Electro Traveler, Gorou, Ifa, Layla, Lisa, Mavuika, Nicole, Rosaria, Xingqiu can use CRIT Rate on Circlet for this set. Useful substats for this piece: Energy Recharge > ATK% > CRIT DMG > Elemental Mastery > HP% > DEF%.",
+              "es": "Candace, Citlalí, Diona, Faruzán, Iansán, Kachina, Ororon, Viajero Pyro, Sigewinne, Xilonen, Zhongli, Charlotte, Dehya, Viajero Electro, Gorou, Ifá, Laila, Lisa, Mavuika, Nicole, Rosaria, Xingchiu puede(n) usar Prob. CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > ATQ% > Daño CRIT > Maestría Elemental > Vida% > DEF%."
+            }
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "candace",
+                  "faruzan",
+                  "kachina",
+                  "ororon",
+                  "pyro-traveler",
+                  "electro-traveler",
+                  "ifa",
+                  "lisa",
+                  "mavuika",
+                  "xingqiu"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "candace",
+                  "faruzan",
+                  "kachina",
+                  "ororon",
+                  "pyro-traveler",
+                  "electro-traveler",
+                  "ifa",
+                  "lisa",
+                  "xingqiu"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "faruzan",
+                  "ororon",
+                  "pyro-traveler",
+                  "electro-traveler",
+                  "ifa",
+                  "lisa",
+                  "mavuika",
+                  "xingqiu"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "candace",
+                  "ororon",
+                  "ifa",
+                  "lisa",
+                  "mavuika"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "kachina",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "candace"
+                ]
+              }
+            ],
+            "usedBy": [
+              "candace",
+              "faruzan",
+              "kachina",
+              "ororon",
+              "pyro-traveler",
+              "electro-traveler",
+              "ifa",
+              "lisa",
+              "mavuika",
+              "xingqiu"
+            ],
+            "reasoning": {
+              "en": "Candace, Faruzan, Kachina, Ororon, Pyro Traveler, Electro Traveler, Ifa, Lisa, Mavuika, Xingqiu can use CRIT DMG on Circlet for this set. Useful substats for this piece: CRIT Rate > Energy Recharge > ATK% > Elemental Mastery > DEF% > HP%.",
+              "es": "Candace, Faruzán, Kachina, Ororon, Viajero Pyro, Viajero Electro, Ifá, Lisa, Mavuika, Xingchiu puede(n) usar Daño CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Recarga de Energía > ATQ% > Maestría Elemental > DEF% > Vida%."
+            }
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "diona",
+                  "xilonen",
+                  "charlotte",
+                  "chevreuse",
+                  "gorou",
+                  "qiqi"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "diona",
+                  "xilonen",
+                  "charlotte",
+                  "chevreuse",
+                  "gorou",
+                  "qiqi"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "diona",
+                  "barbara",
+                  "chevreuse"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "xilonen",
+                  "gorou",
+                  "qiqi"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "charlotte",
+                  "qiqi"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "charlotte"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "chevreuse"
+                ]
+              }
+            ],
+            "usedBy": [
+              "diona",
+              "xilonen",
+              "barbara",
+              "charlotte",
+              "chevreuse",
+              "gorou",
+              "qiqi"
+            ],
+            "reasoning": {
+              "en": "Diona, Xilonen, Barbara, Charlotte, Chevreuse, Gorou, Qiqi can use Healing Bonus on Circlet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > HP% > DEF% > ATK% > CRIT DMG > Elemental Mastery.",
+              "es": "Diona, Xilonen, Bárbara, Charlotte, Chevreuse, Gorou, Qiqi puede(n) usar Bono de Curación en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Vida% > DEF% > ATQ% > Daño CRIT > Maestría Elemental."
+            }
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "candace",
+          "name": {
+            "en": "Candace",
+            "es": "Candace"
+          },
+          "iconUrl": "/images/characters/candace.png",
+          "element": "Hydro",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "HP%",
+              "ER%",
+              "EM"
+            ],
+            "goblet": [
+              "HP%",
+              "Hydro DMG%",
+              "EM"
+            ],
+            "circlet": [
+              "HP%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "EM",
+            "HP%"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "KQM",
+            "gbVersion": "5.8",
+            "kqmVersion": "6.0",
+            "resolutionReason": "KQM newer (6.0 > 5.8) and recommends set",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/candace-quickguide/"
+          }
+        },
+        {
+          "characterId": "citlali",
+          "name": {
+            "en": "Citlali",
+            "es": "Citlalí"
+          },
+          "iconUrl": "/images/characters/citlali.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM",
+              "ER%"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "EM",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "EM",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "5.4",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 5.4)",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/citlali-quickguide/"
+          }
+        },
+        {
+          "characterId": "diona",
+          "name": {
+            "en": "Diona",
+            "es": "Diona"
+          },
+          "iconUrl": "/images/characters/diona.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Heal & Shield Support",
+            "es": "Heal & Shield Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "HP%",
+              "ER%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%",
+              "Healing Bonus",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "HP%",
+            "CRIT Rate",
+            "HP"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "KQM",
+            "gbVersion": "6.7",
+            "kqmVersion": "7.1",
+            "resolutionReason": "KQM newer (7.1 > 6.7) and recommends set",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/diona-quickguide/"
+          }
+        },
+        {
+          "characterId": "faruzan",
+          "name": {
+            "en": "Faruzan",
+            "es": "Faruzán"
+          },
+          "iconUrl": "/images/characters/faruzan.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%"
+            ],
+            "goblet": [
+              "Anemo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.1",
+            "kqmVersion": "4.6",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.1 / Luna II",
+            "kqmUrl": "https://keqingmains.com/q/faruzan-quickguide/"
+          }
+        },
+        {
+          "characterId": "iansan",
+          "name": {
+            "en": "Iansan",
+            "es": "Iansán"
+          },
+          "iconUrl": "/images/characters/iansan.png",
+          "element": "Electro",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "ATK%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "ATK%",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.6",
+            "kqmVersion": "5.5",
+            "resolutionReason": "Genshin-Builds newer (5.6 > 5.5)",
+            "genshinBuildsUpdated": "5.6",
+            "kqmUrl": "https://keqingmains.com/q/iansan-quickguide/"
+          }
+        },
+        {
+          "characterId": "kachina",
+          "name": {
+            "en": "Kachina",
+            "es": "Kachina"
+          },
+          "iconUrl": "/images/characters/kachina.png",
+          "element": "Geo",
+          "role": {
+            "en": "Buff & Reaction Support",
+            "es": "Buff & Reaction Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "DEF%",
+              "ER%"
+            ],
+            "goblet": [
+              "Geo DMG%",
+              "DEF%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "DEF%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.0",
+            "kqmVersion": "5.0",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.0",
+            "kqmUrl": "https://keqingmains.com/q/kachina-quickguide/"
+          }
+        },
+        {
+          "characterId": "ororon",
+          "name": {
+            "en": "Ororon",
+            "es": "Ororon"
+          },
+          "iconUrl": "/images/characters/ororon.png",
+          "element": "Electro",
+          "role": {
+            "en": "Off-Field DPS",
+            "es": "DPS fuera de campo"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Both (Consensus)",
+            "gbVersion": "5.8",
+            "kqmVersion": "5.8",
+            "resolutionReason": "Versions match (5.8 = 5.8) and KQM recommends set",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/ororon-quickguide/"
+          }
+        },
+        {
+          "characterId": "pyro-traveler",
+          "name": {
+            "en": "Pyro Traveler",
+            "es": "Viajero Pyro"
+          },
+          "iconUrl": "/images/characters/pyro-traveler.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%"
+            ],
+            "goblet": [
+              "Pyro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "DEF%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.0",
+            "kqmVersion": "5.5",
+            "resolutionReason": "Genshin-Builds newer (7.0 > 5.5)",
+            "genshinBuildsUpdated": "7.0",
+            "kqmUrl": "https://keqingmains.com/q/pyro-traveler-quickguide/"
+          }
+        },
+        {
+          "characterId": "sigewinne",
+          "name": {
+            "en": "Sigewinne",
+            "es": "Sigewinne"
+          },
+          "iconUrl": "/images/characters/sigewinne.png",
+          "element": "Hydro",
+          "role": {
+            "en": "Heal Support",
+            "es": "Heal Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "HP%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "HP%",
+            "HP",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.8",
+            "kqmVersion": "4.7",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/sigewinne-quickguide/"
+          }
+        },
+        {
+          "characterId": "xilonen",
+          "name": {
+            "en": "Xilonen",
+            "es": "Xilonen"
+          },
+          "iconUrl": "/images/characters/xilonen.png",
+          "element": "Geo",
+          "role": {
+            "en": "Buff & Reaction Support",
+            "es": "Buff & Reaction Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "DEF%",
+              "ER%"
+            ],
+            "goblet": [
+              "DEF%"
+            ],
+            "circlet": [
+              "DEF%",
+              "Healing Bonus",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "DEF%",
+            "DEF",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "5.4",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 5.4)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/xilonen-quickguide/"
+          }
+        },
+        {
+          "characterId": "xinyan",
+          "name": {
+            "en": "Xinyan",
+            "es": "Xinyan"
+          },
+          "iconUrl": "/images/characters/xinyan.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Shield Support",
+            "es": "Shield Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "DEF%",
+              "ER%"
+            ],
+            "goblet": [
+              "DEF%"
+            ],
+            "circlet": [
+              "DEF%"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "ATK%",
+            "DEF%",
+            "CRIT Rate",
+            "CRIT DMG"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "resolutionReason": "Fallback to GB: no KQM guide",
+            "genshinBuildsUpdated": "7.1"
+          }
+        },
+        {
+          "characterId": "zhongli",
+          "name": {
+            "en": "Zhongli",
+            "es": "Zhongli"
+          },
+          "iconUrl": "/images/characters/zhongli.png",
+          "element": "Geo",
+          "role": {
+            "en": "Shield Support",
+            "es": "Shield Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "HP%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "HP%",
+            "HP",
+            "ER%"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "KQM",
+            "gbVersion": "5.8",
+            "kqmVersion": "7.1",
+            "resolutionReason": "KQM newer (7.1 > 5.8) and recommends set",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/zhongli-quickguide/"
+          }
+        },
+        {
+          "characterId": "barbara",
+          "name": {
+            "en": "Barbara",
+            "es": "Bárbara"
+          },
+          "iconUrl": "/images/characters/barbara.png",
+          "element": "Hydro",
+          "role": {
+            "en": "Heal Support",
+            "es": "Heal Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "HP%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "Healing Bonus"
+            ]
+          },
+          "substatsPriority": [
+            "HP%",
+            "HP"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.0",
+            "kqmVersion": "3.2",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.0",
+            "kqmUrl": "https://keqingmains.com/q/barbara-quickguide/"
+          }
+        },
+        {
+          "characterId": "charlotte",
+          "name": {
+            "en": "Charlotte",
+            "es": "Charlotte"
+          },
+          "iconUrl": "/images/characters/charlotte.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Heal Support",
+            "es": "Heal Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "Healing Bonus",
+              "ATK%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "ATK%",
+            "CRIT Rate",
+            "ATK",
+            "CRIT DMG"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "4.7",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/charlotte-quickguide/"
+          }
+        },
+        {
+          "characterId": "chevreuse",
+          "name": {
+            "en": "Chevreuse",
+            "es": "Chevreuse"
+          },
+          "iconUrl": "/images/characters/chevreuse.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "HP%",
+              "ER%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%",
+              "Healing Bonus"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "HP%",
+            "CRIT Rate",
+            "HP",
+            "EM"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "5.6",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/chevreuse-quickguide/"
+          }
+        },
+        {
+          "characterId": "dahlia",
+          "name": {
+            "en": "Dahlia",
+            "es": "Dahlia"
+          },
+          "iconUrl": "/images/characters/dahlia.png",
+          "element": "Hydro",
+          "role": {
+            "en": "Shield Support",
+            "es": "Shield Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "HP%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "HP%",
+            "CRIT Rate",
+            "HP"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.8",
+            "kqmVersion": "5.7",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/dahlia-quickguide/"
+          }
+        },
+        {
+          "characterId": "dehya",
+          "name": {
+            "en": "Dehya",
+            "es": "Dehya"
+          },
+          "iconUrl": "/images/characters/dehya.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Support",
+            "es": "Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "HP%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "HP%",
+            "HP",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "6.0",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/dehya-quickguide/"
+          }
+        },
+        {
+          "characterId": "electro-traveler",
+          "name": {
+            "en": "Electro Traveler",
+            "es": "Viajero Electro"
+          },
+          "iconUrl": "/images/characters/electro-traveler.png",
+          "element": "Electro",
+          "role": {
+            "en": "Energy Support",
+            "es": "Energy Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "ATK%",
+            "CRIT Rate",
+            "CRIT DMG"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "resolutionReason": "Fallback to GB: no KQM guide",
+            "genshinBuildsUpdated": "7.1"
+          }
+        },
+        {
+          "characterId": "gorou",
+          "name": {
+            "en": "Gorou",
+            "es": "Gorou"
+          },
+          "iconUrl": "/images/characters/gorou.png",
+          "element": "Geo",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%"
+            ],
+            "goblet": [
+              "Geo DMG%",
+              "DEF%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "DEF%",
+              "Healing Bonus"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "DEF%",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.3",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/gorou-quickguide/"
+          }
+        },
+        {
+          "characterId": "ifa",
+          "name": {
+            "en": "Ifa",
+            "es": "Ifá"
+          },
+          "iconUrl": "/images/characters/ifa.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Anemo DPS",
+            "es": "DPS Anemo"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Anemo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.0",
+            "kqmVersion": "6.0",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.0",
+            "kqmUrl": "https://keqingmains.com/q/ifa-quickguide/"
+          }
+        },
+        {
+          "characterId": "layla",
+          "name": {
+            "en": "Layla",
+            "es": "Laila"
+          },
+          "iconUrl": "/images/characters/layla.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Shield Support",
+            "es": "Shield Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "HP%",
+              "ER%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "HP%",
+            "CRIT Rate",
+            "HP"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.0",
+            "kqmVersion": "4.6",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.0",
+            "kqmUrl": "https://keqingmains.com/q/layla-quickguide/"
+          }
+        },
+        {
+          "characterId": "lisa",
+          "name": {
+            "en": "Lisa",
+            "es": "Lisa"
+          },
+          "iconUrl": "/images/characters/lisa.png",
+          "element": "Electro",
+          "role": {
+            "en": "Off-Field DPS & Support",
+            "es": "Off-Field DPS & Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM",
+              "ER%"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ER%",
+            "ATK%",
+            "EM",
+            "ATK"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "KQM",
+            "gbVersion": "6.2",
+            "kqmVersion": "6.5",
+            "resolutionReason": "KQM newer (6.5 > 6.2) and recommends set",
+            "genshinBuildsUpdated": "6.2 / Luna III",
+            "kqmUrl": "https://keqingmains.com/q/lisa-quickguide/"
+          }
+        },
+        {
+          "characterId": "mavuika",
+          "name": {
+            "en": "Mavuika",
+            "es": "Mavuika"
+          },
+          "iconUrl": "/images/characters/mavuika.png",
+          "element": "Pyro",
+          "role": {
+            "en": "DPS & Buff Support",
+            "es": "DPS y soporte de buffs"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "EM",
+              "ATK%"
+            ],
+            "goblet": [
+              "Pyro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.6",
+            "kqmVersion": "5.7",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.6 / Luna VII",
+            "kqmUrl": "https://keqingmains.com/q/mavuika-quickguide/"
+          }
+        },
+        {
+          "characterId": "nicole",
+          "name": {
+            "en": "Nicole",
+            "es": "Nicole"
+          },
+          "iconUrl": "/images/characters/nicole.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Shield & Buff Support",
+            "es": "Soporte de escudos y buffs"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "ATK%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "ATK%",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.7",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/nicole-quickguide/"
+          }
+        },
+        {
+          "characterId": "qiqi",
+          "name": {
+            "en": "Qiqi",
+            "es": "Qiqi"
+          },
+          "iconUrl": "/images/characters/qiqi.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Heal & Buff Support",
+            "es": "Heal & Buff Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "Healing Bonus",
+              "ATK%"
+            ]
+          },
+          "substatsPriority": [
+            "ATK%",
+            "ER%",
+            "ATK",
+            "CRIT Rate",
+            "DEF%"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.7",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/qiqi-quickguide/"
+          }
+        },
+        {
+          "characterId": "rosaria",
+          "name": {
+            "en": "Rosaria",
+            "es": "Rosaria"
+          },
+          "iconUrl": "/images/characters/rosaria.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "Cryo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.5",
+            "kqmVersion": "5.8",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.5",
+            "kqmUrl": "https://keqingmains.com/q/rosaria-quickguide/"
+          }
+        },
+        {
+          "characterId": "shenhe",
+          "name": {
+            "en": "Shenhe",
+            "es": "Shenhe"
+          },
+          "iconUrl": "/images/characters/shenhe.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "ATK%"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "ATK%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.0",
+            "kqmVersion": "5.6",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.0 / Luna I",
+            "kqmUrl": "https://keqingmains.com/q/shenhe-quickguide/"
+          }
+        },
+        {
+          "characterId": "xingqiu",
+          "name": {
+            "en": "Xingqiu",
+            "es": "Xingchiu"
+          },
+          "iconUrl": "/images/characters/xingqiu.png",
+          "element": "Hydro",
+          "role": {
+            "en": "High Energy Requirement (Off-Field DPS)",
+            "es": "Altos requisitos de energía (DPS fuera de campo)"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%"
+            ],
+            "goblet": [
+              "Hydro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "5.7",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/xingqiu-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fragment-of-harmonic-whimsy",
+      "name": {
+        "en": "Fragment of Harmonic Whimsy",
+        "es": "Fragmento de la Armonía Fantasiosa"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "4.6",
+        "major": 4,
+        "minor": 6
+      },
+      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/fragment-of-harmonic-whimsy.DxDQsXLx_ZdS8m9.webp",
+      "imageUrl": "/images/artifacts/fragment-of-harmonic-whimsy.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "ATK +18%.",
+          "es": "ATQ +18%."
+        },
+        "fourPiece": {
+          "en": "When the value of a Bond of Life increases or decreases, this character deals 18% increased DMG for 6s. Max 3 stacks.",
+          "es": "Cuando el valor de un pacto vital aumenta o disminuye, el daño que inflige el personaje aumenta en un 18%. Este efecto dura 6 s y puede acumularse hasta 3 veces."
+        }
+      },
+      "summaryVerdict": {
+        "en": "Fragment of Harmonic Whimsy is a 5★ set used by Arlecchino, Clorinde. Keep Sands with ATK%, Elemental Mastery, Goblets with Pyro DMG Bonus, Electro DMG Bonus and Circlets with CRIT Rate, CRIT DMG. Everything else is fodder unless it is a strong off-piece.",
+        "es": "Fragmento de la Armonía Fantasiosa es un set de 5★ usado por Arlecchino, Clorinde. Conserva Arenas con ATQ%, Maestría Elemental, Cálices con Bono de Daño Pyro, Bono de Daño Electro y Tiaras con Prob. CRIT, Daño CRIT. El resto es material de reciclaje salvo que sea una gran pieza externa."
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM",
+              "ATK%"
+            ],
+            "usedBy": [
+              "arlecchino"
+            ],
+            "reasoning": {
+              "en": "Arlecchino can use CRIT Rate + CRIT DMG + Elemental Mastery + ATK% on this set's Flower and Plume.",
+              "es": "Arlecchino busca(n) Prob. CRIT + Daño CRIT + Maestría Elemental + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM",
+              "ER%"
+            ],
+            "usedBy": [
+              "clorinde"
+            ],
+            "reasoning": {
+              "en": "Clorinde can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Clorinde busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          }
+        ],
+        "discardRule": {
+          "en": "Flowers and plumes with no CRIT Rate, CRIT DMG, Elemental Mastery, ATK%, Energy Recharge and no useful upgrades can be safely recycled in the Relic Strongbox.",
+          "es": "Las Flores y Plumas sin Prob. CRIT, Daño CRIT, Maestría Elemental, ATQ%, Recarga de Energía ni mejoras útiles se pueden reciclar sin riesgo en el Relicario."
+        }
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs HP% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "arlecchino",
+                  "clorinde"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "arlecchino",
+                  "clorinde"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "arlecchino",
+                  "clorinde"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde"
+                ]
+              }
+            ],
+            "usedBy": [
+              "arlecchino",
+              "clorinde"
+            ],
+            "reasoning": {
+              "en": "Arlecchino, Clorinde can use ATK% on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Elemental Mastery > Energy Recharge.",
+              "es": "Arlecchino, Clorinde puede(n) usar ATQ% en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Maestría Elemental > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs DEF% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs Energy Recharge on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita Recarga de Energía en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "arlecchino",
+                  "clorinde"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "arlecchino",
+                  "clorinde"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "arlecchino",
+                  "clorinde"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde"
+                ]
+              }
+            ],
+            "usedBy": [
+              "arlecchino",
+              "clorinde"
+            ],
+            "reasoning": {
+              "en": "Arlecchino, Clorinde can use Elemental Mastery on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > ATK% > Energy Recharge.",
+              "es": "Arlecchino, Clorinde puede(n) usar Maestría Elemental en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > ATQ% > Recarga de Energía."
+            }
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs HP% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs ATK% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita ATQ% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs DEF% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs Elemental Mastery on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita Maestría Elemental en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "arlecchino"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "arlecchino"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "arlecchino"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "arlecchino"
+                ]
+              }
+            ],
+            "usedBy": [
+              "arlecchino"
+            ],
+            "reasoning": {
+              "en": "Arlecchino can use Pyro DMG Bonus on Goblet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Elemental Mastery > ATK%.",
+              "es": "Arlecchino puede(n) usar Bono de Daño Pyro en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Maestría Elemental > ATQ%."
+            }
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs Hydro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita Bono de Daño Hydro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "clorinde"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "clorinde"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "clorinde"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "clorinde"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde"
+                ]
+              }
+            ],
+            "usedBy": [
+              "clorinde"
+            ],
+            "reasoning": {
+              "en": "Clorinde can use Electro DMG Bonus on Goblet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > ATK% > Elemental Mastery > Energy Recharge.",
+              "es": "Clorinde puede(n) usar Bono de Daño Electro en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > ATQ% > Maestría Elemental > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs HP% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs ATK% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs DEF% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "arlecchino",
+                  "clorinde"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "arlecchino",
+                  "clorinde"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "arlecchino",
+                  "clorinde"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde"
+                ]
+              }
+            ],
+            "usedBy": [
+              "arlecchino",
+              "clorinde"
+            ],
+            "reasoning": {
+              "en": "Arlecchino, Clorinde can use CRIT Rate on Circlet for this set. Useful substats for this piece: CRIT DMG > Elemental Mastery > ATK% > Energy Recharge.",
+              "es": "Arlecchino, Clorinde puede(n) usar Prob. CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Daño CRIT > Maestría Elemental > ATQ% > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "arlecchino",
+                  "clorinde"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "arlecchino",
+                  "clorinde"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "arlecchino",
+                  "clorinde"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde"
+                ]
+              }
+            ],
+            "usedBy": [
+              "arlecchino",
+              "clorinde"
+            ],
+            "reasoning": {
+              "en": "Arlecchino, Clorinde can use CRIT DMG on Circlet for this set. Useful substats for this piece: CRIT Rate > Elemental Mastery > ATK% > Energy Recharge.",
+              "es": "Arlecchino, Clorinde puede(n) usar Daño CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Maestría Elemental > ATQ% > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Fragment of Harmonic Whimsy user needs Healing Bonus on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fragmento de la Armonía Fantasiosa necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "arlecchino",
+          "name": {
+            "en": "Arlecchino",
+            "es": "Arlecchino"
+          },
+          "iconUrl": "/images/characters/arlecchino.png",
+          "element": "Pyro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Pyro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "6.7",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.7)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/arlecchino-quickguide/"
+          }
+        },
+        {
+          "characterId": "clorinde",
+          "name": {
+            "en": "Clorinde",
+            "es": "Clorinde"
+          },
+          "iconUrl": "/images/characters/clorinde.png",
+          "element": "Electro",
+          "role": {
+            "en": "Electro DPS (Dendro Teams)",
+            "es": "Electro DPS (Dendro Teams)"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "5.7",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/clorinde-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unfinished-reverie",
+      "name": {
+        "en": "Unfinished Reverie",
+        "es": "Ensoñación Inacabada"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "4.6",
+        "major": 4,
+        "minor": 6
+      },
+      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/unfinished-reverie.D4r12EyX_Zy7X85.webp",
+      "imageUrl": "/images/artifacts/unfinished-reverie.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "ATK +18%.",
+          "es": "ATQ +18%."
+        },
+        "fourPiece": {
+          "en": "After leaving combat for 3s, DMG dealt increased by 50%. In combat, if no Burning opponents are nearby for more than 6s, this DMG Bonus will decrease by 10% per second until it reaches 0%. When a Burning opponent exists, it will increase by 10% instead until it reaches 50%. This effect still triggers if the equipping character is off-field.",
+          "es": "3 s después de salir de combate, el daño infligido aumenta en un 50%. Si estando en combate han pasado más de 6 s sin que haya ningún enemigo cercano quemado, dicho aumento de daño irá disminuyendo en un 10% por segundo, hasta llegar al 0%. Si hay algún enemigo cercano quemado, el daño infligido aumenta en un 10% por segundo, hasta llegar al 50%. Estos efectos se pueden activar incluso cuando el personaje que lleva equipado este conjunto de artefactos está en tu equipo pero no en uso."
+        }
+      },
+      "summaryVerdict": {
+        "en": "Unfinished Reverie is a 5★ set used by Emilie, Kinich. Keep Sands with ATK%, Goblets with Dendro DMG Bonus and Circlets with CRIT Rate, CRIT DMG. Everything else is fodder unless it is a strong off-piece.",
+        "es": "Ensoñación Inacabada es un set de 5★ usado por Émilie, Kinich. Conserva Arenas con ATQ%, Cálices con Bono de Daño Dendro y Tiaras con Prob. CRIT, Daño CRIT. El resto es material de reciclaje salvo que sea una gran pieza externa."
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "ER%"
+            ],
+            "usedBy": [
+              "emilie",
+              "kinich"
+            ],
+            "reasoning": {
+              "en": "Emilie, Kinich can use CRIT Rate + CRIT DMG + ATK% + Energy Recharge on this set's Flower and Plume.",
+              "es": "Émilie, Kinich busca(n) Prob. CRIT + Daño CRIT + ATQ% + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          }
+        ],
+        "discardRule": {
+          "en": "Flowers and plumes with no CRIT Rate, CRIT DMG, ATK%, Energy Recharge and no useful upgrades can be safely recycled in the Relic Strongbox.",
+          "es": "Las Flores y Plumas sin Prob. CRIT, Daño CRIT, ATQ%, Recarga de Energía ni mejoras útiles se pueden reciclar sin riesgo en el Relicario."
+        }
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs HP% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "emilie",
+                  "kinich"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "emilie",
+                  "kinich"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "emilie",
+                  "kinich"
+                ]
+              }
+            ],
+            "usedBy": [
+              "emilie",
+              "kinich"
+            ],
+            "reasoning": {
+              "en": "Emilie, Kinich can use ATK% on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Energy Recharge.",
+              "es": "Émilie, Kinich puede(n) usar ATQ% en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs DEF% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs Energy Recharge on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita Recarga de Energía en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs Elemental Mastery on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita Maestría Elemental en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs HP% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs ATK% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita ATQ% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs DEF% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs Elemental Mastery on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita Maestría Elemental en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs Pyro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita Bono de Daño Pyro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs Hydro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita Bono de Daño Hydro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "emilie",
+                  "kinich"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "emilie",
+                  "kinich"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "emilie",
+                  "kinich"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "emilie",
+                  "kinich"
+                ]
+              }
+            ],
+            "usedBy": [
+              "emilie",
+              "kinich"
+            ],
+            "reasoning": {
+              "en": "Emilie, Kinich can use Dendro DMG Bonus on Goblet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > ATK% > Energy Recharge.",
+              "es": "Émilie, Kinich puede(n) usar Bono de Daño Dendro en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > ATQ% > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs HP% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs ATK% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs DEF% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "emilie",
+                  "kinich"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "emilie",
+                  "kinich"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "emilie",
+                  "kinich"
+                ]
+              }
+            ],
+            "usedBy": [
+              "emilie",
+              "kinich"
+            ],
+            "reasoning": {
+              "en": "Emilie, Kinich can use CRIT Rate on Circlet for this set. Useful substats for this piece: CRIT DMG > ATK% > Energy Recharge.",
+              "es": "Émilie, Kinich puede(n) usar Prob. CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Daño CRIT > ATQ% > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "emilie",
+                  "kinich"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "emilie",
+                  "kinich"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "emilie",
+                  "kinich"
+                ]
+              }
+            ],
+            "usedBy": [
+              "emilie",
+              "kinich"
+            ],
+            "reasoning": {
+              "en": "Emilie, Kinich can use CRIT DMG on Circlet for this set. Useful substats for this piece: CRIT Rate > ATK% > Energy Recharge.",
+              "es": "Émilie, Kinich puede(n) usar Daño CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > ATQ% > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Unfinished Reverie user needs Healing Bonus on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Ensoñación Inacabada necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "emilie",
+          "name": {
+            "en": "Emilie",
+            "es": "Émilie"
+          },
+          "iconUrl": "/images/characters/emilie.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Off-Field DPS",
+            "es": "DPS fuera de campo"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Dendro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "5.4",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 5.4)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/emilie-quickguide/"
+          }
+        },
+        {
+          "characterId": "kinich",
+          "name": {
+            "en": "Kinich",
+            "es": "Kinich"
+          },
+          "iconUrl": "/images/characters/kinich.png",
+          "element": "Dendro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Dendro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "5.6",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/kinich-quickguide/"
           }
         }
       ]

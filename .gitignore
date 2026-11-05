@@ -7,6 +7,4 @@ dist/
 *.log
 .DS_Store
 .vscode/
-PROMPT_PLAN.md
 AGENTS.md
-AUDIT_PROPOSAL.md
