@@ -84,6 +84,28 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Silken Moon',
     ],
   },
+  {
+    id: 'long-nights-oath',
+    en: "Long Night's Oath",
+    es: 'Juramento de la Noche',
+    aliases: [
+      'Juramento de la Noche',
+      'Juramento de la Larga Noche',
+      "Long Night's Oath",
+      'Long Nights Oath',
+    ],
+  },
+  {
+    id: 'finale-of-the-deep-galleries',
+    en: 'Finale of the Deep Galleries',
+    es: 'Réquiem del Corredor',
+    aliases: [
+      'Réquiem del Corredor',
+      'Requiem del Corredor',
+      'Finale of the Deep Galleries',
+      'Deep Galleries',
+    ],
+  },
 ]
 
 export function getTargetSets(argv: string[] = process.argv.slice(2)): TargetSetConfig[] {
