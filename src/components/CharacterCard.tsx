@@ -44,9 +44,7 @@ export function CharacterCard({ character, lang }: CharacterCardProps) {
             </span>
             <span className="text-[11px] font-medium text-slate-500">{UI.usage[character.usageType][lang]}</span>
           </div>
-          <p className="mt-0.5 text-xs text-slate-400">
-            {character.element} · {character.role[lang]}
-          </p>
+          <p className="mt-0.5 text-xs text-slate-400">{character.element}</p>
         </div>
       </div>
 

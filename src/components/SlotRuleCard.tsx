@@ -43,7 +43,15 @@ export function SlotRuleCard({ set, rule, lang }: SlotRuleCardProps) {
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-slate-400">{t('usedBy', lang)}</p>
           <div className="mt-2 flex flex-wrap gap-2">
             {users.map((character, index) => (
-              <span key={character.characterId} className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-abyss/60 py-1 pl-1 pr-2.5 text-sm text-slate-200" title={character.name[lang]}>
+              <span
+                key={character.characterId}
+                className={`inline-flex items-center gap-2 rounded-full border py-1 pl-1 pr-2.5 text-sm text-slate-200 ${
+                  character.tier === 'Alternative'
+                    ? 'border-amberNiche/40 bg-abyss/50'
+                    : 'border-white/10 bg-abyss/60'
+                }`}
+                title={character.name[lang]}
+              >
                 <Avatar src={character.iconUrl} alt={character.name[lang]} />
                 {!singleUser && <span className="text-xs font-bold tabular-nums text-gold/80">{index + 1}.</span>}
                 <span className="max-w-28 truncate">{character.name[lang]}</span>

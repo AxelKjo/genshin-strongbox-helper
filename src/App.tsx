@@ -22,6 +22,10 @@ function getInitialLang(): Lang {
   return 'es'
 }
 
+function compareSetsByRelease(a: ArtifactSetTriage, b: ArtifactSetTriage): number {
+  return b.releaseVersion.major - a.releaseVersion.major || b.releaseVersion.minor - a.releaseVersion.minor
+}
+
 function matchesQuery(set: ArtifactSetTriage, query: string): boolean {
   const term = query.trim().toLowerCase()
   if (!term) return true
@@ -71,8 +75,9 @@ export default function App() {
       })
       .then((data) => {
         if (cancelled) return
-        setDataset(data)
-        setSelectedId((current) => current ?? data.sets[0]?.id ?? null)
+        const sets = [...data.sets].sort(compareSetsByRelease)
+        setDataset({ ...data, sets })
+        setSelectedId((current) => current ?? sets[0]?.id ?? null)
       })
       .catch(() => {
         if (!cancelled) setError(true)

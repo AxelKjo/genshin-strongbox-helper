@@ -3,6 +3,12 @@ export interface LocalizedText {
   es: string
 }
 
+export interface ReleaseVersion {
+  raw: string
+  major: number
+  minor: number
+}
+
 export type StatKey =
   | 'HP' | 'HP%' | 'ATK' | 'ATK%' | 'DEF' | 'DEF%'
   | 'ER%' | 'EM' | 'CRIT Rate' | 'CRIT DMG' | 'Healing Bonus'
@@ -59,6 +65,7 @@ export interface ArtifactSetTriage {
   id: string
   name: LocalizedText
   rarity: number
+  releaseVersion: ReleaseVersion
   iconUrl: string
   imageUrl: string
   bonuses: {

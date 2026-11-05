@@ -87,15 +87,15 @@ export function SetDetail({ set, lang, reverseOrder }: SetDetailProps) {
                 </p>
                 <div className="mt-2 flex flex-wrap gap-1.5">
                   {discardRules.map((rule) => (
-                    <span key={rule.mainStat} className="rounded-md border border-coralDiscard/25 bg-abyss/50 px-2 py-1 text-sm font-medium text-coralDiscard/90">
+                    <span key={rule.mainStat} className="inline-flex items-center rounded-lg border border-coralDiscard/25 bg-abyss/50 px-3 py-1.5 text-xl font-medium text-coralDiscard/90">
                       {statLabel(rule.mainStat, lang)}
                     </span>
                   ))}
                 </div>
                 <p className="mt-2 text-xs leading-relaxed text-slate-400">
                   {lang === 'en'
-                    ? 'No current user of this set wants these main stats on this slot. Recycle them unless the substats make them a premium off-piece.'
-                    : 'Ningún personaje actual de este set quiere estas estadísticas principales en esta pieza. Recíclalas salvo que las subestadísticas las conviertan en una pieza externa premium.'}
+                    ? 'No current user of this set wants these main stats on this slot. Recycle them unless the substats make them a solid off-piece.'
+                    : 'Ningún personaje actual de este set quiere estas estadísticas principales en esta pieza. Recíclalas salvo que las subestadísticas las conviertan en una buena pieza externa.'}
                 </p>
               </article>
             ) : null
@@ -155,9 +155,14 @@ export function SetDetail({ set, lang, reverseOrder }: SetDetailProps) {
       </section>
 
       <section>
-        <div className="mb-3 flex items-end justify-between gap-3">
-          <h2 className="font-display text-xl text-goldSoft">{t('characterBreakdown', lang)}</h2>
-          <span className="text-xs text-slate-500">{set.characters.length} {t('characters', lang)}</span>
+        <div className="mb-3">
+          <div className="flex items-end justify-between gap-3">
+            <h2 className="font-display text-xl text-goldSoft">{t('characterBreakdown', lang)}</h2>
+            <span className="text-xs text-slate-500">{set.characters.length} {t('characters', lang)}</span>
+          </div>
+          <p className="mt-1 text-xs leading-relaxed text-slate-500">
+            * {t('characterBreakdownNote', lang)}
+          </p>
         </div>
         <div className="grid gap-3 lg:grid-cols-2 2xl:grid-cols-3">
           {set.characters.map((character) => (

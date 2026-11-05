@@ -33,6 +33,7 @@ import { mapWithConcurrency } from './http'
 const ROLE_ES: Record<string, string> = {
   'Anemo DPS': 'DPS Anemo',
   'Buff Support': 'Soporte de buffs',
+  'Buff Support (High-Energy Requirement)': 'Soporte de buffs (altos requisitos de energía)',
   'Buff Support & Off-Field DPS': 'Soporte de buffs y DPS fuera de campo',
   'Cryo DPS': 'DPS Cryo',
   DPS: 'DPS',
@@ -46,6 +47,7 @@ const ROLE_ES: Record<string, string> = {
   'Off-Field Aggravate DPS': 'DPS fuera de campo de Intensificación',
   'Off-Field DPS': 'DPS fuera de campo',
   'Off-Field DPS & Buff and Heal Support': 'DPS fuera de campo y soporte de buffs y curación',
+  'Off-Field Reaction DPS & Heal Support': 'DPS de reacción fuera de campo y soporte de curación',
   'Off-field DPS': 'DPS fuera de campo',
   'Off-field DPS & Buff & Shield Support': 'DPS fuera de campo y soporte de buffs y escudos',
   'On-Field DPS': 'DPS en campo',
@@ -281,8 +283,8 @@ function buildSlotRules(
     let reasoning: LocalizedText
     if (verdict === 'SAFE_DISCARD') {
       reasoning = {
-        en: `No current ${setNames.en} user needs ${stat} on ${slotEn}. Recycle it unless the substats make it a premium off-piece.`,
-        es: `Ningún personaje actual de ${setNames.es} necesita ${statEs} en ${slotEs}. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium.`,
+        en: `No current ${setNames.en} user needs ${stat} on ${slotEn}. Recycle it unless the substats make it a solid off-piece.`,
+        es: `Ningún personaje actual de ${setNames.es} necesita ${statEs} en ${slotEs}. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa.`,
       }
     } else if (verdict === 'SITUATIONAL_KEEP') {
       reasoning = {
@@ -357,10 +359,16 @@ function makeSetTriage(
   characters: CharacterUsage[],
 ): ArtifactSetTriage {
   const setNames: LocalizedText = { en: en.name, es: es?.name ?? target.es }
+  const parsedReleaseVersion = parseVersion(en.versionReleased)
   return {
     id: target.id,
     name: setNames,
     rarity: en.rarity,
+    releaseVersion: {
+      raw: en.versionReleased,
+      major: parsedReleaseVersion?.major ?? 0,
+      minor: parsedReleaseVersion?.minor ?? 0,
+    },
     iconUrl: en.iconUrl,
     imageUrl: artifactImageUrl(target.id),
     bonuses: {
@@ -472,7 +480,7 @@ async function main() {
 
   const dataset = {
     generatedAt: new Date().toISOString(),
-    version: 'MVP-7-sets',
+    version: 'MVP-9-sets',
     source: 'Genshin-Builds (EN/ES) + KeqingMains Quickguides',
     sets,
   }

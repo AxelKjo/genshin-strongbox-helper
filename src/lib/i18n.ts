@@ -41,10 +41,14 @@ export const UI = {
   keepCombinations: { en: 'Keep combinations', es: 'Combinaciones a conservar' },
   discardRule: { en: 'Discard rule', es: 'Regla de descarte' },
   characterBreakdown: { en: 'Character breakdown', es: 'Desglose por personaje' },
+  characterBreakdownNote: {
+    en: 'It is not recommended to use this tool as a character build guide. For that, consider checking the linked guides.',
+    es: 'No se recomienda utilizar esta herramienta como guía para buildear personajes. Para ello, se sugiere consultar las guías enlazadas.',
+  },
   role: { en: 'Role', es: 'Rol' },
   mainStats: { en: 'Main stats', es: 'Estadísticas principales' },
   substats: { en: 'Substats', es: 'Subestadísticas' },
-  erUntilRequirement: { en: 'Until Req', es: 'Hasta lo requerido' },
+  erUntilRequirement: { en: 'Until Req', es: 'Hasta requisito' },
   source: { en: 'Source', es: 'Fuente' },
   validatedKqm: { en: 'Validated with KQM', es: 'Validado con KQM' },
   gbSource: { en: 'Genshin-Builds', es: 'Genshin-Builds' },
@@ -95,16 +99,16 @@ export const UI = {
 
 export const FOOTER_ATTRIBUTION: Record<Lang, { before: string; between: string; after: string }> = {
   en: {
-    before: 'Stat priorities and character builds are sourced from the outstanding work of ',
+    before: 'Character set and stat recommendations are sourced from the outstanding work of ',
     between: ' and ',
-    after: '. Please consider visiting the original sources for their full comprehensive guides.',
+    after: '. Please consider visiting the original sources for their full comprehensive character guides.',
   },
   es: {
     before:
-      'Las prioridades de estadísticas y builds de personajes provienen del excelente trabajo de ',
+      'Las recomendaciones de sets y estadísticas para los personajes provienen del excelente trabajo de ',
     between: ' y ',
     after:
-      '. Por favor, considera visitar las fuentes originales para consultar las guías completas.',
+      '. Por favor, considera visitar las fuentes originales para consultar sus guías de personajes completas.',
   },
 }
 

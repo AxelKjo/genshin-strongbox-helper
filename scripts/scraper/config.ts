@@ -61,6 +61,29 @@ export const TARGET_SETS: TargetSetConfig[] = [
     es: 'Día de los Vientos Alzantes',
     aliases: ['Día de los Vientos Alzantes', 'Dia de los Vientos Alzantes', 'Rising Winds'],
   },
+  {
+    id: 'night-of-the-skys-unveiling',
+    en: "Night of the Sky's Unveiling",
+    es: 'Noche de la Revelación del Cielo',
+    aliases: [
+      'Noche de la Revelación del Cielo',
+      'Noche de la Revelacion del Cielo',
+      "Night of the Sky's Unveiling",
+      'Night of the Skys Unveiling',
+      'Skys Unveiling',
+    ],
+  },
+  {
+    id: 'silken-moons-serenade',
+    en: "Silken Moon's Serenade",
+    es: 'Serenata de la Luna Tejida',
+    aliases: [
+      'Serenata de la Luna Tejida',
+      "Silken Moon's Serenade",
+      'Silken Moons Serenade',
+      'Silken Moon',
+    ],
+  },
 ]
 
 export function getTargetSets(argv: string[] = process.argv.slice(2)): TargetSetConfig[] {

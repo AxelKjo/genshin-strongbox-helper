@@ -4,7 +4,7 @@ Bilingual (ES/EN) artifact keep-vs-discard guide for Genshin Impact. The app is 
 
 ## Current scope
 
-The dataset currently covers seven artifact sets:
+The dataset currently covers nine artifact sets:
 
 1. Aubade of Morningstar and Moon / Alborada de la Estrella del Alba y la Luna
 2. Marechaussee Hunter / Cazador Fantasmal
@@ -13,6 +13,8 @@ The dataset currently covers seven artifact sets:
 5. Scarlet Proof / Testimonio Escarlata
 6. Disenchantment in Deep Shadow / Desilusión Congelada en las Sombras
 7. A Day Carved From Rising Winds / Día de los Vientos Alzantes
+8. Night of the Sky's Unveiling / Noche de la Revelación del Cielo
+9. Silken Moon's Serenade / Serenata de la Luna Tejida
 
 The scraper is modular and accepts an optional target-set filter, so the same code can be run for every set later without rewriting it.
 
@@ -32,12 +34,14 @@ npm run build            # typecheck + production build
 npm run lint
 npm run typecheck:scripts
 
-npm run scrape           # all configured target sets (7)
+npm run scrape           # all configured target sets (9)
 npm run scrape -- celestial-gift
 npm run scrape -- heart-of-the-furnace
 npm run scrape -- scarlet-proof
 npm run scrape -- disenchantment-in-deep-shadow
 npm run scrape -- a-day-carved-from-rising-winds
+npm run scrape -- night-of-the-skys-unveiling
+npm run scrape -- silken-moons-serenade
 npm run scrape:images    # download 256x256 set artwork into public/images/artifacts/
 npm run scrape:images -- --force
 npm run scrape:test-gb   # inspect Genshin-Builds extraction
@@ -62,6 +66,7 @@ Run `npm run scrape:all` (or `npm run scrape -- --all`) to remove the target-set
 - Genshin-Builds can combine several recommendations in one label, e.g. `CRIT Rate / CRIT DMG`. Split and normalize each part instead of treating the whole label as one stat. If a selected build ends with an empty Sands, Goblet or Circlet, treat it as a parser regression and inspect the raw Genshin-Builds row before regenerating the dataset.
 - Preserve unordered substat recommendations. A combined Genshin-Builds label (`CRIT Rate / CRIT DMG`) or a generic KQM `CRIT` means CRIT Rate and CRIT DMG are tied and must be displayed with `≈`, not with an invented priority. Only use `>` when the source explicitly ranks one above the other.
 - Energy Recharge is often a temporary top priority. When Genshin-Builds or KQM marks it as `until requirement(s)`, annotate the substat as `Until Req` / `Hasta lo requerido` instead of presenting it as a permanent first priority.
+- Each set stores `releaseVersion` from Genshin-Builds' `data-version-released` attribute as `raw`, `major` and `minor`. The sidebar is sorted newest patch first using `major` and `minor`; do not use `gbVersion`, `kqmVersion` or the dataset version for this ordering.
 - Characters are linked to a set only through the main artifact ranking of their best role. Rank 1 entries are tagged `tier: "BiS"` and Rank 2 entries `tier: "Alternative"`; Rank 3+ and conditional/situational labels are excluded.
 - Notes and body-text mentions never create a character-set link. A set must appear as a main recommendation in the corresponding build or guide.
 - KQM evidence is taken only from the main artifact-set table. Niche sections and rows that depend on a specific enabler, constellation or team condition are ignored.

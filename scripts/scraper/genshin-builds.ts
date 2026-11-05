@@ -18,6 +18,7 @@ export interface GBArtifactSet {
   id: string
   name: string
   rarity: number
+  versionReleased: string
   iconUrl: string
   twoPiece: string
   fourPiece: string
@@ -102,6 +103,7 @@ export async function fetchArtifactIndex(lang: 'en' | 'es'): Promise<GBArtifactS
     if (!id || !name) return
     const icon = node.find('.artifact-set-entry-image img').first().attr('src') ?? ''
     const rarity = Number.parseInt(node.attr('data-rarity') ?? '0', 10)
+    const versionReleased = node.attr('data-version-released') ?? ''
     let twoPiece = ''
     let fourPiece = ''
     node.find('.artifact-set-bonus').each((__, bonus) => {
@@ -129,6 +131,7 @@ export async function fetchArtifactIndex(lang: 'en' | 'es'): Promise<GBArtifactS
       id,
       name,
       rarity,
+      versionReleased,
       iconUrl: absoluteGbUrl(icon),
       twoPiece,
       fourPiece,

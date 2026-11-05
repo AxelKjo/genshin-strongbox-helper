@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-03T06:43:09.892Z",
-  "version": "MVP-7-sets",
+  "generatedAt": "2026-11-03T09:03:39.806Z",
+  "version": "MVP-9-sets",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
     {
@@ -10,6 +10,11 @@
         "es": "Alborada de la Estrella del Alba y la Luna"
       },
       "rarity": 5,
+      "releaseVersion": {
+        "raw": "6.3 / Luna IV",
+        "major": 6,
+        "minor": 3
+      },
       "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/aubade-of-morningstar-and-moon.VVrPbsrg_FfUkp.webp",
       "imageUrl": "/images/artifacts/aubade-of-morningstar-and-moon.png",
       "bonuses": {
@@ -260,8 +265,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Aubade of Morningstar and Moon user needs Elemental Mastery on Sands. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Maestría Elemental en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Aubade of Morningstar and Moon user needs Elemental Mastery on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Maestría Elemental en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           }
         ],
@@ -389,8 +394,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Aubade of Morningstar and Moon user needs Elemental Mastery on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Maestría Elemental en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Aubade of Morningstar and Moon user needs Elemental Mastery on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Maestría Elemental en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -399,8 +404,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Aubade of Morningstar and Moon user needs Pyro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Daño Pyro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Aubade of Morningstar and Moon user needs Pyro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Daño Pyro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -409,8 +414,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Aubade of Morningstar and Moon user needs Hydro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Daño Hydro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Aubade of Morningstar and Moon user needs Hydro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Daño Hydro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -419,8 +424,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Aubade of Morningstar and Moon user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Aubade of Morningstar and Moon user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -429,8 +434,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Aubade of Morningstar and Moon user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Aubade of Morningstar and Moon user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -439,8 +444,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Aubade of Morningstar and Moon user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Aubade of Morningstar and Moon user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -449,8 +454,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Aubade of Morningstar and Moon user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Aubade of Morningstar and Moon user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -459,8 +464,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Aubade of Morningstar and Moon user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Aubade of Morningstar and Moon user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -469,8 +474,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Aubade of Morningstar and Moon user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Aubade of Morningstar and Moon user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           }
         ],
@@ -524,8 +529,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Aubade of Morningstar and Moon user needs ATK% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Aubade of Morningstar and Moon user needs ATK% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -534,8 +539,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Aubade of Morningstar and Moon user needs DEF% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Aubade of Morningstar and Moon user needs DEF% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -544,8 +549,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Aubade of Morningstar and Moon user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Aubade of Morningstar and Moon user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -680,8 +685,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Aubade of Morningstar and Moon user needs Healing Bonus on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Aubade of Morningstar and Moon user needs Healing Bonus on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Alborada de la Estrella del Alba y la Luna necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           }
         ]
@@ -844,6 +849,11 @@
         "es": "Cazador Fantasmal"
       },
       "rarity": 5,
+      "releaseVersion": {
+        "raw": "4.0",
+        "major": 4,
+        "minor": 0
+      },
       "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/marechaussee-hunter.tfeUp-2G_Zwx5rM.webp",
       "imageUrl": "/images/artifacts/marechaussee-hunter.png",
       "bonuses": {
@@ -1038,8 +1048,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Marechaussee Hunter user needs DEF% on Sands. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Cazador Fantasmal necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Marechaussee Hunter user needs DEF% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Cazador Fantasmal necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -1201,8 +1211,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Marechaussee Hunter user needs DEF% on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Cazador Fantasmal necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Marechaussee Hunter user needs DEF% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Cazador Fantasmal necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -1211,8 +1221,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Marechaussee Hunter user needs Elemental Mastery on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Cazador Fantasmal necesita Maestría Elemental en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Marechaussee Hunter user needs Elemental Mastery on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Cazador Fantasmal necesita Maestría Elemental en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -1312,8 +1322,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Marechaussee Hunter user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Cazador Fantasmal necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Marechaussee Hunter user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Cazador Fantasmal necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -1322,8 +1332,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Marechaussee Hunter user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Cazador Fantasmal necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Marechaussee Hunter user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Cazador Fantasmal necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -1369,8 +1379,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Marechaussee Hunter user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Cazador Fantasmal necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Marechaussee Hunter user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Cazador Fantasmal necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -1379,8 +1389,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Marechaussee Hunter user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Cazador Fantasmal necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Marechaussee Hunter user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Cazador Fantasmal necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -1389,8 +1399,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Marechaussee Hunter user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Cazador Fantasmal necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Marechaussee Hunter user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Cazador Fantasmal necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           }
         ],
@@ -1438,8 +1448,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Marechaussee Hunter user needs ATK% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Cazador Fantasmal necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Marechaussee Hunter user needs ATK% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Cazador Fantasmal necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -1448,8 +1458,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Marechaussee Hunter user needs DEF% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Cazador Fantasmal necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Marechaussee Hunter user needs DEF% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Cazador Fantasmal necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -1458,8 +1468,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Marechaussee Hunter user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Cazador Fantasmal necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Marechaussee Hunter user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Cazador Fantasmal necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -1592,8 +1602,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Marechaussee Hunter user needs Healing Bonus on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Cazador Fantasmal necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Marechaussee Hunter user needs Healing Bonus on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Cazador Fantasmal necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           }
         ]
@@ -1849,6 +1859,11 @@
         "es": "Dádiva Celestial"
       },
       "rarity": 5,
+      "releaseVersion": {
+        "raw": "6.6 / Luna VII",
+        "major": 6,
+        "minor": 6
+      },
       "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/celestial-gift.DP61lJJP_1z4JUb.webp",
       "imageUrl": "/images/artifacts/celestial-gift.png",
       "bonuses": {
@@ -1913,8 +1928,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Celestial Gift user needs HP% on Sands. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Dádiva Celestial necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Celestial Gift user needs HP% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Dádiva Celestial necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -1977,8 +1992,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Celestial Gift user needs DEF% on Sands. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Dádiva Celestial necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Celestial Gift user needs DEF% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Dádiva Celestial necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2075,8 +2090,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Celestial Gift user needs HP% on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Dádiva Celestial necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Celestial Gift user needs HP% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Dádiva Celestial necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2134,8 +2149,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Celestial Gift user needs DEF% on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Dádiva Celestial necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Celestial Gift user needs DEF% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Dádiva Celestial necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2144,8 +2159,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Celestial Gift user needs Elemental Mastery on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Dádiva Celestial necesita Maestría Elemental en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Celestial Gift user needs Elemental Mastery on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Dádiva Celestial necesita Maestría Elemental en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2246,8 +2261,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Celestial Gift user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Dádiva Celestial necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Celestial Gift user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Dádiva Celestial necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2256,8 +2271,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Celestial Gift user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Dádiva Celestial necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Celestial Gift user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Dádiva Celestial necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2266,8 +2281,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Celestial Gift user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Dádiva Celestial necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Celestial Gift user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Dádiva Celestial necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2276,8 +2291,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Celestial Gift user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Dádiva Celestial necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Celestial Gift user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Dádiva Celestial necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2286,8 +2301,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Celestial Gift user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Dádiva Celestial necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Celestial Gift user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Dádiva Celestial necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2296,8 +2311,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Celestial Gift user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Dádiva Celestial necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Celestial Gift user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Dádiva Celestial necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           }
         ],
@@ -2308,8 +2323,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Celestial Gift user needs HP% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Dádiva Celestial necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Celestial Gift user needs HP% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Dádiva Celestial necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2346,8 +2361,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Celestial Gift user needs DEF% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Dádiva Celestial necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Celestial Gift user needs DEF% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Dádiva Celestial necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2356,8 +2371,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Celestial Gift user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Dádiva Celestial necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Celestial Gift user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Dádiva Celestial necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2468,8 +2483,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Celestial Gift user needs Healing Bonus on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Dádiva Celestial necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Celestial Gift user needs Healing Bonus on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Dádiva Celestial necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           }
         ]
@@ -2678,6 +2693,11 @@
         "es": "Corazón Forjado"
       },
       "rarity": 5,
+      "releaseVersion": {
+        "raw": "7.0",
+        "major": 7,
+        "minor": 0
+      },
       "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/heart-of-the-furnace.g0DiPGSX_ZdECmi.webp",
       "imageUrl": "/images/artifacts/heart-of-the-furnace.png",
       "bonuses": {
@@ -2739,8 +2759,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs HP% on Sands. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs HP% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2788,8 +2808,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs DEF% on Sands. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs DEF% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2823,8 +2843,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs Elemental Mastery on Sands. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita Maestría Elemental en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs Elemental Mastery on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Maestría Elemental en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           }
         ],
@@ -2835,8 +2855,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs HP% on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs HP% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2884,8 +2904,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs DEF% on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs DEF% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2894,8 +2914,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs Elemental Mastery on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita Maestría Elemental en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs Elemental Mastery on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Maestría Elemental en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2904,8 +2924,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs Pyro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Pyro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs Pyro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Pyro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2914,8 +2934,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs Hydro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Hydro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs Hydro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Hydro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2924,8 +2944,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2934,8 +2954,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2944,8 +2964,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2954,8 +2974,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2964,8 +2984,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -2974,8 +2994,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           }
         ],
@@ -2986,8 +3006,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs HP% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs HP% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3021,8 +3041,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs DEF% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs DEF% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3031,8 +3051,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3111,8 +3131,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Heart of the Furnace user needs Healing Bonus on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Heart of the Furnace user needs Healing Bonus on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Corazón Forjado necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           }
         ]
@@ -3221,6 +3241,11 @@
         "es": "Testimonio Escarlata"
       },
       "rarity": 5,
+      "releaseVersion": {
+        "raw": "7.0",
+        "major": 7,
+        "minor": 0
+      },
       "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/scarlet-proof.B5ZbKtus_2fXjvT.webp",
       "imageUrl": "/images/artifacts/scarlet-proof.png",
       "bonuses": {
@@ -3284,8 +3309,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs HP% on Sands. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs HP% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3331,8 +3356,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs DEF% on Sands. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs DEF% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3341,8 +3366,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs Energy Recharge on Sands. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita Recarga de Energía en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs Energy Recharge on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Recarga de Energía en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3384,8 +3409,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs HP% on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs HP% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3431,8 +3456,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs DEF% on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs DEF% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3472,8 +3497,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs Pyro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Pyro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs Pyro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Pyro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3482,8 +3507,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs Hydro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Hydro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs Hydro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Hydro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3492,8 +3517,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3502,8 +3527,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3512,8 +3537,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3522,8 +3547,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3532,8 +3557,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3542,8 +3567,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           }
         ],
@@ -3554,8 +3579,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs HP% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs HP% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3564,8 +3589,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs ATK% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs ATK% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3574,8 +3599,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs DEF% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs DEF% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3584,8 +3609,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3676,8 +3701,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Scarlet Proof user needs Healing Bonus on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Scarlet Proof user needs Healing Bonus on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Testimonio Escarlata necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           }
         ]
@@ -3785,6 +3810,11 @@
         "es": "Desilusión Congelada en las Sombras"
       },
       "rarity": 5,
+      "releaseVersion": {
+        "raw": "6.6 / Luna VII",
+        "major": 6,
+        "minor": 6
+      },
       "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/disenchantment-in-deep-shadow.8s6bRp7p_JhrHN.webp",
       "imageUrl": "/images/artifacts/disenchantment-in-deep-shadow.png",
       "bonuses": {
@@ -3868,8 +3898,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Disenchantment in Deep Shadow user needs HP% on Sands. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Disenchantment in Deep Shadow user needs HP% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3943,8 +3973,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Disenchantment in Deep Shadow user needs DEF% on Sands. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Disenchantment in Deep Shadow user needs DEF% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -3953,8 +3983,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Disenchantment in Deep Shadow user needs Energy Recharge on Sands. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Recarga de Energía en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Disenchantment in Deep Shadow user needs Energy Recharge on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Recarga de Energía en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -4002,8 +4032,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Disenchantment in Deep Shadow user needs HP% on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Disenchantment in Deep Shadow user needs HP% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -4072,8 +4102,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Disenchantment in Deep Shadow user needs DEF% on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Disenchantment in Deep Shadow user needs DEF% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -4119,8 +4149,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Disenchantment in Deep Shadow user needs Pyro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Pyro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Disenchantment in Deep Shadow user needs Pyro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Pyro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -4129,8 +4159,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Disenchantment in Deep Shadow user needs Hydro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Hydro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Disenchantment in Deep Shadow user needs Hydro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Hydro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -4139,8 +4169,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Disenchantment in Deep Shadow user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Disenchantment in Deep Shadow user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -4149,8 +4179,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Disenchantment in Deep Shadow user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Disenchantment in Deep Shadow user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -4159,8 +4189,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Disenchantment in Deep Shadow user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Disenchantment in Deep Shadow user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -4169,8 +4199,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Disenchantment in Deep Shadow user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Disenchantment in Deep Shadow user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -4179,8 +4209,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Disenchantment in Deep Shadow user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Disenchantment in Deep Shadow user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -4234,8 +4264,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Disenchantment in Deep Shadow user needs HP% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Disenchantment in Deep Shadow user needs HP% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -4244,8 +4274,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Disenchantment in Deep Shadow user needs ATK% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Disenchantment in Deep Shadow user needs ATK% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -4254,8 +4284,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Disenchantment in Deep Shadow user needs DEF% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Disenchantment in Deep Shadow user needs DEF% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -4264,8 +4294,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Disenchantment in Deep Shadow user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Disenchantment in Deep Shadow user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -4404,8 +4434,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current Disenchantment in Deep Shadow user needs Healing Bonus on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current Disenchantment in Deep Shadow user needs Healing Bonus on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Desilusión Congelada en las Sombras necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           }
         ]
@@ -4754,6 +4784,11 @@
         "es": "Día de los Vientos Alzantes"
       },
       "rarity": 5,
+      "releaseVersion": {
+        "raw": "6.3 / Luna IV",
+        "major": 6,
+        "minor": 3
+      },
       "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/a-day-carved-from-rising-winds.JHEkslPi_1QNN6n.webp",
       "imageUrl": "/images/artifacts/a-day-carved-from-rising-winds.png",
       "bonuses": {
@@ -4872,8 +4907,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current A Day Carved From Rising Winds user needs HP% on Sands. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current A Day Carved From Rising Winds user needs HP% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -4990,8 +5025,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current A Day Carved From Rising Winds user needs DEF% on Sands. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current A Day Carved From Rising Winds user needs DEF% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -5095,8 +5130,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current A Day Carved From Rising Winds user needs HP% on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current A Day Carved From Rising Winds user needs HP% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -5171,8 +5206,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current A Day Carved From Rising Winds user needs DEF% on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current A Day Carved From Rising Winds user needs DEF% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -5181,8 +5216,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current A Day Carved From Rising Winds user needs Elemental Mastery on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Maestría Elemental en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current A Day Carved From Rising Winds user needs Elemental Mastery on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Maestría Elemental en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -5476,8 +5511,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current A Day Carved From Rising Winds user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current A Day Carved From Rising Winds user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -5486,8 +5521,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current A Day Carved From Rising Winds user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current A Day Carved From Rising Winds user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           }
         ],
@@ -5498,8 +5533,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current A Day Carved From Rising Winds user needs HP% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current A Day Carved From Rising Winds user needs HP% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -5508,8 +5543,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current A Day Carved From Rising Winds user needs ATK% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current A Day Carved From Rising Winds user needs ATK% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -5518,8 +5553,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current A Day Carved From Rising Winds user needs DEF% on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current A Day Carved From Rising Winds user needs DEF% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -5528,8 +5563,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current A Day Carved From Rising Winds user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current A Day Carved From Rising Winds user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           },
           {
@@ -5754,8 +5789,8 @@
             "substats": [],
             "usedBy": [],
             "reasoning": {
-              "en": "No current A Day Carved From Rising Winds user needs Healing Bonus on Circlet. Recycle it unless the substats make it a premium off-piece.",
-              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una pieza externa premium."
+              "en": "No current A Day Carved From Rising Winds user needs Healing Bonus on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Día de los Vientos Alzantes necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
             }
           }
         ]
@@ -6475,6 +6510,1681 @@
             "gbVersion": "7.1",
             "resolutionReason": "Fallback to GB: no KQM guide",
             "genshinBuildsUpdated": "7.1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "night-of-the-skys-unveiling",
+      "name": {
+        "en": "Night of the Sky's Unveiling",
+        "es": "Noche de la Revelación del Cielo"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "6.0 / Luna I",
+        "major": 6,
+        "minor": 0
+      },
+      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/night-of-the-skys-unveiling.CddQlVOu_2e2NXT.webp",
+      "imageUrl": "/images/artifacts/night-of-the-skys-unveiling.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Increases Elemental Mastery by 80.",
+          "es": "Maestría Elemental +80 pts."
+        },
+        "fourPiece": {
+          "en": "When nearby party members trigger Lunar Reactions, if the equipping character is on the field, gain the Gleaming Moon: Intent effect for 4s: Increases CRIT Rate by 15%/30% when the party's Moonsign is Nascent Gleam/Ascendant Gleam. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack.",
+          "es": "Cuando un personaje cercano del equipo causa una Reacción Lunar, si el portador de este conjunto está en uso, obtiene durante 4 s el efecto de “luna refulgente: cavilación”, de manera que, cuando el presagio lunar del equipo es resplandor naciente/resplandor ascendente, la Prob. CRIT aumenta en un 15/30% respectivamente. Por cada efecto de luna refulgente diferente que tengan los personajes, el daño de las Reacciones Lunares de todos los miembros del equipo aumentará en un 10%. Los efectos producidos por luna refulgente no se pueden acumular."
+        }
+      },
+      "summaryVerdict": {
+        "en": "Night of the Sky's Unveiling is a 5★ set used by Flins, Nefer, Zibai, Lauma. Keep Sands with ATK%, Elemental Mastery, DEF%, Energy Recharge, Goblets with ATK%, Elemental Mastery, DEF% and Circlets with CRIT Rate, CRIT DMG, Elemental Mastery. Everything else is fodder unless it is a strong off-piece.",
+        "es": "Noche de la Revelación del Cielo es un set de 5★ usado por Flins, Néfer, Zibai, Lauma. Conserva Arenas con ATQ%, Maestría Elemental, DEF%, Recarga de Energía, Cálices con ATQ%, Maestría Elemental, DEF% y Tiaras con Prob. CRIT, Daño CRIT, Maestría Elemental. El resto es material de reciclaje salvo que sea una gran pieza externa."
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "flins"
+            ],
+            "reasoning": {
+              "en": "Flins can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Flins busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM"
+            ],
+            "usedBy": [
+              "nefer"
+            ],
+            "reasoning": {
+              "en": "Nefer can use CRIT Rate + CRIT DMG + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Néfer busca(n) Prob. CRIT + Daño CRIT + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "DEF%",
+              "ER%",
+              "EM"
+            ],
+            "usedBy": [
+              "zibai"
+            ],
+            "reasoning": {
+              "en": "Zibai can use CRIT Rate + CRIT DMG + DEF% + Energy Recharge + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Zibai busca(n) Prob. CRIT + Daño CRIT + DEF% + Recarga de Energía + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "EM",
+              "CRIT Rate",
+              "CRIT DMG"
+            ],
+            "usedBy": [
+              "lauma"
+            ],
+            "reasoning": {
+              "en": "Lauma can use Energy Recharge + Elemental Mastery + CRIT Rate + CRIT DMG on this set's Flower and Plume.",
+              "es": "Lauma busca(n) Recarga de Energía + Maestría Elemental + Prob. CRIT + Daño CRIT en la Flor y la Pluma de este set."
+            }
+          }
+        ],
+        "discardRule": {
+          "en": "Flowers and plumes with no Energy Recharge, CRIT Rate, CRIT DMG, ATK%, Elemental Mastery, DEF% and no useful upgrades can be safely recycled in the Relic Strongbox.",
+          "es": "Las Flores y Plumas sin Recarga de Energía, Prob. CRIT, Daño CRIT, ATQ%, Maestría Elemental, DEF% ni mejoras útiles se pueden reciclar sin riesgo en el Relicario."
+        }
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Night of the Sky's Unveiling user needs HP% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Noche de la Revelación del Cielo necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "flins"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "flins"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "flins"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "flins"
+                ]
+              }
+            ],
+            "usedBy": [
+              "flins"
+            ],
+            "reasoning": {
+              "en": "Flins can use ATK% on Sands for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > Elemental Mastery.",
+              "es": "Flins puede(n) usar ATQ% en Arenas para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "zibai"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "zibai"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "zibai"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "zibai"
+                ]
+              }
+            ],
+            "usedBy": [
+              "zibai"
+            ],
+            "reasoning": {
+              "en": "Zibai can use DEF% on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Energy Recharge > Elemental Mastery.",
+              "es": "Zibai puede(n) usar DEF% en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Recarga de Energía > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "EM",
+                "characters": [
+                  "lauma"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "lauma"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "lauma"
+                ]
+              }
+            ],
+            "usedBy": [
+              "lauma"
+            ],
+            "reasoning": {
+              "en": "Lauma can use Energy Recharge on Sands in niche builds. Keep only if it rolls Elemental Mastery > CRIT Rate > CRIT DMG.",
+              "es": "Lauma puede(n) usar Recarga de Energía en Arenas en builds de nicho. Consérvala solo si sube Maestría Elemental > Prob. CRIT > Daño CRIT."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "nefer",
+                  "lauma"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "nefer",
+                  "lauma"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "lauma"
+                ]
+              }
+            ],
+            "usedBy": [
+              "nefer",
+              "lauma"
+            ],
+            "reasoning": {
+              "en": "Nefer, Lauma can use Elemental Mastery on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Energy Recharge.",
+              "es": "Néfer, Lauma puede(n) usar Maestría Elemental en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Recarga de Energía."
+            }
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Night of the Sky's Unveiling user needs HP% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Noche de la Revelación del Cielo necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "flins"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "flins"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "flins"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "flins"
+                ]
+              }
+            ],
+            "usedBy": [
+              "flins"
+            ],
+            "reasoning": {
+              "en": "Flins can use ATK% on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > Elemental Mastery.",
+              "es": "Flins puede(n) usar ATQ% en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "zibai"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "zibai"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "zibai"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "zibai"
+                ]
+              }
+            ],
+            "usedBy": [
+              "zibai"
+            ],
+            "reasoning": {
+              "en": "Zibai can use DEF% on Goblet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Energy Recharge > Elemental Mastery.",
+              "es": "Zibai puede(n) usar DEF% en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Recarga de Energía > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "nefer",
+                  "lauma"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "nefer",
+                  "lauma"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "lauma"
+                ]
+              }
+            ],
+            "usedBy": [
+              "nefer",
+              "lauma"
+            ],
+            "reasoning": {
+              "en": "Nefer, Lauma can use Elemental Mastery on Goblet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Energy Recharge.",
+              "es": "Néfer, Lauma puede(n) usar Maestría Elemental en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Recarga de Energía."
+            }
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Night of the Sky's Unveiling user needs Pyro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Noche de la Revelación del Cielo necesita Bono de Daño Pyro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Night of the Sky's Unveiling user needs Hydro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Noche de la Revelación del Cielo necesita Bono de Daño Hydro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Night of the Sky's Unveiling user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Noche de la Revelación del Cielo necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Night of the Sky's Unveiling user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Noche de la Revelación del Cielo necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Night of the Sky's Unveiling user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Noche de la Revelación del Cielo necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Night of the Sky's Unveiling user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Noche de la Revelación del Cielo necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Night of the Sky's Unveiling user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Noche de la Revelación del Cielo necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Night of the Sky's Unveiling user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Noche de la Revelación del Cielo necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Night of the Sky's Unveiling user needs HP% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Noche de la Revelación del Cielo necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Night of the Sky's Unveiling user needs ATK% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Noche de la Revelación del Cielo necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Night of the Sky's Unveiling user needs DEF% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Noche de la Revelación del Cielo necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "lauma"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "lauma"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "lauma"
+                ]
+              }
+            ],
+            "usedBy": [
+              "lauma"
+            ],
+            "reasoning": {
+              "en": "Lauma can use Elemental Mastery on Circlet in niche builds. Keep only if it rolls Energy Recharge > CRIT Rate > CRIT DMG.",
+              "es": "Lauma puede(n) usar Maestría Elemental en Tiara en builds de nicho. Consérvala solo si sube Recarga de Energía > Prob. CRIT > Daño CRIT."
+            }
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "flins",
+                  "nefer",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "flins",
+                  "nefer",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "flins",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "flins"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "zibai"
+                ]
+              }
+            ],
+            "usedBy": [
+              "flins",
+              "nefer",
+              "zibai"
+            ],
+            "reasoning": {
+              "en": "Flins, Nefer, Zibai can use CRIT Rate on Circlet for this set. Useful substats for this piece: CRIT DMG > Elemental Mastery > Energy Recharge > ATK% > DEF%.",
+              "es": "Flins, Néfer, Zibai puede(n) usar Prob. CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Daño CRIT > Maestría Elemental > Recarga de Energía > ATQ% > DEF%."
+            }
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "flins",
+                  "nefer",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "flins",
+                  "nefer",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "flins",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "flins"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "zibai"
+                ]
+              }
+            ],
+            "usedBy": [
+              "flins",
+              "nefer",
+              "zibai"
+            ],
+            "reasoning": {
+              "en": "Flins, Nefer, Zibai can use CRIT DMG on Circlet for this set. Useful substats for this piece: CRIT Rate > Elemental Mastery > Energy Recharge > ATK% > DEF%.",
+              "es": "Flins, Néfer, Zibai puede(n) usar Daño CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Maestría Elemental > Recarga de Energía > ATQ% > DEF%."
+            }
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Night of the Sky's Unveiling user needs Healing Bonus on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Noche de la Revelación del Cielo necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "flins",
+          "name": {
+            "en": "Flins",
+            "es": "Flins"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.3BJFLfuF_28y4xw.webp",
+          "element": "Electro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "Flins is an on-field DPS unit who utilizes a short field time to generate energy for himself and use the lower Energy cost Burst when possible. Because most of his damage is Lunar-Charged, Electro DMG% and other DMG% buffs are not particularly useful for him. Flins requires another Moonsign character in his team to unlock a large portion of his damage potential.",
+            "es": "Flins is an on-field DPS unit who utilizes a short field time to generate energy for himself and use the lower Energy cost Habilidad definitiva when possible. Because most of his damage is electrocargado lunar, Electro DMG% and other DMG% buffs are not particularly useful for him. Flins requires another Moonsign character in his team to unlock a large portion of his damage potential."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.5",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/flins-quickguide/"
+          }
+        },
+        {
+          "characterId": "nefer",
+          "name": {
+            "en": "Nefer",
+            "es": "Néfer"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.sTv_qIZl_Z9a0BV.webp",
+          "element": "Dendro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "notes": {
+            "en": "Nefer is a Lunar-Bloom DPS that primarily deals damage through her enhanced Charged Attacks while in the Shadow Dance state. Nefer's enhanced Charged Attacks consume Verdant Dew, and summon Shades that deal Lunar-Bloom Damage as coordinated attacks. Nefer also converts Bloom Cores into Seeds of Deceit, which enhances her Skill and Burst depending on how many she has consumed. The conversion requires Moonsign: Ascendant Gleam to be active. Seeds of Deceit do not deal damage, and they cannot enable Hyperbloom or Burgeon. They are strictly to enhance Nefer's Burst and add Lunar% buffs to her Skill.",
+            "es": "Néfer is a Florecimiento lunar DPS that primarily deals damage through her enhanced Ataque Cargados while in the Shadow Dance state. Néfer's enhanced Ataque Cargados consume Rocío de la espesura, and summon Shades that deal Florecimiento lunar Damage as coordinated attacks. Néfer also converts Florecimiento Cores into Seeds of Deceit, which enhances her Habilidad Elemental and Habilidad definitiva depending on how many she has consumed. The conversion requires Moonsign: Ascendant Gleam to be active. Seeds of Deceit do not deal damage, and they cannot enable Sobreflorecimiento or Crepitar. They are strictly to enhance Néfer's Habilidad definitiva and add Lunar% buffs to her Habilidad Elemental."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/nefer-quickguide/"
+          }
+        },
+        {
+          "characterId": "zibai",
+          "name": {
+            "en": "Zibai",
+            "es": "Zibai"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.B4B0S6oa_20a2eU.webp",
+          "element": "Geo",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "DEF%"
+            ],
+            "goblet": [
+              "DEF%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "DEF%",
+            "ER%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "notes": {
+            "en": "Zibai is an on-field damage dealer that focuses on getting enough stacks to use her enhanced Skill via using Normal Attacks and proccing Lunar-Crystallize reaction. This leads to Zibai wanting as much field time as possible to make use of all 4 of her Skill charges along with getting to the final hits of her NA chain. Zibai requires another Moonsign character in her team to unlock a large portion of her damage potential.",
+            "es": "Zibai is an on-field damage dealer that focuses on getting enough stacks to use her enhanced Habilidad Elemental via using Normal Attacks and proccing Cristalización lunar reaction. This leads to Zibai wanting as much field time as possible to make use of all 4 of her Habilidad Elemental charges along with getting to the final hits of her NA chain. Zibai requires another Moonsign character in her team to unlock a large portion of her damage potential."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.5",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/zibai-quickguide/"
+          }
+        },
+        {
+          "characterId": "lauma",
+          "name": {
+            "en": "Lauma",
+            "es": "Lauma"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.D-5ziCht_Z12VoXy.webp",
+          "element": "Dendro",
+          "role": {
+            "en": "Buff Support (High-Energy Requirement)",
+            "es": "Soporte de buffs (altos requisitos de energía)"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "EM",
+            "CRIT Rate",
+            "CRIT DMG"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "Lauma offers access to Lunar-Bloom, as well as decreasing enemy Hydro and Dendro resistances. Because of her fluctuating energy requirements, she can offer different playstyles. This build typically features Lauma being the solo Dendro or being off-field for the majority of the team's rotation.",
+            "es": "Lauma offers access to Florecimiento lunar, as well as decreasing enemy Hydro and Dendro resistances. Because of her fluctuating energy requirements, she can offer different playstyles. This build typically features Lauma being the solo Dendro or being off-field for the majority of the team's rotation."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "6.4",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/lauma-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "silken-moons-serenade",
+      "name": {
+        "en": "Silken Moon's Serenade",
+        "es": "Serenata de la Luna Tejida"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "6.0 / Luna I",
+        "major": 6,
+        "minor": 0
+      },
+      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/silken-moons-serenade.zRp5hb0U_AEczK.webp",
+      "imageUrl": "/images/artifacts/silken-moons-serenade.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Energy Recharge +20%.",
+          "es": "Recarga de Energía +20%."
+        },
+        "fourPiece": {
+          "en": "When dealing Elemental DMG, gain the Gleaming Moon: Devotion effect for 8s: Increases all party members' Elemental Mastery by 60/120 when the party's Moonsign is Nascent Gleam/Ascendant Gleam. The equipping character can trigger this effect while off-field. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack.",
+          "es": "Infligir Daño Elemental otorga durante 8 s el efecto de “luna refulgente: veneración”, de manera que, cuando el presagio lunar del equipo es resplandor naciente/resplandor ascendente, la Maestría Elemental de todos los personajes del equipo aumenta en 60/120 pts. respectivamente. Este efecto se puede activar incluso cuando el portador de este conjunto está en tu equipo pero no en uso. Por cada efecto de luna refulgente diferente que tengan los personajes, el daño de las Reacciones Lunares de todos los miembros del equipo aumentará en un 10%. Los efectos producidos por luna refulgente no se pueden acumular."
+        }
+      },
+      "summaryVerdict": {
+        "en": "Silken Moon's Serenade is a 5★ set used by Columbina, Illuga, Lauma, Jahoda. Keep Sands with HP%, Energy Recharge, Elemental Mastery, ATK%, Goblets with HP%, Elemental Mastery, ATK% and Circlets with CRIT Rate, CRIT DMG, Elemental Mastery, Healing Bonus. Everything else is fodder unless it is a strong off-piece.",
+        "es": "Serenata de la Luna Tejida es un set de 5★ usado por Colombina, Illuga, Lauma, Jahoda. Conserva Arenas con Vida%, Recarga de Energía, Maestría Elemental, ATQ%, Cálices con Vida%, Maestría Elemental, ATQ% y Tiaras con Prob. CRIT, Daño CRIT, Maestría Elemental, Bono de Curación. El resto es material de reciclaje salvo que sea una gran pieza externa."
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "HP%",
+              "EM"
+            ],
+            "usedBy": [
+              "columbina"
+            ],
+            "reasoning": {
+              "en": "Columbina can use Energy Recharge + CRIT Rate + CRIT DMG + HP% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Colombina busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + Vida% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "EM",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "illuga"
+            ],
+            "reasoning": {
+              "en": "Illuga can use Energy Recharge + Elemental Mastery + CRIT Rate on this set's Flower and Plume.",
+              "es": "Illuga busca(n) Recarga de Energía + Maestría Elemental + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "EM",
+              "CRIT Rate",
+              "CRIT DMG"
+            ],
+            "usedBy": [
+              "lauma"
+            ],
+            "reasoning": {
+              "en": "Lauma can use Energy Recharge + Elemental Mastery + CRIT Rate + CRIT DMG on this set's Flower and Plume.",
+              "es": "Lauma busca(n) Recarga de Energía + Maestría Elemental + Prob. CRIT + Daño CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "ATK%",
+              "CRIT Rate",
+              "EM"
+            ],
+            "usedBy": [
+              "jahoda"
+            ],
+            "reasoning": {
+              "en": "Jahoda can use Energy Recharge + ATK% + CRIT Rate + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Jahoda busca(n) Recarga de Energía + ATQ% + Prob. CRIT + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          }
+        ],
+        "discardRule": {
+          "en": "Flowers and plumes with no Energy Recharge, CRIT Rate, CRIT DMG, HP%, Elemental Mastery, ATK% and no useful upgrades can be safely recycled in the Relic Strongbox.",
+          "es": "Las Flores y Plumas sin Recarga de Energía, Prob. CRIT, Daño CRIT, Vida%, Maestría Elemental, ATQ% ni mejoras útiles se pueden reciclar sin riesgo en el Relicario."
+        }
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "columbina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "columbina"
+            ],
+            "reasoning": {
+              "en": "Columbina can use HP% on Sands for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > Elemental Mastery.",
+              "es": "Colombina puede(n) usar Vida% en Arenas para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "jahoda"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "jahoda"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "jahoda"
+                ]
+              }
+            ],
+            "usedBy": [
+              "jahoda"
+            ],
+            "reasoning": {
+              "en": "Jahoda can use ATK% on Sands in niche builds. Keep only if it rolls Energy Recharge > CRIT Rate > Elemental Mastery.",
+              "es": "Jahoda puede(n) usar ATQ% en Arenas en builds de nicho. Consérvala solo si sube Recarga de Energía > Prob. CRIT > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Silken Moon's Serenade user needs DEF% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Serenata de la Luna Tejida necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "columbina",
+                  "illuga",
+                  "lauma",
+                  "jahoda"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "columbina",
+                  "illuga",
+                  "lauma",
+                  "jahoda"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "columbina",
+                  "lauma"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "jahoda"
+                ]
+              }
+            ],
+            "usedBy": [
+              "columbina",
+              "illuga",
+              "lauma",
+              "jahoda"
+            ],
+            "reasoning": {
+              "en": "Columbina, Illuga, Lauma, Jahoda can use Energy Recharge on Sands for this set. Useful substats for this piece: CRIT Rate > Elemental Mastery > CRIT DMG > HP% > ATK%.",
+              "es": "Colombina, Illuga, Lauma, Jahoda puede(n) usar Recarga de Energía en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Maestría Elemental > Daño CRIT > Vida% > ATQ%."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "illuga",
+                  "lauma"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "illuga",
+                  "lauma"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "lauma"
+                ]
+              }
+            ],
+            "usedBy": [
+              "illuga",
+              "lauma"
+            ],
+            "reasoning": {
+              "en": "Illuga, Lauma can use Elemental Mastery on Sands for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG.",
+              "es": "Illuga, Lauma puede(n) usar Maestría Elemental en Arenas para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT."
+            }
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "columbina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "columbina"
+            ],
+            "reasoning": {
+              "en": "Columbina can use HP% on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG > Elemental Mastery.",
+              "es": "Colombina puede(n) usar Vida% en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "jahoda"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "jahoda"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "jahoda"
+                ]
+              }
+            ],
+            "usedBy": [
+              "jahoda"
+            ],
+            "reasoning": {
+              "en": "Jahoda can use ATK% on Goblet in niche builds. Keep only if it rolls Energy Recharge > CRIT Rate > Elemental Mastery.",
+              "es": "Jahoda puede(n) usar ATQ% en Cáliz en builds de nicho. Consérvala solo si sube Recarga de Energía > Prob. CRIT > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Silken Moon's Serenade user needs DEF% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Serenata de la Luna Tejida necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "illuga",
+                  "lauma"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "illuga",
+                  "lauma"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "lauma"
+                ]
+              }
+            ],
+            "usedBy": [
+              "illuga",
+              "lauma"
+            ],
+            "reasoning": {
+              "en": "Illuga, Lauma can use Elemental Mastery on Goblet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG.",
+              "es": "Illuga, Lauma puede(n) usar Maestría Elemental en Cáliz para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT."
+            }
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Silken Moon's Serenade user needs Pyro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Serenata de la Luna Tejida necesita Bono de Daño Pyro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Silken Moon's Serenade user needs Hydro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Serenata de la Luna Tejida necesita Bono de Daño Hydro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Silken Moon's Serenade user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Serenata de la Luna Tejida necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Silken Moon's Serenade user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Serenata de la Luna Tejida necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Silken Moon's Serenade user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Serenata de la Luna Tejida necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Silken Moon's Serenade user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Serenata de la Luna Tejida necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Silken Moon's Serenade user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Serenata de la Luna Tejida necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Silken Moon's Serenade user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Serenata de la Luna Tejida necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Silken Moon's Serenade user needs HP% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Serenata de la Luna Tejida necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "jahoda"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "jahoda"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "jahoda"
+                ]
+              }
+            ],
+            "usedBy": [
+              "jahoda"
+            ],
+            "reasoning": {
+              "en": "Jahoda can use ATK% on Circlet in niche builds. Keep only if it rolls Energy Recharge > CRIT Rate > Elemental Mastery.",
+              "es": "Jahoda puede(n) usar ATQ% en Tiara en builds de nicho. Consérvala solo si sube Recarga de Energía > Prob. CRIT > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Silken Moon's Serenade user needs DEF% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Serenata de la Luna Tejida necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "illuga",
+                  "lauma"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "illuga",
+                  "lauma"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "lauma"
+                ]
+              }
+            ],
+            "usedBy": [
+              "illuga",
+              "lauma"
+            ],
+            "reasoning": {
+              "en": "Illuga, Lauma can use Elemental Mastery on Circlet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > CRIT DMG.",
+              "es": "Illuga, Lauma puede(n) usar Maestría Elemental en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Daño CRIT."
+            }
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "columbina",
+                  "jahoda"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "columbina",
+                  "jahoda"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "jahoda"
+                ]
+              }
+            ],
+            "usedBy": [
+              "columbina",
+              "jahoda"
+            ],
+            "reasoning": {
+              "en": "Columbina, Jahoda can use CRIT Rate on Circlet for this set. Useful substats for this piece: Energy Recharge > Elemental Mastery > CRIT DMG > HP% > ATK%.",
+              "es": "Colombina, Jahoda puede(n) usar Prob. CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Maestría Elemental > Daño CRIT > Vida% > ATQ%."
+            }
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "columbina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "columbina"
+            ],
+            "reasoning": {
+              "en": "Columbina can use CRIT DMG on Circlet for this set. Useful substats for this piece: Energy Recharge > CRIT Rate > HP% > Elemental Mastery.",
+              "es": "Colombina puede(n) usar Daño CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Recarga de Energía > Prob. CRIT > Vida% > Maestría Elemental."
+            }
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "jahoda"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "jahoda"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "jahoda"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "jahoda"
+                ]
+              }
+            ],
+            "usedBy": [
+              "jahoda"
+            ],
+            "reasoning": {
+              "en": "Jahoda can use Healing Bonus on Circlet in niche builds. Keep only if it rolls Energy Recharge > ATK% > CRIT Rate > Elemental Mastery.",
+              "es": "Jahoda puede(n) usar Bono de Curación en Tiara en builds de nicho. Consérvala solo si sube Recarga de Energía > ATQ% > Prob. CRIT > Maestría Elemental."
+            }
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "columbina",
+          "name": {
+            "en": "Columbina",
+            "es": "Colombina"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.CTto-KsO_Z2f6aGg.webp",
+          "element": "Hydro",
+          "role": {
+            "en": "High Energy Requirement Off-Field DPS & Buff Support",
+            "es": "DPS fuera de campo con altos requisitos de energía y soporte de buffs"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "HP%",
+              "ER%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "HP%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "Columbina blesses her team with a large buff to Lunar reactions, while also inflicting good amounts of Lunar damage herself, mimicking whatever lunar reaction is dominant in your team. Starting at [C1], Columbina should use her Burst before her Skill so the extra Gravity Interference triggered by C1 will be buffed by her Burst.",
+            "es": "Colombina blesses her team with a large buff to Lunar reactions, while also inflicting good amounts of Lunar damage herself, mimicking whatever lunar reaction is dominant in your team. Starting at [C1], Colombina should use her Habilidad definitiva before her Habilidad Elemental so the extra Gravity Interference triggered by C1 will be buffed by her Habilidad definitiva."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "7.0",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/columbina-quickguide/"
+          }
+        },
+        {
+          "characterId": "illuga",
+          "name": {
+            "en": "Illuga",
+            "es": "Illuga"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.CEqjpu1P_OSqSe.webp",
+          "element": "Geo",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM",
+              "ER%"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "EM",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "Illuga buffs Geo DMG and Lunar-Crystallize DMG after using his Burst, which grants the Nightingale's Song effect. This buff scales on Illuga's Elemental Mastery, and with his A4 talent, is further amplified depending on how many Geo and Hydro characters are in the party. With his A1 talent, using either his Skill or Burst will grant other team members the Lightkeeper's Oath effect, which boosts the CRIT Rate and CRIT DMG of Geo DMG, and if Ascendant Gleam is active, boost the character's Elemental Mastery as well.",
+            "es": "Illuga buffs Daño Geo and Cristalización lunar DMG after using his Habilidad definitiva, which grants the Nightingale's Song effect. This buff scales on Illuga's Maestría Elemental, and with his A4 talent, is further amplified depending on how many Geo and Hydro characters are in the party. With his A1 talent, using either his Habilidad Elemental or Habilidad definitiva will grant other team members the Lightkeeper's Oath effect, which boosts the Prob. CRIT and Daño CRIT of Daño Geo, and if Ascendant Gleam is active, boost the character's Maestría Elemental as well."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/illuga-quickguide/"
+          }
+        },
+        {
+          "characterId": "lauma",
+          "name": {
+            "en": "Lauma",
+            "es": "Lauma"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.D-5ziCht_Z12VoXy.webp",
+          "element": "Dendro",
+          "role": {
+            "en": "Buff Support (High-Energy Requirement)",
+            "es": "Soporte de buffs (altos requisitos de energía)"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "EM",
+            "CRIT Rate",
+            "CRIT DMG"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "Lauma offers access to Lunar-Bloom, as well as decreasing enemy Hydro and Dendro resistances. Because of her fluctuating energy requirements, she can offer different playstyles. This build typically features Lauma being the solo Dendro or being off-field for the majority of the team's rotation.",
+            "es": "Lauma offers access to Florecimiento lunar, as well as decreasing enemy Hydro and Dendro resistances. Because of her fluctuating energy requirements, she can offer different playstyles. This build typically features Lauma being the solo Dendro or being off-field for the majority of the team's rotation."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "6.4",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.4)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/lauma-quickguide/"
+          }
+        },
+        {
+          "characterId": "jahoda",
+          "name": {
+            "en": "Jahoda",
+            "es": "Jahoda"
+          },
+          "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/portrait.Bfzwx-3Q_ZAjr8T.webp",
+          "element": "Anemo",
+          "role": {
+            "en": "Off-Field Reaction DPS & Heal Support",
+            "es": "DPS de reacción fuera de campo y soporte de curación"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "Healing Bonus",
+              "ATK%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "ATK%",
+            "CRIT Rate",
+            "EM"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "notes": {
+            "en": "Jahoda offers continuous healing for the active character with her Burst, and Off-Field Elemental Application with her infused Skill and Burst. While Ascendant Gleam is active, her Skill can steal enemy auras and use them for herself. Jahoda heavily favors having Moonsign: Ascendant Gleam.",
+            "es": "Jahoda offers continuous healing for the active character with her Habilidad definitiva, and Off-Field Elemental Application with her infused Habilidad Elemental and Habilidad definitiva. While Ascendant Gleam is active, her Habilidad Elemental can steal enemy auras and use them for herself. Jahoda heavily favors having Moonsign: Ascendant Gleam."
+          },
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.2",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/jahoda-quickguide/"
           }
         }
       ]
