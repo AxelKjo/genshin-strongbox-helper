@@ -458,6 +458,36 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Thundering Fury',
     ],
   },
+  {
+    id: 'thundersoother',
+    en: 'Thundersoother',
+    es: 'Domador de Truenos',
+    aliases: [
+      'Domador de Truenos',
+      'Thundersoother',
+    ],
+  },
+  {
+    id: 'archaic-petra',
+    en: 'Archaic Petra',
+    es: 'Petra Arcaica',
+    aliases: [
+      'Petra Arcaica',
+      'Archaic Petra',
+      'Petra',
+    ],
+  },
+  {
+    id: 'retracing-bolide',
+    en: 'Retracing Bolide',
+    es: 'Retroceso del Meteorito',
+    aliases: [
+      'Retroceso del Meteorito',
+      'Retracing Bolide',
+      'Bolide',
+      'Meteorito',
+    ],
+  },
 ]
 
 export function getTargetSets(argv: string[] = process.argv.slice(2)): TargetSetConfig[] {

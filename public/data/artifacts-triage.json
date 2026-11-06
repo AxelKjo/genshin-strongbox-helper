@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T22:28:26.634Z",
+  "generatedAt": "2026-11-06T22:34:59.090Z",
   "version": "MVP-9-sets",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
@@ -38006,6 +38006,1341 @@
             "resolutionReason": "Genshin-Builds newer (6.7 > 4.1)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/razor-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "thundersoother",
+      "name": {
+        "en": "Thundersoother",
+        "es": "Domador de Truenos"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "1.0",
+        "major": 1,
+        "minor": 0
+      },
+      "imageUrl": "/images/artifacts/thundersoother.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Electro RES increased by 40%.",
+          "es": "RES Electro +40%"
+        },
+        "fourPiece": {
+          "en": "Increases DMG against opponents affected by Electro by 35%.",
+          "es": "Aumenta el Daño contra los enemigos afectados por Electro un 35%."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "keqing"
+            ],
+            "reasoning": {
+              "en": "Keqing can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Keching busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "keqing"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "keqing"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "keqing"
+                ]
+              }
+            ],
+            "usedBy": [
+              "keqing"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "keqing"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "keqing"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "keqing"
+                ]
+              }
+            ],
+            "usedBy": [
+              "keqing"
+            ]
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "keqing"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "keqing"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "keqing"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "keqing"
+                ]
+              }
+            ],
+            "usedBy": [
+              "keqing"
+            ]
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "keqing"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "keqing"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "keqing"
+                ]
+              }
+            ],
+            "usedBy": [
+              "keqing"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "keqing"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "keqing"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "keqing"
+                ]
+              }
+            ],
+            "usedBy": [
+              "keqing"
+            ]
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "keqing",
+          "name": {
+            "en": "Keqing",
+            "es": "Keching"
+          },
+          "iconUrl": "/images/characters/keqing.png",
+          "element": "Electro",
+          "role": {
+            "en": "Aggravate DPS",
+            "es": "Intensificación DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "KQM",
+            "gbVersion": "5.6",
+            "kqmVersion": "6.0",
+            "resolutionReason": "KQM newer (6.0 > 5.6) and recommends set",
+            "genshinBuildsUpdated": "5.6",
+            "kqmUrl": "https://keqingmains.com/q/keqing-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "archaic-petra",
+      "name": {
+        "en": "Archaic Petra",
+        "es": "Petra Arcaica"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "1.0",
+        "major": 1,
+        "minor": 0
+      },
+      "imageUrl": "/images/artifacts/archaic-petra.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Gain a 15% Geo DMG Bonus.",
+          "es": "Bono de Daño Geo +15%."
+        },
+        "fourPiece": {
+          "en": "Upon obtaining an Elemental Shard created through Crystallize or triggering a Lunar-Crystallize reaction, all party members gain a 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time.",
+          "es": "Al obtener un fragmento creado a través de la reacción de Cristalización o al causar una reacción de Cristalización Lunar, todos los miembros del equipo obtienen durante 10 s un 35% de bono de daño del elemento correspondiente. Solo se puede obtener un tipo de Bono de Daño Elemental a la vez mediante este efecto."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "HP%",
+              "ER%"
+            ],
+            "usedBy": [
+              "zhongli"
+            ],
+            "reasoning": {
+              "en": "Zhongli can use HP% + Energy Recharge on this set's Flower and Plume.",
+              "es": "Zhongli busca(n) Vida% + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "DEF%"
+            ],
+            "usedBy": [
+              "kachina"
+            ],
+            "reasoning": {
+              "en": "Kachina can use Energy Recharge + CRIT Rate + CRIT DMG + DEF% on this set's Flower and Plume.",
+              "es": "Kachina busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + DEF% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "DEF%",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "xilonen"
+            ],
+            "reasoning": {
+              "en": "Xilonen can use Energy Recharge + DEF% + CRIT Rate on this set's Flower and Plume.",
+              "es": "Xilonen busca(n) Recarga de Energía + DEF% + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "zhongli"
+                ]
+              }
+            ],
+            "usedBy": [
+              "zhongli"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kachina",
+                  "xilonen"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kachina",
+                  "xilonen"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "kachina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kachina",
+              "xilonen"
+            ]
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kachina",
+                  "xilonen"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "kachina",
+                  "xilonen"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "kachina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kachina",
+              "xilonen"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "zhongli"
+                ]
+              }
+            ],
+            "usedBy": [
+              "zhongli"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kachina",
+                  "xilonen"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kachina",
+                  "xilonen"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "kachina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kachina",
+              "xilonen"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kachina"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kachina"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "kachina"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "kachina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kachina"
+            ]
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "zhongli"
+                ]
+              }
+            ],
+            "usedBy": [
+              "zhongli"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "xilonen"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "xilonen"
+                ]
+              }
+            ],
+            "usedBy": [
+              "xilonen"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "zhongli",
+                  "kachina",
+                  "xilonen"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "kachina",
+                  "xilonen"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "zhongli"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "kachina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "zhongli",
+              "kachina",
+              "xilonen"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kachina"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kachina"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "kachina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kachina"
+            ]
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "xilonen"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "xilonen"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "xilonen"
+                ]
+              }
+            ],
+            "usedBy": [
+              "xilonen"
+            ]
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "zhongli",
+          "name": {
+            "en": "Zhongli",
+            "es": "Zhongli"
+          },
+          "iconUrl": "/images/characters/zhongli.png",
+          "element": "Geo",
+          "role": {
+            "en": "Shield Support",
+            "es": "Shield Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "HP%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "HP%",
+            "HP",
+            "ER%"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.8",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/zhongli-quickguide/"
+          }
+        },
+        {
+          "characterId": "kachina",
+          "name": {
+            "en": "Kachina",
+            "es": "Kachina"
+          },
+          "iconUrl": "/images/characters/kachina.png",
+          "element": "Geo",
+          "role": {
+            "en": "Buff & Reaction Support",
+            "es": "Buff & Reaction Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "DEF%",
+              "ER%"
+            ],
+            "goblet": [
+              "Geo DMG%",
+              "DEF%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "DEF%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.0",
+            "kqmVersion": "5.0",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.0",
+            "kqmUrl": "https://keqingmains.com/q/kachina-quickguide/"
+          }
+        },
+        {
+          "characterId": "xilonen",
+          "name": {
+            "en": "Xilonen",
+            "es": "Xilonen"
+          },
+          "iconUrl": "/images/characters/xilonen.png",
+          "element": "Geo",
+          "role": {
+            "en": "Buff & Reaction Support",
+            "es": "Buff & Reaction Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "DEF%",
+              "ER%"
+            ],
+            "goblet": [
+              "DEF%"
+            ],
+            "circlet": [
+              "DEF%",
+              "Healing Bonus",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "DEF%",
+            "DEF",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "5.4",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/xilonen-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "retracing-bolide",
+      "name": {
+        "en": "Retracing Bolide",
+        "es": "Retroceso del Meteorito"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "1.0",
+        "major": 1,
+        "minor": 0
+      },
+      "imageUrl": "/images/artifacts/retracing-bolide.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Increases Shield Strength by 35%.",
+          "es": "Protección de Escudo +35%."
+        },
+        "fourPiece": {
+          "en": "While protected by a shield, gain an additional 40% Normal and Charged Attack DMG.",
+          "es": "Los Ataques Normales y Cargados obtienen un 40% de daño adicional mientras estés bajo la protección de un escudo."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "DEF%",
+              "EM"
+            ],
+            "usedBy": [
+              "noelle"
+            ],
+            "reasoning": {
+              "en": "Noelle can use Energy Recharge + CRIT Rate + CRIT DMG + DEF% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Noelle busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + DEF% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "noelle"
+                ]
+              }
+            ],
+            "usedBy": [
+              "noelle"
+            ]
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "noelle"
+                ]
+              }
+            ],
+            "usedBy": [
+              "noelle"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "noelle"
+                ]
+              }
+            ],
+            "usedBy": [
+              "noelle"
+            ]
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "noelle"
+                ]
+              }
+            ],
+            "usedBy": [
+              "noelle"
+            ]
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "noelle"
+                ]
+              }
+            ],
+            "usedBy": [
+              "noelle"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "noelle"
+                ]
+              }
+            ],
+            "usedBy": [
+              "noelle"
+            ]
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "noelle",
+          "name": {
+            "en": "Noelle",
+            "es": "Noelle"
+          },
+          "iconUrl": "/images/characters/noelle.png",
+          "element": "Geo",
+          "role": {
+            "en": "Lunar-Crystallize DPS",
+            "es": "DPS de Cristalización Lunar"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "DEF%",
+              "EM",
+              "ER%"
+            ],
+            "goblet": [
+              "Geo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "DEF%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "6.7",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/noelle-quickguide/"
           }
         }
       ]
