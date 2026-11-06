@@ -42,6 +42,18 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+
+  .shadow-glow {
+    box-shadow: 0 0 30px rgba(211, 188, 142, 0.12);
+  }
+
+  .shadow-glow-purple {
+    box-shadow: 0 0 30px rgba(168, 85, 247, 0.22);
+  }
+}
+
+.shadow-glow-purple {
+  box-shadow: 0 0 30px rgba(168, 85, 247, 0.22);
 }
 
 * {

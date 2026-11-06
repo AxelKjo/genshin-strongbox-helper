@@ -1,4 +1,4 @@
-import { ChevronsLeft, ChevronsRight, Search, Star } from 'lucide-react'
+import { ChevronsLeft, ChevronsRight, Search } from 'lucide-react'
 import type { ArtifactSetTriage } from '../types/artifacts'
 import type { Lang } from '../lib/i18n'
 import { t } from '../lib/i18n'
@@ -86,6 +86,7 @@ export function SetSidebar({
         )}
         {sets.map((set) => {
           const active = set.id === selectedId
+          const isFourStar = set.rarity === 4
           return (
             <button
               key={set.id}
@@ -97,15 +98,19 @@ export function SetSidebar({
                 expanded ? '' : 'lg:justify-center lg:gap-0 lg:p-2'
               } ${
                 active
-                  ? 'border-gold/60 bg-gold/10 shadow-glow'
-                  : 'border-white/10 bg-abyssSoft/60 hover:border-gold/30 hover:bg-abyssCard'
+                  ? isFourStar
+                    ? 'border-purple-400/60 bg-purple-950/40 shadow-glow-purple'
+                    : 'border-gold/60 bg-gold/10 shadow-glow'
+                  : isFourStar
+                    ? 'border-white/10 bg-abyssSoft/60 hover:border-purple-400/30 hover:bg-abyssCard'
+                    : 'border-white/10 bg-abyssSoft/60 hover:border-gold/30 hover:bg-abyssCard'
               }`}
             >
               <Avatar src={set.imageUrl} alt={set.name[lang]} size="md" />
               <span className={`min-w-0 flex-1 ${expanded ? '' : 'lg:hidden'}`}>
                 <span className={`line-clamp-2 block text-base font-semibold leading-snug ${active ? 'text-goldSoft' : 'text-slate-100'}`}>{set.name[lang]}</span>
                 <span className="mt-1 flex items-center gap-2 text-xs text-slate-400">
-                  <Star className="h-3 w-3 text-gold/80" aria-hidden /> {set.rarity}★
+                  <span>{set.rarity}★</span>
                   <span className="text-slate-600">•</span>
                   {set.characters.length} {t('characters', lang)}
                 </span>

@@ -18,6 +18,7 @@ export default {
       },
       boxShadow: {
         glow: '0 0 30px rgba(211, 188, 142, 0.12)',
+        'glow-purple': '0 0 30px rgba(168, 85, 247, 0.22)',
       },
     },
   },

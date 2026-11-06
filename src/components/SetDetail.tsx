@@ -19,24 +19,41 @@ interface SetDetailProps {
 export function SetDetail({ set, lang, reverseOrder }: SetDetailProps) {
   const [showDescription, setShowDescription] = useState(false)
   const [artworkFailed, setArtworkFailed] = useState(false)
+  const isFourStar = set.rarity === 4
 
   return (
     <div className="space-y-5">
-      <header className="relative overflow-hidden rounded-3xl border border-gold/20 bg-gradient-to-br from-abyssCard via-abyssSoft to-abyss shadow-glow">
+      <header
+        className={`relative overflow-hidden rounded-3xl border bg-gradient-to-br from-abyssCard via-abyssSoft to-abyss ${
+          isFourStar
+            ? 'border-purple-400/30 shadow-glow-purple'
+            : 'border-gold/20 shadow-glow'
+        }`}
+      >
         {!artworkFailed && (
           <img
             src={set.imageUrl}
             alt=""
             aria-hidden
             onError={() => setArtworkFailed(true)}
-            className="pointer-events-none absolute -right-5 top-1/2 h-36 w-36 max-w-none -translate-y-1/2 object-contain opacity-95 drop-shadow-[0_0_28px_rgba(211,188,142,0.22)] sm:-right-6 sm:h-52 sm:w-52 lg:-right-8 lg:h-60 lg:w-60"
+            className={`pointer-events-none absolute -right-5 top-1/2 h-36 w-36 max-w-none -translate-y-1/2 object-contain opacity-95 sm:-right-6 sm:h-52 sm:w-52 lg:-right-8 lg:h-60 lg:w-60 ${
+              isFourStar
+                ? 'drop-shadow-[0_0_28px_rgba(168,85,247,0.22)]'
+                : 'drop-shadow-[0_0_28px_rgba(211,188,142,0.22)]'
+            }`}
           />
         )}
         <div className="relative flex flex-col gap-4 p-5 sm:flex-row sm:items-start sm:p-6">
           <div className="min-w-0 flex-1 pr-24 sm:pr-40 lg:pr-48">
             <div className="flex flex-wrap items-center gap-2">
               <h1 className="font-display text-2xl text-goldSoft sm:text-3xl">{set.name[lang]}</h1>
-              <span className="inline-flex items-center rounded-full border border-gold/30 bg-gold/10 px-2 py-0.5 text-xs font-semibold text-gold">
+              <span
+                className={`inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-semibold ${
+                  isFourStar
+                    ? 'border-purple-400/30 bg-purple-500/15 text-purple-300'
+                    : 'border-gold/30 bg-gold/10 text-gold'
+                }`}
+              >
                 {set.rarity}★
               </span>
             </div>
