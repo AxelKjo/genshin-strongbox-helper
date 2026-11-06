@@ -57,7 +57,6 @@ export interface SlotTriageRule {
   verdict: Verdict
   substats: SlotSubstat[]
   usedBy: string[]
-  reasoning: LocalizedText
 }
 
 export interface ArtifactSetTriage {
@@ -65,20 +64,17 @@ export interface ArtifactSetTriage {
   name: LocalizedText
   rarity: number
   releaseVersion: ReleaseVersion
-  iconUrl: string
   imageUrl: string
   bonuses: {
     twoPiece: LocalizedText
     fourPiece: LocalizedText
   }
-  summaryVerdict: LocalizedText
   flowerAndPlumeRules: {
     keepCombinations: {
       substats: StatKey[]
       usedBy: string[]
       reasoning: LocalizedText
     }[]
-    discardRule: LocalizedText
   }
   slotRules: {
     sands: SlotTriageRule[]

@@ -68,13 +68,6 @@ function translateRole(role: string, fallback: string): string {
   return ROLE_ES[role] ?? fallback
 }
 
-const SLOT_LABELS: Record<SlotKey, LocalizedText> = {
-  sands: { en: 'Sands', es: 'Arenas' },
-  goblet: { en: 'Goblet', es: 'Cáliz' },
-  circlet: { en: 'Circlet', es: 'Tiara' },
-}
-
-
 function capitalize(value: string): string {
   if (!value) return value
   return value.charAt(0).toUpperCase() + value.slice(1)
@@ -234,8 +227,6 @@ function resolveCharacter(
 }
 
 function buildSlotRules(
-  set: GBArtifactSet,
-  setNames: LocalizedText,
   characters: CharacterUsage[],
   slot: SlotKey,
 ): SlotTriageRule[] {
@@ -266,35 +257,11 @@ function buildSlotRules(
       .sort((a, b) => b.characters.length - a.characters.length || a.index - b.index)
       .map(({ name, characters: characterIds }) => ({ name, characters: characterIds }))
 
-    const names = users.map((character) => character.name)
-    const stat = statLabel(mainStat, 'en')
-    const statEs = statLabel(mainStat, 'es')
-    const slotEn = SLOT_LABELS[slot].en
-    const slotEs = SLOT_LABELS[slot].es
-    const subsEn = substats.map((entry) => statLabel(entry.name, 'en')).join(' > ')
-    const subsEs = substats.map((entry) => statLabel(entry.name, 'es')).join(' > ')
-    let reasoning: LocalizedText
-    if (verdict === 'SAFE_DISCARD') {
-      reasoning = {
-        en: `No current ${setNames.en} user needs ${stat} on ${slotEn}. Recycle it unless the substats make it a solid off-piece.`,
-        es: `Ningún personaje actual de ${setNames.es} necesita ${statEs} en ${slotEs}. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa.`,
-      }
-    } else if (verdict === 'SITUATIONAL_KEEP') {
-      reasoning = {
-        en: `${joinLocalized(names, 'en')} can use ${stat} on ${slotEn} in niche builds. Keep only if it rolls ${subsEn || 'the needed substats'}.`,
-        es: `${joinLocalized(names, 'es')} puede(n) usar ${statEs} en ${slotEs} en builds de nicho. Consérvala solo si sube ${subsEs || 'las subestadísticas necesarias'}.`,
-      }
-    } else {
-      reasoning = {
-        en: `${joinLocalized(names, 'en')} can use ${stat} on ${slotEn} for this set. Useful substats for this piece: ${subsEn || 'none — the main stat cannot repeat as a substat'}.`,
-        es: `${joinLocalized(names, 'es')} puede(n) usar ${statEs} en ${slotEs} para este set. Subestadísticas útiles para esta pieza: ${subsEs || 'ninguna — la stat principal no puede repetirse como subestadística'}.`,
-      }
-    }
-    return { mainStat, verdict, substats, usedBy, reasoning }
+    return { mainStat, verdict, substats, usedBy }
   })
 }
 
-function buildFlowerAndPlume(set: GBArtifactSet, characters: CharacterUsage[]) {
+function buildFlowerAndPlume(characters: CharacterUsage[]) {
   const combos = new Map<string, { substats: StatKey[]; usedBy: string[]; names: LocalizedText[] }>()
   for (const character of characters) {
     const stats = uniqueStats(
@@ -312,9 +279,6 @@ function buildFlowerAndPlume(set: GBArtifactSet, characters: CharacterUsage[]) {
       combos.set(key, { substats: stats, usedBy: [character.characterId], names: [character.name] })
     }
   }
-  const topStats = uniqueStats(
-    characters.flatMap((character) => character.substatsPriority).filter((stat) => !isFlatStat(stat)),
-  )
   return {
     keepCombinations: [...combos.values()].slice(0, 8).map((combo) => ({
       substats: combo.substats,
@@ -324,30 +288,7 @@ function buildFlowerAndPlume(set: GBArtifactSet, characters: CharacterUsage[]) {
         es: `${joinLocalized(combo.names, 'es')} busca(n) ${combo.substats.map((stat) => statLabel(stat, 'es')).join(' + ')} en la Flor y la Pluma de este set.`,
       },
     })),
-    discardRule: {
-      en: `Flowers and plumes with no ${topStats.map((stat) => statLabel(stat, 'en')).join(', ') || 'useful substats'} and no useful upgrades can be safely recycled in the Relic Strongbox.`,
-      es: `Las Flores y Plumas sin ${topStats.map((stat) => statLabel(stat, 'es')).join(', ') || 'subestadísticas útiles'} ni mejoras útiles se pueden reciclar sin riesgo en el Relicario.`,
-    },
   }
-}
-
-function buildSummary(set: GBArtifactSet, setNames: LocalizedText, characters: CharacterUsage[]): LocalizedText {
-  const names = characters.slice(0, 4).map((character) => character.name)
-  const mustSands = characters.flatMap((character) => character.mainStats.sands)
-  const mustGoblets = characters.flatMap((character) => character.mainStats.goblet)
-  const mustCirclets = characters.flatMap((character) => character.mainStats.circlet)
-  const summary = (lang: 'en' | 'es') => {
-    const unique = (stats: StatKey[]) => [...new Set(stats)].slice(0, 4).map((stat) => statLabel(stat, lang)).join(', ')
-    if (names.length === 0) {
-      return lang === 'en'
-        ? `${setNames.en} is a ${set.rarity}★ set with no standard 4-piece users. Everything is fodder unless it is a strong off-piece.`
-        : `${setNames.es} es un set de ${set.rarity}★ sin personajes estándar para 4 piezas. Todo es material de reciclaje salvo que sea una gran pieza externa.`
-    }
-    return lang === 'en'
-      ? `${setNames.en} is a ${set.rarity}★ set used by ${joinLocalized(names, 'en')}. Keep Sands with ${unique(mustSands) || 'useful main stats'}, Goblets with ${unique(mustGoblets) || 'useful main stats'} and Circlets with ${unique(mustCirclets) || 'useful main stats'}. Everything else is fodder unless it is a strong off-piece.`
-      : `${setNames.es} es un set de ${set.rarity}★ usado por ${joinLocalized(names, 'es')}. Conserva Arenas con ${unique(mustSands) || 'estadísticas principales útiles'}, Cálices con ${unique(mustGoblets) || 'estadísticas principales útiles'} y Tiaras con ${unique(mustCirclets) || 'estadísticas principales útiles'}. El resto es material de reciclaje salvo que sea una gran pieza externa.`
-  }
-  return { en: summary('en'), es: summary('es') }
 }
 
 function makeSetTriage(
@@ -367,7 +308,6 @@ function makeSetTriage(
       major: parsedReleaseVersion?.major ?? 0,
       minor: parsedReleaseVersion?.minor ?? 0,
     },
-    iconUrl: artifactImageUrl(target.id),
     imageUrl: artifactImageUrl(target.id),
     bonuses: {
       twoPiece: {
@@ -379,12 +319,11 @@ function makeSetTriage(
         es: normalizeBonusText(es?.fourPiece ?? en.fourPiece),
       },
     },
-    summaryVerdict: buildSummary(en, setNames, characters),
-    flowerAndPlumeRules: buildFlowerAndPlume(en, characters),
+    flowerAndPlumeRules: buildFlowerAndPlume(characters),
     slotRules: {
-      sands: buildSlotRules(en, setNames, characters, 'sands'),
-      goblet: buildSlotRules(en, setNames, characters, 'goblet'),
-      circlet: buildSlotRules(en, setNames, characters, 'circlet'),
+      sands: buildSlotRules(characters, 'sands'),
+      goblet: buildSlotRules(characters, 'goblet'),
+      circlet: buildSlotRules(characters, 'circlet'),
     },
     characters,
   }

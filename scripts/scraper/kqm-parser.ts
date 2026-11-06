@@ -28,7 +28,6 @@ export interface KqmGuide {
   recommendsSet: boolean
   recommendedSets: string[]
   setRecommendations: KqmSetRecommendation[]
-  playstyle: string
 }
 
 interface KqmArtifactRow {
@@ -296,8 +295,6 @@ export async function fetchKqmGuide(
     const recommendedSets = setRecommendations.filter((entry) => entry.standard).map((entry) => entry.name)
     const recommendsSet = recommendedSets.length > 0
 
-    const playstyle = cleanText($('h1').first().parent().find('h2').first().text()) || title.replace(/\s*-\s*KQM\s*$/i, '')
-
     return {
       slug,
       url,
@@ -309,7 +306,6 @@ export async function fetchKqmGuide(
       recommendsSet,
       recommendedSets,
       setRecommendations,
-      playstyle,
     }
   }
   return null

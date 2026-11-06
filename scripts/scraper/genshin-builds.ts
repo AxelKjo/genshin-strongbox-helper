@@ -12,7 +12,7 @@ import type { StatKey } from '../../src/types/artifacts'
 import { hasCritTie, hasErUntilRequirement, normalizeStat, normalizeStatList } from '../../src/lib/stats'
 import type { TargetSetConfig } from './config'
 import { GB_BASE } from './config'
-import { absoluteGbUrl, fetchCached } from './http'
+import { fetchCached } from './http'
 
 export interface GBUsageRef {
   slug: string
@@ -27,7 +27,6 @@ export interface GBArtifactSet {
   name: string
   rarity: number
   versionReleased: string
-  iconUrl: string
   twoPiece: string
   fourPiece: string
   users: GBUsageRef[]
@@ -60,7 +59,6 @@ export interface GBCharacterData {
   slug: string
   name: { en: string; es: string }
   element: string
-  iconUrl: string
   lastUpdated: { en: string; es: string }
   builds: GBBuildData[]
 }
@@ -107,7 +105,6 @@ export async function fetchArtifactIndex(lang: 'en' | 'es'): Promise<GBArtifactS
     const id = node.attr('data-id') ?? ''
     const name = node.attr('data-name') ?? ''
     if (!id || !name) return
-    const icon = node.find('.artifact-set-entry-image img').first().attr('src') ?? ''
     const rarity = Number.parseInt(node.attr('data-rarity') ?? '0', 10)
     const versionReleased = node.attr('data-version-released') ?? ''
     let twoPiece = ''
@@ -138,7 +135,6 @@ export async function fetchArtifactIndex(lang: 'en' | 'es'): Promise<GBArtifactS
       name,
       rarity,
       versionReleased,
-      iconUrl: absoluteGbUrl(icon),
       twoPiece,
       fourPiece,
       users,
@@ -269,7 +265,6 @@ export async function fetchCharacter(
       es: normalizeSpanishCharacterName(textOf($es, $es('h1#character-title').first())),
     },
     element: (($en('body').attr('data-element') ?? '').trim() || 'unknown'),
-    iconUrl: absoluteGbUrl($en('.character-art-stage img.character-image').first().attr('src') ?? ''),
     lastUpdated: {
       en: textOf($en, $en('.last-updated strong').first()),
       es: textOf($es, $es('.last-updated strong').first()),

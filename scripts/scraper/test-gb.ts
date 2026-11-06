@@ -23,7 +23,7 @@ async function main() {
   if (sampleSlug) {
     console.log(`\n--- Character sample: ${sampleSlug}`)
     const character = await fetchCharacter(sampleSlug, targets)
-    console.log(character.name, character.element, character.iconUrl)
+    console.log(character.name, character.element)
     for (const build of character.builds) {
       const usage = pickSetUsage(character, build.id)
       console.log(`\nBuild ${build.id}: ${build.name} (${build.version}) best=${build.isBestRole}`)

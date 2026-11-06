@@ -172,9 +172,3 @@ export async function mapWithConcurrency<T, R>(
   await Promise.all(Array.from({ length: Math.min(limit, items.length) }, run))
   return results
 }
-
-export function absoluteGbUrl(src: string): string {
-  if (!src) return ''
-  if (src.startsWith('http')) return src
-  return `https://genshin-impact-helper-team.github.io${src.startsWith('/') ? '' : '/'}${src}`
-}
