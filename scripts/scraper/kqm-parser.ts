@@ -46,7 +46,7 @@ const SLUG_OVERRIDES: Record<string, string> = {
   'arataki-itto': 'itto',
   'yae-miko': 'yae',
   'yumemizuki-mizuki': 'mizuki',
-  'kuki-shinobu': 'kuki-shinobu',
+  'kuki-shinobu': 'shinobu',
   'yun-jin': 'yunjin',
   'hu-tao': 'hu-tao',
   'traveler': 'traveler',
@@ -68,10 +68,10 @@ const NAME_OVERRIDES: Record<string, string> = {
   'shikanoin-heizou': 'heizou',
   'arataki-itto': 'itto',
   'yae-miko': 'yae',
-  'kuki-shinobu': 'kuki-shinobu',
+  'kuki-shinobu': 'shinobu',
 }
 
-const PREFIXES = ['kaedehara-', 'kamisato-', 'kujou-', 'sangonomiya-', 'shikanoin-', 'arataki-', 'yae-']
+const PREFIXES = ['kaedehara-', 'kamisato-', 'kujou-', 'sangonomiya-', 'shikanoin-', 'arataki-', 'yae-', 'kuki-']
 
 export function kqmSlugCandidates(characterId: string, englishName: string): string[] {
   const normalized = characterId.toLowerCase().trim()

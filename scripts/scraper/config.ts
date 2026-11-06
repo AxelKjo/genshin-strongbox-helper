@@ -209,6 +209,29 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Vourukasha',
     ],
   },
+  {
+    id: 'desert-pavilion-chronicle',
+    en: 'Desert Pavilion Chronicle',
+    es: 'Épica del Pabellón del Desierto',
+    aliases: [
+      'Épica del Pabellón del Desierto',
+      'Epica del Pabellon del Desierto',
+      'Desert Pavilion Chronicle',
+      'Desert Pavilion',
+      'Pavilion',
+    ],
+  },
+  {
+    id: 'flower-of-paradise-lost',
+    en: 'Flower of Paradise Lost',
+    es: 'Flor Olvidada del Paraíso',
+    aliases: [
+      'Flor Olvidada del Paraíso',
+      'Flor Olvidada del Paraiso',
+      'Flower of Paradise Lost',
+      'Paradise Lost',
+    ],
+  },
 ]
 
 export function getTargetSets(argv: string[] = process.argv.slice(2)): TargetSetConfig[] {
