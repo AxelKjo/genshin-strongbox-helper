@@ -164,7 +164,7 @@ function resolveCharacter(
   kqm: KqmGuide | null,
 ): ResolvedCharacter | null {
   const picked = pickSetUsage(character, preferredBuildId, target.id)
-  if (!picked) return null
+  if (!picked || picked.usage.pieceCount !== 4) return null
   const { build, usage } = picked
   const targetNames = [target.en, target.es, ...target.aliases]
   const recommendedForThisSet = kqm?.recommendedSets.some((name) => targetNames.includes(name)) ?? false

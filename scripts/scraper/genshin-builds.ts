@@ -288,6 +288,7 @@ export function pickSetUsage(
     for (const usage of build.setUsages) {
       if (targetSetId && usage.setId !== targetSetId) continue
       if (usage.conditional) continue
+      if (usage.pieceCount !== 4) continue
       if (!Number.isFinite(usage.rank) || usage.rank > 2) continue
       candidates.push({ build, usage })
     }

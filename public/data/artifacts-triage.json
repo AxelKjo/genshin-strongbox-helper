@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T04:05:22.331Z",
+  "generatedAt": "2026-11-06T20:06:44.793Z",
   "version": "MVP-9-sets",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
@@ -16954,6 +16954,3457 @@
             "resolutionReason": "Genshin-Builds newer (7.1 > 5.0)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/thoma-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "deepwood-memories",
+      "name": {
+        "en": "Deepwood Memories",
+        "es": "Recuerdos del Bosque"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "3.0",
+        "major": 3,
+        "minor": 0
+      },
+      "imageUrl": "/images/artifacts/deepwood-memories.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Dendro DMG Bonus +15%.",
+          "es": "Bono de Daño Dendro +15%."
+        },
+        "fourPiece": {
+          "en": "After Elemental Skills or Bursts hit opponents, the targets' Dendro RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field.",
+          "es": "Tras golpear a un enemigo con una Habilidad Elemental o Definitiva, la RES Dendro de dicho enemigo se reduce en un 30% durante 8 s. Este efecto se puede activar incluso cuando el personaje que lleva este conjunto equipado está en tu equipo pero no en uso."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "ER%",
+              "HP%",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "baizhu",
+              "yaoyao",
+              "kirara"
+            ],
+            "reasoning": {
+              "en": "Baizhu, Yaoyao, Kirara can use Energy Recharge + HP% + CRIT Rate on this set's Flower and Plume.",
+              "es": "Baizhu, Yaoyao, Kirara busca(n) Recarga de Energía + Vida% + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "collei",
+              "dendro-traveler"
+            ],
+            "reasoning": {
+              "en": "Collei, Dendro Traveler can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Collei, Viajero Dendro busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "EM",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "kaveh"
+            ],
+            "reasoning": {
+              "en": "Kaveh can use Energy Recharge + Elemental Mastery + CRIT Rate on this set's Flower and Plume.",
+              "es": "Kaveh busca(n) Recarga de Energía + Maestría Elemental + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "EM",
+              "CRIT Rate",
+              "CRIT DMG"
+            ],
+            "usedBy": [
+              "lauma"
+            ],
+            "reasoning": {
+              "en": "Lauma can use Energy Recharge + Elemental Mastery + CRIT Rate + CRIT DMG on this set's Flower and Plume.",
+              "es": "Lauma busca(n) Recarga de Energía + Maestría Elemental + Prob. CRIT + Daño CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM",
+              "ATK%"
+            ],
+            "usedBy": [
+              "nahida"
+            ],
+            "reasoning": {
+              "en": "Nahida can use Energy Recharge + CRIT Rate + CRIT DMG + Elemental Mastery + ATK% on this set's Flower and Plume.",
+              "es": "Nahida busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + Maestría Elemental + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "ER%",
+              "HP%",
+              "EM"
+            ],
+            "usedBy": [
+              "dori"
+            ],
+            "reasoning": {
+              "en": "Dori can use CRIT Rate + Energy Recharge + HP% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Dori busca(n) Prob. CRIT + Recarga de Energía + Vida% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "ER%"
+            ],
+            "usedBy": [
+              "emilie"
+            ],
+            "reasoning": {
+              "en": "Emilie can use CRIT Rate + CRIT DMG + ATK% + Energy Recharge on this set's Flower and Plume.",
+              "es": "Émilie busca(n) Prob. CRIT + Daño CRIT + ATQ% + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "HP%",
+              "ER%"
+            ],
+            "usedBy": [
+              "zhongli"
+            ],
+            "reasoning": {
+              "en": "Zhongli can use HP% + Energy Recharge on this set's Flower and Plume.",
+              "es": "Zhongli busca(n) Vida% + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "baizhu",
+                  "yaoyao",
+                  "dori",
+                  "kirara",
+                  "zhongli"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "baizhu",
+                  "yaoyao",
+                  "dori",
+                  "kirara"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "dori"
+                ]
+              }
+            ],
+            "usedBy": [
+              "baizhu",
+              "yaoyao",
+              "dori",
+              "kirara",
+              "zhongli"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "emilie"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "emilie"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "emilie"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "collei",
+                  "dendro-traveler"
+                ]
+              }
+            ],
+            "usedBy": [
+              "collei",
+              "dendro-traveler",
+              "emilie"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "baizhu",
+                  "collei",
+                  "dendro-traveler",
+                  "kaveh",
+                  "lauma",
+                  "yaoyao",
+                  "dori",
+                  "kirara"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "kaveh",
+                  "lauma",
+                  "dori"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "baizhu",
+                  "yaoyao",
+                  "dori",
+                  "kirara"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "lauma"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "collei",
+                  "dendro-traveler"
+                ]
+              }
+            ],
+            "usedBy": [
+              "baizhu",
+              "collei",
+              "dendro-traveler",
+              "kaveh",
+              "lauma",
+              "yaoyao",
+              "dori",
+              "kirara"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "kaveh",
+                  "lauma",
+                  "nahida",
+                  "dori"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "kaveh",
+                  "lauma",
+                  "nahida",
+                  "dori"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "lauma",
+                  "nahida"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "nahida"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "dori"
+                ]
+              }
+            ],
+            "usedBy": [
+              "collei",
+              "dendro-traveler",
+              "kaveh",
+              "lauma",
+              "nahida",
+              "dori"
+            ]
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "baizhu",
+                  "yaoyao",
+                  "dori",
+                  "kirara",
+                  "zhongli"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "baizhu",
+                  "yaoyao",
+                  "dori",
+                  "kirara"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "dori"
+                ]
+              }
+            ],
+            "usedBy": [
+              "baizhu",
+              "yaoyao",
+              "dori",
+              "kirara",
+              "zhongli"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "kaveh",
+                  "lauma",
+                  "nahida",
+                  "dori"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "kaveh",
+                  "lauma",
+                  "nahida",
+                  "dori"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "lauma",
+                  "nahida"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "nahida"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "dori"
+                ]
+              }
+            ],
+            "usedBy": [
+              "collei",
+              "dendro-traveler",
+              "kaveh",
+              "lauma",
+              "nahida",
+              "dori"
+            ]
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "nahida",
+                  "emilie"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "nahida",
+                  "emilie"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "nahida",
+                  "emilie"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "nahida",
+                  "emilie"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "nahida"
+                ]
+              }
+            ],
+            "usedBy": [
+              "collei",
+              "dendro-traveler",
+              "nahida",
+              "emilie"
+            ]
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "baizhu",
+                  "dori",
+                  "kirara",
+                  "zhongli"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "baizhu",
+                  "dori",
+                  "kirara"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "dori"
+                ]
+              }
+            ],
+            "usedBy": [
+              "baizhu",
+              "dori",
+              "kirara",
+              "zhongli"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "kaveh",
+                  "lauma",
+                  "nahida",
+                  "dori"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "kaveh",
+                  "lauma",
+                  "nahida",
+                  "dori"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "lauma",
+                  "nahida"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "nahida"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "dori"
+                ]
+              }
+            ],
+            "usedBy": [
+              "collei",
+              "dendro-traveler",
+              "kaveh",
+              "lauma",
+              "nahida",
+              "dori"
+            ]
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "kaveh",
+                  "nahida",
+                  "dori",
+                  "emilie",
+                  "kirara",
+                  "zhongli"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "kaveh",
+                  "nahida",
+                  "dori"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "nahida",
+                  "emilie"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "nahida",
+                  "emilie"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "dori",
+                  "kirara",
+                  "zhongli"
+                ]
+              }
+            ],
+            "usedBy": [
+              "collei",
+              "dendro-traveler",
+              "kaveh",
+              "nahida",
+              "dori",
+              "emilie",
+              "kirara",
+              "zhongli"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "nahida",
+                  "emilie"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "nahida",
+                  "emilie"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "nahida",
+                  "emilie"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "collei",
+                  "dendro-traveler",
+                  "nahida"
+                ]
+              }
+            ],
+            "usedBy": [
+              "collei",
+              "dendro-traveler",
+              "nahida",
+              "emilie"
+            ]
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "baizhu",
+                  "yaoyao",
+                  "dori"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "baizhu",
+                  "yaoyao",
+                  "dori"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "baizhu",
+                  "yaoyao",
+                  "dori"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "dori"
+                ]
+              }
+            ],
+            "usedBy": [
+              "baizhu",
+              "yaoyao",
+              "dori"
+            ]
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "baizhu",
+          "name": {
+            "en": "Baizhu",
+            "es": "Baizhu"
+          },
+          "iconUrl": "/images/characters/baizhu.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Heal Support",
+            "es": "Heal Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "HP%",
+              "ER%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%",
+              "Healing Bonus"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "HP%",
+            "HP",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "4.2",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "4.2",
+            "kqmUrl": "https://keqingmains.com/q/baizhu-quickguide/"
+          }
+        },
+        {
+          "characterId": "collei",
+          "name": {
+            "en": "Collei",
+            "es": "Collei"
+          },
+          "iconUrl": "/images/characters/collei.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Reaction Support",
+            "es": "Reaction Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Dendro DMG%",
+              "EM"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.8",
+            "kqmVersion": "5.8",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/collei-quickguide/"
+          }
+        },
+        {
+          "characterId": "dendro-traveler",
+          "name": {
+            "en": "Dendro Traveler",
+            "es": "Viajero Dendro"
+          },
+          "iconUrl": "/images/characters/dendro-traveler.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Reaction Support",
+            "es": "Reaction Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Dendro DMG%",
+              "EM"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "4.0",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 4.0)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/dendro-traveler-quickguide/"
+          }
+        },
+        {
+          "characterId": "kaveh",
+          "name": {
+            "en": "Kaveh",
+            "es": "Kaveh"
+          },
+          "iconUrl": "/images/characters/kaveh.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Bloom / Burgeon Driver",
+            "es": "Florecimiento / Crepitar Driver"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "EM",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "EM",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.8",
+            "kqmVersion": "5.7",
+            "resolutionReason": "Genshin-Builds newer (5.8 > 5.7)",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/kaveh-quickguide/"
+          }
+        },
+        {
+          "characterId": "lauma",
+          "name": {
+            "en": "Lauma",
+            "es": "Lauma"
+          },
+          "iconUrl": "/images/characters/lauma.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Buff Support (High-Energy Requirement)",
+            "es": "Soporte de buffs (altos requisitos de energía)"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "EM",
+            "CRIT Rate",
+            "CRIT DMG"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "6.4",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/lauma-quickguide/"
+          }
+        },
+        {
+          "characterId": "nahida",
+          "name": {
+            "en": "Nahida",
+            "es": "Nahida"
+          },
+          "iconUrl": "/images/characters/nahida.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Buff Support & Damage",
+            "es": "Buff Support & Damage"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM"
+            ],
+            "goblet": [
+              "EM",
+              "Dendro DMG%"
+            ],
+            "circlet": [
+              "EM",
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.0",
+            "kqmVersion": "5.6",
+            "resolutionReason": "Genshin-Builds newer (6.0 > 5.6)",
+            "genshinBuildsUpdated": "6.0 / Luna I",
+            "kqmUrl": "https://keqingmains.com/q/nahida-quickguide/"
+          }
+        },
+        {
+          "characterId": "yaoyao",
+          "name": {
+            "en": "Yaoyao",
+            "es": "Yaoyao"
+          },
+          "iconUrl": "/images/characters/yaoyao.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Heal Support",
+            "es": "Heal Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "HP%",
+              "ER%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "Healing Bonus"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "HP%",
+            "CRIT Rate",
+            "HP"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "4.8",
+            "kqmVersion": "4.0",
+            "resolutionReason": "Genshin-Builds newer (4.8 > 4.0)",
+            "genshinBuildsUpdated": "4.8",
+            "kqmUrl": "https://keqingmains.com/q/yaoyao-quickguide/"
+          }
+        },
+        {
+          "characterId": "dori",
+          "name": {
+            "en": "Dori",
+            "es": "Dori"
+          },
+          "iconUrl": "/images/characters/dori.png",
+          "element": "Electro",
+          "role": {
+            "en": "Heal Support",
+            "es": "Heal Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "HP%",
+              "EM"
+            ],
+            "goblet": [
+              "HP%",
+              "EM"
+            ],
+            "circlet": [
+              "Healing Bonus",
+              "HP%",
+              "EM",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "ER%",
+            "HP%",
+            "EM"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "4.0",
+            "kqmVersion": "4.0",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "4.0",
+            "kqmUrl": "https://keqingmains.com/q/dori-quickguide/"
+          }
+        },
+        {
+          "characterId": "emilie",
+          "name": {
+            "en": "Emilie",
+            "es": "Émilie"
+          },
+          "iconUrl": "/images/characters/emilie.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Off-Field DPS",
+            "es": "DPS fuera de campo"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Dendro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "5.4",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/emilie-quickguide/"
+          }
+        },
+        {
+          "characterId": "kirara",
+          "name": {
+            "en": "Kirara",
+            "es": "Kirara"
+          },
+          "iconUrl": "/images/characters/kirara.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Shield Support",
+            "es": "Shield Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "HP%",
+              "ER%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "HP%",
+            "CRIT Rate",
+            "HP"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "4.8",
+            "kqmVersion": "4.0",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "4.8",
+            "kqmUrl": "https://keqingmains.com/q/kirara-quickguide/"
+          }
+        },
+        {
+          "characterId": "zhongli",
+          "name": {
+            "en": "Zhongli",
+            "es": "Zhongli"
+          },
+          "iconUrl": "/images/characters/zhongli.png",
+          "element": "Geo",
+          "role": {
+            "en": "Shield Support",
+            "es": "Shield Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "HP%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "HP%",
+            "HP",
+            "ER%"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.8",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/zhongli-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gilded-dreams",
+      "name": {
+        "en": "Gilded Dreams",
+        "es": "Sueños Áureos"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "3.0",
+        "major": 3,
+        "minor": 0
+      },
+      "imageUrl": "/images/artifacts/gilded-dreams.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Increases Elemental Mastery by 80.",
+          "es": "Maestría Elemental +80 pts."
+        },
+        "fourPiece": {
+          "en": "Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members. ATK is increased by 14% for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by 50 for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every 8s. The character who equips this can still trigger its effects when not on the field.",
+          "es": "Tras causar una Reacción Elemental, el personaje que lleve equipado este conjunto obtiene durante 8 s los siguientes fortalecimientos en función de los tipos elementales de los miembros del equipo: por cada personaje del mismo tipo elemental que el portador de este conjunto, el ATQ aumenta en un 14%; por cada personaje de tipo elemental distinto al portador de este conjunto, la Maestría Elemental aumenta en 50 pts. Cada uno de estos efectos se calcula para un máximo de 3 personajes. Este efecto solo se puede activar una vez cada 8 s, y se activará incluso cuando el personaje que lleva este conjunto equipado esté en tu equipo pero no en uso."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM",
+              "ATK%"
+            ],
+            "usedBy": [
+              "alhaitham",
+              "rosaria",
+              "nahida",
+              "sethos"
+            ],
+            "reasoning": {
+              "en": "Alhaitham, Rosaria, Nahida, Sethos can use Energy Recharge + CRIT Rate + CRIT DMG + Elemental Mastery + ATK% on this set's Flower and Plume.",
+              "es": "Alhacén, Rosaria, Nahida, Sethos busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + Maestría Elemental + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM",
+              "ATK%",
+              "ER%"
+            ],
+            "usedBy": [
+              "tighnari"
+            ],
+            "reasoning": {
+              "en": "Tighnari can use CRIT Rate + CRIT DMG + Elemental Mastery + ATK% + Energy Recharge on this set's Flower and Plume.",
+              "es": "Tignari busca(n) Prob. CRIT + Daño CRIT + Maestría Elemental + ATQ% + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM",
+              "ER%"
+            ],
+            "usedBy": [
+              "yumemizuki-mizuki"
+            ],
+            "reasoning": {
+              "en": "Yumemizuki Mizuki can use CRIT Rate + CRIT DMG + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Yumemizuki Mizuki busca(n) Prob. CRIT + Daño CRIT + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM",
+              "ER%"
+            ],
+            "usedBy": [
+              "chongyun",
+              "diluc",
+              "durin",
+              "ineffa",
+              "lisa",
+              "sandrone",
+              "yae-miko",
+              "yanfei"
+            ],
+            "reasoning": {
+              "en": "Chongyun, Diluc, Durin, Ineffa, Lisa, Sandrone, Yae Miko, Yanfei can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Chongyun, Diluc, Durin, Ineffa, Lisa, Sandrone, Yae Miko, Yanfei busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "cryo-traveler",
+              "cyno",
+              "flins",
+              "kaeya"
+            ],
+            "reasoning": {
+              "en": "Cryo Traveler, Cyno, Flins, Kaeya can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Viajero Cryo, Cyno, Flins, Kaeya busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM",
+              "ATK%"
+            ],
+            "usedBy": [
+              "ganyu"
+            ],
+            "reasoning": {
+              "en": "Ganyu can use CRIT Rate + CRIT DMG + Elemental Mastery + ATK% on this set's Flower and Plume.",
+              "es": "Ganyu busca(n) Prob. CRIT + Daño CRIT + Maestría Elemental + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "keqing"
+            ],
+            "reasoning": {
+              "en": "Keqing can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Keching busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "EM",
+              "HP%",
+              "ER%"
+            ],
+            "usedBy": [
+              "kuki-shinobu"
+            ],
+            "reasoning": {
+              "en": "Kuki Shinobu can use Elemental Mastery + HP% + Energy Recharge on this set's Flower and Plume.",
+              "es": "Kuki Shinobu busca(n) Maestría Elemental + Vida% + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "alhaitham",
+                  "rosaria",
+                  "tighnari",
+                  "chongyun",
+                  "cryo-traveler",
+                  "cyno",
+                  "diluc",
+                  "durin",
+                  "flins",
+                  "ganyu",
+                  "ineffa",
+                  "kaeya",
+                  "keqing",
+                  "lisa",
+                  "sandrone",
+                  "yae-miko",
+                  "yanfei"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "alhaitham",
+                  "rosaria",
+                  "tighnari",
+                  "chongyun",
+                  "cryo-traveler",
+                  "cyno",
+                  "diluc",
+                  "durin",
+                  "flins",
+                  "ganyu",
+                  "ineffa",
+                  "kaeya",
+                  "keqing",
+                  "lisa",
+                  "sandrone",
+                  "yae-miko",
+                  "yanfei"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "alhaitham",
+                  "rosaria",
+                  "tighnari",
+                  "chongyun",
+                  "cryo-traveler",
+                  "cyno",
+                  "diluc",
+                  "durin",
+                  "flins",
+                  "ganyu",
+                  "ineffa",
+                  "kaeya",
+                  "keqing",
+                  "lisa",
+                  "sandrone",
+                  "yae-miko",
+                  "yanfei"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "alhaitham",
+                  "rosaria",
+                  "tighnari",
+                  "chongyun",
+                  "cryo-traveler",
+                  "cyno",
+                  "diluc",
+                  "durin",
+                  "flins",
+                  "ineffa",
+                  "kaeya",
+                  "lisa",
+                  "sandrone",
+                  "yae-miko",
+                  "yanfei"
+                ]
+              }
+            ],
+            "usedBy": [
+              "alhaitham",
+              "rosaria",
+              "tighnari",
+              "chongyun",
+              "cryo-traveler",
+              "cyno",
+              "diluc",
+              "durin",
+              "flins",
+              "ganyu",
+              "ineffa",
+              "kaeya",
+              "keqing",
+              "lisa",
+              "sandrone",
+              "yae-miko",
+              "yanfei"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "rosaria",
+                  "tighnari",
+                  "chongyun",
+                  "kaeya",
+                  "sethos",
+                  "thoma"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "rosaria",
+                  "tighnari",
+                  "chongyun",
+                  "kaeya",
+                  "sethos",
+                  "thoma"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "rosaria",
+                  "tighnari",
+                  "chongyun",
+                  "kaeya",
+                  "sethos"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "rosaria",
+                  "tighnari",
+                  "chongyun",
+                  "kaeya",
+                  "sethos"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "thoma"
+                ]
+              }
+            ],
+            "usedBy": [
+              "rosaria",
+              "tighnari",
+              "chongyun",
+              "kaeya",
+              "sethos",
+              "thoma"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "alhaitham",
+                  "rosaria",
+                  "tighnari",
+                  "yumemizuki-mizuki",
+                  "chongyun",
+                  "diluc",
+                  "ganyu",
+                  "kaeya",
+                  "keqing",
+                  "lisa",
+                  "nahida",
+                  "sethos",
+                  "thoma",
+                  "yae-miko",
+                  "yanfei"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "alhaitham",
+                  "rosaria",
+                  "tighnari",
+                  "yumemizuki-mizuki",
+                  "chongyun",
+                  "diluc",
+                  "kaeya",
+                  "kuki-shinobu",
+                  "lisa",
+                  "nahida",
+                  "sethos",
+                  "thoma",
+                  "yae-miko",
+                  "yanfei"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "alhaitham",
+                  "rosaria",
+                  "tighnari",
+                  "yumemizuki-mizuki",
+                  "chongyun",
+                  "diluc",
+                  "ganyu",
+                  "kaeya",
+                  "keqing",
+                  "lisa",
+                  "nahida",
+                  "sethos",
+                  "yae-miko",
+                  "yanfei"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "alhaitham",
+                  "rosaria",
+                  "tighnari",
+                  "chongyun",
+                  "diluc",
+                  "ganyu",
+                  "kaeya",
+                  "keqing",
+                  "lisa",
+                  "nahida",
+                  "sethos",
+                  "yae-miko",
+                  "yanfei"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "kuki-shinobu",
+                  "thoma"
+                ]
+              }
+            ],
+            "usedBy": [
+              "alhaitham",
+              "rosaria",
+              "tighnari",
+              "yumemizuki-mizuki",
+              "chongyun",
+              "diluc",
+              "ganyu",
+              "kaeya",
+              "keqing",
+              "kuki-shinobu",
+              "lisa",
+              "nahida",
+              "sethos",
+              "thoma",
+              "yae-miko",
+              "yanfei"
+            ]
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "durin",
+                  "flins",
+                  "ineffa",
+                  "sandrone",
+                  "yae-miko"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "durin",
+                  "flins",
+                  "ineffa",
+                  "sandrone",
+                  "yae-miko"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "durin",
+                  "flins",
+                  "ineffa",
+                  "sandrone",
+                  "yae-miko"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "durin",
+                  "flins",
+                  "ineffa",
+                  "sandrone",
+                  "yae-miko"
+                ]
+              }
+            ],
+            "usedBy": [
+              "cryo-traveler",
+              "cyno",
+              "durin",
+              "flins",
+              "ineffa",
+              "sandrone",
+              "yae-miko"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "yumemizuki-mizuki",
+                  "kuki-shinobu",
+                  "nahida",
+                  "thoma",
+                  "yae-miko"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "yumemizuki-mizuki",
+                  "nahida",
+                  "thoma",
+                  "yae-miko"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "yumemizuki-mizuki",
+                  "nahida",
+                  "yae-miko"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "kuki-shinobu",
+                  "thoma"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "nahida",
+                  "yae-miko"
+                ]
+              }
+            ],
+            "usedBy": [
+              "yumemizuki-mizuki",
+              "kuki-shinobu",
+              "nahida",
+              "thoma",
+              "yae-miko"
+            ]
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "diluc",
+                  "durin",
+                  "yanfei"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "diluc",
+                  "durin",
+                  "yanfei"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "diluc",
+                  "durin",
+                  "yanfei"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "diluc",
+                  "durin",
+                  "yanfei"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "diluc",
+                  "durin",
+                  "yanfei"
+                ]
+              }
+            ],
+            "usedBy": [
+              "diluc",
+              "durin",
+              "yanfei"
+            ]
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "rosaria",
+                  "chongyun",
+                  "ganyu",
+                  "kaeya"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "rosaria",
+                  "chongyun",
+                  "ganyu",
+                  "kaeya"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "rosaria",
+                  "chongyun",
+                  "ganyu",
+                  "kaeya"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "rosaria",
+                  "chongyun",
+                  "ganyu",
+                  "kaeya"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "rosaria",
+                  "chongyun",
+                  "kaeya"
+                ]
+              }
+            ],
+            "usedBy": [
+              "rosaria",
+              "chongyun",
+              "ganyu",
+              "kaeya"
+            ]
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "keqing",
+                  "lisa",
+                  "sethos"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "keqing",
+                  "lisa",
+                  "sethos"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "keqing",
+                  "lisa",
+                  "sethos"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "keqing",
+                  "lisa",
+                  "sethos"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "lisa",
+                  "sethos"
+                ]
+              }
+            ],
+            "usedBy": [
+              "keqing",
+              "lisa",
+              "sethos"
+            ]
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "alhaitham",
+                  "tighnari",
+                  "nahida"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "alhaitham",
+                  "tighnari",
+                  "nahida"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "alhaitham",
+                  "tighnari",
+                  "nahida"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "alhaitham",
+                  "tighnari",
+                  "nahida"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "alhaitham",
+                  "tighnari",
+                  "nahida"
+                ]
+              }
+            ],
+            "usedBy": [
+              "alhaitham",
+              "tighnari",
+              "nahida"
+            ]
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kuki-shinobu",
+                  "nahida",
+                  "thoma"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "kuki-shinobu",
+                  "thoma"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "nahida",
+                  "thoma"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "nahida"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "nahida"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kuki-shinobu",
+              "nahida",
+              "thoma"
+            ]
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "alhaitham",
+                  "rosaria",
+                  "tighnari",
+                  "yumemizuki-mizuki",
+                  "chongyun",
+                  "cryo-traveler",
+                  "cyno",
+                  "diluc",
+                  "durin",
+                  "flins",
+                  "ganyu",
+                  "ineffa",
+                  "kaeya",
+                  "keqing",
+                  "lisa",
+                  "nahida",
+                  "sandrone",
+                  "sethos",
+                  "yae-miko",
+                  "yanfei"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "alhaitham",
+                  "rosaria",
+                  "tighnari",
+                  "yumemizuki-mizuki",
+                  "chongyun",
+                  "cryo-traveler",
+                  "cyno",
+                  "diluc",
+                  "durin",
+                  "flins",
+                  "ganyu",
+                  "ineffa",
+                  "kaeya",
+                  "keqing",
+                  "lisa",
+                  "nahida",
+                  "sandrone",
+                  "sethos",
+                  "yae-miko",
+                  "yanfei"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "alhaitham",
+                  "rosaria",
+                  "tighnari",
+                  "chongyun",
+                  "cryo-traveler",
+                  "cyno",
+                  "diluc",
+                  "durin",
+                  "flins",
+                  "ganyu",
+                  "ineffa",
+                  "kaeya",
+                  "keqing",
+                  "lisa",
+                  "nahida",
+                  "sandrone",
+                  "sethos",
+                  "yae-miko",
+                  "yanfei"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "alhaitham",
+                  "rosaria",
+                  "tighnari",
+                  "yumemizuki-mizuki",
+                  "chongyun",
+                  "cryo-traveler",
+                  "cyno",
+                  "diluc",
+                  "durin",
+                  "flins",
+                  "ineffa",
+                  "kaeya",
+                  "lisa",
+                  "nahida",
+                  "sandrone",
+                  "sethos",
+                  "yae-miko",
+                  "yanfei"
+                ]
+              }
+            ],
+            "usedBy": [
+              "alhaitham",
+              "rosaria",
+              "tighnari",
+              "yumemizuki-mizuki",
+              "chongyun",
+              "cryo-traveler",
+              "cyno",
+              "diluc",
+              "durin",
+              "flins",
+              "ganyu",
+              "ineffa",
+              "kaeya",
+              "keqing",
+              "lisa",
+              "nahida",
+              "sandrone",
+              "sethos",
+              "yae-miko",
+              "yanfei"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "alhaitham",
+                  "rosaria",
+                  "tighnari",
+                  "yumemizuki-mizuki",
+                  "chongyun",
+                  "cryo-traveler",
+                  "cyno",
+                  "diluc",
+                  "durin",
+                  "flins",
+                  "ganyu",
+                  "ineffa",
+                  "kaeya",
+                  "keqing",
+                  "lisa",
+                  "nahida",
+                  "sandrone",
+                  "sethos",
+                  "yae-miko",
+                  "yanfei"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "alhaitham",
+                  "rosaria",
+                  "tighnari",
+                  "yumemizuki-mizuki",
+                  "chongyun",
+                  "cryo-traveler",
+                  "cyno",
+                  "diluc",
+                  "durin",
+                  "flins",
+                  "ganyu",
+                  "ineffa",
+                  "kaeya",
+                  "keqing",
+                  "lisa",
+                  "nahida",
+                  "sandrone",
+                  "sethos",
+                  "yae-miko",
+                  "yanfei"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "alhaitham",
+                  "rosaria",
+                  "tighnari",
+                  "chongyun",
+                  "cryo-traveler",
+                  "cyno",
+                  "diluc",
+                  "durin",
+                  "flins",
+                  "ganyu",
+                  "ineffa",
+                  "kaeya",
+                  "keqing",
+                  "lisa",
+                  "nahida",
+                  "sandrone",
+                  "sethos",
+                  "yae-miko",
+                  "yanfei"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "alhaitham",
+                  "rosaria",
+                  "tighnari",
+                  "yumemizuki-mizuki",
+                  "chongyun",
+                  "cryo-traveler",
+                  "cyno",
+                  "diluc",
+                  "durin",
+                  "flins",
+                  "ineffa",
+                  "kaeya",
+                  "lisa",
+                  "nahida",
+                  "sandrone",
+                  "sethos",
+                  "yae-miko",
+                  "yanfei"
+                ]
+              }
+            ],
+            "usedBy": [
+              "alhaitham",
+              "rosaria",
+              "tighnari",
+              "yumemizuki-mizuki",
+              "chongyun",
+              "cryo-traveler",
+              "cyno",
+              "diluc",
+              "durin",
+              "flins",
+              "ganyu",
+              "ineffa",
+              "kaeya",
+              "keqing",
+              "lisa",
+              "nahida",
+              "sandrone",
+              "sethos",
+              "yae-miko",
+              "yanfei"
+            ]
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "alhaitham",
+          "name": {
+            "en": "Alhaitham",
+            "es": "Alhacén"
+          },
+          "iconUrl": "/images/characters/alhaitham.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Spread DPS",
+            "es": "DPS de Propagación"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM",
+              "ATK%"
+            ],
+            "goblet": [
+              "Dendro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.8",
+            "kqmVersion": "4.7",
+            "resolutionReason": "Genshin-Builds newer (5.8 > 4.7)",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/alhaitham-quickguide/"
+          }
+        },
+        {
+          "characterId": "rosaria",
+          "name": {
+            "en": "Rosaria",
+            "es": "Rosaria"
+          },
+          "iconUrl": "/images/characters/rosaria.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Reverse Melt",
+            "es": "Reverse Derretido"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM",
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "Cryo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "KQM",
+            "gbVersion": "5.5",
+            "kqmVersion": "5.8",
+            "resolutionReason": "KQM newer (5.8 > 5.5) and recommends set",
+            "genshinBuildsUpdated": "5.5",
+            "kqmUrl": "https://keqingmains.com/q/rosaria-quickguide/"
+          }
+        },
+        {
+          "characterId": "tighnari",
+          "name": {
+            "en": "Tighnari",
+            "es": "Tignari"
+          },
+          "iconUrl": "/images/characters/tighnari.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Quick Swap DPS",
+            "es": "Quick Swap DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM",
+              "ER%"
+            ],
+            "goblet": [
+              "Dendro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ATK%",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "4.0",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/tighnari-quickguide/"
+          }
+        },
+        {
+          "characterId": "yumemizuki-mizuki",
+          "name": {
+            "en": "Yumemizuki Mizuki",
+            "es": "Yumemizuki Mizuki"
+          },
+          "iconUrl": "/images/characters/yumemizuki-mizuki.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Stellar Swirl DPS",
+            "es": "DPS de Torbellino Estelar"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "7.0",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 7.0)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/mizuki-quickguide/"
+          }
+        },
+        {
+          "characterId": "chongyun",
+          "name": {
+            "en": "Chongyun",
+            "es": "Chongyun"
+          },
+          "iconUrl": "/images/characters/chongyun.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Burst Nuke",
+            "es": "Habilidad definitiva Nuke"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%",
+              "EM"
+            ],
+            "goblet": [
+              "Cryo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.2",
+            "kqmVersion": "3.5",
+            "resolutionReason": "Genshin-Builds newer (6.2 > 3.5)",
+            "genshinBuildsUpdated": "6.2 / Luna III",
+            "kqmUrl": "https://keqingmains.com/q/chongyun-quickguide/"
+          }
+        },
+        {
+          "characterId": "cryo-traveler",
+          "name": {
+            "en": "Cryo Traveler",
+            "es": "Viajero Cryo"
+          },
+          "iconUrl": "/images/characters/cryo-traveler.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Stellar Glimmer DPS",
+            "es": "DPS de Destello Estelar"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.0",
+            "resolutionReason": "Fallback to GB: no KQM guide",
+            "genshinBuildsUpdated": "7.0"
+          }
+        },
+        {
+          "characterId": "cyno",
+          "name": {
+            "en": "Cyno",
+            "es": "Cyno"
+          },
+          "iconUrl": "/images/characters/cyno.png",
+          "element": "Electro",
+          "role": {
+            "en": "Stellar-Conduct DPS",
+            "es": "DPS de Superconductor Estelar"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "4.2",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/cyno-quickguide/"
+          }
+        },
+        {
+          "characterId": "diluc",
+          "name": {
+            "en": "Diluc",
+            "es": "Diluc"
+          },
+          "iconUrl": "/images/characters/diluc.png",
+          "element": "Pyro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "EM",
+              "ATK%"
+            ],
+            "goblet": [
+              "Pyro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.4",
+            "kqmVersion": "3.6",
+            "resolutionReason": "Genshin-Builds newer (5.4 > 3.6)",
+            "genshinBuildsUpdated": "5.4",
+            "kqmUrl": "https://keqingmains.com/q/diluc-quickguide/"
+          }
+        },
+        {
+          "characterId": "durin",
+          "name": {
+            "en": "Durin",
+            "es": "Durin"
+          },
+          "iconUrl": "/images/characters/durin.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Vaporize/Melt Off-Field DPS",
+            "es": "Vaporización/Derretido Off-Field DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Pyro DMG%",
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/durin-quickguide/"
+          }
+        },
+        {
+          "characterId": "flins",
+          "name": {
+            "en": "Flins",
+            "es": "Flins"
+          },
+          "iconUrl": "/images/characters/flins.png",
+          "element": "Electro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.5",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/flins-quickguide/"
+          }
+        },
+        {
+          "characterId": "ganyu",
+          "name": {
+            "en": "Ganyu",
+            "es": "Ganyu"
+          },
+          "iconUrl": "/images/characters/ganyu.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Melt DPS",
+            "es": "Derretido DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "EM",
+              "ATK%"
+            ],
+            "goblet": [
+              "Cryo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.1",
+            "kqmVersion": "6.3",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.1 / Luna II",
+            "kqmUrl": "https://keqingmains.com/q/ganyu-quickguide/"
+          }
+        },
+        {
+          "characterId": "ineffa",
+          "name": {
+            "en": "Ineffa",
+            "es": "Ineffa"
+          },
+          "iconUrl": "/images/characters/ineffa.png",
+          "element": "Electro",
+          "role": {
+            "en": "Off-field DPS & Buff & Shield Support",
+            "es": "DPS fuera de campo y soporte de buffs y escudos"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.4",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/ineffa-quickguide/"
+          }
+        },
+        {
+          "characterId": "kaeya",
+          "name": {
+            "en": "Kaeya",
+            "es": "Kaeya"
+          },
+          "iconUrl": "/images/characters/kaeya.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Reverse Melt",
+            "es": "Reverse Derretido"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Cryo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.6",
+            "kqmVersion": "6.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.6",
+            "kqmUrl": "https://keqingmains.com/q/kaeya-quickguide/"
+          }
+        },
+        {
+          "characterId": "keqing",
+          "name": {
+            "en": "Keqing",
+            "es": "Keching"
+          },
+          "iconUrl": "/images/characters/keqing.png",
+          "element": "Electro",
+          "role": {
+            "en": "Aggravate DPS",
+            "es": "Intensificación DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "KQM",
+            "gbVersion": "5.6",
+            "kqmVersion": "6.0",
+            "resolutionReason": "KQM newer (6.0 > 5.6) and recommends set",
+            "genshinBuildsUpdated": "5.6",
+            "kqmUrl": "https://keqingmains.com/q/keqing-quickguide/"
+          }
+        },
+        {
+          "characterId": "kuki-shinobu",
+          "name": {
+            "en": "Kuki Shinobu",
+            "es": "Kuki Shinobu"
+          },
+          "iconUrl": "/images/characters/kuki-shinobu.png",
+          "element": "Electro",
+          "role": {
+            "en": "Hyperbloom",
+            "es": "Sobreflorecimiento"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "EM",
+            "HP%",
+            "ER%"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "5.4",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/shinobu-quickguide/"
+          }
+        },
+        {
+          "characterId": "lisa",
+          "name": {
+            "en": "Lisa",
+            "es": "Lisa"
+          },
+          "iconUrl": "/images/characters/lisa.png",
+          "element": "Electro",
+          "role": {
+            "en": "Aggravate DPS",
+            "es": "Intensificación DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.2",
+            "kqmVersion": "6.5",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.2 / Luna III",
+            "kqmUrl": "https://keqingmains.com/q/lisa-quickguide/"
+          }
+        },
+        {
+          "characterId": "nahida",
+          "name": {
+            "en": "Nahida",
+            "es": "Nahida"
+          },
+          "iconUrl": "/images/characters/nahida.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Buff Support & Damage",
+            "es": "Buff Support & Damage"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "EM"
+            ],
+            "goblet": [
+              "EM",
+              "Dendro DMG%"
+            ],
+            "circlet": [
+              "EM",
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.0",
+            "kqmVersion": "5.6",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.0 / Luna I",
+            "kqmUrl": "https://keqingmains.com/q/nahida-quickguide/"
+          }
+        },
+        {
+          "characterId": "sandrone",
+          "name": {
+            "en": "Sandrone",
+            "es": "Sandrone"
+          },
+          "iconUrl": "/images/characters/sandrone.png",
+          "element": "Cryo",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Both (Consensus)",
+            "gbVersion": "7.1",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Versions match (7.1 = 7.1) and KQM recommends set",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/sandrone-quickguide/"
+          }
+        },
+        {
+          "characterId": "sethos",
+          "name": {
+            "en": "Sethos",
+            "es": "Sethos"
+          },
+          "iconUrl": "/images/characters/sethos.png",
+          "element": "Electro",
+          "role": {
+            "en": "Charged Attack DPS",
+            "es": "Ataque Cargado DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "EM",
+              "ER%"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.8",
+            "kqmVersion": "4.7",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/sethos-quickguide/"
+          }
+        },
+        {
+          "characterId": "thoma",
+          "name": {
+            "en": "Thoma",
+            "es": "Thoma"
+          },
+          "iconUrl": "/images/characters/thoma.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Burgeon",
+            "es": "Crepitar"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "EM",
+            "HP%",
+            "HP",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "5.0",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/thoma-quickguide/"
+          }
+        },
+        {
+          "characterId": "yae-miko",
+          "name": {
+            "en": "Yae Miko",
+            "es": "Yae Miko"
+          },
+          "iconUrl": "/images/characters/yae-miko.png",
+          "element": "Electro",
+          "role": {
+            "en": "Stellar-Conduct Off-Field DPS",
+            "es": "DPS fuera de campo de Superconductor Estelar"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "ATK%",
+              "EM"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "7.0",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 7.0)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/yae-quickguide/"
+          }
+        },
+        {
+          "characterId": "yanfei",
+          "name": {
+            "en": "Yanfei",
+            "es": "Yanfei"
+          },
+          "iconUrl": "/images/characters/yanfei.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Vaporize DPS",
+            "es": "DPS de Vaporización"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Pyro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.2",
+            "kqmVersion": "4.5",
+            "resolutionReason": "Genshin-Builds newer (6.2 > 4.5)",
+            "genshinBuildsUpdated": "6.2 / Luna III",
+            "kqmUrl": "https://keqingmains.com/q/yanfei-quickguide/"
           }
         }
       ]

@@ -232,6 +232,27 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Paradise Lost',
     ],
   },
+  {
+    id: 'deepwood-memories',
+    en: 'Deepwood Memories',
+    es: 'Recuerdos del Bosque',
+    aliases: [
+      'Recuerdos del Bosque',
+      'Deepwood Memories',
+      'Deepwood',
+    ],
+  },
+  {
+    id: 'gilded-dreams',
+    en: 'Gilded Dreams',
+    es: 'Sueños Áureos',
+    aliases: [
+      'Sueños Áureos',
+      'Suenos Aureos',
+      'Gilded Dreams',
+      'Gilded',
+    ],
+  },
 ]
 
 export function getTargetSets(argv: string[] = process.argv.slice(2)): TargetSetConfig[] {
