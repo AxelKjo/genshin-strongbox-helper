@@ -325,8 +325,8 @@ function buildFlowerAndPlume(set: GBArtifactSet, characters: CharacterUsage[]) {
       },
     })),
     discardRule: {
-      en: `Flowers and plumes with no ${topStats.map((stat) => statLabel(stat, 'en')).join(', ')} and no useful upgrades can be safely recycled in the Relic Strongbox.`,
-      es: `Las Flores y Plumas sin ${topStats.map((stat) => statLabel(stat, 'es')).join(', ')} ni mejoras útiles se pueden reciclar sin riesgo en el Relicario.`,
+      en: `Flowers and plumes with no ${topStats.map((stat) => statLabel(stat, 'en')).join(', ') || 'useful substats'} and no useful upgrades can be safely recycled in the Relic Strongbox.`,
+      es: `Las Flores y Plumas sin ${topStats.map((stat) => statLabel(stat, 'es')).join(', ') || 'subestadísticas útiles'} ni mejoras útiles se pueden reciclar sin riesgo en el Relicario.`,
     },
   }
 }
@@ -338,6 +338,11 @@ function buildSummary(set: GBArtifactSet, setNames: LocalizedText, characters: C
   const mustCirclets = characters.flatMap((character) => character.mainStats.circlet)
   const summary = (lang: 'en' | 'es') => {
     const unique = (stats: StatKey[]) => [...new Set(stats)].slice(0, 4).map((stat) => statLabel(stat, lang)).join(', ')
+    if (names.length === 0) {
+      return lang === 'en'
+        ? `${setNames.en} is a ${set.rarity}★ set with no standard 4-piece users. Everything is fodder unless it is a strong off-piece.`
+        : `${setNames.es} es un set de ${set.rarity}★ sin personajes estándar para 4 piezas. Todo es material de reciclaje salvo que sea una gran pieza externa.`
+    }
     return lang === 'en'
       ? `${setNames.en} is a ${set.rarity}★ set used by ${joinLocalized(names, 'en')}. Keep Sands with ${unique(mustSands) || 'useful main stats'}, Goblets with ${unique(mustGoblets) || 'useful main stats'} and Circlets with ${unique(mustCirclets) || 'useful main stats'}. Everything else is fodder unless it is a strong off-piece.`
       : `${setNames.es} es un set de ${set.rarity}★ usado por ${joinLocalized(names, 'es')}. Conserva Arenas con ${unique(mustSands) || 'estadísticas principales útiles'}, Cálices con ${unique(mustGoblets) || 'estadísticas principales útiles'} y Tiaras con ${unique(mustCirclets) || 'estadísticas principales útiles'}. El resto es material de reciclaje salvo que sea una gran pieza externa.`
@@ -362,7 +367,7 @@ function makeSetTriage(
       major: parsedReleaseVersion?.major ?? 0,
       minor: parsedReleaseVersion?.minor ?? 0,
     },
-    iconUrl: en.iconUrl,
+    iconUrl: artifactImageUrl(target.id),
     imageUrl: artifactImageUrl(target.id),
     bonuses: {
       twoPiece: {

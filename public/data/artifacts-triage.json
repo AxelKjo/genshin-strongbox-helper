@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T17:28:45.978Z",
+  "generatedAt": "2026-11-06T03:20:08.633Z",
   "version": "MVP-9-sets",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
@@ -15,7 +15,7 @@
         "major": 7,
         "minor": 0
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/heart-of-the-furnace.g0DiPGSX_ZdECmi.webp",
+      "iconUrl": "/images/artifacts/heart-of-the-furnace.png",
       "imageUrl": "/images/artifacts/heart-of-the-furnace.png",
       "bonuses": {
         "twoPiece": {
@@ -555,7 +555,7 @@
         "major": 7,
         "minor": 0
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/scarlet-proof.B5ZbKtus_2fXjvT.webp",
+      "iconUrl": "/images/artifacts/scarlet-proof.png",
       "imageUrl": "/images/artifacts/scarlet-proof.png",
       "bonuses": {
         "twoPiece": {
@@ -1116,7 +1116,7 @@
         "major": 6,
         "minor": 6
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/celestial-gift.DP61lJJP_1z4JUb.webp",
+      "iconUrl": "/images/artifacts/celestial-gift.png",
       "imageUrl": "/images/artifacts/celestial-gift.png",
       "bonuses": {
         "twoPiece": {
@@ -1898,7 +1898,7 @@
         "major": 6,
         "minor": 6
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/disenchantment-in-deep-shadow.8s6bRp7p_JhrHN.webp",
+      "iconUrl": "/images/artifacts/disenchantment-in-deep-shadow.png",
       "imageUrl": "/images/artifacts/disenchantment-in-deep-shadow.png",
       "bonuses": {
         "twoPiece": {
@@ -2844,7 +2844,7 @@
         "major": 6,
         "minor": 3
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/aubade-of-morningstar-and-moon.VVrPbsrg_FfUkp.webp",
+      "iconUrl": "/images/artifacts/aubade-of-morningstar-and-moon.png",
       "imageUrl": "/images/artifacts/aubade-of-morningstar-and-moon.png",
       "bonuses": {
         "twoPiece": {
@@ -3635,7 +3635,7 @@
         "major": 6,
         "minor": 3
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/a-day-carved-from-rising-winds.JHEkslPi_1QNN6n.webp",
+      "iconUrl": "/images/artifacts/a-day-carved-from-rising-winds.png",
       "imageUrl": "/images/artifacts/a-day-carved-from-rising-winds.png",
       "bonuses": {
         "twoPiece": {
@@ -5267,7 +5267,7 @@
         "major": 6,
         "minor": 0
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/night-of-the-skys-unveiling.CddQlVOu_2e2NXT.webp",
+      "iconUrl": "/images/artifacts/night-of-the-skys-unveiling.png",
       "imageUrl": "/images/artifacts/night-of-the-skys-unveiling.png",
       "bonuses": {
         "twoPiece": {
@@ -6066,7 +6066,7 @@
         "major": 6,
         "minor": 0
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/silken-moons-serenade.zRp5hb0U_AEczK.webp",
+      "iconUrl": "/images/artifacts/silken-moons-serenade.png",
       "imageUrl": "/images/artifacts/silken-moons-serenade.png",
       "bonuses": {
         "twoPiece": {
@@ -6910,7 +6910,7 @@
         "major": 5,
         "minor": 5
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/long-nights-oath.C-2TWYwc_ZYEesj.webp",
+      "iconUrl": "/images/artifacts/long-nights-oath.png",
       "imageUrl": "/images/artifacts/long-nights-oath.png",
       "bonuses": {
         "twoPiece": {
@@ -7629,7 +7629,7 @@
         "major": 5,
         "minor": 5
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/finale-of-the-deep-galleries.CP5osV3p_1hzEdM.webp",
+      "iconUrl": "/images/artifacts/finale-of-the-deep-galleries.png",
       "imageUrl": "/images/artifacts/finale-of-the-deep-galleries.png",
       "bonuses": {
         "twoPiece": {
@@ -8054,7 +8054,7 @@
         "major": 5,
         "minor": 0
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/obsidian-codex.BOkVbol5_ZNR4JY.webp",
+      "iconUrl": "/images/artifacts/obsidian-codex.png",
       "imageUrl": "/images/artifacts/obsidian-codex.png",
       "bonuses": {
         "twoPiece": {
@@ -9094,7 +9094,7 @@
         "major": 5,
         "minor": 0
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/scroll-of-the-hero-of-cinder-city.BktAVmRa_Z7J2b3.webp",
+      "iconUrl": "/images/artifacts/scroll-of-the-hero-of-cinder-city.png",
       "imageUrl": "/images/artifacts/scroll-of-the-hero-of-cinder-city.png",
       "bonuses": {
         "twoPiece": {
@@ -11802,7 +11802,7 @@
         "major": 4,
         "minor": 6
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/fragment-of-harmonic-whimsy.DxDQsXLx_ZdS8m9.webp",
+      "iconUrl": "/images/artifacts/fragment-of-harmonic-whimsy.png",
       "imageUrl": "/images/artifacts/fragment-of-harmonic-whimsy.png",
       "bonuses": {
         "twoPiece": {
@@ -12393,7 +12393,7 @@
         "major": 4,
         "minor": 6
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/unfinished-reverie.D4r12EyX_Zy7X85.webp",
+      "iconUrl": "/images/artifacts/unfinished-reverie.png",
       "imageUrl": "/images/artifacts/unfinished-reverie.png",
       "bonuses": {
         "twoPiece": {
@@ -12889,7 +12889,7 @@
         "major": 4,
         "minor": 3
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/song-of-days-past.CyjCUdIC_Z1pc8Dj.webp",
+      "iconUrl": "/images/artifacts/song-of-days-past.png",
       "imageUrl": "/images/artifacts/song-of-days-past.png",
       "bonuses": {
         "twoPiece": {
@@ -13589,7 +13589,7 @@
         "major": 4,
         "minor": 3
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/nighttime-whispers-in-the-echoing-woods.qIJjJRFi_1s0wnl.webp",
+      "iconUrl": "/images/artifacts/nighttime-whispers-in-the-echoing-woods.png",
       "imageUrl": "/images/artifacts/nighttime-whispers-in-the-echoing-woods.png",
       "bonuses": {
         "twoPiece": {
@@ -14368,7 +14368,7 @@
         "major": 4,
         "minor": 0
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/golden-troupe.CS5noWTI_Z1x7EKQ.webp",
+      "iconUrl": "/images/artifacts/golden-troupe.png",
       "imageUrl": "/images/artifacts/golden-troupe.png",
       "bonuses": {
         "twoPiece": {
@@ -15957,7 +15957,7 @@
         "major": 4,
         "minor": 0
       },
-      "iconUrl": "https://genshin-impact-helper-team.github.io/genshin-builds/_astro/marechaussee-hunter.tfeUp-2G_Zwx5rM.webp",
+      "iconUrl": "/images/artifacts/marechaussee-hunter.png",
       "imageUrl": "/images/artifacts/marechaussee-hunter.png",
       "bonuses": {
         "twoPiece": {
@@ -16898,6 +16898,859 @@
           }
         }
       ]
+    },
+    {
+      "id": "nymphs-dream",
+      "name": {
+        "en": "Nymph's Dream",
+        "es": "Sueño de la Ninfa"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "3.6",
+        "major": 3,
+        "minor": 6
+      },
+      "iconUrl": "/images/artifacts/nymphs-dream.png",
+      "imageUrl": "/images/artifacts/nymphs-dream.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Hydro DMG Bonus +15%",
+          "es": "Bono de Daño Hydro +15%."
+        },
+        "fourPiece": {
+          "en": "After Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts hit opponents, 1 stack of Mirrored Nymph will be triggered, lasting 8s. When under the effect of 1, 2, or 3 or more Mirrored Nymph stacks, ATK will be increased by 7%/16%/25%, and Hydro DMG Bonus will be increased by 4%/9%/15%. Mirrored Nymph stacks created by Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts exist independently.",
+          "es": "Tras golpear a un enemigo con un Ataque Normal, Cargado o Descendente o una Habilidad Elemental o Definitiva, se genera 1 carga de “reflejo de la ninfa” durante 8 s. Con 1/2/3 o más cargas, el ATQ aumenta en un 7/16/25% y el Bono de Daño Hydro aumenta en un 4/9/15%. Las cargas de reflejo de la ninfa creadas con un Ataque Normal, Cargado o Descendente o con la Habilidad Elemental o Definitiva son independientes entre sí."
+        }
+      },
+      "summaryVerdict": {
+        "en": "Nymph's Dream is a 5★ set used by Kamisato Ayato, Tartaglia. Keep Sands with ATK%, Goblets with Hydro DMG Bonus and Circlets with CRIT Rate, CRIT DMG. Everything else is fodder unless it is a strong off-piece.",
+        "es": "Sueño de la Ninfa es un set de 5★ usado por Kamisato Ayato, Tartaglia. Conserva Arenas con ATQ%, Cálices con Bono de Daño Hydro y Tiaras con Prob. CRIT, Daño CRIT. El resto es material de reciclaje salvo que sea una gran pieza externa."
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "ER%",
+              "HP%",
+              "EM"
+            ],
+            "usedBy": [
+              "kamisato-ayato"
+            ],
+            "reasoning": {
+              "en": "Kamisato Ayato can use CRIT Rate + CRIT DMG + ATK% + Energy Recharge + HP% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Kamisato Ayato busca(n) Prob. CRIT + Daño CRIT + ATQ% + Recarga de Energía + Vida% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM",
+              "ER%"
+            ],
+            "usedBy": [
+              "tartaglia"
+            ],
+            "reasoning": {
+              "en": "Tartaglia can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Tartaglia busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          }
+        ],
+        "discardRule": {
+          "en": "Flowers and plumes with no CRIT Rate, CRIT DMG, ATK%, Energy Recharge, HP%, Elemental Mastery and no useful upgrades can be safely recycled in the Relic Strongbox.",
+          "es": "Las Flores y Plumas sin Prob. CRIT, Daño CRIT, ATQ%, Recarga de Energía, Vida%, Maestría Elemental ni mejoras útiles se pueden reciclar sin riesgo en el Relicario."
+        }
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs HP% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kamisato-ayato",
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "kamisato-ayato",
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "kamisato-ayato",
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "kamisato-ayato",
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "kamisato-ayato"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kamisato-ayato",
+              "tartaglia"
+            ],
+            "reasoning": {
+              "en": "Kamisato Ayato, Tartaglia can use ATK% on Sands for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > Energy Recharge > Elemental Mastery > HP%.",
+              "es": "Kamisato Ayato, Tartaglia puede(n) usar ATQ% en Arenas para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > Recarga de Energía > Maestría Elemental > Vida%."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs DEF% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs Energy Recharge on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita Recarga de Energía en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs Elemental Mastery on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita Maestría Elemental en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs HP% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs ATK% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita ATQ% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs DEF% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs Elemental Mastery on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita Maestría Elemental en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs Pyro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita Bono de Daño Pyro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kamisato-ayato",
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "kamisato-ayato",
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "kamisato-ayato",
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "kamisato-ayato",
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "kamisato-ayato",
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "kamisato-ayato"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kamisato-ayato",
+              "tartaglia"
+            ],
+            "reasoning": {
+              "en": "Kamisato Ayato, Tartaglia can use Hydro DMG Bonus on Goblet for this set. Useful substats for this piece: CRIT Rate > CRIT DMG > ATK% > Energy Recharge > Elemental Mastery > HP%.",
+              "es": "Kamisato Ayato, Tartaglia puede(n) usar Bono de Daño Hydro en Cáliz para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > Daño CRIT > ATQ% > Recarga de Energía > Maestría Elemental > Vida%."
+            }
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs HP% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs ATK% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs DEF% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "kamisato-ayato",
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "kamisato-ayato",
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "kamisato-ayato",
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "kamisato-ayato",
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "kamisato-ayato"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kamisato-ayato",
+              "tartaglia"
+            ],
+            "reasoning": {
+              "en": "Kamisato Ayato, Tartaglia can use CRIT Rate on Circlet for this set. Useful substats for this piece: CRIT DMG > ATK% > Energy Recharge > Elemental Mastery > HP%.",
+              "es": "Kamisato Ayato, Tartaglia puede(n) usar Prob. CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Daño CRIT > ATQ% > Recarga de Energía > Maestría Elemental > Vida%."
+            }
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kamisato-ayato",
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "kamisato-ayato",
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "kamisato-ayato",
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "kamisato-ayato",
+                  "tartaglia"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "kamisato-ayato"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kamisato-ayato",
+              "tartaglia"
+            ],
+            "reasoning": {
+              "en": "Kamisato Ayato, Tartaglia can use CRIT DMG on Circlet for this set. Useful substats for this piece: CRIT Rate > ATK% > Energy Recharge > Elemental Mastery > HP%.",
+              "es": "Kamisato Ayato, Tartaglia puede(n) usar Daño CRIT en Tiara para este set. Subestadísticas útiles para esta pieza: Prob. CRIT > ATQ% > Recarga de Energía > Maestría Elemental > Vida%."
+            }
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Nymph's Dream user needs Healing Bonus on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Sueño de la Ninfa necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "kamisato-ayato",
+          "name": {
+            "en": "Kamisato Ayato",
+            "es": "Kamisato Ayato"
+          },
+          "iconUrl": "/images/characters/kamisato-ayato.png",
+          "element": "Hydro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Hydro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "ER%",
+            "HP%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "4.4",
+            "kqmVersion": "6.0",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "4.4",
+            "kqmUrl": "https://keqingmains.com/q/ayato-quickguide/"
+          }
+        },
+        {
+          "characterId": "tartaglia",
+          "name": {
+            "en": "Tartaglia",
+            "es": "Tartaglia"
+          },
+          "iconUrl": "/images/characters/tartaglia.png",
+          "element": "Hydro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Hydro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "4.0",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 4.0)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/tartaglia-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vourukashas-glow",
+      "name": {
+        "en": "Vourukasha's Glow",
+        "es": "Fulgor de Vurukasha"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "3.6",
+        "major": 3,
+        "minor": 6
+      },
+      "iconUrl": "/images/artifacts/vourukashas-glow.png",
+      "imageUrl": "/images/artifacts/vourukashas-glow.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "HP +20%",
+          "es": "Vida +20%."
+        },
+        "fourPiece": {
+          "en": "Elemental Skill and Elemental Burst DMG will be increased by 10%. After the equipping character takes DMG, the aforementioned DMG Bonus is increased by 80% for 5s. This effect increase can have 5 stacks. The duration of each stack is counted independently. These effects can be triggered even when the equipping character is not on the field.",
+          "es": "El daño de la Habilidad Elemental y Definitiva aumenta en un 10%. Cuando el portador de este artefacto recibe daño, el incremento de daño anteriormente mencionado aumenta en un 80% durante 5 s. Este efecto puede acumularse hasta 5 veces, cada acumulación se calcula de manera independiente y se puede activar incluso cuando el portador está en tu equipo pero no en uso."
+        }
+      },
+      "summaryVerdict": {
+        "en": "Vourukasha's Glow is a 5★ set with no standard 4-piece users. Everything is fodder unless it is a strong off-piece.",
+        "es": "Fulgor de Vurukasha es un set de 5★ sin personajes estándar para 4 piezas. Todo es material de reciclaje salvo que sea una gran pieza externa."
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [],
+        "discardRule": {
+          "en": "Flowers and plumes with no useful substats and no useful upgrades can be safely recycled in the Relic Strongbox.",
+          "es": "Las Flores y Plumas sin subestadísticas útiles ni mejoras útiles se pueden reciclar sin riesgo en el Relicario."
+        }
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs HP% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Vida% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs ATK% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita ATQ% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs DEF% on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita DEF% en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs Energy Recharge on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Recarga de Energía en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs Elemental Mastery on Sands. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Maestría Elemental en Arenas. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs HP% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Vida% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs ATK% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita ATQ% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs DEF% on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita DEF% en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs Elemental Mastery on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Maestría Elemental en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs Pyro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Bono de Daño Pyro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs Hydro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Bono de Daño Hydro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs Cryo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Bono de Daño Cryo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs Electro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Bono de Daño Electro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs Anemo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Bono de Daño Anemo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs Geo DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Bono de Daño Geo en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs Dendro DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Bono de Daño Dendro en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs Physical DMG Bonus on Goblet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Bono de Daño Físico en Cáliz. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs HP% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Vida% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs ATK% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita ATQ% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs DEF% on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita DEF% en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs Elemental Mastery on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Maestría Elemental en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs CRIT Rate on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Prob. CRIT en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs CRIT DMG on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Daño CRIT en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": [],
+            "reasoning": {
+              "en": "No current Vourukasha's Glow user needs Healing Bonus on Circlet. Recycle it unless the substats make it a solid off-piece.",
+              "es": "Ningún personaje actual de Fulgor de Vurukasha necesita Bono de Curación en Tiara. Recíclala salvo que las subestadísticas la conviertan en una buena pieza externa."
+            }
+          }
+        ]
+      },
+      "characters": []
     }
   ]
 }

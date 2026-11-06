@@ -185,6 +185,30 @@ export const TARGET_SETS: TargetSetConfig[] = [
     es: 'Cazador Fantasmal',
     aliases: ['Cazador Fantasmal', 'Marechaussee'],
   },
+  {
+    id: 'nymphs-dream',
+    en: "Nymph's Dream",
+    es: 'Sueño de la Ninfa',
+    aliases: [
+      'Sueño de la Ninfa',
+      'Sueno de la Ninfa',
+      "Nymph's Dream",
+      'Nymphs Dream',
+      'Nymph',
+    ],
+  },
+  {
+    id: 'vourukashas-glow',
+    en: "Vourukasha's Glow",
+    es: 'Fulgor de Vurukasha',
+    aliases: [
+      'Fulgor de Vurukasha',
+      'Fulgor de Vourukasha',
+      "Vourukasha's Glow",
+      'Vourukashas Glow',
+      'Vourukasha',
+    ],
+  },
 ]
 
 export function getTargetSets(argv: string[] = process.argv.slice(2)): TargetSetConfig[] {

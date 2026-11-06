@@ -25,7 +25,7 @@ export function SetDetail({ set, lang, reverseOrder }: SetDetailProps) {
       <header className="relative overflow-hidden rounded-3xl border border-gold/20 bg-gradient-to-br from-abyssCard via-abyssSoft to-abyss shadow-glow">
         {!artworkFailed && (
           <img
-            src={set.imageUrl || set.iconUrl}
+            src={set.imageUrl}
             alt=""
             aria-hidden
             onError={() => setArtworkFailed(true)}

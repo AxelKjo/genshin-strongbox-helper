@@ -4,26 +4,28 @@ Bilingual (ES/EN) artifact keep-vs-discard guide for Genshin Impact. The app is 
 
 ## Current scope
 
-The tool currently covers 18 artifact sets:
+The tool currently covers 20 artifact sets:
 
-1. Marechaussee Hunter / Cazador Fantasmal
-2. Golden Troupe / Compañía Dorada
-3. Song of Days Past / Son de Antaño
-4. Nighttime Whispers in the Echoing Woods / Murmullo del Bosque Reverberante
-5. Fragment of Harmonic Whimsy / Fragmento de la Armonía Fantasiosa
-6. Unfinished Reverie / Ensoñación Inacabada
-7. Obsidian Codex / Códice de Obsidiana
-8. Scroll of the Hero of Cinder City / Pergamino del Héroe de la Ciudad de las Cenizas
-9. Long Night's Oath / Juramento de la Noche
-10. Finale of the Deep Galleries / Réquiem del Corredor
-11. Night of the Sky's Unveiling / Noche de la Revelación del Cielo
-12. Silken Moon's Serenade / Serenata de la Luna Tejida
-13. Aubade of Morningstar and Moon / Alborada de la Estrella del Alba y la Luna
-14. A Day Carved From Rising Winds / Día de los Vientos Alzantes
-15. Celestial Gift / Dádiva Celestial
-16. Disenchantment in Deep Shadow / Desilusión Congelada en las Sombras
-17. Heart of the Furnace / Corazón Forjado
-18. Scarlet Proof / Testimonio Escarlata
+1. Nymph's Dream / Sueño de la Ninfa
+2. Vourukasha's Glow / Fulgor de Vurukasha
+3. Marechaussee Hunter / Cazador Fantasmal
+4. Golden Troupe / Compañía Dorada
+5. Song of Days Past / Son de Antaño
+6. Nighttime Whispers in the Echoing Woods / Murmullo del Bosque Reverberante
+7. Fragment of Harmonic Whimsy / Fragmento de la Armonía Fantasiosa
+8. Unfinished Reverie / Ensoñación Inacabada
+9. Obsidian Codex / Códice de Obsidiana
+10. Scroll of the Hero of Cinder City / Pergamino del Héroe de la Ciudad de las Cenizas
+11. Long Night's Oath / Juramento de la Noche
+12. Finale of the Deep Galleries / Réquiem del Corredor
+13. Night of the Sky's Unveiling / Noche de la Revelación del Cielo
+14. Silken Moon's Serenade / Serenata de la Luna Tejida
+15. Aubade of Morningstar and Moon / Alborada de la Estrella del Alba y la Luna
+16. A Day Carved From Rising Winds / Día de los Vientos Alzantes
+17. Celestial Gift / Dádiva Celestial
+18. Disenchantment in Deep Shadow / Desilusión Congelada en las Sombras
+19. Heart of the Furnace / Corazón Forjado
+20. Scarlet Proof / Testimonio Escarlata
 
 The scraper is modular and accepts an optional target-set filter, so the same code can be run for every set later without rewriting it.
 
@@ -43,7 +45,7 @@ npm run build            # typecheck + production build
 npm run lint
 npm run typecheck:scripts
 
-npm run scrape           # all configured target sets (18)
+npm run scrape           # all configured target sets (20)
 npm run scrape -- celestial-gift
 npm run scrape -- heart-of-the-furnace
 npm run scrape -- scarlet-proof
@@ -58,6 +60,8 @@ npm run scrape -- unfinished-reverie
 npm run scrape -- song-of-days-past
 npm run scrape -- nighttime-whispers-in-the-echoing-woods
 npm run scrape -- golden-troupe
+npm run scrape -- nymphs-dream
+npm run scrape -- vourukashas-glow
 npm run scrape:images    # download 256x256 set artwork into public/images/artifacts/
 npm run scrape:images -- --force
 npm run scrape:test-gb   # inspect Genshin-Builds extraction

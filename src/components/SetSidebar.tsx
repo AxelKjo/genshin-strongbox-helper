@@ -101,7 +101,7 @@ export function SetSidebar({
                   : 'border-white/10 bg-abyssSoft/60 hover:border-gold/30 hover:bg-abyssCard'
               }`}
             >
-              <Avatar src={set.imageUrl || set.iconUrl} alt={set.name[lang]} size="md" />
+              <Avatar src={set.imageUrl} alt={set.name[lang]} size="md" />
               <span className={`min-w-0 flex-1 ${expanded ? '' : 'lg:hidden'}`}>
                 <span className={`line-clamp-2 block text-base font-semibold leading-snug ${active ? 'text-goldSoft' : 'text-slate-100'}`}>{set.name[lang]}</span>
                 <span className="mt-1 flex items-center gap-2 text-xs text-slate-400">
