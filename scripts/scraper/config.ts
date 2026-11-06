@@ -176,7 +176,6 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Compañía Dorada',
       'Compania Dorada',
       'Golden Troupe',
-      'Troupe',
     ],
   },
   {
@@ -361,6 +360,38 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Corazon de las Profundidades',
       'Heart of Depth',
       'Depth',
+    ],
+  },
+  {
+    id: 'gladiators-finale',
+    en: "Gladiator's Finale",
+    es: 'Final del Gladiador',
+    aliases: [
+      'Final del Gladiador',
+      "Gladiator's Finale",
+      'Gladiators Finale',
+      'Gladiator',
+    ],
+  },
+  {
+    id: 'wanderers-troupe',
+    en: "Wanderer's Troupe",
+    es: 'Orquesta del Errante',
+    aliases: [
+      'Orquesta del Errante',
+      "Wanderer's Troupe",
+      'Wanderers Troupe',
+      'Troupe del Errante',
+    ],
+  },
+  {
+    id: 'noblesse-oblige',
+    en: 'Noblesse Oblige',
+    es: 'Ritual Antiguo de la Nobleza',
+    aliases: [
+      'Ritual Antiguo de la Nobleza',
+      'Noblesse Oblige',
+      'Noblesse',
     ],
   },
 ]

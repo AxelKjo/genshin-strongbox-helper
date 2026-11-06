@@ -174,9 +174,16 @@ function parseBuildPanels($: cheerio.CheerioAPI, targetSets: TargetSetConfig[]):
           textOf($, labelEl.nextAll('.artifact-piece-suffix').first())
         const pieceMatch = suffix.match(/\((\d)\)/)
         const haystack = `${label} ${popoverName} ${visibleLabel}`.toLowerCase()
-        const target = targetSets.find((set) =>
-          [set.en, set.es, ...set.aliases].some((alias) => haystack.includes(alias.toLowerCase())),
-        )
+        let target: TargetSetConfig | undefined
+        let bestMatchLen = 0
+        for (const set of targetSets) {
+          for (const alias of [set.en, set.es, ...set.aliases]) {
+            if (haystack.includes(alias.toLowerCase()) && alias.length > bestMatchLen) {
+              target = set
+              bestMatchLen = alias.length
+            }
+          }
+        }
         if (!target) return
         const pieceCount = pieceMatch?.[1] === '4' ? 4 : pieceMatch?.[1] === '2' ? 2 : null
         if (!pieceCount) return
