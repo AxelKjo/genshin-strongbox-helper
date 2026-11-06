@@ -297,6 +297,30 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Ocean Hued Clam',
     ],
   },
+  {
+    id: 'emblem-of-severed-fate',
+    en: 'Emblem of Severed Fate',
+    es: 'Emblema del Destino',
+    aliases: [
+      'Emblema del Destino',
+      'Emblem of Severed Fate',
+      'Severed Fate',
+      'Emblem',
+    ],
+  },
+  {
+    id: 'shimenawas-reminiscence',
+    en: "Shimenawa's Reminiscence",
+    es: 'Reminiscencia de la Purificación',
+    aliases: [
+      'Reminiscencia de la Purificación',
+      'Reminiscencia de la Purificacion',
+      "Shimenawa's Reminiscence",
+      'Shimenawas Reminiscence',
+      'Shimenawa',
+      'Reminiscence',
+    ],
+  },
 ]
 
 export function getTargetSets(argv: string[] = process.argv.slice(2)): TargetSetConfig[] {

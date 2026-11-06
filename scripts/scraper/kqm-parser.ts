@@ -37,6 +37,7 @@ interface KqmArtifactRow {
 
 const SLUG_OVERRIDES: Record<string, string> = {
   'raiden-shogun': 'raiden',
+  'shogun-raiden': 'raiden',
   'kaedehara-kazuha': 'kazuha',
   'kamisato-ayaka': 'ayaka',
   'kamisato-ayato': 'ayato',
@@ -63,6 +64,7 @@ const NAME_OVERRIDES: Record<string, string> = {
   'kamisato-ayaka': 'ayaka',
   'kamisato-ayato': 'ayato',
   'raiden-shogun': 'raiden',
+  'shogun-raiden': 'raiden',
   'kujou-sara': 'sara',
   'sangonomiya-kokomi': 'kokomi',
   'shikanoin-heizou': 'heizou',
