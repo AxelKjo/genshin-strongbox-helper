@@ -394,6 +394,38 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Noblesse',
     ],
   },
+  {
+    id: 'bloodstained-chivalry',
+    en: 'Bloodstained Chivalry',
+    es: 'Caballería Sanguinaria',
+    aliases: [
+      'Caballería Sanguinaria',
+      'Caballeria Sanguinaria',
+      'Bloodstained Chivalry',
+      'Bloodstained',
+    ],
+  },
+  {
+    id: 'viridescent-venerer',
+    en: 'Viridescent Venerer',
+    es: 'Sombra Verde Esmeralda',
+    aliases: [
+      'Sombra Verde Esmeralda',
+      'Viridescent Venerer',
+      'Viridescent',
+      'Verde Esmeralda',
+    ],
+  },
+  {
+    id: 'maiden-beloved',
+    en: 'Maiden Beloved',
+    es: 'Doncella Amada',
+    aliases: [
+      'Doncella Amada',
+      'Maiden Beloved',
+      'Maiden',
+    ],
+  },
 ]
 
 export function getTargetSets(argv: string[] = process.argv.slice(2)): TargetSetConfig[] {

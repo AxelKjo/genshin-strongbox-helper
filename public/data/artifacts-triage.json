@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T21:52:21.220Z",
+  "generatedAt": "2026-11-06T22:11:50.676Z",
   "version": "MVP-9-sets",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
@@ -34160,6 +34160,1938 @@
           }
         }
       ]
+    },
+    {
+      "id": "bloodstained-chivalry",
+      "name": {
+        "en": "Bloodstained Chivalry",
+        "es": "Caballería Sanguinaria"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "1.0",
+        "major": 1,
+        "minor": 0
+      },
+      "imageUrl": "/images/artifacts/bloodstained-chivalry.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Physical DMG +25%",
+          "es": "Daño Físico +25%."
+        },
+        "fourPiece": {
+          "en": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s.",
+          "es": "Derrotar a un enemigo hace que no consumas Aguante al lanzar un Ataque Cargado, y que el daño de Ataque Cargado aumente en un 50% durante 10 s."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": []
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ]
+      },
+      "characters": []
+    },
+    {
+      "id": "viridescent-venerer",
+      "name": {
+        "en": "Viridescent Venerer",
+        "es": "Sombra Verde Esmeralda"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "1.0",
+        "major": 1,
+        "minor": 0
+      },
+      "imageUrl": "/images/artifacts/viridescent-venerer.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Anemo DMG Bonus +15%",
+          "es": "Bono de Daño Anemo +15%."
+        },
+        "fourPiece": {
+          "en": "Increases Swirl reaction DMG dealt by 60%, and Stellar Swirl reaction DMG dealt by 20%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s. Upon triggering a Stellar Swirl in the opponent, will also decrease their Cryo RES by 40%. RES debuffs of the same elemental type do not stack.",
+          "es": "El daño de la reacción de Torbellino aumenta en un 60%, y el de Torbellino Estelar aumenta en un 20%. Dependiendo del tipo elemental del Torbellino, la RES Elemental correspondiente del enemigo se reduce en un 40% durante 10 s. Al causar una reacción de Torbellino Estelar contra un enemigo, su RES Cryo también se reduce en un 40%. Las reducciones del mismo tipo de RES Elemental no se pueden acumular."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "ER%",
+              "ATK%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM"
+            ],
+            "usedBy": [
+              "anemo-traveler"
+            ],
+            "reasoning": {
+              "en": "Anemo Traveler can use Energy Recharge + ATK% + CRIT Rate + CRIT DMG + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Viajero Anemo busca(n) Recarga de Energía + ATQ% + Prob. CRIT + Daño CRIT + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "ATK%",
+              "CRIT Rate",
+              "EM"
+            ],
+            "usedBy": [
+              "jahoda"
+            ],
+            "reasoning": {
+              "en": "Jahoda can use Energy Recharge + ATK% + CRIT Rate + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Jahoda busca(n) Recarga de Energía + ATQ% + Prob. CRIT + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "jean",
+              "lynette"
+            ],
+            "reasoning": {
+              "en": "Jean, Lynette can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Jean, Lynette busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "EM",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "kaedehara-kazuha"
+            ],
+            "reasoning": {
+              "en": "Kaedehara Kazuha can use Energy Recharge + Elemental Mastery + CRIT Rate on this set's Flower and Plume.",
+              "es": "Kaedehara Kazuha busca(n) Recarga de Energía + Maestría Elemental + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "ATK%",
+              "EM",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "lan-yan"
+            ],
+            "reasoning": {
+              "en": "Lan Yan can use Energy Recharge + ATK% + Elemental Mastery + CRIT Rate on this set's Flower and Plume.",
+              "es": "Lan Yan busca(n) Recarga de Energía + ATQ% + Maestría Elemental + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "ATK%",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "prune",
+              "xianyun"
+            ],
+            "reasoning": {
+              "en": "Prune, Xianyun can use Energy Recharge + ATK% + CRIT Rate on this set's Flower and Plume.",
+              "es": "Prune, Xianyun busca(n) Recarga de Energía + ATQ% + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "EM",
+              "ATK%",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "sayu"
+            ],
+            "reasoning": {
+              "en": "Sayu can use Energy Recharge + Elemental Mastery + ATK% + CRIT Rate on this set's Flower and Plume.",
+              "es": "Sayu busca(n) Recarga de Energía + Maestría Elemental + ATQ% + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "ER%",
+              "EM"
+            ],
+            "usedBy": [
+              "shikanoin-heizou"
+            ],
+            "reasoning": {
+              "en": "Shikanoin Heizou can use CRIT Rate + CRIT DMG + ATK% + Energy Recharge + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Shikanoin Heizou busca(n) Prob. CRIT + Daño CRIT + ATQ% + Recarga de Energía + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "anemo-traveler",
+                  "jahoda",
+                  "jean",
+                  "lan-yan",
+                  "lynette",
+                  "prune",
+                  "shikanoin-heizou",
+                  "venti",
+                  "xianyun",
+                  "chasca",
+                  "ifa"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "anemo-traveler",
+                  "jahoda",
+                  "jean",
+                  "lan-yan",
+                  "lynette",
+                  "prune",
+                  "shikanoin-heizou",
+                  "venti",
+                  "xianyun",
+                  "chasca",
+                  "ifa"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "anemo-traveler",
+                  "jahoda",
+                  "jean",
+                  "lan-yan",
+                  "lynette",
+                  "shikanoin-heizou",
+                  "venti",
+                  "chasca",
+                  "ifa"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "anemo-traveler",
+                  "jean",
+                  "lynette",
+                  "shikanoin-heizou",
+                  "venti",
+                  "chasca",
+                  "ifa"
+                ]
+              }
+            ],
+            "usedBy": [
+              "anemo-traveler",
+              "jahoda",
+              "jean",
+              "lan-yan",
+              "lynette",
+              "prune",
+              "shikanoin-heizou",
+              "venti",
+              "xianyun",
+              "chasca",
+              "ifa"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "anemo-traveler",
+                  "jahoda",
+                  "jean",
+                  "kaedehara-kazuha",
+                  "lan-yan",
+                  "lynette",
+                  "prune",
+                  "sayu",
+                  "xianyun",
+                  "faruzan"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "anemo-traveler",
+                  "jahoda",
+                  "jean",
+                  "lan-yan",
+                  "lynette",
+                  "prune",
+                  "sayu",
+                  "xianyun",
+                  "faruzan"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "anemo-traveler",
+                  "jahoda",
+                  "jean",
+                  "kaedehara-kazuha",
+                  "lan-yan",
+                  "lynette",
+                  "sayu"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "anemo-traveler",
+                  "jean",
+                  "lynette",
+                  "faruzan"
+                ]
+              }
+            ],
+            "usedBy": [
+              "anemo-traveler",
+              "jahoda",
+              "jean",
+              "kaedehara-kazuha",
+              "lan-yan",
+              "lynette",
+              "prune",
+              "sayu",
+              "xianyun",
+              "faruzan"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kaedehara-kazuha",
+                  "lynette",
+                  "sayu",
+                  "sucrose",
+                  "venti"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kaedehara-kazuha",
+                  "lynette",
+                  "sayu",
+                  "sucrose",
+                  "venti"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "lynette",
+                  "sayu",
+                  "sucrose",
+                  "venti"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "lynette",
+                  "sucrose",
+                  "venti"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kaedehara-kazuha",
+              "lynette",
+              "sayu",
+              "sucrose",
+              "venti"
+            ]
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "jahoda",
+                  "jean",
+                  "lan-yan",
+                  "lynette",
+                  "prune",
+                  "sayu",
+                  "venti",
+                  "xianyun",
+                  "chasca"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "jahoda",
+                  "jean",
+                  "lan-yan",
+                  "lynette",
+                  "prune",
+                  "sayu",
+                  "venti",
+                  "xianyun",
+                  "chasca"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "jahoda",
+                  "jean",
+                  "lan-yan",
+                  "lynette",
+                  "sayu",
+                  "venti",
+                  "chasca"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "jean",
+                  "lynette",
+                  "venti",
+                  "chasca"
+                ]
+              }
+            ],
+            "usedBy": [
+              "jahoda",
+              "jean",
+              "lan-yan",
+              "lynette",
+              "prune",
+              "sayu",
+              "venti",
+              "xianyun",
+              "chasca"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kaedehara-kazuha",
+                  "lynette",
+                  "sayu",
+                  "sucrose",
+                  "venti"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kaedehara-kazuha",
+                  "lynette",
+                  "sayu",
+                  "sucrose",
+                  "venti"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "lynette",
+                  "sayu",
+                  "sucrose",
+                  "venti"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "lynette",
+                  "sucrose",
+                  "venti"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kaedehara-kazuha",
+              "lynette",
+              "sayu",
+              "sucrose",
+              "venti"
+            ]
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "anemo-traveler",
+                  "jean",
+                  "lynette",
+                  "shikanoin-heizou",
+                  "venti",
+                  "faruzan",
+                  "ifa"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "anemo-traveler",
+                  "jean",
+                  "lynette",
+                  "shikanoin-heizou",
+                  "venti",
+                  "faruzan",
+                  "ifa"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "anemo-traveler",
+                  "jean",
+                  "lynette",
+                  "shikanoin-heizou",
+                  "venti",
+                  "faruzan",
+                  "ifa"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "anemo-traveler",
+                  "jean",
+                  "lynette",
+                  "shikanoin-heizou",
+                  "venti",
+                  "faruzan",
+                  "ifa"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "anemo-traveler",
+                  "jean",
+                  "lynette",
+                  "shikanoin-heizou",
+                  "venti",
+                  "ifa"
+                ]
+              }
+            ],
+            "usedBy": [
+              "anemo-traveler",
+              "jean",
+              "lynette",
+              "shikanoin-heizou",
+              "venti",
+              "faruzan",
+              "ifa"
+            ]
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "jahoda",
+                  "lan-yan",
+                  "prune",
+                  "xianyun"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "jahoda",
+                  "lan-yan",
+                  "prune",
+                  "xianyun"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "jahoda",
+                  "lan-yan"
+                ]
+              }
+            ],
+            "usedBy": [
+              "jahoda",
+              "lan-yan",
+              "prune",
+              "xianyun"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kaedehara-kazuha",
+                  "lynette",
+                  "sayu",
+                  "sucrose",
+                  "venti"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kaedehara-kazuha",
+                  "lynette",
+                  "sayu",
+                  "sucrose",
+                  "venti"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "lynette",
+                  "sayu",
+                  "sucrose",
+                  "venti"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "lynette",
+                  "sucrose",
+                  "venti"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kaedehara-kazuha",
+              "lynette",
+              "sayu",
+              "sucrose",
+              "venti"
+            ]
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "anemo-traveler",
+                  "jahoda",
+                  "jean",
+                  "lan-yan",
+                  "lynette",
+                  "prune",
+                  "shikanoin-heizou",
+                  "venti",
+                  "chasca",
+                  "faruzan",
+                  "ifa"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "anemo-traveler",
+                  "jahoda",
+                  "jean",
+                  "lan-yan",
+                  "lynette",
+                  "prune",
+                  "shikanoin-heizou",
+                  "venti",
+                  "chasca",
+                  "faruzan",
+                  "ifa"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "anemo-traveler",
+                  "jahoda",
+                  "jean",
+                  "lan-yan",
+                  "lynette",
+                  "shikanoin-heizou",
+                  "venti",
+                  "chasca",
+                  "ifa"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "anemo-traveler",
+                  "jean",
+                  "lynette",
+                  "shikanoin-heizou",
+                  "venti",
+                  "chasca",
+                  "faruzan",
+                  "ifa"
+                ]
+              }
+            ],
+            "usedBy": [
+              "anemo-traveler",
+              "jahoda",
+              "jean",
+              "lan-yan",
+              "lynette",
+              "prune",
+              "shikanoin-heizou",
+              "venti",
+              "chasca",
+              "faruzan",
+              "ifa"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "anemo-traveler",
+                  "jean",
+                  "lynette",
+                  "shikanoin-heizou",
+                  "venti",
+                  "chasca",
+                  "faruzan",
+                  "ifa"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "anemo-traveler",
+                  "jean",
+                  "lynette",
+                  "shikanoin-heizou",
+                  "venti",
+                  "chasca",
+                  "faruzan",
+                  "ifa"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "anemo-traveler",
+                  "jean",
+                  "lynette",
+                  "shikanoin-heizou",
+                  "venti",
+                  "chasca",
+                  "faruzan",
+                  "ifa"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "anemo-traveler",
+                  "jean",
+                  "lynette",
+                  "shikanoin-heizou",
+                  "venti",
+                  "chasca",
+                  "ifa"
+                ]
+              }
+            ],
+            "usedBy": [
+              "anemo-traveler",
+              "jean",
+              "lynette",
+              "shikanoin-heizou",
+              "venti",
+              "chasca",
+              "faruzan",
+              "ifa"
+            ]
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "jahoda",
+                  "jean",
+                  "sayu"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "jahoda",
+                  "jean",
+                  "sayu"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "jahoda",
+                  "jean",
+                  "sayu"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "jahoda",
+                  "jean",
+                  "sayu"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "jean"
+                ]
+              }
+            ],
+            "usedBy": [
+              "jahoda",
+              "jean",
+              "sayu"
+            ]
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "anemo-traveler",
+          "name": {
+            "en": "Anemo Traveler",
+            "es": "Viajero Anemo"
+          },
+          "iconUrl": "/images/characters/anemo-traveler.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Anemo Quickswap Support",
+            "es": "Anemo Quickswap Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%"
+            ],
+            "goblet": [
+              "Anemo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "ATK%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.0",
+            "resolutionReason": "Fallback to GB: no KQM guide",
+            "genshinBuildsUpdated": "7.0"
+          }
+        },
+        {
+          "characterId": "jahoda",
+          "name": {
+            "en": "Jahoda",
+            "es": "Jahoda"
+          },
+          "iconUrl": "/images/characters/jahoda.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Off-Field Reaction DPS & Heal Support",
+            "es": "DPS de reacción fuera de campo y soporte de curación"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "Healing Bonus",
+              "ATK%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "ATK%",
+            "CRIT Rate",
+            "EM"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.2",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/jahoda-quickguide/"
+          }
+        },
+        {
+          "characterId": "jean",
+          "name": {
+            "en": "Jean",
+            "es": "Jean"
+          },
+          "iconUrl": "/images/characters/jean.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Heal Support & Damage",
+            "es": "Heal Support & Damage"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "Anemo DMG%",
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "Healing Bonus"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.1",
+            "kqmVersion": "4.0",
+            "resolutionReason": "Genshin-Builds newer (6.1 > 4.0)",
+            "genshinBuildsUpdated": "6.1 / Luna II",
+            "kqmUrl": "https://keqingmains.com/q/jean-quickguide/"
+          }
+        },
+        {
+          "characterId": "kaedehara-kazuha",
+          "name": {
+            "en": "Kaedehara Kazuha",
+            "es": "Kaedehara Kazuha"
+          },
+          "iconUrl": "/images/characters/kaedehara-kazuha.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Reaction DPS & Buff Support",
+            "es": "Reaction DPS & Buff Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM",
+              "ER%"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "EM",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.1",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.1 / Luna II",
+            "kqmUrl": "https://keqingmains.com/q/kazuha-quickguide/"
+          }
+        },
+        {
+          "characterId": "lan-yan",
+          "name": {
+            "en": "Lan Yan",
+            "es": "Lan Yan"
+          },
+          "iconUrl": "/images/characters/lan-yan.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Shield & Buff Support",
+            "es": "Soporte de escudos y buffs"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "ATK%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "ATK%",
+            "EM",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "5.3",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 5.3)",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/lan-yan-quickguide/"
+          }
+        },
+        {
+          "characterId": "lynette",
+          "name": {
+            "en": "Lynette",
+            "es": "Lynette"
+          },
+          "iconUrl": "/images/characters/lynette.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Off-Field DPS",
+            "es": "DPS fuera de campo"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Anemo DMG%",
+              "ATK%",
+              "EM"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "KQM",
+            "gbVersion": "4.1",
+            "kqmVersion": "4.7",
+            "resolutionReason": "KQM newer (4.7 > 4.1) and recommends set",
+            "genshinBuildsUpdated": "4.1",
+            "kqmUrl": "https://keqingmains.com/q/lynette-quickguide/"
+          }
+        },
+        {
+          "characterId": "prune",
+          "name": {
+            "en": "Prune",
+            "es": "Prune"
+          },
+          "iconUrl": "/images/characters/prune.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "ATK%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "ATK%",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.6",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/prune-quickguide/"
+          }
+        },
+        {
+          "characterId": "sayu",
+          "name": {
+            "en": "Sayu",
+            "es": "Sayu"
+          },
+          "iconUrl": "/images/characters/sayu.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Heal Support",
+            "es": "Heal Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "EM"
+            ],
+            "goblet": [
+              "EM",
+              "ATK%"
+            ],
+            "circlet": [
+              "Healing Bonus",
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "EM",
+            "ATK%",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "4.8",
+            "kqmVersion": "4.0",
+            "resolutionReason": "Genshin-Builds newer (4.8 > 4.0)",
+            "genshinBuildsUpdated": "4.8",
+            "kqmUrl": "https://keqingmains.com/q/sayu-quickguide/"
+          }
+        },
+        {
+          "characterId": "shikanoin-heizou",
+          "name": {
+            "en": "Shikanoin Heizou",
+            "es": "Shikanoin Heizou"
+          },
+          "iconUrl": "/images/characters/shikanoin-heizou.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Anemo DPS",
+            "es": "DPS Anemo"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Anemo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "ER%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.4",
+            "kqmVersion": "3.8",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.4",
+            "kqmUrl": "https://keqingmains.com/q/heizou-quickguide/"
+          }
+        },
+        {
+          "characterId": "sucrose",
+          "name": {
+            "en": "Sucrose",
+            "es": "Sacarosa"
+          },
+          "iconUrl": "/images/characters/sucrose.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Elemental Mastery Support",
+            "es": "Soporte de Maestría Elemental"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "EM",
+            "ER%",
+            "ATK%",
+            "CRIT Rate",
+            "CRIT DMG"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.8",
+            "kqmVersion": "6.5",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/sucrose-quickguide/"
+          }
+        },
+        {
+          "characterId": "venti",
+          "name": {
+            "en": "Venti",
+            "es": "Venti"
+          },
+          "iconUrl": "/images/characters/venti.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Off-Field DPS",
+            "es": "DPS fuera de campo"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Anemo DMG%",
+              "ATK%",
+              "EM"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.4",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.4)",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/venti-quickguide/"
+          }
+        },
+        {
+          "characterId": "xianyun",
+          "name": {
+            "en": "Xianyun",
+            "es": "Xianyun"
+          },
+          "iconUrl": "/images/characters/xianyun.png",
+          "element": "Anemo",
+          "role": {
+            "en": "High Energy Requirement Buff & Heal Support",
+            "es": "High Energy Requirement Buff & Heal Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "ATK%"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "ATK%",
+            "ATK",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "4.7",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/xianyun-quickguide/"
+          }
+        },
+        {
+          "characterId": "chasca",
+          "name": {
+            "en": "Chasca",
+            "es": "Chasca"
+          },
+          "iconUrl": "/images/characters/chasca.png",
+          "element": "Anemo",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.8",
+            "kqmVersion": "5.8",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/chasca-quickguide/"
+          }
+        },
+        {
+          "characterId": "faruzan",
+          "name": {
+            "en": "Faruzan",
+            "es": "Faruzán"
+          },
+          "iconUrl": "/images/characters/faruzan.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%"
+            ],
+            "goblet": [
+              "Anemo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.1",
+            "kqmVersion": "4.6",
+            "resolutionReason": "Genshin-Builds newer (6.1 > 4.6)",
+            "genshinBuildsUpdated": "6.1 / Luna II",
+            "kqmUrl": "https://keqingmains.com/q/faruzan-quickguide/"
+          }
+        },
+        {
+          "characterId": "ifa",
+          "name": {
+            "en": "Ifa",
+            "es": "Ifá"
+          },
+          "iconUrl": "/images/characters/ifa.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Anemo DPS",
+            "es": "DPS Anemo"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Anemo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.0",
+            "kqmVersion": "6.0",
+            "resolutionReason": "Genshin-Builds newer (7.0 > 6.0)",
+            "genshinBuildsUpdated": "7.0",
+            "kqmUrl": "https://keqingmains.com/q/ifa-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "maiden-beloved",
+      "name": {
+        "en": "Maiden Beloved",
+        "es": "Doncella Amada"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "1.0",
+        "major": 1,
+        "minor": 0
+      },
+      "imageUrl": "/images/artifacts/maiden-beloved.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Character Healing Effectiveness +15%",
+          "es": "Aumenta en un 15% la curación realizada."
+        },
+        "fourPiece": {
+          "en": "Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s.",
+          "es": "El uso de una Habilidad Elemental o Definitiva aumenta en un 20% la curación recibida de todos los miembros del equipo durante 10 s."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": []
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ]
+      },
+      "characters": []
     }
   ]
 }
