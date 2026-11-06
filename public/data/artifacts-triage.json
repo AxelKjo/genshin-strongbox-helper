@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T20:46:09.230Z",
+  "generatedAt": "2026-11-06T20:56:42.660Z",
   "version": "MVP-9-sets",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
@@ -26145,6 +26145,1806 @@
             "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/wanderer-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pale-flame",
+      "name": {
+        "en": "Pale Flame",
+        "es": "Llamas Albinas"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "1.5",
+        "major": 1,
+        "minor": 5
+      },
+      "imageUrl": "/images/artifacts/pale-flame.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Physical DMG is increased by 25%.",
+          "es": "Daño Físico +25%."
+        },
+        "fourPiece": {
+          "en": "When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%.",
+          "es": "Al atacar a un enemigo con una Habilidad Elemental, el ATQ aumenta en un 9% durante 7 s. Este efecto puede acumularse hasta 2 veces y activarse cada 0.3 s. Al alcanzar 2 acumulaciones, el efecto de dos piezas del conjunto aumenta en un 100%."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ER%",
+              "ATK%"
+            ],
+            "usedBy": [
+              "eula"
+            ],
+            "reasoning": {
+              "en": "Eula can use CRIT Rate + CRIT DMG + Energy Recharge + ATK% on this set's Flower and Plume.",
+              "es": "Eula busca(n) Prob. CRIT + Daño CRIT + Recarga de Energía + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "freminet"
+            ],
+            "reasoning": {
+              "en": "Freminet can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Fréminet busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "eula",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "eula",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "eula",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "freminet"
+                ]
+              }
+            ],
+            "usedBy": [
+              "eula",
+              "freminet"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "eula",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "eula",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "eula",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "eula",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "freminet"
+                ]
+              }
+            ],
+            "usedBy": [
+              "eula",
+              "freminet"
+            ]
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "eula",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "eula",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "eula",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "freminet"
+                ]
+              }
+            ],
+            "usedBy": [
+              "eula",
+              "freminet"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "eula",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "eula",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "eula",
+                  "freminet"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "freminet"
+                ]
+              }
+            ],
+            "usedBy": [
+              "eula",
+              "freminet"
+            ]
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "eula",
+          "name": {
+            "en": "Eula",
+            "es": "Eula"
+          },
+          "iconUrl": "/images/characters/eula.png",
+          "element": "Cryo",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Physical DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ER%",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "4.8",
+            "kqmVersion": "3.8",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "4.8",
+            "kqmUrl": "https://keqingmains.com/q/eula-quickguide/"
+          }
+        },
+        {
+          "characterId": "freminet",
+          "name": {
+            "en": "Freminet",
+            "es": "Fréminet"
+          },
+          "iconUrl": "/images/characters/freminet.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Physical DPS",
+            "es": "DPS Físico"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Physical DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "6.2",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.2)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/freminet-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tenacity-of-the-millelith",
+      "name": {
+        "en": "Tenacity of the Millelith",
+        "es": "Tenacidad de la Geoarmada"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "1.5",
+        "major": 1,
+        "minor": 5
+      },
+      "imageUrl": "/images/artifacts/tenacity-of-the-millelith.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "HP +20%",
+          "es": "Vida +20%."
+        },
+        "fourPiece": {
+          "en": "When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field.",
+          "es": "Cuando una Habilidad Elemental golpea a un enemigo, el ATQ de todos los personajes del equipo cercanos aumenta en un 20% y su Protección de Escudo aumenta en un 30% durante 3 s. Este efecto puede tener lugar cada 0.5 s y se activa incluso cuando el personaje que lleva equipado este conjunto de artefactos está en tu equipo pero no en uso."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "ER%",
+              "ATK%",
+              "CRIT Rate",
+              "CRIT DMG"
+            ],
+            "usedBy": [
+              "charlotte"
+            ],
+            "reasoning": {
+              "en": "Charlotte can use Energy Recharge + ATK% + CRIT Rate + CRIT DMG on this set's Flower and Plume.",
+              "es": "Charlotte busca(n) Recarga de Energía + ATQ% + Prob. CRIT + Daño CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "HP%",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "dehya"
+            ],
+            "reasoning": {
+              "en": "Dehya can use HP% + CRIT Rate on this set's Flower and Plume.",
+              "es": "Dehya busca(n) Vida% + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "HP%",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "layla",
+              "yaoyao"
+            ],
+            "reasoning": {
+              "en": "Layla, Yaoyao can use Energy Recharge + HP% + CRIT Rate on this set's Flower and Plume.",
+              "es": "Laila, Yaoyao busca(n) Recarga de Energía + Vida% + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ATK%",
+              "ER%",
+              "CRIT Rate",
+              "DEF%"
+            ],
+            "usedBy": [
+              "qiqi"
+            ],
+            "reasoning": {
+              "en": "Qiqi can use ATK% + Energy Recharge + CRIT Rate + DEF% on this set's Flower and Plume.",
+              "es": "Qiqi busca(n) ATQ% + Recarga de Energía + Prob. CRIT + DEF% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "HP%",
+              "ATK%"
+            ],
+            "usedBy": [
+              "sangonomiya-kokomi"
+            ],
+            "reasoning": {
+              "en": "Sangonomiya Kokomi can use Energy Recharge + HP% + ATK% on this set's Flower and Plume.",
+              "es": "Sangonomiya Kokomi busca(n) Recarga de Energía + Vida% + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "HP%",
+              "ER%"
+            ],
+            "usedBy": [
+              "vodyanitsa"
+            ],
+            "reasoning": {
+              "en": "Vodyanitsa can use HP% + Energy Recharge on this set's Flower and Plume.",
+              "es": "Vodyanitsa busca(n) Vida% + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "ATK%",
+              "DEF%",
+              "CRIT Rate",
+              "CRIT DMG"
+            ],
+            "usedBy": [
+              "xinyan"
+            ],
+            "reasoning": {
+              "en": "Xinyan can use Energy Recharge + ATK% + DEF% + CRIT Rate + CRIT DMG on this set's Flower and Plume.",
+              "es": "Xinyan busca(n) Recarga de Energía + ATQ% + DEF% + Prob. CRIT + Daño CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "EM",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "citlali"
+            ],
+            "reasoning": {
+              "en": "Citlali can use Energy Recharge + Elemental Mastery + CRIT Rate on this set's Flower and Plume.",
+              "es": "Citlalí busca(n) Recarga de Energía + Maestría Elemental + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "layla",
+                  "sangonomiya-kokomi",
+                  "vodyanitsa",
+                  "furina",
+                  "yaoyao"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "dehya",
+                  "layla",
+                  "furina",
+                  "yaoyao"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "sangonomiya-kokomi"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "furina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "dehya",
+              "layla",
+              "sangonomiya-kokomi",
+              "vodyanitsa",
+              "furina",
+              "yaoyao"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "charlotte",
+                  "qiqi",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "charlotte",
+                  "qiqi",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "charlotte",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "qiqi",
+                  "pyro-traveler"
+                ]
+              }
+            ],
+            "usedBy": [
+              "charlotte",
+              "qiqi",
+              "pyro-traveler"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "xinyan"
+                ]
+              }
+            ],
+            "usedBy": [
+              "xinyan"
+            ]
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "charlotte",
+                  "layla",
+                  "qiqi",
+                  "xinyan",
+                  "citlali",
+                  "furina",
+                  "pyro-traveler",
+                  "yaoyao"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "charlotte",
+                  "qiqi",
+                  "sangonomiya-kokomi",
+                  "xinyan",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "charlotte",
+                  "xinyan",
+                  "furina",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "layla",
+                  "sangonomiya-kokomi",
+                  "furina",
+                  "yaoyao"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "qiqi",
+                  "xinyan",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "citlali"
+                ]
+              }
+            ],
+            "usedBy": [
+              "charlotte",
+              "layla",
+              "qiqi",
+              "sangonomiya-kokomi",
+              "xinyan",
+              "citlali",
+              "furina",
+              "pyro-traveler",
+              "yaoyao"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "citlali"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "citlali"
+                ]
+              }
+            ],
+            "usedBy": [
+              "citlali"
+            ]
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "layla",
+                  "sangonomiya-kokomi",
+                  "vodyanitsa",
+                  "furina",
+                  "yaoyao"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "dehya",
+                  "layla",
+                  "furina",
+                  "yaoyao"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "sangonomiya-kokomi"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "furina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "dehya",
+              "layla",
+              "sangonomiya-kokomi",
+              "vodyanitsa",
+              "furina",
+              "yaoyao"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "charlotte",
+                  "qiqi"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "charlotte",
+                  "qiqi"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "charlotte"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "qiqi"
+                ]
+              }
+            ],
+            "usedBy": [
+              "charlotte",
+              "qiqi"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "xinyan"
+                ]
+              }
+            ],
+            "usedBy": [
+              "xinyan"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "citlali"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "citlali"
+                ]
+              }
+            ],
+            "usedBy": [
+              "citlali"
+            ]
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "pyro-traveler"
+                ]
+              }
+            ],
+            "usedBy": [
+              "pyro-traveler"
+            ]
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "furina"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "furina"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "furina"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "furina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "furina"
+            ]
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "layla",
+                  "sangonomiya-kokomi",
+                  "vodyanitsa"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "dehya",
+                  "layla"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "sangonomiya-kokomi"
+                ]
+              }
+            ],
+            "usedBy": [
+              "dehya",
+              "layla",
+              "sangonomiya-kokomi",
+              "vodyanitsa"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "charlotte",
+                  "qiqi"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "charlotte",
+                  "qiqi"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "charlotte"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "qiqi"
+                ]
+              }
+            ],
+            "usedBy": [
+              "charlotte",
+              "qiqi"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "xinyan"
+                ]
+              }
+            ],
+            "usedBy": [
+              "xinyan"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "citlali"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "citlali"
+                ]
+              }
+            ],
+            "usedBy": [
+              "citlali"
+            ]
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "charlotte",
+                  "layla",
+                  "citlali",
+                  "furina",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "charlotte",
+                  "furina",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "dehya",
+                  "layla",
+                  "furina"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "charlotte",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "citlali"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "pyro-traveler"
+                ]
+              }
+            ],
+            "usedBy": [
+              "charlotte",
+              "dehya",
+              "layla",
+              "citlali",
+              "furina",
+              "pyro-traveler"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "furina",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "furina",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "furina"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "pyro-traveler"
+                ]
+              }
+            ],
+            "usedBy": [
+              "furina",
+              "pyro-traveler"
+            ]
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "charlotte",
+                  "qiqi",
+                  "sangonomiya-kokomi",
+                  "yaoyao"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "charlotte",
+                  "qiqi",
+                  "sangonomiya-kokomi"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "charlotte",
+                  "qiqi",
+                  "yaoyao"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "sangonomiya-kokomi",
+                  "yaoyao"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "charlotte"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "qiqi"
+                ]
+              }
+            ],
+            "usedBy": [
+              "charlotte",
+              "qiqi",
+              "sangonomiya-kokomi",
+              "yaoyao"
+            ]
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "charlotte",
+          "name": {
+            "en": "Charlotte",
+            "es": "Charlotte"
+          },
+          "iconUrl": "/images/characters/charlotte.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Heal Support",
+            "es": "Heal Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "Healing Bonus",
+              "ATK%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "ATK%",
+            "CRIT Rate",
+            "ATK",
+            "CRIT DMG"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "4.7",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/charlotte-quickguide/"
+          }
+        },
+        {
+          "characterId": "dehya",
+          "name": {
+            "en": "Dehya",
+            "es": "Dehya"
+          },
+          "iconUrl": "/images/characters/dehya.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Support",
+            "es": "Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "HP%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "HP%",
+            "HP",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "6.0",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.0)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/dehya-quickguide/"
+          }
+        },
+        {
+          "characterId": "layla",
+          "name": {
+            "en": "Layla",
+            "es": "Laila"
+          },
+          "iconUrl": "/images/characters/layla.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Shield Support",
+            "es": "Shield Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "HP%",
+              "ER%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "HP%",
+            "CRIT Rate",
+            "HP"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.0",
+            "kqmVersion": "4.6",
+            "resolutionReason": "Genshin-Builds newer (5.0 > 4.6)",
+            "genshinBuildsUpdated": "5.0",
+            "kqmUrl": "https://keqingmains.com/q/layla-quickguide/"
+          }
+        },
+        {
+          "characterId": "qiqi",
+          "name": {
+            "en": "Qiqi",
+            "es": "Qiqi"
+          },
+          "iconUrl": "/images/characters/qiqi.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Heal & Buff Support",
+            "es": "Heal & Buff Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "Healing Bonus",
+              "ATK%"
+            ]
+          },
+          "substatsPriority": [
+            "ATK%",
+            "ER%",
+            "ATK",
+            "CRIT Rate",
+            "DEF%"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.7",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/qiqi-quickguide/"
+          }
+        },
+        {
+          "characterId": "sangonomiya-kokomi",
+          "name": {
+            "en": "Sangonomiya Kokomi",
+            "es": "Sangonomiya Kokomi"
+          },
+          "iconUrl": "/images/characters/sangonomiya-kokomi.png",
+          "element": "Hydro",
+          "role": {
+            "en": "Heal Support",
+            "es": "Heal Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "HP%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "Healing Bonus",
+              "HP%"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "HP%",
+            "ATK%",
+            "HP"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.0",
+            "kqmVersion": "6.4",
+            "resolutionReason": "Genshin-Builds newer (7.0 > 6.4)",
+            "genshinBuildsUpdated": "7.0",
+            "kqmUrl": "https://keqingmains.com/q/kokomi-quickguide/"
+          }
+        },
+        {
+          "characterId": "vodyanitsa",
+          "name": {
+            "en": "Vodyanitsa",
+            "es": "Vodyanitsa"
+          },
+          "iconUrl": "/images/characters/vodyanitsa.png",
+          "element": "Hydro",
+          "role": {
+            "en": "Heal and Buff Support",
+            "es": "Heal and Buff Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "HP%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%"
+            ]
+          },
+          "substatsPriority": [
+            "HP%",
+            "HP",
+            "ER%"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/vodyanitsa-quickguide/"
+          }
+        },
+        {
+          "characterId": "xinyan",
+          "name": {
+            "en": "Xinyan",
+            "es": "Xinyan"
+          },
+          "iconUrl": "/images/characters/xinyan.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Shield Support",
+            "es": "Shield Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "DEF%",
+              "ER%"
+            ],
+            "goblet": [
+              "DEF%"
+            ],
+            "circlet": [
+              "DEF%"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "ATK%",
+            "DEF%",
+            "CRIT Rate",
+            "CRIT DMG"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "resolutionReason": "Fallback to GB: no KQM guide",
+            "genshinBuildsUpdated": "7.1"
+          }
+        },
+        {
+          "characterId": "citlali",
+          "name": {
+            "en": "Citlali",
+            "es": "Citlalí"
+          },
+          "iconUrl": "/images/characters/citlali.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "EM",
+              "ER%"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "EM",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "EM",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "5.4",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/citlali-quickguide/"
+          }
+        },
+        {
+          "characterId": "furina",
+          "name": {
+            "en": "Furina",
+            "es": "Furina"
+          },
+          "iconUrl": "/images/characters/furina.png",
+          "element": "Hydro",
+          "role": {
+            "en": "High Energy Requirement (Off-Field DPS & Buff Support)",
+            "es": "High Energy Requirement (Off-Field DPS & Buff Support)"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "HP%"
+            ],
+            "goblet": [
+              "HP%",
+              "Hydro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "HP%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "HP"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "6.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/furina-quickguide/"
+          }
+        },
+        {
+          "characterId": "pyro-traveler",
+          "name": {
+            "en": "Pyro Traveler",
+            "es": "Viajero Pyro"
+          },
+          "iconUrl": "/images/characters/pyro-traveler.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%"
+            ],
+            "goblet": [
+              "Pyro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "DEF%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.0",
+            "kqmVersion": "5.5",
+            "resolutionReason": "Genshin-Builds newer (7.0 > 5.5)",
+            "genshinBuildsUpdated": "7.0",
+            "kqmUrl": "https://keqingmains.com/q/pyro-traveler-quickguide/"
+          }
+        },
+        {
+          "characterId": "yaoyao",
+          "name": {
+            "en": "Yaoyao",
+            "es": "Yaoyao"
+          },
+          "iconUrl": "/images/characters/yaoyao.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Heal Support",
+            "es": "Heal Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "HP%",
+              "ER%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "Healing Bonus"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "HP%",
+            "CRIT Rate",
+            "HP"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "4.8",
+            "kqmVersion": "4.0",
+            "resolutionReason": "Genshin-Builds newer (4.8 > 4.0)",
+            "genshinBuildsUpdated": "4.8",
+            "kqmUrl": "https://keqingmains.com/q/yaoyao-quickguide/"
           }
         }
       ]

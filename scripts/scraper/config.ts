@@ -321,6 +321,26 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Reminiscence',
     ],
   },
+  {
+    id: 'pale-flame',
+    en: 'Pale Flame',
+    es: 'Llamas Albinas',
+    aliases: [
+      'Llamas Albinas',
+      'Pale Flame',
+    ],
+  },
+  {
+    id: 'tenacity-of-the-millelith',
+    en: 'Tenacity of the Millelith',
+    es: 'Tenacidad de la Geoarmada',
+    aliases: [
+      'Tenacidad de la Geoarmada',
+      'Tenacity of the Millelith',
+      'Millelith',
+      'Tenacity',
+    ],
+  },
 ]
 
 export function getTargetSets(argv: string[] = process.argv.slice(2)): TargetSetConfig[] {
