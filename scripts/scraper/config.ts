@@ -426,6 +426,38 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Maiden',
     ],
   },
+  {
+    id: 'crimson-witch-of-flames',
+    en: 'Crimson Witch of Flames',
+    es: 'Bruja Carmesí en Llamas',
+    aliases: [
+      'Bruja Carmesí en Llamas',
+      'Bruja Carmesi en Llamas',
+      'Crimson Witch of Flames',
+      'Crimson Witch',
+      'Bruja Carmesí',
+      'Bruja Carmesi',
+    ],
+  },
+  {
+    id: 'lavawalker',
+    en: 'Lavawalker',
+    es: 'Virtuoso Corredor de Lava',
+    aliases: [
+      'Virtuoso Corredor de Lava',
+      'Corredor de Lava',
+      'Lavawalker',
+    ],
+  },
+  {
+    id: 'thundering-fury',
+    en: 'Thundering Fury',
+    es: 'Furia del Trueno',
+    aliases: [
+      'Furia del Trueno',
+      'Thundering Fury',
+    ],
+  },
 ]
 
 export function getTargetSets(argv: string[] = process.argv.slice(2)): TargetSetConfig[] {

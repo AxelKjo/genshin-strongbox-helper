@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T22:11:50.676Z",
+  "generatedAt": "2026-11-06T22:28:26.634Z",
   "version": "MVP-9-sets",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
@@ -36092,6 +36092,1923 @@
         ]
       },
       "characters": []
+    },
+    {
+      "id": "crimson-witch-of-flames",
+      "name": {
+        "en": "Crimson Witch of Flames",
+        "es": "Bruja Carmesí en Llamas"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "1.0",
+        "major": 1,
+        "minor": 0
+      },
+      "imageUrl": "/images/artifacts/crimson-witch-of-flames.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Pyro DMG Bonus +15%",
+          "es": "Bono de Daño Pyro +15%."
+        },
+        "fourPiece": {
+          "en": "Increases Overloaded, Burning, and Burgeon DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks.",
+          "es": "Aumenta el daño causado por Sobrecarga, Quemadura y Crepitar en un 40%, y el de Vaporización y Derretido en un 15%. El uso de una Habilidad Elemental aumenta los efectos del conjunto de 2 piezas en un 50% durante 10 s. Puede acumularse hasta un máximo de 3 veces."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM",
+              "ER%"
+            ],
+            "usedBy": [
+              "diluc",
+              "yanfei",
+              "yoimiya"
+            ],
+            "reasoning": {
+              "en": "Diluc, Yanfei, Yoimiya can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Diluc, Yanfei, Yoimiya busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM",
+              "ATK%"
+            ],
+            "usedBy": [
+              "gaming"
+            ],
+            "reasoning": {
+              "en": "Gaming can use Energy Recharge + CRIT Rate + CRIT DMG + Elemental Mastery + ATK% on this set's Flower and Plume.",
+              "es": "Gaming busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + Maestría Elemental + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM",
+              "HP%",
+              "ATK%"
+            ],
+            "usedBy": [
+              "hu-tao"
+            ],
+            "reasoning": {
+              "en": "Hu Tao can use CRIT Rate + CRIT DMG + Elemental Mastery + HP% + ATK% on this set's Flower and Plume.",
+              "es": "Hu Tao busca(n) Prob. CRIT + Daño CRIT + Maestría Elemental + Vida% + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "xiangling"
+            ],
+            "reasoning": {
+              "en": "Xiangling can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Xiangling busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "hu-tao"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "hu-tao"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "hu-tao"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "hu-tao"
+                ]
+              }
+            ],
+            "usedBy": [
+              "hu-tao"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              }
+            ],
+            "usedBy": [
+              "diluc",
+              "gaming",
+              "yanfei",
+              "xiangling",
+              "yoimiya"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "gaming",
+                  "xiangling"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "gaming",
+                  "xiangling"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "gaming",
+                  "xiangling"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "gaming",
+                  "xiangling"
+                ]
+              }
+            ],
+            "usedBy": [
+              "gaming",
+              "xiangling"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "hu-tao",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "hu-tao",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "hu-tao",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "hu-tao"
+                ]
+              }
+            ],
+            "usedBy": [
+              "diluc",
+              "gaming",
+              "yanfei",
+              "hu-tao",
+              "xiangling",
+              "yoimiya"
+            ]
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "hu-tao",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "hu-tao",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "hu-tao",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "hu-tao",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "hu-tao"
+                ]
+              }
+            ],
+            "usedBy": [
+              "diluc",
+              "gaming",
+              "yanfei",
+              "hu-tao",
+              "xiangling",
+              "yoimiya"
+            ]
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "hu-tao",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "hu-tao",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "hu-tao",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "hu-tao"
+                ]
+              }
+            ],
+            "usedBy": [
+              "diluc",
+              "gaming",
+              "yanfei",
+              "hu-tao",
+              "xiangling",
+              "yoimiya"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "hu-tao",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "hu-tao",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "hu-tao",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "diluc",
+                  "gaming",
+                  "yanfei",
+                  "xiangling",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "hu-tao"
+                ]
+              }
+            ],
+            "usedBy": [
+              "diluc",
+              "gaming",
+              "yanfei",
+              "hu-tao",
+              "xiangling",
+              "yoimiya"
+            ]
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "diluc",
+          "name": {
+            "en": "Diluc",
+            "es": "Diluc"
+          },
+          "iconUrl": "/images/characters/diluc.png",
+          "element": "Pyro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM",
+              "ATK%"
+            ],
+            "goblet": [
+              "Pyro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.4",
+            "kqmVersion": "3.6",
+            "resolutionReason": "Genshin-Builds newer (5.4 > 3.6)",
+            "genshinBuildsUpdated": "5.4",
+            "kqmUrl": "https://keqingmains.com/q/diluc-quickguide/"
+          }
+        },
+        {
+          "characterId": "gaming",
+          "name": {
+            "en": "Gaming",
+            "es": "Gaming"
+          },
+          "iconUrl": "/images/characters/gaming.png",
+          "element": "Pyro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM",
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "Pyro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/gaming-quickguide/"
+          }
+        },
+        {
+          "characterId": "yanfei",
+          "name": {
+            "en": "Yanfei",
+            "es": "Yanfei"
+          },
+          "iconUrl": "/images/characters/yanfei.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Vaporize DPS",
+            "es": "DPS de Vaporización"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Pyro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.2",
+            "kqmVersion": "4.5",
+            "resolutionReason": "Genshin-Builds newer (6.2 > 4.5)",
+            "genshinBuildsUpdated": "6.2 / Luna III",
+            "kqmUrl": "https://keqingmains.com/q/yanfei-quickguide/"
+          }
+        },
+        {
+          "characterId": "hu-tao",
+          "name": {
+            "en": "Hu Tao",
+            "es": "Hu Tao"
+          },
+          "iconUrl": "/images/characters/hu-tao.png",
+          "element": "Pyro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "HP%",
+              "EM"
+            ],
+            "goblet": [
+              "Pyro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "HP%",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "3.3",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 3.3)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/hu-tao-quickguide/"
+          }
+        },
+        {
+          "characterId": "xiangling",
+          "name": {
+            "en": "Xiangling",
+            "es": "Xiangling"
+          },
+          "iconUrl": "/images/characters/xiangling.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Off-Field DPS",
+            "es": "DPS fuera de campo"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Pyro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.5",
+            "kqmVersion": "4.5",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.5 / Luna VI",
+            "kqmUrl": "https://keqingmains.com/q/xiangling-quickguide/"
+          }
+        },
+        {
+          "characterId": "yoimiya",
+          "name": {
+            "en": "Yoimiya",
+            "es": "Yoimiya"
+          },
+          "iconUrl": "/images/characters/yoimiya.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Vaporize/Melt DPS",
+            "es": "Vaporización/Derretido DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Pyro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.2",
+            "kqmVersion": "6.0",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.2",
+            "kqmUrl": "https://keqingmains.com/q/yoimiya-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lavawalker",
+      "name": {
+        "en": "Lavawalker",
+        "es": "Virtuoso Corredor de Lava"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "1.0",
+        "major": 1,
+        "minor": 0
+      },
+      "imageUrl": "/images/artifacts/lavawalker.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Pyro RES increased by 40%.",
+          "es": "RES Pyro +40%."
+        },
+        "fourPiece": {
+          "en": "Increases DMG against opponents affected by Pyro by 35%.",
+          "es": "Aumenta en un 35% el daño contra los enemigos afectados por Pyro."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%"
+            ],
+            "usedBy": [
+              "klee"
+            ],
+            "reasoning": {
+              "en": "Klee can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% on this set's Flower and Plume.",
+              "es": "Klee busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "klee"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "klee"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "klee"
+                ]
+              }
+            ],
+            "usedBy": [
+              "klee"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "klee"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "klee"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "klee"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "klee"
+                ]
+              }
+            ],
+            "usedBy": [
+              "klee"
+            ]
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "klee"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "klee"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "klee"
+                ]
+              }
+            ],
+            "usedBy": [
+              "klee"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "klee"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "klee"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "klee"
+                ]
+              }
+            ],
+            "usedBy": [
+              "klee"
+            ]
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "klee",
+          "name": {
+            "en": "Klee",
+            "es": "Klee"
+          },
+          "iconUrl": "/images/characters/klee.png",
+          "element": "Pyro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Pyro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.5",
+            "kqmVersion": "6.3",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.5 / Luna VI",
+            "kqmUrl": "https://keqingmains.com/q/klee-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "thundering-fury",
+      "name": {
+        "en": "Thundering Fury",
+        "es": "Furia del Trueno"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "1.0",
+        "major": 1,
+        "minor": 0
+      },
+      "imageUrl": "/images/artifacts/thundering-fury.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Electro DMG Bonus +15%",
+          "es": "Bono de Daño Electro +15%."
+        },
+        "fourPiece": {
+          "en": "Increases the DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, the DMG Bonus conferred by Aggravate by 20%, and the DMG caused by Lunar-Charged and Stellar-Conduct by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s.",
+          "es": "Aumenta en un 40% el daño infligido por Sobrecarga, Electrocargado, Superconductor y Sobreflorecimiento, y además, tanto el bono de daño generado por Intensificación como el daño infligido por las reacciones de Electrocargado Lunar y Superconductor Estelar aumentan en un 20%. Al causar una de estas reacciones o una reacción de Aceleración, el TdE de la Habilidad Elemental se reduce en 1 s. Este efecto solo puede ocurrir una vez cada 0.8 s."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM",
+              "ER%"
+            ],
+            "usedBy": [
+              "clorinde",
+              "keqing",
+              "lisa"
+            ],
+            "reasoning": {
+              "en": "Clorinde, Keqing, Lisa can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Clorinde, Keching, Lisa busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "EM",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "kaedehara-kazuha"
+            ],
+            "reasoning": {
+              "en": "Kaedehara Kazuha can use Energy Recharge + Elemental Mastery + CRIT Rate on this set's Flower and Plume.",
+              "es": "Kaedehara Kazuha busca(n) Recarga de Energía + Maestría Elemental + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%"
+            ],
+            "usedBy": [
+              "razor"
+            ],
+            "reasoning": {
+              "en": "Razor can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% on this set's Flower and Plume.",
+              "es": "Razor busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa",
+                  "razor"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa",
+                  "razor"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa",
+                  "razor"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa"
+                ]
+              }
+            ],
+            "usedBy": [
+              "clorinde",
+              "keqing",
+              "lisa",
+              "razor"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kaedehara-kazuha",
+                  "razor"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "kaedehara-kazuha"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "razor"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "razor"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kaedehara-kazuha",
+              "razor"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa",
+                  "kaedehara-kazuha"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa",
+                  "kaedehara-kazuha"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa"
+                ]
+              }
+            ],
+            "usedBy": [
+              "clorinde",
+              "keqing",
+              "lisa",
+              "kaedehara-kazuha"
+            ]
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kaedehara-kazuha"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kaedehara-kazuha"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kaedehara-kazuha"
+            ]
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa",
+                  "razor"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa",
+                  "razor"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa",
+                  "razor"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa",
+                  "razor"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa"
+                ]
+              }
+            ],
+            "usedBy": [
+              "clorinde",
+              "keqing",
+              "lisa",
+              "razor"
+            ]
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kaedehara-kazuha"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kaedehara-kazuha"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kaedehara-kazuha"
+            ]
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa",
+                  "razor"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa",
+                  "razor"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa",
+                  "razor"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa"
+                ]
+              }
+            ],
+            "usedBy": [
+              "clorinde",
+              "keqing",
+              "lisa",
+              "razor"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa",
+                  "razor"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa",
+                  "razor"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa",
+                  "razor"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "clorinde",
+                  "keqing",
+                  "lisa"
+                ]
+              }
+            ],
+            "usedBy": [
+              "clorinde",
+              "keqing",
+              "lisa",
+              "razor"
+            ]
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "clorinde",
+          "name": {
+            "en": "Clorinde",
+            "es": "Clorinde"
+          },
+          "iconUrl": "/images/characters/clorinde.png",
+          "element": "Electro",
+          "role": {
+            "en": "Electro DPS (Dendro Teams)",
+            "es": "Electro DPS (Dendro Teams)"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "5.7",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/clorinde-quickguide/"
+          }
+        },
+        {
+          "characterId": "keqing",
+          "name": {
+            "en": "Keqing",
+            "es": "Keching"
+          },
+          "iconUrl": "/images/characters/keqing.png",
+          "element": "Electro",
+          "role": {
+            "en": "Aggravate DPS",
+            "es": "Intensificación DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.6",
+            "kqmVersion": "6.0",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.6",
+            "kqmUrl": "https://keqingmains.com/q/keqing-quickguide/"
+          }
+        },
+        {
+          "characterId": "lisa",
+          "name": {
+            "en": "Lisa",
+            "es": "Lisa"
+          },
+          "iconUrl": "/images/characters/lisa.png",
+          "element": "Electro",
+          "role": {
+            "en": "Aggravate DPS",
+            "es": "Intensificación DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.2",
+            "kqmVersion": "6.5",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.2 / Luna III",
+            "kqmUrl": "https://keqingmains.com/q/lisa-quickguide/"
+          }
+        },
+        {
+          "characterId": "kaedehara-kazuha",
+          "name": {
+            "en": "Kaedehara Kazuha",
+            "es": "Kaedehara Kazuha"
+          },
+          "iconUrl": "/images/characters/kaedehara-kazuha.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Reaction DPS & Buff Support",
+            "es": "Reaction DPS & Buff Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "EM",
+              "ER%"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "EM",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.1",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.1 / Luna II",
+            "kqmUrl": "https://keqingmains.com/q/kazuha-quickguide/"
+          }
+        },
+        {
+          "characterId": "razor",
+          "name": {
+            "en": "Razor",
+            "es": "Razor"
+          },
+          "iconUrl": "/images/characters/razor.png",
+          "element": "Electro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "4.1",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.1)",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/razor-quickguide/"
+          }
+        }
+      ]
     }
   ]
 }
