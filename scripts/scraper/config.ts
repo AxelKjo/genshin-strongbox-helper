@@ -488,6 +488,22 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Meteorito',
     ],
   },
+  {
+    id: 'instructor',
+    en: 'Instructor',
+    es: 'Instructor',
+    aliases: ['Instructor'],
+  },
+  {
+    id: 'the-exile',
+    en: 'The Exile',
+    es: 'Exiliado',
+    aliases: [
+      'Exiliado',
+      'The Exile',
+      'Exile',
+    ],
+  },
 ]
 
 export function getTargetSets(argv: string[] = process.argv.slice(2)): TargetSetConfig[] {

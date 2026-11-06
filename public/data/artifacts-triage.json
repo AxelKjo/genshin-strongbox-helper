@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T22:34:59.090Z",
+  "generatedAt": "2026-11-06T22:53:02.286Z",
   "version": "MVP-9-sets",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
@@ -39341,6 +39341,1408 @@
             "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/noelle-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "instructor",
+      "name": {
+        "en": "Instructor",
+        "es": "Instructor"
+      },
+      "rarity": 4,
+      "releaseVersion": {
+        "raw": "1.0",
+        "major": 1,
+        "minor": 0
+      },
+      "imageUrl": "/images/artifacts/instructor.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Increases Elemental Mastery by 80.",
+          "es": "Maestría Elemental +80 pts."
+        },
+        "fourPiece": {
+          "en": "Upon triggering an Elemental Reaction, increases all party members' Elemental Mastery by 120 for 8s.",
+          "es": "Después de activar una Reacción Elemental, aumenta la Maestría Elemental de todos los miembros del equipo en 120 pts. durante 8 s."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "ER%",
+              "HP%",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "kirara"
+            ],
+            "reasoning": {
+              "en": "Kirara can use Energy Recharge + HP% + CRIT Rate on this set's Flower and Plume.",
+              "es": "Kirara busca(n) Recarga de Energía + Vida% + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "amber"
+            ],
+            "reasoning": {
+              "en": "Amber can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Amber busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "HP%"
+            ],
+            "usedBy": [
+              "barbara"
+            ],
+            "reasoning": {
+              "en": "Barbara can use HP% on this set's Flower and Plume.",
+              "es": "Bárbara busca(n) Vida% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "HP%",
+              "ATK%"
+            ],
+            "usedBy": [
+              "bennett"
+            ],
+            "reasoning": {
+              "en": "Bennett can use Energy Recharge + CRIT Rate + CRIT DMG + HP% + ATK% on this set's Flower and Plume.",
+              "es": "Bennett busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + Vida% + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "DEF%"
+            ],
+            "usedBy": [
+              "pyro-traveler"
+            ],
+            "reasoning": {
+              "en": "Pyro Traveler can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + DEF% on this set's Flower and Plume.",
+              "es": "Viajero Pyro busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + DEF% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "EM",
+              "ER%",
+              "ATK%",
+              "CRIT Rate",
+              "CRIT DMG"
+            ],
+            "usedBy": [
+              "sucrose"
+            ],
+            "reasoning": {
+              "en": "Sucrose can use Elemental Mastery + Energy Recharge + ATK% + CRIT Rate + CRIT DMG on this set's Flower and Plume.",
+              "es": "Sacarosa busca(n) Maestría Elemental + Recarga de Energía + ATQ% + Prob. CRIT + Daño CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "HP%",
+              "ER%"
+            ],
+            "usedBy": [
+              "zhongli"
+            ],
+            "reasoning": {
+              "en": "Zhongli can use HP% + Energy Recharge on this set's Flower and Plume.",
+              "es": "Zhongli busca(n) Vida% + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kirara",
+                  "bennett",
+                  "zhongli"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kirara",
+                  "bennett"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "bennett"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "bennett"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kirara",
+              "barbara",
+              "bennett",
+              "zhongli"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "amber",
+                  "bennett",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "amber",
+                  "bennett",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "amber",
+                  "bennett",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "amber"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "bennett"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "pyro-traveler"
+                ]
+              }
+            ],
+            "usedBy": [
+              "amber",
+              "bennett",
+              "pyro-traveler"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kirara",
+                  "amber",
+                  "bennett",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "amber",
+                  "bennett",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "amber",
+                  "bennett",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "kirara",
+                  "bennett"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "amber"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "pyro-traveler"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kirara",
+              "amber",
+              "bennett",
+              "pyro-traveler"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "sucrose"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "sucrose"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "sucrose"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "sucrose"
+                ]
+              }
+            ],
+            "usedBy": [
+              "sucrose"
+            ]
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kirara",
+                  "bennett",
+                  "zhongli"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kirara",
+                  "bennett"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "bennett"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "bennett"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kirara",
+              "barbara",
+              "bennett",
+              "zhongli"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "sucrose"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "sucrose"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "sucrose"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "sucrose"
+                ]
+              }
+            ],
+            "usedBy": [
+              "sucrose"
+            ]
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "amber",
+                  "bennett",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "amber",
+                  "bennett",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "amber",
+                  "bennett",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "amber",
+                  "bennett",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "amber"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "bennett"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "pyro-traveler"
+                ]
+              }
+            ],
+            "usedBy": [
+              "amber",
+              "bennett",
+              "pyro-traveler"
+            ]
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kirara",
+                  "bennett",
+                  "zhongli"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kirara",
+                  "bennett"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "bennett"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "bennett"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kirara",
+              "bennett",
+              "zhongli"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "sucrose"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "sucrose"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "sucrose"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "sucrose"
+                ]
+              }
+            ],
+            "usedBy": [
+              "sucrose"
+            ]
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kirara",
+                  "amber",
+                  "bennett",
+                  "pyro-traveler",
+                  "zhongli"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "kirara",
+                  "bennett",
+                  "zhongli"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "amber",
+                  "bennett",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "amber",
+                  "bennett",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "amber"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "pyro-traveler"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kirara",
+              "amber",
+              "bennett",
+              "pyro-traveler",
+              "zhongli"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "amber",
+                  "bennett",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "amber",
+                  "bennett",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "amber",
+                  "bennett",
+                  "pyro-traveler"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "amber"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "bennett"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "pyro-traveler"
+                ]
+              }
+            ],
+            "usedBy": [
+              "amber",
+              "bennett",
+              "pyro-traveler"
+            ]
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "HP%",
+                "characters": [
+                  "barbara",
+                  "bennett"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "bennett"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "bennett"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "bennett"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "bennett"
+                ]
+              }
+            ],
+            "usedBy": [
+              "barbara",
+              "bennett"
+            ]
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "kirara",
+          "name": {
+            "en": "Kirara",
+            "es": "Kirara"
+          },
+          "iconUrl": "/images/characters/kirara.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Shield Support",
+            "es": "Shield Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "HP%",
+              "ER%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "HP%",
+            "CRIT Rate",
+            "HP"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "4.8",
+            "kqmVersion": "4.0",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "4.8",
+            "kqmUrl": "https://keqingmains.com/q/kirara-quickguide/"
+          }
+        },
+        {
+          "characterId": "amber",
+          "name": {
+            "en": "Amber",
+            "es": "Amber"
+          },
+          "iconUrl": "/images/characters/amber.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%"
+            ],
+            "goblet": [
+              "Pyro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "5.4",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/amber-quickguide/"
+          }
+        },
+        {
+          "characterId": "barbara",
+          "name": {
+            "en": "Barbara",
+            "es": "Bárbara"
+          },
+          "iconUrl": "/images/characters/barbara.png",
+          "element": "Hydro",
+          "role": {
+            "en": "Heal Support",
+            "es": "Heal Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "HP%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "Healing Bonus"
+            ]
+          },
+          "substatsPriority": [
+            "HP%",
+            "HP"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.0",
+            "kqmVersion": "3.2",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.0",
+            "kqmUrl": "https://keqingmains.com/q/barbara-quickguide/"
+          }
+        },
+        {
+          "characterId": "bennett",
+          "name": {
+            "en": "Bennett",
+            "es": "Bennett"
+          },
+          "iconUrl": "/images/characters/bennett.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Support",
+            "es": "Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%",
+              "HP%"
+            ],
+            "goblet": [
+              "Pyro DMG%",
+              "HP%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "HP%",
+              "Healing Bonus"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "HP%",
+            "ATK%",
+            "HP"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.1",
+            "kqmVersion": "5.7",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.1 / Luna II",
+            "kqmUrl": "https://keqingmains.com/q/bennett-quickguide/"
+          }
+        },
+        {
+          "characterId": "pyro-traveler",
+          "name": {
+            "en": "Pyro Traveler",
+            "es": "Viajero Pyro"
+          },
+          "iconUrl": "/images/characters/pyro-traveler.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%"
+            ],
+            "goblet": [
+              "Pyro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "DEF%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.0",
+            "kqmVersion": "5.5",
+            "resolutionReason": "Genshin-Builds newer (7.0 > 5.5)",
+            "genshinBuildsUpdated": "7.0",
+            "kqmUrl": "https://keqingmains.com/q/pyro-traveler-quickguide/"
+          }
+        },
+        {
+          "characterId": "sucrose",
+          "name": {
+            "en": "Sucrose",
+            "es": "Sacarosa"
+          },
+          "iconUrl": "/images/characters/sucrose.png",
+          "element": "Anemo",
+          "role": {
+            "en": "Elemental Mastery Support",
+            "es": "Soporte de Maestría Elemental"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "EM",
+            "ER%",
+            "ATK%",
+            "CRIT Rate",
+            "CRIT DMG"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.8",
+            "kqmVersion": "6.5",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/sucrose-quickguide/"
+          }
+        },
+        {
+          "characterId": "zhongli",
+          "name": {
+            "en": "Zhongli",
+            "es": "Zhongli"
+          },
+          "iconUrl": "/images/characters/zhongli.png",
+          "element": "Geo",
+          "role": {
+            "en": "Shield Support",
+            "es": "Shield Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "HP%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "HP%",
+            "HP",
+            "ER%"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.8",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/zhongli-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-exile",
+      "name": {
+        "en": "The Exile",
+        "es": "Exiliado"
+      },
+      "rarity": 4,
+      "releaseVersion": {
+        "raw": "1.0",
+        "major": 1,
+        "minor": 0
+      },
+      "imageUrl": "/images/artifacts/the-exile.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Energy Recharge +20%",
+          "es": "Recarga de Energía +20%."
+        },
+        "fourPiece": {
+          "en": "Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack.",
+          "es": "Al usar la Habilidad Definitiva, todos los miembros del equipo (a excepción de tu personaje en uso) recuperan 2 pts. de Energía Elemental cada 2 s durante 6 s. Este efecto no puede acumularse."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "ER%",
+              "DEF%",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "gorou"
+            ],
+            "reasoning": {
+              "en": "Gorou can use Energy Recharge + DEF% + CRIT Rate on this set's Flower and Plume.",
+              "es": "Gorou busca(n) Recarga de Energía + DEF% + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "DEF%",
+                "characters": [
+                  "gorou"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "gorou"
+                ]
+              }
+            ],
+            "usedBy": [
+              "gorou"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "gorou"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "gorou"
+                ]
+              }
+            ],
+            "usedBy": [
+              "gorou"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "gorou"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "gorou"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "gorou"
+                ]
+              }
+            ],
+            "usedBy": [
+              "gorou"
+            ]
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "gorou"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "gorou"
+                ]
+              }
+            ],
+            "usedBy": [
+              "gorou"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "gorou"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "gorou"
+                ]
+              }
+            ],
+            "usedBy": [
+              "gorou"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "gorou"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "gorou"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "gorou"
+                ]
+              }
+            ],
+            "usedBy": [
+              "gorou"
+            ]
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "gorou",
+          "name": {
+            "en": "Gorou",
+            "es": "Gorou"
+          },
+          "iconUrl": "/images/characters/gorou.png",
+          "element": "Geo",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%"
+            ],
+            "goblet": [
+              "Geo DMG%",
+              "DEF%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "DEF%",
+              "Healing Bonus"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "DEF%",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.3",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.3)",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/gorou-quickguide/"
           }
         }
       ]
