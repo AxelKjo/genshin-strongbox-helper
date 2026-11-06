@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T20:16:38.797Z",
+  "generatedAt": "2026-11-06T20:31:31.261Z",
   "version": "MVP-9-sets",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
@@ -21337,6 +21337,2131 @@
             "resolutionReason": "Genshin-Builds newer (7.2 > 6.0)",
             "genshinBuildsUpdated": "7.2",
             "kqmUrl": "https://keqingmains.com/q/yoimiya-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "husk-of-opulent-dreams",
+      "name": {
+        "en": "Husk of Opulent Dreams",
+        "es": "Cáscara de Sueños Opulentos"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "2.3",
+        "major": 2,
+        "minor": 3
+      },
+      "imageUrl": "/images/artifacts/husk-of-opulent-dreams.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "DEF +30%",
+          "es": "DEF +30%."
+        },
+        "fourPiece": {
+          "en": "A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions: When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s. When off the field, the character gains 1 stack every 3s. Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus. When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost.",
+          "es": "El personaje que equipe este conjunto de artefactos obtendrá el efecto de “curiosidad” en las siguientes circunstancias: al golpear a un enemigo con un ataque Geo, obtiene una carga, lo cual solo puede ocurrir una vez cada 0.3 s; mientras está en tu equipo pero no en uso, obtiene una carga cada 3 s. Este efecto puede acumularse hasta 4 veces, y cada carga aumenta en un 6% la DEF y otorga un 6% de Bono de Daño Geo. Si el personaje no obtiene una carga de curiosidad en 6 s, perderá una acumulación."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "DEF%",
+              "ER%",
+              "ATK%"
+            ],
+            "usedBy": [
+              "albedo"
+            ],
+            "reasoning": {
+              "en": "Albedo can use CRIT Rate + CRIT DMG + DEF% + Energy Recharge + ATK% on this set's Flower and Plume.",
+              "es": "Albedo busca(n) Prob. CRIT + Daño CRIT + DEF% + Recarga de Energía + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "DEF%",
+              "ATK%"
+            ],
+            "usedBy": [
+              "arataki-itto"
+            ],
+            "reasoning": {
+              "en": "Arataki Itto can use Energy Recharge + CRIT Rate + CRIT DMG + DEF% + ATK% on this set's Flower and Plume.",
+              "es": "Arataki Itto busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + DEF% + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "DEF%",
+              "ATK%",
+              "ER%"
+            ],
+            "usedBy": [
+              "chiori"
+            ],
+            "reasoning": {
+              "en": "Chiori can use CRIT Rate + CRIT DMG + DEF% + ATK% + Energy Recharge on this set's Flower and Plume.",
+              "es": "Chiori busca(n) Prob. CRIT + Daño CRIT + DEF% + ATQ% + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "DEF%",
+              "EM",
+              "ER%"
+            ],
+            "usedBy": [
+              "linnea"
+            ],
+            "reasoning": {
+              "en": "Linnea can use CRIT Rate + CRIT DMG + DEF% + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Linnéa busca(n) Prob. CRIT + Daño CRIT + DEF% + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "DEF%",
+              "EM"
+            ],
+            "usedBy": [
+              "noelle"
+            ],
+            "reasoning": {
+              "en": "Noelle can use Energy Recharge + CRIT Rate + CRIT DMG + DEF% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Noelle busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + DEF% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "DEF%"
+            ],
+            "usedBy": [
+              "yun-jin"
+            ],
+            "reasoning": {
+              "en": "Yun Jin can use Energy Recharge + CRIT Rate + DEF% on this set's Flower and Plume.",
+              "es": "Yun Jin busca(n) Recarga de Energía + Prob. CRIT + DEF% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "ER%"
+            ],
+            "usedBy": [
+              "ningguang"
+            ],
+            "reasoning": {
+              "en": "Ningguang can use CRIT Rate + CRIT DMG + ATK% + Energy Recharge on this set's Flower and Plume.",
+              "es": "Ninguang busca(n) Prob. CRIT + Daño CRIT + ATQ% + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "ATK%",
+              "DEF%",
+              "CRIT Rate",
+              "CRIT DMG"
+            ],
+            "usedBy": [
+              "xinyan"
+            ],
+            "reasoning": {
+              "en": "Xinyan can use Energy Recharge + ATK% + DEF% + CRIT Rate + CRIT DMG on this set's Flower and Plume.",
+              "es": "Xinyan busca(n) Recarga de Energía + ATQ% + DEF% + Prob. CRIT + Daño CRIT en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "ningguang"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "ningguang"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "ningguang"
+                ]
+              }
+            ],
+            "usedBy": [
+              "ningguang"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "albedo",
+                  "arataki-itto",
+                  "chiori",
+                  "linnea",
+                  "noelle",
+                  "yun-jin",
+                  "xinyan",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "albedo",
+                  "arataki-itto",
+                  "chiori",
+                  "linnea",
+                  "noelle",
+                  "yun-jin",
+                  "xinyan",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "albedo",
+                  "arataki-itto",
+                  "chiori",
+                  "linnea",
+                  "noelle",
+                  "xinyan",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "albedo",
+                  "arataki-itto",
+                  "chiori",
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "linnea",
+                  "noelle",
+                  "zibai"
+                ]
+              }
+            ],
+            "usedBy": [
+              "albedo",
+              "arataki-itto",
+              "chiori",
+              "linnea",
+              "noelle",
+              "yun-jin",
+              "xinyan",
+              "zibai"
+            ]
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "linnea",
+                  "noelle",
+                  "yun-jin",
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "linnea",
+                  "noelle",
+                  "yun-jin",
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "linnea",
+                  "noelle",
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "linnea",
+                  "noelle"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "xinyan"
+                ]
+              }
+            ],
+            "usedBy": [
+              "linnea",
+              "noelle",
+              "yun-jin",
+              "xinyan"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "noelle"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "noelle"
+                ]
+              }
+            ],
+            "usedBy": [
+              "noelle"
+            ]
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "albedo",
+                  "linnea",
+                  "yun-jin",
+                  "xinyan",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "albedo",
+                  "linnea",
+                  "yun-jin",
+                  "xinyan",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "albedo",
+                  "linnea",
+                  "xinyan",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "albedo",
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "linnea",
+                  "zibai"
+                ]
+              }
+            ],
+            "usedBy": [
+              "albedo",
+              "linnea",
+              "yun-jin",
+              "xinyan",
+              "zibai"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "albedo",
+                  "arataki-itto",
+                  "chiori",
+                  "noelle",
+                  "ningguang"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "albedo",
+                  "arataki-itto",
+                  "chiori",
+                  "noelle",
+                  "ningguang"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "albedo",
+                  "arataki-itto",
+                  "chiori",
+                  "noelle",
+                  "ningguang"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "albedo",
+                  "arataki-itto",
+                  "chiori",
+                  "noelle"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "albedo",
+                  "arataki-itto",
+                  "chiori",
+                  "ningguang"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "noelle"
+                ]
+              }
+            ],
+            "usedBy": [
+              "albedo",
+              "arataki-itto",
+              "chiori",
+              "noelle",
+              "ningguang"
+            ]
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "yun-jin",
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "yun-jin",
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "xinyan"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "xinyan"
+                ]
+              }
+            ],
+            "usedBy": [
+              "yun-jin",
+              "xinyan"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "albedo",
+                  "arataki-itto",
+                  "chiori",
+                  "linnea",
+                  "noelle",
+                  "ningguang",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "albedo",
+                  "arataki-itto",
+                  "chiori",
+                  "linnea",
+                  "noelle",
+                  "ningguang",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "albedo",
+                  "arataki-itto",
+                  "chiori",
+                  "linnea",
+                  "noelle",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "albedo",
+                  "arataki-itto",
+                  "chiori",
+                  "ningguang"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "linnea",
+                  "noelle",
+                  "zibai"
+                ]
+              }
+            ],
+            "usedBy": [
+              "albedo",
+              "arataki-itto",
+              "chiori",
+              "linnea",
+              "noelle",
+              "ningguang",
+              "zibai"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "albedo",
+                  "arataki-itto",
+                  "chiori",
+                  "linnea",
+                  "noelle",
+                  "ningguang",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "albedo",
+                  "arataki-itto",
+                  "chiori",
+                  "linnea",
+                  "noelle",
+                  "ningguang",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "albedo",
+                  "arataki-itto",
+                  "chiori",
+                  "linnea",
+                  "noelle",
+                  "zibai"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "albedo",
+                  "arataki-itto",
+                  "chiori",
+                  "ningguang"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "linnea",
+                  "noelle",
+                  "zibai"
+                ]
+              }
+            ],
+            "usedBy": [
+              "albedo",
+              "arataki-itto",
+              "chiori",
+              "linnea",
+              "noelle",
+              "ningguang",
+              "zibai"
+            ]
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "albedo",
+          "name": {
+            "en": "Albedo",
+            "es": "Albedo"
+          },
+          "iconUrl": "/images/characters/albedo.png",
+          "element": "Geo",
+          "role": {
+            "en": "Off-Field DPS",
+            "es": "DPS fuera de campo"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "DEF%"
+            ],
+            "goblet": [
+              "DEF%",
+              "Geo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "DEF%",
+            "ER%",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.5",
+            "kqmVersion": "6.4",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.5 / Luna VI",
+            "kqmUrl": "https://keqingmains.com/q/albedo-quickguide/"
+          }
+        },
+        {
+          "characterId": "arataki-itto",
+          "name": {
+            "en": "Arataki Itto",
+            "es": "Arataki Itto"
+          },
+          "iconUrl": "/images/characters/arataki-itto.png",
+          "element": "Geo",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "DEF%"
+            ],
+            "goblet": [
+              "Geo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "DEF%",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.8",
+            "kqmVersion": "5.6",
+            "resolutionReason": "Genshin-Builds newer (5.8 > 5.6)",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/itto-quickguide/"
+          }
+        },
+        {
+          "characterId": "chiori",
+          "name": {
+            "en": "Chiori",
+            "es": "Chiori"
+          },
+          "iconUrl": "/images/characters/chiori.png",
+          "element": "Geo",
+          "role": {
+            "en": "Off-Field DPS",
+            "es": "DPS fuera de campo"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "DEF%"
+            ],
+            "goblet": [
+              "Geo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "DEF%",
+            "ATK%",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/chiori-quickguide/"
+          }
+        },
+        {
+          "characterId": "linnea",
+          "name": {
+            "en": "Linnea",
+            "es": "Linnéa"
+          },
+          "iconUrl": "/images/characters/linnea.png",
+          "element": "Geo",
+          "role": {
+            "en": "Off-Field DPS & Buff and Heal Support",
+            "es": "DPS fuera de campo y soporte de buffs y curación"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "DEF%",
+              "ER%"
+            ],
+            "goblet": [
+              "DEF%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "DEF%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.5",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/linnea-quickguide/"
+          }
+        },
+        {
+          "characterId": "noelle",
+          "name": {
+            "en": "Noelle",
+            "es": "Noelle"
+          },
+          "iconUrl": "/images/characters/noelle.png",
+          "element": "Geo",
+          "role": {
+            "en": "Lunar-Crystallize DPS",
+            "es": "DPS de Cristalización Lunar"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "DEF%",
+              "EM",
+              "ER%"
+            ],
+            "goblet": [
+              "Geo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "DEF%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "6.7",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.7)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/noelle-quickguide/"
+          }
+        },
+        {
+          "characterId": "yun-jin",
+          "name": {
+            "en": "Yun Jin",
+            "es": "Yun Jin"
+          },
+          "iconUrl": "/images/characters/yun-jin.png",
+          "element": "Geo",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "DEF%",
+              "ER%"
+            ],
+            "goblet": [
+              "DEF%"
+            ],
+            "circlet": [
+              "DEF%"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "DEF%",
+            "DEF"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "KQM",
+            "gbVersion": "4.8",
+            "kqmVersion": "5.4",
+            "resolutionReason": "KQM newer (5.4 > 4.8) and recommends set",
+            "genshinBuildsUpdated": "4.8",
+            "kqmUrl": "https://keqingmains.com/q/yunjin-quickguide/"
+          }
+        },
+        {
+          "characterId": "ningguang",
+          "name": {
+            "en": "Ningguang",
+            "es": "Ninguang"
+          },
+          "iconUrl": "/images/characters/ningguang.png",
+          "element": "Geo",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Geo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.4",
+            "kqmVersion": "5.4",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.4",
+            "kqmUrl": "https://keqingmains.com/q/ningguang-quickguide/"
+          }
+        },
+        {
+          "characterId": "xinyan",
+          "name": {
+            "en": "Xinyan",
+            "es": "Xinyan"
+          },
+          "iconUrl": "/images/characters/xinyan.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Shield Support",
+            "es": "Shield Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "DEF%",
+              "ER%"
+            ],
+            "goblet": [
+              "DEF%"
+            ],
+            "circlet": [
+              "DEF%"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "ATK%",
+            "DEF%",
+            "CRIT Rate",
+            "CRIT DMG"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "resolutionReason": "Fallback to GB: no KQM guide",
+            "genshinBuildsUpdated": "7.1"
+          }
+        },
+        {
+          "characterId": "zibai",
+          "name": {
+            "en": "Zibai",
+            "es": "Zibai"
+          },
+          "iconUrl": "/images/characters/zibai.png",
+          "element": "Geo",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "DEF%"
+            ],
+            "goblet": [
+              "DEF%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "DEF%",
+            "ER%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "6.5",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/zibai-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ocean-hued-clam",
+      "name": {
+        "en": "Ocean-Hued Clam",
+        "es": "Perla Oceánica"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "2.3",
+        "major": 2,
+        "minor": 3
+      },
+      "imageUrl": "/images/artifacts/ocean-hued-clam.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Healing Bonus +15%.",
+          "es": "Bono de Curación +15%."
+        },
+        "fourPiece": {
+          "en": "When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing). At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing. (This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses). Only one Sea-Dyed Foam can be produced every 3.5 seconds. Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing). There can be no more than one Sea-Dyed Foam active at any given time. This effect can still be triggered even when the character who is using this artifact set is not on the field.",
+          "es": "Cuando el personaje que equipa este conjunto de artefactos cura a otro, crea el efecto de “burbuja marina” durante 3 s, el cual registra la cantidad de Vida regenerada (incluida la regenerada por encima del 100%). Tras ello, la burbuja marina estalla e inflige contra los enemigos cercanos un daño basado en el 90% de la cantidad regenerada. Este daño se calcula de manera similar al de las reacciones de Electrocargado, Superconductor, etc., pero no varía en función de la Maestría Elemental, el nivel del personaje o el bono de daño de las reacciones. Solo se puede crear una burbuja marina cada 3.5 s, la cual solo puede registrar un máximo de 30 000 pts. de Vida regenerada, incluyendo la regenerada por encima del 100%. Además, solo puede existir una burbuja marina en tu equipo al mismo tiempo. Cuando el personaje que equipa este conjunto de artefactos está en el equipo pero no en uso, también podrá activar este efecto."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "HP%"
+            ],
+            "usedBy": [
+              "barbara"
+            ],
+            "reasoning": {
+              "en": "Barbara can use HP% on this set's Flower and Plume.",
+              "es": "Bárbara busca(n) Vida% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "HP%",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "sigewinne"
+            ],
+            "reasoning": {
+              "en": "Sigewinne can use HP% + CRIT Rate on this set's Flower and Plume.",
+              "es": "Sigewinne busca(n) Vida% + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "HP%",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "baizhu"
+            ],
+            "reasoning": {
+              "en": "Baizhu can use Energy Recharge + HP% + CRIT Rate on this set's Flower and Plume.",
+              "es": "Baizhu busca(n) Recarga de Energía + Vida% + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "ATK%",
+              "CRIT Rate",
+              "CRIT DMG"
+            ],
+            "usedBy": [
+              "charlotte"
+            ],
+            "reasoning": {
+              "en": "Charlotte can use Energy Recharge + ATK% + CRIT Rate + CRIT DMG on this set's Flower and Plume.",
+              "es": "Charlotte busca(n) Recarga de Energía + ATQ% + Prob. CRIT + Daño CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "HP%",
+              "CRIT Rate",
+              "EM"
+            ],
+            "usedBy": [
+              "chevreuse"
+            ],
+            "reasoning": {
+              "en": "Chevreuse can use Energy Recharge + HP% + CRIT Rate + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Chevreuse busca(n) Recarga de Energía + Vida% + Prob. CRIT + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "EM",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "kaveh"
+            ],
+            "reasoning": {
+              "en": "Kaveh can use Energy Recharge + Elemental Mastery + CRIT Rate on this set's Flower and Plume.",
+              "es": "Kaveh busca(n) Recarga de Energía + Maestría Elemental + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "HP%"
+            ],
+            "usedBy": [
+              "mika"
+            ],
+            "reasoning": {
+              "en": "Mika can use Energy Recharge + CRIT Rate + HP% on this set's Flower and Plume.",
+              "es": "Mika busca(n) Recarga de Energía + Prob. CRIT + Vida% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "HP%",
+              "ATK%"
+            ],
+            "usedBy": [
+              "sangonomiya-kokomi"
+            ],
+            "reasoning": {
+              "en": "Sangonomiya Kokomi can use Energy Recharge + HP% + ATK% on this set's Flower and Plume.",
+              "es": "Sangonomiya Kokomi busca(n) Recarga de Energía + Vida% + ATQ% en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "sigewinne",
+                  "baizhu",
+                  "chevreuse",
+                  "mika"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "baizhu",
+                  "chevreuse",
+                  "mika",
+                  "sangonomiya-kokomi"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "chevreuse"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "sangonomiya-kokomi"
+                ]
+              }
+            ],
+            "usedBy": [
+              "barbara",
+              "sigewinne",
+              "baizhu",
+              "chevreuse",
+              "mika",
+              "sangonomiya-kokomi"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "charlotte"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "charlotte"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "charlotte"
+                ]
+              }
+            ],
+            "usedBy": [
+              "charlotte"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "baizhu",
+                  "charlotte",
+                  "chevreuse",
+                  "kaveh",
+                  "mika"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "baizhu",
+                  "chevreuse",
+                  "mika",
+                  "sangonomiya-kokomi"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "charlotte",
+                  "sangonomiya-kokomi"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "chevreuse",
+                  "kaveh"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "charlotte"
+                ]
+              }
+            ],
+            "usedBy": [
+              "baizhu",
+              "charlotte",
+              "chevreuse",
+              "kaveh",
+              "mika",
+              "sangonomiya-kokomi"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kaveh"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kaveh"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kaveh"
+            ]
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "sigewinne",
+                  "baizhu",
+                  "chevreuse",
+                  "mika"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "baizhu",
+                  "chevreuse",
+                  "mika",
+                  "sangonomiya-kokomi"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "chevreuse"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "sangonomiya-kokomi"
+                ]
+              }
+            ],
+            "usedBy": [
+              "barbara",
+              "sigewinne",
+              "baizhu",
+              "chevreuse",
+              "mika",
+              "sangonomiya-kokomi"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "charlotte"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "charlotte"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "charlotte"
+                ]
+              }
+            ],
+            "usedBy": [
+              "charlotte"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kaveh"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kaveh"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kaveh"
+            ]
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "sigewinne",
+                  "baizhu",
+                  "chevreuse"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "baizhu",
+                  "chevreuse",
+                  "sangonomiya-kokomi"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "chevreuse"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "sangonomiya-kokomi"
+                ]
+              }
+            ],
+            "usedBy": [
+              "sigewinne",
+              "baizhu",
+              "chevreuse",
+              "sangonomiya-kokomi"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "charlotte"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "charlotte"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "charlotte"
+                ]
+              }
+            ],
+            "usedBy": [
+              "charlotte"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kaveh"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kaveh"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kaveh"
+            ]
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "charlotte",
+                  "kaveh",
+                  "mika"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "sigewinne",
+                  "mika"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "charlotte"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "charlotte"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "kaveh"
+                ]
+              }
+            ],
+            "usedBy": [
+              "sigewinne",
+              "charlotte",
+              "kaveh",
+              "mika"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "HP%",
+                "characters": [
+                  "barbara",
+                  "baizhu",
+                  "chevreuse",
+                  "mika",
+                  "sangonomiya-kokomi"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "baizhu",
+                  "charlotte",
+                  "chevreuse",
+                  "mika",
+                  "sangonomiya-kokomi"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "baizhu",
+                  "charlotte",
+                  "chevreuse",
+                  "mika"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "charlotte",
+                  "sangonomiya-kokomi"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "charlotte"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "chevreuse"
+                ]
+              }
+            ],
+            "usedBy": [
+              "barbara",
+              "baizhu",
+              "charlotte",
+              "chevreuse",
+              "mika",
+              "sangonomiya-kokomi"
+            ]
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "barbara",
+          "name": {
+            "en": "Barbara",
+            "es": "Bárbara"
+          },
+          "iconUrl": "/images/characters/barbara.png",
+          "element": "Hydro",
+          "role": {
+            "en": "Heal Support",
+            "es": "Heal Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "HP%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "Healing Bonus"
+            ]
+          },
+          "substatsPriority": [
+            "HP%",
+            "HP"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.0",
+            "kqmVersion": "3.2",
+            "resolutionReason": "Genshin-Builds newer (7.0 > 3.2)",
+            "genshinBuildsUpdated": "7.0",
+            "kqmUrl": "https://keqingmains.com/q/barbara-quickguide/"
+          }
+        },
+        {
+          "characterId": "sigewinne",
+          "name": {
+            "en": "Sigewinne",
+            "es": "Sigewinne"
+          },
+          "iconUrl": "/images/characters/sigewinne.png",
+          "element": "Hydro",
+          "role": {
+            "en": "Heal Support",
+            "es": "Heal Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "HP%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "HP%",
+            "HP",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.8",
+            "kqmVersion": "4.7",
+            "resolutionReason": "Genshin-Builds newer (5.8 > 4.7)",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/sigewinne-quickguide/"
+          }
+        },
+        {
+          "characterId": "baizhu",
+          "name": {
+            "en": "Baizhu",
+            "es": "Baizhu"
+          },
+          "iconUrl": "/images/characters/baizhu.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Heal Support",
+            "es": "Heal Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "HP%",
+              "ER%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%",
+              "Healing Bonus"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "HP%",
+            "HP",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "4.2",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "4.2",
+            "kqmUrl": "https://keqingmains.com/q/baizhu-quickguide/"
+          }
+        },
+        {
+          "characterId": "charlotte",
+          "name": {
+            "en": "Charlotte",
+            "es": "Charlotte"
+          },
+          "iconUrl": "/images/characters/charlotte.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Heal Support",
+            "es": "Heal Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%"
+            ],
+            "goblet": [
+              "ATK%"
+            ],
+            "circlet": [
+              "Healing Bonus",
+              "ATK%",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "ATK%",
+            "CRIT Rate",
+            "ATK",
+            "CRIT DMG"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "4.7",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/charlotte-quickguide/"
+          }
+        },
+        {
+          "characterId": "chevreuse",
+          "name": {
+            "en": "Chevreuse",
+            "es": "Chevreuse"
+          },
+          "iconUrl": "/images/characters/chevreuse.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Buff Support",
+            "es": "Soporte de buffs"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "HP%",
+              "ER%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "HP%",
+              "Healing Bonus"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "HP%",
+            "CRIT Rate",
+            "HP",
+            "EM"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "5.6",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 5.6)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/chevreuse-quickguide/"
+          }
+        },
+        {
+          "characterId": "kaveh",
+          "name": {
+            "en": "Kaveh",
+            "es": "Kaveh"
+          },
+          "iconUrl": "/images/characters/kaveh.png",
+          "element": "Dendro",
+          "role": {
+            "en": "Bloom / Burgeon Driver",
+            "es": "Florecimiento / Crepitar Driver"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "EM",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "EM",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.8",
+            "kqmVersion": "5.7",
+            "resolutionReason": "Genshin-Builds newer (5.8 > 5.7)",
+            "genshinBuildsUpdated": "5.8",
+            "kqmUrl": "https://keqingmains.com/q/kaveh-quickguide/"
+          }
+        },
+        {
+          "characterId": "mika",
+          "name": {
+            "en": "Mika",
+            "es": "Mika"
+          },
+          "iconUrl": "/images/characters/mika.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Heal & Buff Support",
+            "es": "Heal & Buff Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "HP%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "Healing Bonus",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "HP%",
+            "HP"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "4.6",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.6)",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/mika-quickguide/"
+          }
+        },
+        {
+          "characterId": "sangonomiya-kokomi",
+          "name": {
+            "en": "Sangonomiya Kokomi",
+            "es": "Sangonomiya Kokomi"
+          },
+          "iconUrl": "/images/characters/sangonomiya-kokomi.png",
+          "element": "Hydro",
+          "role": {
+            "en": "Heal Support",
+            "es": "Heal Support"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "HP%"
+            ],
+            "goblet": [
+              "HP%"
+            ],
+            "circlet": [
+              "Healing Bonus",
+              "HP%"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "HP%",
+            "ATK%",
+            "HP"
+          ],
+          "critTie": false,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.0",
+            "kqmVersion": "6.4",
+            "resolutionReason": "Genshin-Builds newer (7.0 > 6.4)",
+            "genshinBuildsUpdated": "7.0",
+            "kqmUrl": "https://keqingmains.com/q/kokomi-quickguide/"
           }
         }
       ]

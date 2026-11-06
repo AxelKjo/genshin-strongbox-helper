@@ -272,7 +272,29 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Eco del Sacrificio',
       'Echoes of an Offering',
       'Echoes',
-      'Eco',
+    ],
+  },
+  {
+    id: 'husk-of-opulent-dreams',
+    en: 'Husk of Opulent Dreams',
+    es: 'Cáscara de Sueños Opulentos',
+    aliases: [
+      'Cáscara de Sueños Opulentos',
+      'Cascara de Suenos Opulentos',
+      'Husk of Opulent Dreams',
+      'Husk',
+    ],
+  },
+  {
+    id: 'ocean-hued-clam',
+    en: 'Ocean-Hued Clam',
+    es: 'Perla Oceánica',
+    aliases: [
+      'Perla Oceánica',
+      'Perla Oceanica',
+      'Ocean-Hued Clam',
+      'Clam',
+      'Ocean Hued Clam',
     ],
   },
 ]

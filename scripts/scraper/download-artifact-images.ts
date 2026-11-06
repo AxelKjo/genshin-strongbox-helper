@@ -80,7 +80,7 @@ async function downloadImage(target: TargetSetConfig, catalog: ReliquaryItem[], 
     cache: !force,
   })
   const size = readPngSize(data)
-  if (size.width !== size.height || (size.width !== 256 && size.width !== 512)) {
+  if (size.width !== size.height || (size.width !== 180 && size.width !== 256 && size.width !== 512)) {
     throw new Error(`Unexpected image size for ${target.en}: ${size.width}x${size.height}`)
   }
 

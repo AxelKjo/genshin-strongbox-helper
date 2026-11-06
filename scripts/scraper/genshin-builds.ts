@@ -164,7 +164,6 @@ function parseBuildPanels($: cheerio.CheerioAPI, targetSets: TargetSetConfig[]):
         const visibleLabel = textOf($, labelEl)
         const popoverHtml = labelEl.find('[data-info-popover-html]').attr('data-info-popover-html') ?? ''
         const popover = cheerio.load(popoverHtml)
-        const popoverText = popover.text()
         const popoverName = textOf($, popover('.info-popover-name').first())
         const label =
           textOf($, labelEl.find('.recommendation-label-emphasized').first()) ||
@@ -174,7 +173,7 @@ function parseBuildPanels($: cheerio.CheerioAPI, targetSets: TargetSetConfig[]):
           textOf($, labelEl.find('.artifact-piece-suffix').first()) ||
           textOf($, labelEl.nextAll('.artifact-piece-suffix').first())
         const pieceMatch = suffix.match(/\((\d)\)/)
-        const haystack = `${label} ${popoverText}`.toLowerCase()
+        const haystack = `${label} ${popoverName} ${visibleLabel}`.toLowerCase()
         const target = targetSets.find((set) =>
           [set.en, set.es, ...set.aliases].some((alias) => haystack.includes(alias.toLowerCase())),
         )
