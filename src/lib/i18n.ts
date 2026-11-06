@@ -22,6 +22,10 @@ export const UI = {
   fourPiece: { en: '4-piece', es: '4 piezas' },
   description: { en: 'Description', es: 'Descripción' },
   keepMatrix: { en: 'Keep vs. Discard matrix', es: 'Matriz Conservar vs. Descartar' },
+  excludeAlternative: {
+    en: 'Exclude alternative builds',
+    es: 'Excluir builds alternativas',
+  },
   reverseOrder: {
     en: 'Reverse order (Show discards on bottom)',
     es: 'Invertir orden (Mostrar descartes abajo)',

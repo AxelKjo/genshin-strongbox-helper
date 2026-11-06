@@ -2,6 +2,8 @@ import { useEffect, useMemo, useState } from 'react'
 import type { ArtifactSetTriage, TriageDataset } from './types/artifacts'
 import type { Lang } from './lib/i18n'
 import { FOOTER_ATTRIBUTION, t } from './lib/i18n'
+import { filterSetAlternativeBuilds } from './lib/triage'
+import { ExcludeAlternativeToggle } from './components/ExcludeAlternativeToggle'
 import { LanguageToggle } from './components/LanguageToggle'
 import { ReverseOrderToggle } from './components/ReverseOrderToggle'
 import { SetDetail } from './components/SetDetail'
@@ -52,6 +54,7 @@ export default function App() {
   const [error, setError] = useState(false)
   const [query, setQuery] = useState('')
   const [selectedId, setSelectedId] = useState<string | null>(null)
+  const [excludeAlternative, setExcludeAlternative] = useState(false)
   const [reverseOrder, setReverseOrder] = useState(false)
   const [sidebarExpanded, setSidebarExpanded] = useState(
     () => window.matchMedia('(min-width: 1536px)').matches,
@@ -87,14 +90,19 @@ export default function App() {
     }
   }, [])
 
-  const filteredSets = useMemo(() => {
+  const processedSets = useMemo(() => {
     if (!dataset) return []
-    return dataset.sets.filter((set) => matchesQuery(set, query))
-  }, [dataset, query])
+    if (!excludeAlternative) return dataset.sets
+    return dataset.sets.map(filterSetAlternativeBuilds)
+  }, [dataset, excludeAlternative])
+
+  const filteredSets = useMemo(() => {
+    return processedSets.filter((set) => matchesQuery(set, query))
+  }, [processedSets, query])
 
   const effectiveSelectedId =
     selectedId && filteredSets.some((set) => set.id === selectedId) ? selectedId : filteredSets[0]?.id ?? null
-  const selectedSet = dataset?.sets.find((set) => set.id === effectiveSelectedId) ?? null
+  const selectedSet = processedSets.find((set) => set.id === effectiveSelectedId) ?? null
 
   return (
     <div className="min-h-screen overflow-x-clip bg-abyss text-slate-100">
@@ -111,6 +119,11 @@ export default function App() {
             </div>
           </div>
           <div className="flex w-full flex-wrap items-center justify-end gap-2 sm:w-auto sm:gap-3">
+            <ExcludeAlternativeToggle
+              lang={lang}
+              checked={excludeAlternative}
+              onChange={setExcludeAlternative}
+            />
             <ReverseOrderToggle lang={lang} checked={reverseOrder} onChange={setReverseOrder} />
             <LanguageToggle lang={lang} onChange={setLang} />
           </div>
