@@ -341,6 +341,28 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Tenacity',
     ],
   },
+  {
+    id: 'blizzard-strayer',
+    en: 'Blizzard Strayer',
+    es: 'Nómada del Invierno',
+    aliases: [
+      'Nómada del Invierno',
+      'Nomada del Invierno',
+      'Blizzard Strayer',
+      'Blizzard',
+    ],
+  },
+  {
+    id: 'heart-of-depth',
+    en: 'Heart of Depth',
+    es: 'Corazón de las Profundidades',
+    aliases: [
+      'Corazón de las Profundidades',
+      'Corazon de las Profundidades',
+      'Heart of Depth',
+      'Depth',
+    ],
+  },
 ]
 
 export function getTargetSets(argv: string[] = process.argv.slice(2)): TargetSetConfig[] {

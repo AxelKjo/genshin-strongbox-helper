@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T20:56:42.660Z",
+  "generatedAt": "2026-11-06T21:13:18.680Z",
   "version": "MVP-9-sets",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
@@ -27945,6 +27945,1849 @@
             "resolutionReason": "Genshin-Builds newer (4.8 > 4.0)",
             "genshinBuildsUpdated": "4.8",
             "kqmUrl": "https://keqingmains.com/q/yaoyao-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "blizzard-strayer",
+      "name": {
+        "en": "Blizzard Strayer",
+        "es": "Nómada del Invierno"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "1.2",
+        "major": 1,
+        "minor": 2
+      },
+      "imageUrl": "/images/artifacts/blizzard-strayer.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Cryo DMG Bonus +15%",
+          "es": "Bono de Daño Cryo +15%."
+        },
+        "fourPiece": {
+          "en": "When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%.",
+          "es": "Aumenta en un 20% la Prob. CRIT contra los enemigos afectados por Cryo. Si el enemigo está Congelado, la Prob. CRIT aumentará en un 20% adicional."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM",
+              "ATK%"
+            ],
+            "usedBy": [
+              "aloy",
+              "rosaria"
+            ],
+            "reasoning": {
+              "en": "Aloy, Rosaria can use Energy Recharge + CRIT Rate + CRIT DMG + Elemental Mastery + ATK% on this set's Flower and Plume.",
+              "es": "Aloy, Rosaria busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + Maestría Elemental + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "freminet",
+              "kaeya"
+            ],
+            "reasoning": {
+              "en": "Freminet, Kaeya can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Fréminet, Kaeya busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "ER%"
+            ],
+            "usedBy": [
+              "ganyu",
+              "lohen"
+            ],
+            "reasoning": {
+              "en": "Ganyu, Lohen can use CRIT Rate + CRIT DMG + ATK% + Energy Recharge on this set's Flower and Plume.",
+              "es": "Ganyu, Lohen busca(n) Prob. CRIT + Daño CRIT + ATQ% + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT DMG",
+              "ATK%",
+              "ER%",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "kamisato-ayaka"
+            ],
+            "reasoning": {
+              "en": "Kamisato Ayaka can use CRIT DMG + ATK% + Energy Recharge + CRIT Rate on this set's Flower and Plume.",
+              "es": "Kamisato Ayaka busca(n) Daño CRIT + ATQ% + Recarga de Energía + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%"
+            ],
+            "usedBy": [
+              "escoffier"
+            ],
+            "reasoning": {
+              "en": "Escoffier can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% on this set's Flower and Plume.",
+              "es": "Escoffier busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "HP%",
+              "ATK%"
+            ],
+            "usedBy": [
+              "layla"
+            ],
+            "reasoning": {
+              "en": "Layla can use Energy Recharge + CRIT Rate + CRIT DMG + HP% + ATK% on this set's Flower and Plume.",
+              "es": "Laila busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + Vida% + ATQ% en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "layla"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "layla"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "layla"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "layla"
+                ]
+              }
+            ],
+            "usedBy": [
+              "layla"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "aloy",
+                  "freminet",
+                  "ganyu",
+                  "kaeya",
+                  "kamisato-ayaka",
+                  "rosaria",
+                  "escoffier",
+                  "lohen"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "aloy",
+                  "freminet",
+                  "ganyu",
+                  "kaeya",
+                  "kamisato-ayaka",
+                  "rosaria",
+                  "escoffier",
+                  "lohen"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "aloy",
+                  "freminet",
+                  "ganyu",
+                  "kaeya",
+                  "kamisato-ayaka",
+                  "rosaria",
+                  "escoffier",
+                  "lohen"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "aloy",
+                  "freminet",
+                  "kaeya",
+                  "rosaria"
+                ]
+              }
+            ],
+            "usedBy": [
+              "aloy",
+              "freminet",
+              "ganyu",
+              "kaeya",
+              "kamisato-ayaka",
+              "rosaria",
+              "escoffier",
+              "lohen"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "aloy",
+                  "kaeya",
+                  "rosaria",
+                  "escoffier",
+                  "layla"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "aloy",
+                  "kaeya",
+                  "rosaria",
+                  "escoffier",
+                  "layla"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "aloy",
+                  "kaeya",
+                  "rosaria",
+                  "escoffier",
+                  "layla"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "aloy",
+                  "kaeya",
+                  "rosaria"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "layla"
+                ]
+              }
+            ],
+            "usedBy": [
+              "aloy",
+              "kaeya",
+              "rosaria",
+              "escoffier",
+              "layla"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "aloy",
+                  "ganyu",
+                  "kaeya",
+                  "rosaria"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "aloy",
+                  "ganyu",
+                  "kaeya",
+                  "rosaria"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "aloy",
+                  "ganyu",
+                  "kaeya",
+                  "rosaria"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "aloy",
+                  "ganyu",
+                  "kaeya",
+                  "rosaria"
+                ]
+              }
+            ],
+            "usedBy": [
+              "aloy",
+              "ganyu",
+              "kaeya",
+              "rosaria"
+            ]
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "layla"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "layla"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "layla"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "layla"
+                ]
+              }
+            ],
+            "usedBy": [
+              "layla"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "escoffier"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "escoffier"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "escoffier"
+                ]
+              }
+            ],
+            "usedBy": [
+              "escoffier"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "aloy",
+                  "freminet",
+                  "ganyu",
+                  "kaeya",
+                  "kamisato-ayaka",
+                  "rosaria",
+                  "escoffier",
+                  "layla",
+                  "lohen"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "aloy",
+                  "freminet",
+                  "ganyu",
+                  "kaeya",
+                  "kamisato-ayaka",
+                  "rosaria",
+                  "escoffier",
+                  "layla",
+                  "lohen"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "aloy",
+                  "freminet",
+                  "ganyu",
+                  "kaeya",
+                  "kamisato-ayaka",
+                  "rosaria",
+                  "escoffier",
+                  "layla",
+                  "lohen"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "aloy",
+                  "freminet",
+                  "ganyu",
+                  "kaeya",
+                  "kamisato-ayaka",
+                  "rosaria",
+                  "escoffier",
+                  "layla",
+                  "lohen"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "aloy",
+                  "freminet",
+                  "kaeya",
+                  "rosaria"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "layla"
+                ]
+              }
+            ],
+            "usedBy": [
+              "aloy",
+              "freminet",
+              "ganyu",
+              "kaeya",
+              "kamisato-ayaka",
+              "rosaria",
+              "escoffier",
+              "layla",
+              "lohen"
+            ]
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "layla"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "layla"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "layla"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "layla"
+                ]
+              }
+            ],
+            "usedBy": [
+              "layla"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "kamisato-ayaka"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "kamisato-ayaka"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kamisato-ayaka"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kamisato-ayaka"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "aloy",
+                  "freminet",
+                  "ganyu",
+                  "kaeya",
+                  "rosaria",
+                  "escoffier",
+                  "layla",
+                  "lohen"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "aloy",
+                  "freminet",
+                  "ganyu",
+                  "kaeya",
+                  "rosaria",
+                  "escoffier",
+                  "layla",
+                  "lohen"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "aloy",
+                  "freminet",
+                  "ganyu",
+                  "kaeya",
+                  "rosaria",
+                  "escoffier",
+                  "layla",
+                  "lohen"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "aloy",
+                  "freminet",
+                  "kaeya",
+                  "rosaria"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "layla"
+                ]
+              }
+            ],
+            "usedBy": [
+              "aloy",
+              "freminet",
+              "ganyu",
+              "kaeya",
+              "rosaria",
+              "escoffier",
+              "layla",
+              "lohen"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "aloy",
+                  "freminet",
+                  "ganyu",
+                  "kaeya",
+                  "kamisato-ayaka",
+                  "rosaria",
+                  "escoffier",
+                  "layla",
+                  "lohen"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "aloy",
+                  "freminet",
+                  "ganyu",
+                  "kaeya",
+                  "kamisato-ayaka",
+                  "rosaria",
+                  "escoffier",
+                  "layla",
+                  "lohen"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "aloy",
+                  "freminet",
+                  "ganyu",
+                  "kaeya",
+                  "kamisato-ayaka",
+                  "rosaria",
+                  "escoffier",
+                  "layla",
+                  "lohen"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "aloy",
+                  "freminet",
+                  "kaeya",
+                  "rosaria"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "layla"
+                ]
+              }
+            ],
+            "usedBy": [
+              "aloy",
+              "freminet",
+              "ganyu",
+              "kaeya",
+              "kamisato-ayaka",
+              "rosaria",
+              "escoffier",
+              "layla",
+              "lohen"
+            ]
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "aloy",
+          "name": {
+            "en": "Aloy",
+            "es": "Aloy"
+          },
+          "iconUrl": "/images/characters/aloy.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Burst Support",
+            "es": "Habilidad definitiva Support"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM",
+              "ER%",
+              "ATK%"
+            ],
+            "goblet": [
+              "Cryo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "KQM",
+            "gbVersion": "3.8",
+            "kqmVersion": "4.5",
+            "resolutionReason": "KQM newer (4.5 > 3.8) and recommends set",
+            "genshinBuildsUpdated": "3.8",
+            "kqmUrl": "https://keqingmains.com/q/aloy-quickguide/"
+          }
+        },
+        {
+          "characterId": "freminet",
+          "name": {
+            "en": "Freminet",
+            "es": "Fréminet"
+          },
+          "iconUrl": "/images/characters/freminet.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Cryo DPS",
+            "es": "DPS Cryo"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Cryo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "6.2",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.2)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/freminet-quickguide/"
+          }
+        },
+        {
+          "characterId": "ganyu",
+          "name": {
+            "en": "Ganyu",
+            "es": "Ganyu"
+          },
+          "iconUrl": "/images/characters/ganyu.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Freeze DPS",
+            "es": "DPS de Congelación"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM",
+              "ATK%"
+            ],
+            "goblet": [
+              "Cryo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "KQM",
+            "gbVersion": "6.1",
+            "kqmVersion": "6.3",
+            "resolutionReason": "KQM newer (6.3 > 6.1) and recommends set",
+            "genshinBuildsUpdated": "6.1 / Luna II",
+            "kqmUrl": "https://keqingmains.com/q/ganyu-quickguide/"
+          }
+        },
+        {
+          "characterId": "kaeya",
+          "name": {
+            "en": "Kaeya",
+            "es": "Kaeya"
+          },
+          "iconUrl": "/images/characters/kaeya.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Freeze / Mono Cryo",
+            "es": "Congelación / Mono Cryo"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Cryo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "KQM",
+            "gbVersion": "5.6",
+            "kqmVersion": "6.1",
+            "resolutionReason": "KQM newer (6.1 > 5.6) and recommends set",
+            "genshinBuildsUpdated": "5.6",
+            "kqmUrl": "https://keqingmains.com/q/kaeya-quickguide/"
+          }
+        },
+        {
+          "characterId": "kamisato-ayaka",
+          "name": {
+            "en": "Kamisato Ayaka",
+            "es": "Kamisato Ayaka"
+          },
+          "iconUrl": "/images/characters/kamisato-ayaka.png",
+          "element": "Cryo",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Cryo DMG%"
+            ],
+            "circlet": [
+              "CRIT DMG",
+              "ATK%"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT DMG",
+            "ATK%",
+            "ER%",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "4.1",
+            "kqmVersion": "5.8",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "4.1",
+            "kqmUrl": "https://keqingmains.com/q/ayaka-quickguide/"
+          }
+        },
+        {
+          "characterId": "rosaria",
+          "name": {
+            "en": "Rosaria",
+            "es": "Rosaria"
+          },
+          "iconUrl": "/images/characters/rosaria.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Freeze",
+            "es": "Congelación"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM",
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "Cryo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "KQM",
+            "gbVersion": "5.5",
+            "kqmVersion": "5.8",
+            "resolutionReason": "KQM newer (5.8 > 5.5) and recommends set",
+            "genshinBuildsUpdated": "5.5",
+            "kqmUrl": "https://keqingmains.com/q/rosaria-quickguide/"
+          }
+        },
+        {
+          "characterId": "escoffier",
+          "name": {
+            "en": "Escoffier",
+            "es": "Escoffier"
+          },
+          "iconUrl": "/images/characters/escoffier.png",
+          "element": "Cryo",
+          "role": {
+            "en": "High Energy Requirement (Off-Field DPS, 1-2 Cryo Team Members)",
+            "es": "High Energy Requirement (Off-Field DPS, 1-2 Cryo Team Members)"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "Cryo DMG%",
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/escoffier-quickguide/"
+          }
+        },
+        {
+          "characterId": "layla",
+          "name": {
+            "en": "Layla",
+            "es": "Laila"
+          },
+          "iconUrl": "/images/characters/layla.png",
+          "element": "Cryo",
+          "role": {
+            "en": "Shield Support and Damage",
+            "es": "Shield Support and Damage"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "HP%",
+              "ER%"
+            ],
+            "goblet": [
+              "Cryo DMG%",
+              "HP%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "HP%"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "HP%",
+            "ATK%",
+            "HP"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "5.0",
+            "kqmVersion": "4.6",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "5.0",
+            "kqmUrl": "https://keqingmains.com/q/layla-quickguide/"
+          }
+        },
+        {
+          "characterId": "lohen",
+          "name": {
+            "en": "Lohen",
+            "es": "Lohen"
+          },
+          "iconUrl": "/images/characters/lohen.png",
+          "element": "Cryo",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Cryo DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "ATK",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "7.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/lohen-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "heart-of-depth",
+      "name": {
+        "en": "Heart of Depth",
+        "es": "Corazón de las Profundidades"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "1.2",
+        "major": 1,
+        "minor": 2
+      },
+      "imageUrl": "/images/artifacts/heart-of-depth.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "Hydro DMG Bonus +15%",
+          "es": "Bono de Daño Hydro +15%."
+        },
+        "fourPiece": {
+          "en": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s.",
+          "es": "Tras usar la Habilidad Elemental, aumenta el daño de Ataque Normal y Ataque Cargado en un 30% durante 15 s."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "HP%"
+            ],
+            "usedBy": [
+              "kamisato-ayato"
+            ],
+            "reasoning": {
+              "en": "Kamisato Ayato can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + HP% on this set's Flower and Plume.",
+              "es": "Kamisato Ayato busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Vida% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM",
+              "HP%"
+            ],
+            "usedBy": [
+              "mualani"
+            ],
+            "reasoning": {
+              "en": "Mualani can use CRIT Rate + CRIT DMG + Elemental Mastery + HP% on this set's Flower and Plume.",
+              "es": "Mualani busca(n) Prob. CRIT + Daño CRIT + Maestría Elemental + Vida% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "HP%"
+            ],
+            "usedBy": [
+              "neuvillette"
+            ],
+            "reasoning": {
+              "en": "Neuvillette can use Energy Recharge + CRIT Rate + CRIT DMG + HP% on this set's Flower and Plume.",
+              "es": "Neuvillette busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + Vida% en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "mualani",
+                  "neuvillette"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "mualani",
+                  "neuvillette"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "mualani"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "neuvillette"
+                ]
+              }
+            ],
+            "usedBy": [
+              "mualani",
+              "neuvillette"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "kamisato-ayato"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kamisato-ayato"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "kamisato-ayato"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "kamisato-ayato"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kamisato-ayato"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kamisato-ayato"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "kamisato-ayato"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "kamisato-ayato"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "kamisato-ayato"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kamisato-ayato"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "mualani"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "mualani"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "mualani"
+                ]
+              }
+            ],
+            "usedBy": [
+              "mualani"
+            ]
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "neuvillette"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "neuvillette"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "neuvillette"
+                ]
+              }
+            ],
+            "usedBy": [
+              "neuvillette"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kamisato-ayato",
+                  "mualani",
+                  "neuvillette"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "kamisato-ayato",
+                  "mualani",
+                  "neuvillette"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "kamisato-ayato",
+                  "mualani",
+                  "neuvillette"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "kamisato-ayato",
+                  "neuvillette"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "kamisato-ayato"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "mualani"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kamisato-ayato",
+              "mualani",
+              "neuvillette"
+            ]
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "mualani",
+                  "neuvillette"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "mualani",
+                  "neuvillette"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "mualani"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "neuvillette"
+                ]
+              }
+            ],
+            "usedBy": [
+              "mualani",
+              "neuvillette"
+            ]
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "mualani"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "mualani"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "mualani"
+                ]
+              }
+            ],
+            "usedBy": [
+              "mualani"
+            ]
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "kamisato-ayato",
+                  "mualani",
+                  "neuvillette"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "kamisato-ayato",
+                  "mualani",
+                  "neuvillette"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "kamisato-ayato",
+                  "neuvillette"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "kamisato-ayato"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "mualani"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kamisato-ayato",
+              "mualani",
+              "neuvillette"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "kamisato-ayato",
+                  "mualani",
+                  "neuvillette"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "kamisato-ayato",
+                  "mualani",
+                  "neuvillette"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "kamisato-ayato",
+                  "neuvillette"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "kamisato-ayato"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "mualani"
+                ]
+              }
+            ],
+            "usedBy": [
+              "kamisato-ayato",
+              "mualani",
+              "neuvillette"
+            ]
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "kamisato-ayato",
+          "name": {
+            "en": "Kamisato Ayato",
+            "es": "Kamisato Ayato"
+          },
+          "iconUrl": "/images/characters/kamisato-ayato.png",
+          "element": "Hydro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "Hydro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "HP%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "KQM",
+            "gbVersion": "4.4",
+            "kqmVersion": "6.0",
+            "resolutionReason": "KQM newer (6.0 > 4.4) and recommends set",
+            "genshinBuildsUpdated": "4.4",
+            "kqmUrl": "https://keqingmains.com/q/ayato-quickguide/"
+          }
+        },
+        {
+          "characterId": "mualani",
+          "name": {
+            "en": "Mualani",
+            "es": "Mualani"
+          },
+          "iconUrl": "/images/characters/mualani.png",
+          "element": "Hydro",
+          "role": {
+            "en": "Vaporize DPS",
+            "es": "DPS de Vaporización"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "HP%",
+              "EM"
+            ],
+            "goblet": [
+              "Hydro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "HP%",
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "HP%",
+            "HP"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.2",
+            "kqmVersion": "5.8",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.2 / Luna III",
+            "kqmUrl": "https://keqingmains.com/q/mualani-quickguide/"
+          }
+        },
+        {
+          "characterId": "neuvillette",
+          "name": {
+            "en": "Neuvillette",
+            "es": "Neuvillette"
+          },
+          "iconUrl": "/images/characters/neuvillette.png",
+          "element": "Hydro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "HP%"
+            ],
+            "goblet": [
+              "Hydro DMG%",
+              "HP%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "HP%"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "HP%",
+            "HP"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.2",
+            "kqmVersion": "6.3",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.2 / Luna III",
+            "kqmUrl": "https://keqingmains.com/q/neuvillette-quickguide/"
           }
         }
       ]
