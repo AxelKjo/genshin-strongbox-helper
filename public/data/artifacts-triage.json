@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T20:06:44.793Z",
+  "generatedAt": "2026-11-06T20:16:38.797Z",
   "version": "MVP-9-sets",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
@@ -20405,6 +20405,938 @@
             "resolutionReason": "Genshin-Builds newer (6.2 > 4.5)",
             "genshinBuildsUpdated": "6.2 / Luna III",
             "kqmUrl": "https://keqingmains.com/q/yanfei-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vermillion-hereafter",
+      "name": {
+        "en": "Vermillion Hereafter",
+        "es": "Deceso del Cinabrio"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "2.6",
+        "major": 2,
+        "minor": 6
+      },
+      "imageUrl": "/images/artifacts/vermillion-hereafter.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "ATK +18%.",
+          "es": "ATQ +18%."
+        },
+        "fourPiece": {
+          "en": "After using an Elemental Burst, this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This further increase can occur this way a maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled.",
+          "es": "Al usar la Habilidad Definitiva, obtienes el efecto de “destello emergente” durante 16 s, el cual aumenta el ATQ en un 8% y, además, hace que cada vez que el personaje pierda Vida, su ATQ aumente en un 10% adicional. Este efecto solo puede aumentar el ATQ un máximo de 4 veces de esta manera y activarse una vez cada 0.8 s. Los efectos de destello emergente se disiparán si el personaje es retirado de combate. Si el personaje vuelve a usar la Habilidad Definitiva mientras dicho efecto está activo, el destello emergente original también se disipará."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%"
+            ],
+            "usedBy": [
+              "xiao"
+            ],
+            "reasoning": {
+              "en": "Xiao can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% on this set's Flower and Plume.",
+              "es": "Xiao busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "xiao"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "xiao"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "xiao"
+                ]
+              }
+            ],
+            "usedBy": [
+              "xiao"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "xiao"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "xiao"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "xiao"
+                ]
+              }
+            ],
+            "usedBy": [
+              "xiao"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "xiao"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "xiao"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "xiao"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "xiao"
+                ]
+              }
+            ],
+            "usedBy": [
+              "xiao"
+            ]
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "xiao"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "xiao"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "xiao"
+                ]
+              }
+            ],
+            "usedBy": [
+              "xiao"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "xiao"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "xiao"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "xiao"
+                ]
+              }
+            ],
+            "usedBy": [
+              "xiao"
+            ]
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "xiao",
+          "name": {
+            "en": "Xiao",
+            "es": "Xiao"
+          },
+          "iconUrl": "/images/characters/xiao.png",
+          "element": "Anemo",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ATK%"
+            ],
+            "goblet": [
+              "Anemo DMG%",
+              "ATK%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "4.4",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.4)",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/xiao-quickguide/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "echoes-of-an-offering",
+      "name": {
+        "en": "Echoes of an Offering",
+        "es": "Eco del Sacrificio"
+      },
+      "rarity": 5,
+      "releaseVersion": {
+        "raw": "2.6",
+        "major": 2,
+        "minor": 6
+      },
+      "imageUrl": "/images/artifacts/echoes-of-an-offering.png",
+      "bonuses": {
+        "twoPiece": {
+          "en": "ATK +18%.",
+          "es": "ATQ +18%."
+        },
+        "fourPiece": {
+          "en": "When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK. This effect will be dispelled 0.05s after a Normal Attack deals DMG. If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%. This trigger can occur once every 0.2s.",
+          "es": "Al golpear a un enemigo con un Ataque Normal, hay una probabilidad del 36% de activar el efecto de “ritual del valle”, el cual aumenta el daño de Ataque Normal en una cantidad equivalente al 70% del ATQ. Este efecto se anula 0.05 s después de infligir daño con un Ataque Normal. Si dicho ataque no activa ritual del valle, la probabilidad de activarlo con el siguiente golpe de Ataque Normal aumenta en un 20%. Esta activación solo puede ocurrir una vez cada 0.2 s."
+        }
+      },
+      "flowerAndPlumeRules": {
+        "keepCombinations": [
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM",
+              "ER%"
+            ],
+            "usedBy": [
+              "clorinde",
+              "yoimiya"
+            ],
+            "reasoning": {
+              "en": "Clorinde, Yoimiya can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Clorinde, Yoimiya busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%"
+            ],
+            "usedBy": [
+              "razor"
+            ],
+            "reasoning": {
+              "en": "Razor can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% on this set's Flower and Plume.",
+              "es": "Razor busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% en la Flor y la Pluma de este set."
+            }
+          }
+        ]
+      },
+      "slotRules": {
+        "sands": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "clorinde",
+                  "razor",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "clorinde",
+                  "razor",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde",
+                  "razor",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "clorinde",
+                  "yoimiya"
+                ]
+              }
+            ],
+            "usedBy": [
+              "clorinde",
+              "razor",
+              "yoimiya"
+            ]
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ER%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "razor"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "razor"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "razor"
+                ]
+              }
+            ],
+            "usedBy": [
+              "razor"
+            ]
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "clorinde",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "clorinde",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "clorinde",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde",
+                  "yoimiya"
+                ]
+              }
+            ],
+            "usedBy": [
+              "clorinde",
+              "yoimiya"
+            ]
+          }
+        ],
+        "goblet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Pyro DMG%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "yoimiya"
+                ]
+              }
+            ],
+            "usedBy": [
+              "yoimiya"
+            ]
+          },
+          {
+            "mainStat": "Hydro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Cryo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Electro DMG%",
+            "verdict": "SITUATIONAL_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "clorinde",
+                  "razor"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "clorinde",
+                  "razor"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "clorinde",
+                  "razor"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde",
+                  "razor"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "clorinde"
+                ]
+              }
+            ],
+            "usedBy": [
+              "clorinde",
+              "razor"
+            ]
+          },
+          {
+            "mainStat": "Anemo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Geo DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Dendro DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "Physical DMG%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ],
+        "circlet": [
+          {
+            "mainStat": "HP%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "ATK%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "DEF%",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "EM",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          },
+          {
+            "mainStat": "CRIT Rate",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "clorinde",
+                  "razor",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "clorinde",
+                  "razor",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde",
+                  "razor",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "clorinde",
+                  "yoimiya"
+                ]
+              }
+            ],
+            "usedBy": [
+              "clorinde",
+              "razor",
+              "yoimiya"
+            ]
+          },
+          {
+            "mainStat": "CRIT DMG",
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "clorinde",
+                  "razor",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "clorinde",
+                  "razor",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde",
+                  "razor",
+                  "yoimiya"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "clorinde",
+                  "yoimiya"
+                ]
+              }
+            ],
+            "usedBy": [
+              "clorinde",
+              "razor",
+              "yoimiya"
+            ]
+          },
+          {
+            "mainStat": "Healing Bonus",
+            "verdict": "SAFE_DISCARD",
+            "substats": [],
+            "usedBy": []
+          }
+        ]
+      },
+      "characters": [
+        {
+          "characterId": "clorinde",
+          "name": {
+            "en": "Clorinde",
+            "es": "Clorinde"
+          },
+          "iconUrl": "/images/characters/clorinde.png",
+          "element": "Electro",
+          "role": {
+            "en": "Electro DPS (Dendro Teams)",
+            "es": "Electro DPS (Dendro Teams)"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "5.7",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 5.7)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/clorinde-quickguide/"
+          }
+        },
+        {
+          "characterId": "razor",
+          "name": {
+            "en": "Razor",
+            "es": "Razor"
+          },
+          "iconUrl": "/images/characters/razor.png",
+          "element": "Electro",
+          "role": {
+            "en": "DPS",
+            "es": "DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "ER%"
+            ],
+            "goblet": [
+              "Electro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": true,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "6.7",
+            "kqmVersion": "4.1",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "genshinBuildsUpdated": "6.7 / Luna VIII",
+            "kqmUrl": "https://keqingmains.com/q/razor-quickguide/"
+          }
+        },
+        {
+          "characterId": "yoimiya",
+          "name": {
+            "en": "Yoimiya",
+            "es": "Yoimiya"
+          },
+          "iconUrl": "/images/characters/yoimiya.png",
+          "element": "Pyro",
+          "role": {
+            "en": "Overload DPS",
+            "es": "Sobrecarga DPS"
+          },
+          "usageType": "4pc Alternative",
+          "tier": "Alternative",
+          "mainStats": {
+            "sands": [
+              "ATK%",
+              "EM"
+            ],
+            "goblet": [
+              "Pyro DMG%"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.2",
+            "kqmVersion": "6.0",
+            "resolutionReason": "Genshin-Builds newer (7.2 > 6.0)",
+            "genshinBuildsUpdated": "7.2",
+            "kqmUrl": "https://keqingmains.com/q/yoimiya-quickguide/"
           }
         }
       ]

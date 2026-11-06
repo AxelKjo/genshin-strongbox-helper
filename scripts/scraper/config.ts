@@ -253,6 +253,28 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Gilded',
     ],
   },
+  {
+    id: 'vermillion-hereafter',
+    en: 'Vermillion Hereafter',
+    es: 'Deceso del Cinabrio',
+    aliases: [
+      'Deceso del Cinabrio',
+      'Vermillion Hereafter',
+      'Vermillion',
+      'Cinabrio',
+    ],
+  },
+  {
+    id: 'echoes-of-an-offering',
+    en: 'Echoes of an Offering',
+    es: 'Eco del Sacrificio',
+    aliases: [
+      'Eco del Sacrificio',
+      'Echoes of an Offering',
+      'Echoes',
+      'Eco',
+    ],
+  },
 ]
 
 export function getTargetSets(argv: string[] = process.argv.slice(2)): TargetSetConfig[] {
