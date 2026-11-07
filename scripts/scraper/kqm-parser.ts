@@ -30,9 +30,11 @@ export interface KqmGuide {
   setRecommendations: KqmSetRecommendation[]
 }
 
-interface KqmArtifactRow {
+export interface KqmArtifactRow {
   label: string
   description: string
+  is4pc: boolean
+  fourPieceRank: number | null
 }
 
 const SLUG_OVERRIDES: Record<string, string> = {
@@ -148,34 +150,31 @@ function parseMainStatsTable($: cheerio.CheerioAPI, table: cheerio.Cheerio<AnyNo
   return result
 }
 
-const KQM_DISQUALIFIERS = [
-  /\bnot recommended\b/i,
-  /\bnot worth\b/i,
-  /\bnot\b[^.]{0,60}\b(?:best|bis|best-in-slot)\b/i,
+const KQM_HARD_DISQUALIFIERS = [
+  /\b(?:c[1-6]|constellation)\s+only\b/i,
+  /\bonly\s+(?:with|viable\s+with|recommended\s+with)\s+c[1-6]\b/i,
   /\bfor fun\b/i,
   /\bmeme\b/i,
   /\bhyperspecific\b/i,
-  /\bniche\b/i,
-  /\bsituational(?:ly)?\b/i,
-  /\brequires?\b/i,
-  /\brequiring\b/i,
-  /\bonly\s+(?:if|when|with|in|for|works?|usable|recommended|worth)\b/i,
-  /\bpaired\s+with\b/i,
-  /\benabler\b/i,
-  /\bright conditions\b/i,
-  /\bsecond-best\b/i,
-  /\bc[1-6]\b/i,
-  /\bconstellation/i,
-  /\bfurina\b/i,
-  /\bunless\b/i,
+  /\bnot recommended\s+overall\b/i,
+  /\bnot worth\s+using\b/i,
+  /\bnot worth\s+farming\b/i,
+  /\bonly\s+with\s+furina\b/i,
+  /\brequires?\s+furina\b/i,
+  /\bplaceholder\b/i,
+  /\btransitional\b/i,
+  /\bcope\b/i,
 ]
 
-const KQM_POSITIVE = /\b(?:best|bis|best-in-slot|default|top option|preferred|most recommended|recommended|strong|great|good|solid|excellent|viable|on par|competitive|standard)\b/i
+function is4PieceRow(label: string): boolean {
+  return /4\s*p(?:c|iece)?\b/i.test(label)
+}
 
 function isStandardKqmRecommendation(row: KqmArtifactRow): boolean {
+  if (!row.is4pc) return false
   const haystack = `${row.label} ${row.description}`
-  if (KQM_DISQUALIFIERS.some((pattern) => pattern.test(haystack))) return false
-  return KQM_POSITIVE.test(row.description)
+  if (KQM_HARD_DISQUALIFIERS.some((pattern) => pattern.test(haystack))) return false
+  return row.fourPieceRank !== null && row.fourPieceRank <= 2
 }
 
 function headingLevel(tagName: string): number {
@@ -188,7 +187,9 @@ function extractArtifactRows($: cheerio.CheerioAPI): KqmArtifactRow[] {
   const seen = new Set<string>()
   $('h1,h2,h3,h4,h5,h6').each((_, heading) => {
     const headingNode = $(heading)
-    if (!/artifact sets$/i.test(cleanText(headingNode.text()))) return
+    const headingText = cleanText(headingNode.text())
+    if (/teammate/i.test(headingText)) return
+    if (!/artifact sets$/i.test(headingText)) return
     const sectionLevel = headingLevel(headingNode.get(0)?.tagName ?? '')
     if (!sectionLevel) return
 
@@ -200,9 +201,10 @@ function extractArtifactRows($: cheerio.CheerioAPI): KqmArtifactRow[] {
       if (nodeLevel && nodeLevel <= sectionLevel) break
       if (nodeLevel) {
         subheading = cleanText(node.text()).toLowerCase()
-      } else if (!/niche|other/.test(subheading)) {
+      } else if (!/niche|other|teammate/.test(subheading)) {
         const tables = node.is('table') ? node : node.find('table')
         tables.each((__, table) => {
+          let fourPieceRank = 0
           $(table).find('tr').each((___, row) => {
             const cells = $(row).find('td,th')
             if (cells.length < 2) return
@@ -212,7 +214,16 @@ function extractArtifactRows($: cheerio.CheerioAPI): KqmArtifactRow[] {
             const key = `${label}|${description}`
             if (seen.has(key)) return
             seen.add(key)
-            rows.push({ label, description })
+            const is4pc = is4PieceRow(label)
+            if (is4pc) {
+              fourPieceRank++
+            }
+            rows.push({
+              label,
+              description,
+              is4pc,
+              fourPieceRank: is4pc ? fourPieceRank : null,
+            })
           })
         })
       }

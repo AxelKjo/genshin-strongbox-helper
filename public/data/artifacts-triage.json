@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T22:53:02.286Z",
+  "generatedAt": "2026-11-07T02:55:39.697Z",
   "version": "MVP-9-sets",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
@@ -887,7 +887,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "7.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 7.0)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/mizuki-quickguide/"
           }
@@ -1564,7 +1564,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "6.6",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.6)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/prune-quickguide/"
           }
@@ -2185,7 +2185,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "4.2",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 4.2)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/cyno-quickguide/"
           }
@@ -2362,7 +2362,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "6.2",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.2)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/freminet-quickguide/"
           }
@@ -4140,7 +4140,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "4.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.1)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/razor-quickguide/"
           }
@@ -4271,7 +4271,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "5.8",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 5.8)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/beidou-quickguide/"
           }
@@ -4357,7 +4357,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "4.2",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 4.2)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/cyno-quickguide/"
           }
@@ -4402,7 +4402,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.4",
             "kqmVersion": "4.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.4 > 4.0)",
             "genshinBuildsUpdated": "6.4 / Luna V",
             "kqmUrl": "https://keqingmains.com/q/fischl-quickguide/"
           }
@@ -4446,7 +4446,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "6.2",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.2)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/freminet-quickguide/"
           }
@@ -4532,7 +4532,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "6.4",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.4)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/ineffa-quickguide/"
           }
@@ -4576,7 +4576,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "4.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 4.0)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/tartaglia-quickguide/"
           }
@@ -5183,7 +5183,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "6.5",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.5)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/flins-quickguide/"
           }
@@ -5225,7 +5225,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "6.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.1)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/nefer-quickguide/"
           }
@@ -5269,7 +5269,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "6.5",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.5)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/zibai-quickguide/"
           }
@@ -5312,7 +5312,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "6.4",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.4)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/lauma-quickguide/"
           }
@@ -5347,6 +5347,20 @@
           {
             "substats": [
               "ER%",
+              "EM",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "aino"
+            ],
+            "reasoning": {
+              "en": "Aino can use Energy Recharge + Elemental Mastery + CRIT Rate on this set's Flower and Plume.",
+              "es": "Aino busca(n) Recarga de Energía + Maestría Elemental + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
               "CRIT Rate",
               "CRIT DMG",
               "HP%",
@@ -5364,14 +5378,16 @@
             "substats": [
               "ER%",
               "EM",
-              "CRIT Rate"
+              "CRIT Rate",
+              "CRIT DMG",
+              "DEF%"
             ],
             "usedBy": [
               "illuga"
             ],
             "reasoning": {
-              "en": "Illuga can use Energy Recharge + Elemental Mastery + CRIT Rate on this set's Flower and Plume.",
-              "es": "Illuga busca(n) Recarga de Energía + Maestría Elemental + Prob. CRIT en la Flor y la Pluma de este set."
+              "en": "Illuga can use Energy Recharge + Elemental Mastery + CRIT Rate + CRIT DMG + DEF% on this set's Flower and Plume.",
+              "es": "Illuga busca(n) Recarga de Energía + Maestría Elemental + Prob. CRIT + Daño CRIT + DEF% en la Flor y la Pluma de este set."
             }
           },
           {
@@ -5479,8 +5495,9 @@
             "verdict": "MUST_KEEP",
             "substats": [
               {
-                "name": "CRIT Rate",
+                "name": "EM",
                 "characters": [
+                  "aino",
                   "columbina",
                   "illuga",
                   "lauma",
@@ -5488,8 +5505,9 @@
                 ]
               },
               {
-                "name": "EM",
+                "name": "CRIT Rate",
                 "characters": [
+                  "aino",
                   "columbina",
                   "illuga",
                   "lauma",
@@ -5500,6 +5518,7 @@
                 "name": "CRIT DMG",
                 "characters": [
                   "columbina",
+                  "illuga",
                   "lauma"
                 ]
               },
@@ -5510,6 +5529,12 @@
                 ]
               },
               {
+                "name": "DEF%",
+                "characters": [
+                  "illuga"
+                ]
+              },
+              {
                 "name": "ATK%",
                 "characters": [
                   "jahoda"
@@ -5517,6 +5542,7 @@
               }
             ],
             "usedBy": [
+              "aino",
               "columbina",
               "illuga",
               "lauma",
@@ -5530,6 +5556,7 @@
               {
                 "name": "ER%",
                 "characters": [
+                  "aino",
                   "illuga",
                   "lauma"
                 ]
@@ -5537,6 +5564,7 @@
               {
                 "name": "CRIT Rate",
                 "characters": [
+                  "aino",
                   "illuga",
                   "lauma"
                 ]
@@ -5544,11 +5572,19 @@
               {
                 "name": "CRIT DMG",
                 "characters": [
+                  "illuga",
                   "lauma"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "illuga"
                 ]
               }
             ],
             "usedBy": [
+              "aino",
               "illuga",
               "lauma"
             ]
@@ -5628,6 +5664,7 @@
               {
                 "name": "ER%",
                 "characters": [
+                  "aino",
                   "illuga",
                   "lauma"
                 ]
@@ -5635,6 +5672,7 @@
               {
                 "name": "CRIT Rate",
                 "characters": [
+                  "aino",
                   "illuga",
                   "lauma"
                 ]
@@ -5642,11 +5680,19 @@
               {
                 "name": "CRIT DMG",
                 "characters": [
+                  "illuga",
                   "lauma"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "illuga"
                 ]
               }
             ],
             "usedBy": [
+              "aino",
               "illuga",
               "lauma"
             ]
@@ -5703,9 +5749,36 @@
         "circlet": [
           {
             "mainStat": "HP%",
-            "verdict": "SAFE_DISCARD",
-            "substats": [],
-            "usedBy": []
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "ER%",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "columbina"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "columbina"
+                ]
+              }
+            ],
+            "usedBy": [
+              "columbina"
+            ]
           },
           {
             "mainStat": "ATK%",
@@ -5747,6 +5820,7 @@
               {
                 "name": "ER%",
                 "characters": [
+                  "aino",
                   "illuga",
                   "lauma"
                 ]
@@ -5754,6 +5828,7 @@
               {
                 "name": "CRIT Rate",
                 "characters": [
+                  "aino",
                   "illuga",
                   "lauma"
                 ]
@@ -5761,11 +5836,19 @@
               {
                 "name": "CRIT DMG",
                 "characters": [
+                  "illuga",
                   "lauma"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "illuga"
                 ]
               }
             ],
             "usedBy": [
+              "aino",
               "illuga",
               "lauma"
             ]
@@ -5777,27 +5860,38 @@
               {
                 "name": "ER%",
                 "characters": [
+                  "aino",
                   "columbina",
+                  "illuga",
                   "jahoda"
                 ]
               },
               {
                 "name": "EM",
                 "characters": [
+                  "aino",
                   "columbina",
+                  "illuga",
                   "jahoda"
                 ]
               },
               {
                 "name": "CRIT DMG",
                 "characters": [
-                  "columbina"
+                  "columbina",
+                  "illuga"
                 ]
               },
               {
                 "name": "HP%",
                 "characters": [
                   "columbina"
+                ]
+              },
+              {
+                "name": "DEF%",
+                "characters": [
+                  "illuga"
                 ]
               },
               {
@@ -5808,7 +5902,9 @@
               }
             ],
             "usedBy": [
+              "aino",
               "columbina",
+              "illuga",
               "jahoda"
             ]
           },
@@ -5882,6 +5978,49 @@
       },
       "characters": [
         {
+          "characterId": "aino",
+          "name": {
+            "en": "Aino",
+            "es": "Aino"
+          },
+          "iconUrl": "/images/characters/aino.png",
+          "element": "Hydro",
+          "role": {
+            "en": "Reaction Support",
+            "es": "Soporte de reacciones"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "EM",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "EM",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "6.0",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.0)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/aino-quickguide/"
+          }
+        },
+        {
           "characterId": "columbina",
           "name": {
             "en": "Columbina",
@@ -5897,15 +6036,16 @@
           "tier": "BiS",
           "mainStats": {
             "sands": [
-              "HP%",
-              "ER%"
+              "ER%",
+              "HP%"
             ],
             "goblet": [
               "HP%"
             ],
             "circlet": [
               "CRIT Rate",
-              "CRIT DMG"
+              "CRIT DMG",
+              "HP%"
             ]
           },
           "substatsPriority": [
@@ -5913,15 +6053,16 @@
             "CRIT Rate",
             "CRIT DMG",
             "HP%",
-            "EM"
+            "EM",
+            "HP"
           ],
           "critTie": true,
           "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "6.7",
             "kqmVersion": "7.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (7.0 > 6.7) and recommends set",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/columbina-quickguide/"
           }
@@ -5949,21 +6090,25 @@
               "EM"
             ],
             "circlet": [
-              "EM"
+              "EM",
+              "CRIT Rate"
             ]
           },
           "substatsPriority": [
             "ER%",
             "EM",
-            "CRIT Rate"
+            "CRIT Rate",
+            "CRIT DMG",
+            "DEF%",
+            "DEF"
           ],
-          "critTie": false,
+          "critTie": true,
           "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "6.7",
             "kqmVersion": "7.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (7.1 > 6.7) and recommends set",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/illuga-quickguide/"
           }
@@ -6051,7 +6196,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "6.2",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.2)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/jahoda-quickguide/"
           }
@@ -6619,7 +6764,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "4.4",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.4)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/xiao-quickguide/"
           }
@@ -6880,9 +7025,24 @@
           },
           {
             "mainStat": "ATK%",
-            "verdict": "SAFE_DISCARD",
-            "substats": [],
-            "usedBy": []
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "skirk"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "skirk"
+                ]
+              }
+            ],
+            "usedBy": [
+              "skirk"
+            ]
           },
           {
             "mainStat": "DEF%",
@@ -6971,21 +7131,23 @@
             ],
             "circlet": [
               "CRIT Rate",
-              "CRIT DMG"
+              "CRIT DMG",
+              "ATK%"
             ]
           },
           "substatsPriority": [
             "CRIT Rate",
             "CRIT DMG",
-            "ATK%"
+            "ATK%",
+            "ATK"
           ],
           "critTie": true,
           "erUntilRequirement": false,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "5.8",
             "kqmVersion": "7.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (7.1 > 5.8) and recommends set",
             "genshinBuildsUpdated": "5.8",
             "kqmUrl": "https://keqingmains.com/q/skirk-quickguide/"
           }
@@ -7830,7 +7992,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.6",
             "kqmVersion": "5.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.6 > 5.7)",
             "genshinBuildsUpdated": "6.6 / Luna VII",
             "kqmUrl": "https://keqingmains.com/q/mavuika-quickguide/"
           }
@@ -7917,10 +8079,10 @@
           "critTie": true,
           "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "Both (Consensus)",
             "gbVersion": "7.1",
             "kqmVersion": "7.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Versions match (7.1 = 7.1) and KQM recommends set",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/varesa-quickguide/"
           }
@@ -8005,12 +8167,11 @@
               "ATK%"
             ],
             "usedBy": [
-              "faruzan",
-              "rosaria"
+              "faruzan"
             ],
             "reasoning": {
-              "en": "Faruzan, Rosaria can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% on this set's Flower and Plume.",
-              "es": "Faruzán, Rosaria busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% en la Flor y la Pluma de este set."
+              "en": "Faruzan can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% on this set's Flower and Plume.",
+              "es": "Faruzán busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% en la Flor y la Pluma de este set."
             }
           },
           {
@@ -8183,7 +8344,8 @@
                   "ororon",
                   "ifa",
                   "lisa",
-                  "mavuika"
+                  "mavuika",
+                  "rosaria"
                 ]
               },
               {
@@ -8315,6 +8477,17 @@
                 ]
               },
               {
+                "name": "EM",
+                "characters": [
+                  "candace",
+                  "citlali",
+                  "ororon",
+                  "chevreuse",
+                  "lisa",
+                  "rosaria"
+                ]
+              },
+              {
                 "name": "DEF%",
                 "characters": [
                   "kachina",
@@ -8323,16 +8496,6 @@
                   "xinyan",
                   "gorou",
                   "qiqi"
-                ]
-              },
-              {
-                "name": "EM",
-                "characters": [
-                  "candace",
-                  "citlali",
-                  "ororon",
-                  "chevreuse",
-                  "lisa"
                 ]
               },
               {
@@ -8381,7 +8544,8 @@
                   "candace",
                   "citlali",
                   "lisa",
-                  "mavuika"
+                  "mavuika",
+                  "rosaria"
                 ]
               },
               {
@@ -8389,21 +8553,24 @@
                 "characters": [
                   "candace",
                   "citlali",
-                  "lisa"
+                  "lisa",
+                  "rosaria"
                 ]
               },
               {
                 "name": "CRIT DMG",
                 "characters": [
                   "lisa",
-                  "mavuika"
+                  "mavuika",
+                  "rosaria"
                 ]
               },
               {
                 "name": "ATK%",
                 "characters": [
                   "lisa",
-                  "mavuika"
+                  "mavuika",
+                  "rosaria"
                 ]
               },
               {
@@ -8417,7 +8584,8 @@
               "candace",
               "citlali",
               "lisa",
-              "mavuika"
+              "mavuika",
+              "rosaria"
             ]
           }
         ],
@@ -8703,6 +8871,12 @@
               },
               {
                 "name": "CRIT DMG",
+                "characters": [
+                  "rosaria"
+                ]
+              },
+              {
+                "name": "EM",
                 "characters": [
                   "rosaria"
                 ]
@@ -9093,7 +9267,8 @@
                   "ororon",
                   "ifa",
                   "lisa",
-                  "mavuika"
+                  "mavuika",
+                  "rosaria"
                 ]
               },
               {
@@ -9158,6 +9333,7 @@
                   "ifa",
                   "lisa",
                   "mavuika",
+                  "rosaria",
                   "xingqiu"
                 ]
               },
@@ -9172,6 +9348,7 @@
                   "electro-traveler",
                   "ifa",
                   "lisa",
+                  "rosaria",
                   "xingqiu"
                 ]
               },
@@ -9185,6 +9362,7 @@
                   "ifa",
                   "lisa",
                   "mavuika",
+                  "rosaria",
                   "xingqiu"
                 ]
               },
@@ -9195,7 +9373,8 @@
                   "ororon",
                   "ifa",
                   "lisa",
-                  "mavuika"
+                  "mavuika",
+                  "rosaria"
                 ]
               },
               {
@@ -9222,6 +9401,7 @@
               "ifa",
               "lisa",
               "mavuika",
+              "rosaria",
               "xingqiu"
             ]
           },
@@ -9475,7 +9655,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.1",
             "kqmVersion": "4.6",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.1 > 4.6)",
             "genshinBuildsUpdated": "6.1 / Luna II",
             "kqmUrl": "https://keqingmains.com/q/faruzan-quickguide/"
           }
@@ -9560,10 +9740,10 @@
           "critTie": true,
           "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "Both (Consensus)",
             "gbVersion": "5.0",
             "kqmVersion": "5.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Versions match (5.0 = 5.0) and KQM recommends set",
             "genshinBuildsUpdated": "5.0",
             "kqmUrl": "https://keqingmains.com/q/kachina-quickguide/"
           }
@@ -9605,10 +9785,10 @@
           "critTie": true,
           "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "Both (Consensus)",
+            "primarySource": "Genshin-Builds",
             "gbVersion": "5.8",
             "kqmVersion": "5.8",
-            "resolutionReason": "Versions match (5.8 = 5.8) and KQM recommends set",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
             "genshinBuildsUpdated": "5.8",
             "kqmUrl": "https://keqingmains.com/q/ororon-quickguide/"
           }
@@ -9695,7 +9875,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "5.8",
             "kqmVersion": "4.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (5.8 > 4.7)",
             "genshinBuildsUpdated": "5.8",
             "kqmUrl": "https://keqingmains.com/q/sigewinne-quickguide/"
           }
@@ -9821,10 +10001,10 @@
           "critTie": false,
           "erUntilRequirement": false,
           "sourceValidation": {
-            "primarySource": "KQM",
+            "primarySource": "Genshin-Builds",
             "gbVersion": "5.8",
             "kqmVersion": "7.1",
-            "resolutionReason": "KQM newer (7.1 > 5.8) and recommends set",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
             "genshinBuildsUpdated": "5.8",
             "kqmUrl": "https://keqingmains.com/q/zhongli-quickguide/"
           }
@@ -9864,7 +10044,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.0",
             "kqmVersion": "3.2",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.0 > 3.2)",
             "genshinBuildsUpdated": "7.0",
             "kqmUrl": "https://keqingmains.com/q/barbara-quickguide/"
           }
@@ -9910,7 +10090,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "4.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.7)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/charlotte-quickguide/"
           }
@@ -9955,7 +10135,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "5.6",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 5.6)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/chevreuse-quickguide/"
           }
@@ -9998,7 +10178,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "5.8",
             "kqmVersion": "5.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (5.8 > 5.7)",
             "genshinBuildsUpdated": "5.8",
             "kqmUrl": "https://keqingmains.com/q/dahlia-quickguide/"
           }
@@ -10040,7 +10220,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "6.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.0)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/dehya-quickguide/"
           }
@@ -10125,7 +10305,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "6.3",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.3)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/gorou-quickguide/"
           }
@@ -10169,7 +10349,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.0",
             "kqmVersion": "6.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.0 > 6.0)",
             "genshinBuildsUpdated": "7.0",
             "kqmUrl": "https://keqingmains.com/q/ifa-quickguide/"
           }
@@ -10213,7 +10393,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "5.0",
             "kqmVersion": "4.6",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (5.0 > 4.6)",
             "genshinBuildsUpdated": "5.0",
             "kqmUrl": "https://keqingmains.com/q/layla-quickguide/"
           }
@@ -10304,7 +10484,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.6",
             "kqmVersion": "5.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.6 > 5.7)",
             "genshinBuildsUpdated": "6.6 / Luna VII",
             "kqmUrl": "https://keqingmains.com/q/mavuika-quickguide/"
           }
@@ -10344,10 +10524,10 @@
           "critTie": false,
           "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "Both (Consensus)",
             "gbVersion": "6.7",
             "kqmVersion": "6.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Versions match (6.7 = 6.7) and KQM recommends set",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/nicole-quickguide/"
           }
@@ -10389,10 +10569,10 @@
           "critTie": false,
           "erUntilRequirement": false,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "Both (Consensus)",
             "gbVersion": "6.7",
             "kqmVersion": "6.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Versions match (6.7 = 6.7) and KQM recommends set",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/qiqi-quickguide/"
           }
@@ -10413,6 +10593,7 @@
           "tier": "Alternative",
           "mainStats": {
             "sands": [
+              "EM",
               "ATK%",
               "ER%"
             ],
@@ -10420,22 +10601,24 @@
               "Cryo DMG%"
             ],
             "circlet": [
-              "CRIT Rate"
+              "CRIT Rate",
+              "CRIT DMG"
             ]
           },
           "substatsPriority": [
             "ER%",
             "CRIT Rate",
             "CRIT DMG",
+            "EM",
             "ATK%"
           ],
-          "critTie": false,
+          "critTie": true,
           "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "5.5",
             "kqmVersion": "5.8",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (5.8 > 5.5) and recommends set",
             "genshinBuildsUpdated": "5.5",
             "kqmUrl": "https://keqingmains.com/q/rosaria-quickguide/"
           }
@@ -10479,7 +10662,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.0",
             "kqmVersion": "5.6",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.0 > 5.6)",
             "genshinBuildsUpdated": "6.0 / Luna I",
             "kqmUrl": "https://keqingmains.com/q/shenhe-quickguide/"
           }
@@ -10523,7 +10706,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "5.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 5.7)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/xingqiu-quickguide/"
           }
@@ -11009,7 +11192,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "5.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 5.7)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/clorinde-quickguide/"
           }
@@ -11400,7 +11583,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "5.6",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 5.6)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/kinich-quickguide/"
           }
@@ -11950,7 +12133,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "4.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.7)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/charlotte-quickguide/"
           }
@@ -11995,7 +12178,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "5.6",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 5.6)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/chevreuse-quickguide/"
           }
@@ -12669,7 +12852,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "6.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.7)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/noelle-quickguide/"
           }
@@ -13751,10 +13934,10 @@
           "critTie": true,
           "erUntilRequirement": false,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "Both (Consensus)",
             "gbVersion": "7.1",
             "kqmVersion": "7.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Versions match (7.1 = 7.1) and KQM recommends set",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/chiori-quickguide/"
           }
@@ -13844,7 +14027,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.4",
             "kqmVersion": "4.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.4 > 4.0)",
             "genshinBuildsUpdated": "6.4 / Luna V",
             "kqmUrl": "https://keqingmains.com/q/fischl-quickguide/"
           }
@@ -13890,7 +14073,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "6.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.1)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/furina-quickguide/"
           }
@@ -14019,7 +14202,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "5.6",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 5.6)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/kinich-quickguide/"
           }
@@ -14153,7 +14336,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "5.4",
             "kqmVersion": "3.8",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (5.4 > 3.8)",
             "genshinBuildsUpdated": "5.4",
             "kqmUrl": "https://keqingmains.com/q/heizou-quickguide/"
           }
@@ -16343,7 +16526,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "5.8",
             "kqmVersion": "4.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (5.8 > 4.7)",
             "genshinBuildsUpdated": "5.8",
             "kqmUrl": "https://keqingmains.com/q/sethos-quickguide/"
           }
@@ -16431,7 +16614,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "5.8",
             "kqmVersion": "5.6",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (5.8 > 5.6)",
             "genshinBuildsUpdated": "5.8",
             "kqmUrl": "https://keqingmains.com/q/itto-quickguide/"
           }
@@ -16518,7 +16701,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "6.4",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.4)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/venti-quickguide/"
           }
@@ -16562,7 +16745,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "4.4",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.4)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/xiao-quickguide/"
           }
@@ -16907,7 +17090,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "5.4",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 5.4)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/shinobu-quickguide/"
           }
@@ -17752,7 +17935,6 @@
               {
                 "name": "ER%",
                 "characters": [
-                  "baizhu",
                   "yaoyao",
                   "dori"
                 ]
@@ -17760,7 +17942,6 @@
               {
                 "name": "HP%",
                 "characters": [
-                  "baizhu",
                   "yaoyao",
                   "dori"
                 ]
@@ -17768,7 +17949,6 @@
               {
                 "name": "CRIT Rate",
                 "characters": [
-                  "baizhu",
                   "yaoyao",
                   "dori"
                 ]
@@ -17781,7 +17961,6 @@
               }
             ],
             "usedBy": [
-              "baizhu",
               "yaoyao",
               "dori"
             ]
@@ -17805,30 +17984,28 @@
           "tier": "BiS",
           "mainStats": {
             "sands": [
-              "HP%",
-              "ER%"
+              "ER%",
+              "HP%"
             ],
             "goblet": [
               "HP%"
             ],
             "circlet": [
-              "HP%",
-              "Healing Bonus"
+              "HP%"
             ]
           },
           "substatsPriority": [
             "ER%",
             "HP%",
-            "HP",
             "CRIT Rate"
           ],
           "critTie": false,
           "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "4.2",
             "kqmVersion": "7.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (7.1 > 4.2) and recommends set",
             "genshinBuildsUpdated": "4.2",
             "kqmUrl": "https://keqingmains.com/q/baizhu-quickguide/"
           }
@@ -17873,10 +18050,10 @@
           "critTie": true,
           "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "Both (Consensus)",
             "gbVersion": "5.8",
             "kqmVersion": "5.8",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Versions match (5.8 = 5.8) and KQM recommends set",
             "genshinBuildsUpdated": "5.8",
             "kqmUrl": "https://keqingmains.com/q/collei-quickguide/"
           }
@@ -18010,7 +18187,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "6.4",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.4)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/lauma-quickguide/"
           }
@@ -18190,7 +18367,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "5.4",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 5.4)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/emilie-quickguide/"
           }
@@ -18234,7 +18411,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "4.8",
             "kqmVersion": "4.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (4.8 > 4.0)",
             "genshinBuildsUpdated": "4.8",
             "kqmUrl": "https://keqingmains.com/q/kirara-quickguide/"
           }
@@ -18371,14 +18548,13 @@
               "diluc",
               "durin",
               "ineffa",
-              "lisa",
               "sandrone",
               "yae-miko",
               "yanfei"
             ],
             "reasoning": {
-              "en": "Chongyun, Diluc, Durin, Ineffa, Lisa, Sandrone, Yae Miko, Yanfei can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
-              "es": "Chongyun, Diluc, Durin, Ineffa, Lisa, Sandrone, Yae Miko, Yanfei busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+              "en": "Chongyun, Diluc, Durin, Ineffa, Sandrone, Yae Miko, Yanfei can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Chongyun, Diluc, Durin, Ineffa, Sandrone, Yae Miko, Yanfei busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
             }
           },
           {
@@ -18582,6 +18758,7 @@
                   "tighnari",
                   "chongyun",
                   "kaeya",
+                  "lisa",
                   "sethos",
                   "thoma"
                 ]
@@ -18593,6 +18770,7 @@
                   "tighnari",
                   "chongyun",
                   "kaeya",
+                  "lisa",
                   "sethos",
                   "thoma"
                 ]
@@ -18604,6 +18782,7 @@
                   "tighnari",
                   "chongyun",
                   "kaeya",
+                  "lisa",
                   "sethos"
                 ]
               },
@@ -18614,6 +18793,7 @@
                   "tighnari",
                   "chongyun",
                   "kaeya",
+                  "lisa",
                   "sethos"
                 ]
               },
@@ -18629,6 +18809,7 @@
               "tighnari",
               "chongyun",
               "kaeya",
+              "lisa",
               "sethos",
               "thoma"
             ]
@@ -19559,7 +19740,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "4.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.0)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/tighnari-quickguide/"
           }
@@ -19734,7 +19915,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "4.2",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 4.2)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/cyno-quickguide/"
           }
@@ -19868,7 +20049,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "6.5",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.5)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/flins-quickguide/"
           }
@@ -19956,7 +20137,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "6.4",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.4)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/ineffa-quickguide/"
           }
@@ -20087,7 +20268,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "5.4",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 5.4)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/shinobu-quickguide/"
           }
@@ -20109,7 +20290,8 @@
           "mainStats": {
             "sands": [
               "ATK%",
-              "EM"
+              "EM",
+              "ER%"
             ],
             "goblet": [
               "Electro DMG%"
@@ -20122,17 +20304,18 @@
           "substatsPriority": [
             "CRIT Rate",
             "CRIT DMG",
+            "ER%",
             "ATK%",
             "EM",
-            "ER%"
+            "ATK"
           ],
           "critTie": true,
           "erUntilRequirement": false,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "6.2",
             "kqmVersion": "6.5",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (6.5 > 6.2) and recommends set",
             "genshinBuildsUpdated": "6.2 / Luna III",
             "kqmUrl": "https://keqingmains.com/q/lisa-quickguide/"
           }
@@ -20178,7 +20361,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.0",
             "kqmVersion": "5.6",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.0 > 5.6)",
             "genshinBuildsUpdated": "6.0 / Luna I",
             "kqmUrl": "https://keqingmains.com/q/nahida-quickguide/"
           }
@@ -20267,7 +20450,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "5.8",
             "kqmVersion": "4.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (5.8 > 4.7)",
             "genshinBuildsUpdated": "5.8",
             "kqmUrl": "https://keqingmains.com/q/sethos-quickguide/"
           }
@@ -20311,7 +20494,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "5.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 5.0)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/thoma-quickguide/"
           }
@@ -21289,7 +21472,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "4.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.1)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/razor-quickguide/"
           }
@@ -22107,7 +22290,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.5",
             "kqmVersion": "6.4",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.5 > 6.4)",
             "genshinBuildsUpdated": "6.5 / Luna VI",
             "kqmUrl": "https://keqingmains.com/q/albedo-quickguide/"
           }
@@ -22192,10 +22375,10 @@
           "critTie": true,
           "erUntilRequirement": false,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "Both (Consensus)",
             "gbVersion": "7.1",
             "kqmVersion": "7.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Versions match (7.1 = 7.1) and KQM recommends set",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/chiori-quickguide/"
           }
@@ -22240,7 +22423,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "6.5",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.5)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/linnea-quickguide/"
           }
@@ -22458,7 +22641,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "6.5",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.5)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/zibai-quickguide/"
           }
@@ -23283,7 +23466,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "4.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.7)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/charlotte-quickguide/"
           }
@@ -23502,12 +23685,12 @@
             "usedBy": [
               "beidou",
               "kaeya",
-              "lisa",
-              "xiangling"
+              "xiangling",
+              "lynette"
             ],
             "reasoning": {
-              "en": "Beidou, Kaeya, Lisa, Xiangling can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
-              "es": "Beidou, Kaeya, Lisa, Xiangling busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+              "en": "Beidou, Kaeya, Xiangling, Lynette can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Beidou, Kaeya, Xiangling, Lynette busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
             }
           },
           {
@@ -23519,12 +23702,27 @@
             ],
             "usedBy": [
               "kujou-sara",
-              "lynette",
               "razor"
             ],
             "reasoning": {
-              "en": "Kujou Sara, Lynette, Razor can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% on this set's Flower and Plume.",
-              "es": "Kujou Sara, Lynette, Razor busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% en la Flor y la Pluma de este set."
+              "en": "Kujou Sara, Razor can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% on this set's Flower and Plume.",
+              "es": "Kujou Sara, Razor busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ER%",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "lisa"
+            ],
+            "reasoning": {
+              "en": "Lisa can use CRIT Rate + CRIT DMG + Energy Recharge + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Lisa busca(n) Prob. CRIT + Daño CRIT + Recarga de Energía + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
             }
           },
           {
@@ -23546,17 +23744,16 @@
           {
             "substats": [
               "ER%",
-              "CRIT Rate",
               "CRIT DMG",
-              "EM",
-              "ATK%"
+              "ATK%",
+              "CRIT Rate"
             ],
             "usedBy": [
               "rosaria"
             ],
             "reasoning": {
-              "en": "Rosaria can use Energy Recharge + CRIT Rate + CRIT DMG + Elemental Mastery + ATK% on this set's Flower and Plume.",
-              "es": "Rosaria busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + Maestría Elemental + ATQ% en la Flor y la Pluma de este set."
+              "en": "Rosaria can use Energy Recharge + CRIT DMG + ATK% + CRIT Rate on this set's Flower and Plume.",
+              "es": "Rosaria busca(n) Recarga de Energía + Daño CRIT + ATQ% + Prob. CRIT en la Flor y la Pluma de este set."
             }
           },
           {
@@ -23593,32 +23790,14 @@
             "substats": [
               "ER%",
               "CRIT Rate",
-              "EM",
               "HP%"
             ],
             "usedBy": [
               "candace"
             ],
             "reasoning": {
-              "en": "Candace can use Energy Recharge + CRIT Rate + Elemental Mastery + HP% on this set's Flower and Plume.",
-              "es": "Candace busca(n) Recarga de Energía + Prob. CRIT + Maestría Elemental + Vida% en la Flor y la Pluma de este set."
-            }
-          },
-          {
-            "substats": [
-              "CRIT Rate",
-              "CRIT DMG",
-              "ATK%",
-              "EM",
-              "ER%"
-            ],
-            "usedBy": [
-              "chongyun",
-              "durin"
-            ],
-            "reasoning": {
-              "en": "Chongyun, Durin can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
-              "es": "Chongyun, Durin busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+              "en": "Candace can use Energy Recharge + CRIT Rate + HP% on this set's Flower and Plume.",
+              "es": "Candace busca(n) Recarga de Energía + Prob. CRIT + Vida% en la Flor y la Pluma de este set."
             }
           }
         ]
@@ -23647,12 +23826,6 @@
                 "name": "CRIT DMG",
                 "characters": [
                   "yelan"
-                ]
-              },
-              {
-                "name": "EM",
-                "characters": [
-                  "candace"
                 ]
               }
             ],
@@ -23726,10 +23899,10 @@
                   "kaeya",
                   "lisa",
                   "shogun-raiden",
-                  "rosaria",
                   "xiangling",
                   "chongyun",
                   "durin",
+                  "lynette",
                   "tighnari"
                 ]
               }
@@ -23768,7 +23941,6 @@
                   "kujou-sara",
                   "lisa",
                   "shogun-raiden",
-                  "rosaria",
                   "xiangling",
                   "xingqiu",
                   "yelan",
@@ -23787,7 +23959,6 @@
                   "kujou-sara",
                   "lisa",
                   "shogun-raiden",
-                  "rosaria",
                   "xiangling",
                   "xingqiu",
                   "yelan",
@@ -23805,7 +23976,6 @@
                   "kujou-sara",
                   "lisa",
                   "shogun-raiden",
-                  "rosaria",
                   "xiangling",
                   "xingqiu",
                   "chongyun",
@@ -23821,10 +23991,9 @@
                   "kaeya",
                   "lisa",
                   "shogun-raiden",
-                  "rosaria",
                   "xiangling",
-                  "candace",
                   "chongyun",
+                  "lynette",
                   "tighnari"
                 ]
               },
@@ -23842,7 +24011,6 @@
               "kujou-sara",
               "lisa",
               "shogun-raiden",
-              "rosaria",
               "xiangling",
               "xingqiu",
               "yelan",
@@ -23862,10 +24030,9 @@
                 "characters": [
                   "kaeya",
                   "lisa",
-                  "rosaria",
                   "xiangling",
-                  "candace",
                   "chongyun",
+                  "lynette",
                   "tighnari"
                 ]
               },
@@ -23874,10 +24041,9 @@
                 "characters": [
                   "kaeya",
                   "lisa",
-                  "rosaria",
                   "xiangling",
-                  "candace",
                   "chongyun",
+                  "lynette",
                   "tighnari"
                 ]
               },
@@ -23886,9 +24052,9 @@
                 "characters": [
                   "kaeya",
                   "lisa",
-                  "rosaria",
                   "xiangling",
                   "chongyun",
+                  "lynette",
                   "tighnari"
                 ]
               },
@@ -23897,26 +24063,19 @@
                 "characters": [
                   "kaeya",
                   "lisa",
-                  "rosaria",
                   "xiangling",
                   "chongyun",
+                  "lynette",
                   "tighnari"
-                ]
-              },
-              {
-                "name": "HP%",
-                "characters": [
-                  "candace"
                 ]
               }
             ],
             "usedBy": [
               "kaeya",
               "lisa",
-              "rosaria",
               "xiangling",
-              "candace",
               "chongyun",
+              "lynette",
               "tighnari"
             ]
           }
@@ -23945,12 +24104,6 @@
                 "characters": [
                   "yelan"
                 ]
-              },
-              {
-                "name": "EM",
-                "characters": [
-                  "candace"
-                ]
               }
             ],
             "usedBy": [
@@ -23966,34 +24119,39 @@
                 "name": "CRIT Rate",
                 "characters": [
                   "shogun-raiden",
-                  "durin"
+                  "durin",
+                  "lynette"
                 ]
               },
               {
                 "name": "CRIT DMG",
                 "characters": [
                   "shogun-raiden",
-                  "durin"
+                  "durin",
+                  "lynette"
                 ]
               },
               {
                 "name": "ER%",
                 "characters": [
                   "shogun-raiden",
-                  "durin"
+                  "durin",
+                  "lynette"
                 ]
               },
               {
                 "name": "EM",
                 "characters": [
                   "shogun-raiden",
-                  "durin"
+                  "durin",
+                  "lynette"
                 ]
               }
             ],
             "usedBy": [
               "shogun-raiden",
-              "durin"
+              "durin",
+              "lynette"
             ]
           },
           {
@@ -24009,24 +24167,30 @@
               {
                 "name": "ER%",
                 "characters": [
-                  "candace"
+                  "lynette"
                 ]
               },
               {
                 "name": "CRIT Rate",
                 "characters": [
-                  "candace"
+                  "lynette"
                 ]
               },
               {
-                "name": "HP%",
+                "name": "CRIT DMG",
                 "characters": [
-                  "candace"
+                  "lynette"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "lynette"
                 ]
               }
             ],
             "usedBy": [
-              "candace"
+              "lynette"
             ]
           },
           {
@@ -24113,12 +24277,6 @@
                 "characters": [
                   "xingqiu"
                 ]
-              },
-              {
-                "name": "EM",
-                "characters": [
-                  "candace"
-                ]
               }
             ],
             "usedBy": [
@@ -24167,7 +24325,6 @@
                 "name": "EM",
                 "characters": [
                   "kaeya",
-                  "rosaria",
                   "chongyun"
                 ]
               }
@@ -24266,6 +24423,12 @@
                 "characters": [
                   "lynette"
                 ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "lynette"
+                ]
               }
             ],
             "usedBy": [
@@ -24348,12 +24511,6 @@
                 "characters": [
                   "yelan"
                 ]
-              },
-              {
-                "name": "EM",
-                "characters": [
-                  "candace"
-                ]
               }
             ],
             "usedBy": [
@@ -24380,24 +24537,30 @@
               {
                 "name": "ER%",
                 "characters": [
-                  "candace"
+                  "lynette"
                 ]
               },
               {
                 "name": "CRIT Rate",
                 "characters": [
-                  "candace"
+                  "lynette"
                 ]
               },
               {
-                "name": "HP%",
+                "name": "CRIT DMG",
                 "characters": [
-                  "candace"
+                  "lynette"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "lynette"
                 ]
               }
             ],
             "usedBy": [
-              "candace"
+              "lynette"
             ]
           },
           {
@@ -24412,7 +24575,6 @@
                   "kujou-sara",
                   "lisa",
                   "shogun-raiden",
-                  "rosaria",
                   "xiangling",
                   "xingqiu",
                   "yelan",
@@ -24432,7 +24594,6 @@
                   "kujou-sara",
                   "lisa",
                   "shogun-raiden",
-                  "rosaria",
                   "xiangling",
                   "xingqiu",
                   "yelan",
@@ -24451,7 +24612,6 @@
                   "kujou-sara",
                   "lisa",
                   "shogun-raiden",
-                  "rosaria",
                   "xiangling",
                   "xingqiu",
                   "chongyun",
@@ -24468,11 +24628,10 @@
                   "kaeya",
                   "lisa",
                   "shogun-raiden",
-                  "rosaria",
                   "xiangling",
-                  "candace",
                   "chongyun",
                   "durin",
+                  "lynette",
                   "tighnari"
                 ]
               },
@@ -24490,7 +24649,6 @@
               "kujou-sara",
               "lisa",
               "shogun-raiden",
-              "rosaria",
               "xiangling",
               "xingqiu",
               "yelan",
@@ -24571,11 +24729,10 @@
                   "kaeya",
                   "lisa",
                   "shogun-raiden",
-                  "rosaria",
                   "xiangling",
-                  "candace",
                   "chongyun",
                   "durin",
+                  "lynette",
                   "tighnari"
                 ]
               },
@@ -24765,9 +24922,9 @@
           "tier": "BiS",
           "mainStats": {
             "sands": [
-              "ER%",
               "ATK%",
-              "EM"
+              "EM",
+              "ER%"
             ],
             "goblet": [
               "Electro DMG%"
@@ -24778,19 +24935,20 @@
             ]
           },
           "substatsPriority": [
-            "ER%",
             "CRIT Rate",
             "CRIT DMG",
+            "ER%",
             "ATK%",
-            "EM"
+            "EM",
+            "ATK"
           ],
           "critTie": true,
           "erUntilRequirement": false,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "6.2",
             "kqmVersion": "6.5",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (6.5 > 6.2) and recommends set",
             "genshinBuildsUpdated": "6.2 / Luna III",
             "kqmUrl": "https://keqingmains.com/q/lisa-quickguide/"
           }
@@ -24833,10 +24991,10 @@
           "critTie": true,
           "erUntilRequirement": false,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "Both (Consensus)",
             "gbVersion": "5.7",
             "kqmVersion": "5.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Versions match (5.7 = 5.7) and KQM recommends set",
             "genshinBuildsUpdated": "5.7",
             "kqmUrl": "https://keqingmains.com/q/raiden-quickguide/"
           }
@@ -24857,32 +25015,28 @@
           "tier": "BiS",
           "mainStats": {
             "sands": [
-              "EM",
-              "ATK%",
-              "ER%"
+              "ATK%"
             ],
             "goblet": [
               "Cryo DMG%"
             ],
             "circlet": [
-              "CRIT Rate",
               "CRIT DMG"
             ]
           },
           "substatsPriority": [
             "ER%",
-            "CRIT Rate",
             "CRIT DMG",
-            "EM",
-            "ATK%"
+            "ATK%",
+            "CRIT Rate"
           ],
-          "critTie": true,
+          "critTie": false,
           "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "KQM",
+            "primarySource": "Genshin-Builds",
             "gbVersion": "5.5",
             "kqmVersion": "5.8",
-            "resolutionReason": "KQM newer (5.8 > 5.5) and recommends set",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
             "genshinBuildsUpdated": "5.5",
             "kqmUrl": "https://keqingmains.com/q/rosaria-quickguide/"
           }
@@ -25019,7 +25173,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "5.8",
             "kqmVersion": "5.4",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (5.8 > 5.4)",
             "genshinBuildsUpdated": "5.8",
             "kqmUrl": "https://keqingmains.com/q/yelan-quickguide/"
           }
@@ -25040,35 +25194,32 @@
           "tier": "Alternative",
           "mainStats": {
             "sands": [
-              "HP%",
               "ER%",
-              "EM"
+              "HP%"
             ],
             "goblet": [
               "HP%",
-              "Hydro DMG%",
-              "EM"
+              "Hydro DMG%"
             ],
             "circlet": [
               "HP%",
               "CRIT Rate",
-              "CRIT DMG",
-              "EM"
+              "CRIT DMG"
             ]
           },
           "substatsPriority": [
             "ER%",
             "CRIT Rate",
-            "EM",
-            "HP%"
+            "HP%",
+            "HP"
           ],
           "critTie": false,
           "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "KQM",
+            "primarySource": "Genshin-Builds",
             "gbVersion": "5.8",
             "kqmVersion": "6.0",
-            "resolutionReason": "KQM newer (6.0 > 5.8) and recommends set",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
             "genshinBuildsUpdated": "5.8",
             "kqmUrl": "https://keqingmains.com/q/candace-quickguide/"
           }
@@ -25181,29 +25332,34 @@
           "mainStats": {
             "sands": [
               "ER%",
-              "ATK%"
+              "ATK%",
+              "EM"
             ],
             "goblet": [
-              "Anemo DMG%"
+              "Anemo DMG%",
+              "ATK%",
+              "EM"
             ],
             "circlet": [
               "CRIT Rate",
-              "CRIT DMG"
+              "CRIT DMG",
+              "EM"
             ]
           },
           "substatsPriority": [
             "ER%",
             "CRIT Rate",
             "CRIT DMG",
-            "ATK%"
+            "ATK%",
+            "EM"
           ],
-          "critTie": false,
+          "critTie": true,
           "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "4.1",
             "kqmVersion": "4.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (4.7 > 4.1) and recommends set",
             "genshinBuildsUpdated": "4.1",
             "kqmUrl": "https://keqingmains.com/q/lynette-quickguide/"
           }
@@ -25247,7 +25403,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "4.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.1)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/razor-quickguide/"
           }
@@ -25293,7 +25449,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "4.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.0)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/tighnari-quickguide/"
           }
@@ -25970,7 +26126,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.2",
             "kqmVersion": "6.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.2 > 6.0)",
             "genshinBuildsUpdated": "7.2",
             "kqmUrl": "https://keqingmains.com/q/yoimiya-quickguide/"
           }
@@ -26056,7 +26212,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "4.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.0)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/lyney-quickguide/"
           }
@@ -26142,7 +26298,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "4.6",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.6)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/wanderer-quickguide/"
           }
@@ -26529,7 +26685,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "4.8",
             "kqmVersion": "3.8",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (4.8 > 3.8)",
             "genshinBuildsUpdated": "4.8",
             "kqmUrl": "https://keqingmains.com/q/eula-quickguide/"
           }
@@ -27507,7 +27663,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "4.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.7)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/charlotte-quickguide/"
           }
@@ -27635,10 +27791,10 @@
           "critTie": false,
           "erUntilRequirement": false,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "Both (Consensus)",
             "gbVersion": "6.7",
             "kqmVersion": "6.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Versions match (6.7 = 6.7) and KQM recommends set",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/qiqi-quickguide/"
           }
@@ -27720,10 +27876,10 @@
           "critTie": false,
           "erUntilRequirement": false,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "Both (Consensus)",
             "gbVersion": "7.1",
             "kqmVersion": "7.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Versions match (7.1 = 7.1) and KQM recommends set",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/vodyanitsa-quickguide/"
           }
@@ -27808,7 +27964,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "5.4",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 5.4)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/citlali-quickguide/"
           }
@@ -27854,7 +28010,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "6.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.1)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/furina-quickguide/"
           }
@@ -28026,32 +28182,18 @@
           },
           {
             "substats": [
-              "CRIT DMG",
-              "ATK%",
-              "ER%",
-              "CRIT Rate"
-            ],
-            "usedBy": [
-              "kamisato-ayaka"
-            ],
-            "reasoning": {
-              "en": "Kamisato Ayaka can use CRIT DMG + ATK% + Energy Recharge + CRIT Rate on this set's Flower and Plume.",
-              "es": "Kamisato Ayaka busca(n) Daño CRIT + ATQ% + Recarga de Energía + Prob. CRIT en la Flor y la Pluma de este set."
-            }
-          },
-          {
-            "substats": [
               "ER%",
               "CRIT Rate",
               "CRIT DMG",
               "ATK%"
             ],
             "usedBy": [
+              "kamisato-ayaka",
               "escoffier"
             ],
             "reasoning": {
-              "en": "Escoffier can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% on this set's Flower and Plume.",
-              "es": "Escoffier busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% en la Flor y la Pluma de este set."
+              "en": "Kamisato Ayaka, Escoffier can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% on this set's Flower and Plume.",
+              "es": "Kamisato Ayaka, Escoffier busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% en la Flor y la Pluma de este set."
             }
           },
           {
@@ -28319,28 +28461,32 @@
           },
           {
             "mainStat": "ATK%",
-            "verdict": "SITUATIONAL_KEEP",
+            "verdict": "MUST_KEEP",
             "substats": [
               {
                 "name": "ER%",
                 "characters": [
+                  "kamisato-ayaka",
                   "escoffier"
                 ]
               },
               {
                 "name": "CRIT Rate",
                 "characters": [
+                  "kamisato-ayaka",
                   "escoffier"
                 ]
               },
               {
                 "name": "CRIT DMG",
                 "characters": [
+                  "kamisato-ayaka",
                   "escoffier"
                 ]
               }
             ],
             "usedBy": [
+              "kamisato-ayaka",
               "escoffier"
             ]
           },
@@ -28526,12 +28672,6 @@
             "verdict": "MUST_KEEP",
             "substats": [
               {
-                "name": "CRIT DMG",
-                "characters": [
-                  "kamisato-ayaka"
-                ]
-              },
-              {
                 "name": "ER%",
                 "characters": [
                   "kamisato-ayaka"
@@ -28539,6 +28679,12 @@
               },
               {
                 "name": "CRIT Rate",
+                "characters": [
+                  "kamisato-ayaka"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
                 "characters": [
                   "kamisato-ayaka"
                 ]
@@ -28571,6 +28717,7 @@
                   "freminet",
                   "ganyu",
                   "kaeya",
+                  "kamisato-ayaka",
                   "rosaria",
                   "escoffier",
                   "layla",
@@ -28584,6 +28731,7 @@
                   "freminet",
                   "ganyu",
                   "kaeya",
+                  "kamisato-ayaka",
                   "rosaria",
                   "escoffier",
                   "layla",
@@ -28597,6 +28745,7 @@
                   "freminet",
                   "ganyu",
                   "kaeya",
+                  "kamisato-ayaka",
                   "rosaria",
                   "escoffier",
                   "layla",
@@ -28624,6 +28773,7 @@
               "freminet",
               "ganyu",
               "kaeya",
+              "kamisato-ayaka",
               "rosaria",
               "escoffier",
               "layla",
@@ -28912,26 +29062,28 @@
               "ATK%"
             ],
             "goblet": [
-              "Cryo DMG%"
+              "Cryo DMG%",
+              "ATK%"
             ],
             "circlet": [
+              "CRIT Rate",
               "CRIT DMG",
               "ATK%"
             ]
           },
           "substatsPriority": [
-            "CRIT DMG",
-            "ATK%",
             "ER%",
-            "CRIT Rate"
+            "CRIT Rate",
+            "CRIT DMG",
+            "ATK%"
           ],
-          "critTie": false,
-          "erUntilRequirement": false,
+          "critTie": true,
+          "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "4.1",
             "kqmVersion": "5.8",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (5.8 > 4.1) and recommends set",
             "genshinBuildsUpdated": "4.1",
             "kqmUrl": "https://keqingmains.com/q/ayaka-quickguide/"
           }
@@ -29070,7 +29222,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "5.0",
             "kqmVersion": "4.6",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (5.0 > 4.6)",
             "genshinBuildsUpdated": "5.0",
             "kqmUrl": "https://keqingmains.com/q/layla-quickguide/"
           }
@@ -29739,7 +29891,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.2",
             "kqmVersion": "5.8",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.2 > 5.8)",
             "genshinBuildsUpdated": "6.2 / Luna III",
             "kqmUrl": "https://keqingmains.com/q/mualani-quickguide/"
           }
@@ -29782,10 +29934,10 @@
           "critTie": true,
           "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "6.2",
             "kqmVersion": "6.3",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (6.3 > 6.2) and recommends set",
             "genshinBuildsUpdated": "6.2 / Luna III",
             "kqmUrl": "https://keqingmains.com/q/neuvillette-quickguide/"
           }
@@ -29819,19 +29971,18 @@
         "keepCombinations": [
           {
             "substats": [
+              "ER%",
               "CRIT Rate",
               "CRIT DMG",
               "ATK%",
-              "ER%",
-              "HP%",
-              "EM"
+              "HP%"
             ],
             "usedBy": [
               "kamisato-ayato"
             ],
             "reasoning": {
-              "en": "Kamisato Ayato can use CRIT Rate + CRIT DMG + ATK% + Energy Recharge + HP% + Elemental Mastery on this set's Flower and Plume.",
-              "es": "Kamisato Ayato busca(n) Prob. CRIT + Daño CRIT + ATQ% + Recarga de Energía + Vida% + Maestría Elemental en la Flor y la Pluma de este set."
+              "en": "Kamisato Ayato can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + HP% on this set's Flower and Plume.",
+              "es": "Kamisato Ayato busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Vida% en la Flor y la Pluma de este set."
             }
           },
           {
@@ -29918,16 +30069,15 @@
                 ]
               },
               {
-                "name": "EM",
-                "characters": [
-                  "kamisato-ayato",
-                  "arlecchino"
-                ]
-              },
-              {
                 "name": "HP%",
                 "characters": [
                   "kamisato-ayato"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "arlecchino"
                 ]
               }
             ],
@@ -29972,11 +30122,12 @@
           },
           {
             "mainStat": "ER%",
-            "verdict": "SITUATIONAL_KEEP",
+            "verdict": "MUST_KEEP",
             "substats": [
               {
                 "name": "CRIT Rate",
                 "characters": [
+                  "kamisato-ayato",
                   "noelle",
                   "razor"
                 ]
@@ -29984,8 +30135,22 @@
               {
                 "name": "CRIT DMG",
                 "characters": [
+                  "kamisato-ayato",
                   "noelle",
                   "razor"
+                ]
+              },
+              {
+                "name": "ATK%",
+                "characters": [
+                  "kamisato-ayato",
+                  "razor"
+                ]
+              },
+              {
+                "name": "HP%",
+                "characters": [
+                  "kamisato-ayato"
                 ]
               },
               {
@@ -29999,15 +30164,10 @@
                 "characters": [
                   "noelle"
                 ]
-              },
-              {
-                "name": "ATK%",
-                "characters": [
-                  "razor"
-                ]
               }
             ],
             "usedBy": [
+              "kamisato-ayato",
               "noelle",
               "razor"
             ]
@@ -30118,6 +30278,12 @@
             "verdict": "MUST_KEEP",
             "substats": [
               {
+                "name": "ER%",
+                "characters": [
+                  "kamisato-ayato"
+                ]
+              },
+              {
                 "name": "CRIT Rate",
                 "characters": [
                   "kamisato-ayato"
@@ -30136,19 +30302,7 @@
                 ]
               },
               {
-                "name": "ER%",
-                "characters": [
-                  "kamisato-ayato"
-                ]
-              },
-              {
                 "name": "HP%",
-                "characters": [
-                  "kamisato-ayato"
-                ]
-              },
-              {
-                "name": "EM",
                 "characters": [
                   "kamisato-ayato"
                 ]
@@ -30294,14 +30448,6 @@
                 ]
               },
               {
-                "name": "ATK%",
-                "characters": [
-                  "kamisato-ayato",
-                  "arlecchino",
-                  "razor"
-                ]
-              },
-              {
                 "name": "ER%",
                 "characters": [
                   "kamisato-ayato",
@@ -30310,9 +30456,16 @@
                 ]
               },
               {
-                "name": "EM",
+                "name": "ATK%",
                 "characters": [
                   "kamisato-ayato",
+                  "arlecchino",
+                  "razor"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
                   "arlecchino",
                   "noelle"
                 ]
@@ -30351,14 +30504,6 @@
                 ]
               },
               {
-                "name": "ATK%",
-                "characters": [
-                  "kamisato-ayato",
-                  "arlecchino",
-                  "razor"
-                ]
-              },
-              {
                 "name": "ER%",
                 "characters": [
                   "kamisato-ayato",
@@ -30367,9 +30512,16 @@
                 ]
               },
               {
-                "name": "EM",
+                "name": "ATK%",
                 "characters": [
                   "kamisato-ayato",
+                  "arlecchino",
+                  "razor"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
                   "arlecchino",
                   "noelle"
                 ]
@@ -30419,7 +30571,8 @@
           "tier": "BiS",
           "mainStats": {
             "sands": [
-              "ATK%"
+              "ATK%",
+              "ER%"
             ],
             "goblet": [
               "Hydro DMG%"
@@ -30430,20 +30583,19 @@
             ]
           },
           "substatsPriority": [
+            "ER%",
             "CRIT Rate",
             "CRIT DMG",
             "ATK%",
-            "ER%",
-            "HP%",
-            "EM"
+            "HP%"
           ],
           "critTie": true,
-          "erUntilRequirement": false,
+          "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "4.4",
             "kqmVersion": "6.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (6.0 > 4.4) and recommends set",
             "genshinBuildsUpdated": "4.4",
             "kqmUrl": "https://keqingmains.com/q/ayato-quickguide/"
           }
@@ -30487,7 +30639,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "6.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.7)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/arlecchino-quickguide/"
           }
@@ -30533,7 +30685,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "6.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.7)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/noelle-quickguide/"
           }
@@ -30577,7 +30729,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "4.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.1)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/razor-quickguide/"
           }
@@ -31159,7 +31311,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "5.8",
             "kqmVersion": "4.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (5.8 > 4.7)",
             "genshinBuildsUpdated": "5.8",
             "kqmUrl": "https://keqingmains.com/q/sethos-quickguide/"
           }
@@ -31205,7 +31357,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "4.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.0)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/tighnari-quickguide/"
           }
@@ -31240,6 +31392,20 @@
           {
             "substats": [
               "ER%",
+              "EM",
+              "CRIT Rate"
+            ],
+            "usedBy": [
+              "aino"
+            ],
+            "reasoning": {
+              "en": "Aino can use Energy Recharge + Elemental Mastery + CRIT Rate on this set's Flower and Plume.",
+              "es": "Aino busca(n) Recarga de Energía + Maestría Elemental + Prob. CRIT en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "ER%",
               "CRIT Rate",
               "CRIT DMG",
               "ATK%",
@@ -31251,11 +31417,12 @@
               "dendro-traveler",
               "durin",
               "jean",
+              "mona",
               "ororon"
             ],
             "reasoning": {
-              "en": "Amber, Collei, Dendro Traveler, Durin, Jean, Ororon can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
-              "es": "Amber, Collei, Viajero Dendro, Durin, Jean, Ororon busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+              "en": "Amber, Collei, Dendro Traveler, Durin, Jean, Mona, Ororon can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Amber, Collei, Viajero Dendro, Durin, Jean, Mona, Ororon busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
             }
           },
           {
@@ -31350,22 +31517,6 @@
             "reasoning": {
               "en": "Dori can use CRIT Rate + Energy Recharge + HP% + Elemental Mastery on this set's Flower and Plume.",
               "es": "Dori busca(n) Prob. CRIT + Recarga de Energía + Vida% + Maestría Elemental en la Flor y la Pluma de este set."
-            }
-          },
-          {
-            "substats": [
-              "ER%",
-              "CRIT Rate",
-              "CRIT DMG",
-              "ATK%"
-            ],
-            "usedBy": [
-              "faruzan",
-              "kujou-sara"
-            ],
-            "reasoning": {
-              "en": "Faruzan, Kujou Sara can use Energy Recharge + CRIT Rate + CRIT DMG + ATK% on this set's Flower and Plume.",
-              "es": "Faruzán, Kujou Sara busca(n) Recarga de Energía + Prob. CRIT + Daño CRIT + ATQ% en la Flor y la Pluma de este set."
             }
           }
         ]
@@ -31498,6 +31649,7 @@
                   "durin",
                   "jean",
                   "kujou-sara",
+                  "mona",
                   "ororon",
                   "pyro-traveler",
                   "xingqiu"
@@ -31514,6 +31666,7 @@
                   "dendro-traveler",
                   "durin",
                   "jean",
+                  "mona",
                   "ororon"
                 ]
               },
@@ -31567,6 +31720,7 @@
               {
                 "name": "CRIT Rate",
                 "characters": [
+                  "aino",
                   "amber",
                   "bennett",
                   "charlotte",
@@ -31642,6 +31796,7 @@
                   "dendro-traveler",
                   "jean",
                   "kujou-sara",
+                  "mona",
                   "ororon",
                   "pyro-traveler",
                   "xingqiu"
@@ -31650,6 +31805,7 @@
               {
                 "name": "EM",
                 "characters": [
+                  "aino",
                   "amber",
                   "chevreuse",
                   "chongyun",
@@ -31659,6 +31815,7 @@
                   "collei",
                   "dendro-traveler",
                   "jean",
+                  "mona",
                   "ororon",
                   "sayu"
                 ]
@@ -31683,6 +31840,7 @@
               }
             ],
             "usedBy": [
+              "aino",
               "amber",
               "bennett",
               "charlotte",
@@ -31719,8 +31877,9 @@
             "verdict": "MUST_KEEP",
             "substats": [
               {
-                "name": "CRIT Rate",
+                "name": "ER%",
                 "characters": [
+                  "aino",
                   "chongyun",
                   "dori",
                   "rosaria",
@@ -31731,8 +31890,9 @@
                 ]
               },
               {
-                "name": "ER%",
+                "name": "CRIT Rate",
                 "characters": [
+                  "aino",
                   "chongyun",
                   "dori",
                   "rosaria",
@@ -31771,6 +31931,7 @@
               }
             ],
             "usedBy": [
+              "aino",
               "chongyun",
               "dori",
               "rosaria",
@@ -31850,7 +32011,6 @@
                   "durin",
                   "iansan",
                   "jean",
-                  "mona",
                   "nicole",
                   "prune",
                   "sayu",
@@ -31866,7 +32026,6 @@
                   "durin",
                   "iansan",
                   "jean",
-                  "mona",
                   "nicole",
                   "prune",
                   "sayu",
@@ -31898,7 +32057,6 @@
               "durin",
               "iansan",
               "jean",
-              "mona",
               "nicole",
               "prune",
               "sayu",
@@ -31931,8 +32089,9 @@
             "verdict": "MUST_KEEP",
             "substats": [
               {
-                "name": "CRIT Rate",
+                "name": "ER%",
                 "characters": [
+                  "aino",
                   "dori",
                   "collei",
                   "dendro-traveler",
@@ -31940,8 +32099,9 @@
                 ]
               },
               {
-                "name": "ER%",
+                "name": "CRIT Rate",
                 "characters": [
+                  "aino",
                   "dori",
                   "collei",
                   "dendro-traveler",
@@ -31971,6 +32131,7 @@
               }
             ],
             "usedBy": [
+              "aino",
               "dori",
               "collei",
               "dendro-traveler",
@@ -32063,6 +32224,13 @@
                 ]
               },
               {
+                "name": "CRIT DMG",
+                "characters": [
+                  "mona",
+                  "xingqiu"
+                ]
+              },
+              {
                 "name": "ATK%",
                 "characters": [
                   "mona",
@@ -32070,9 +32238,9 @@
                 ]
               },
               {
-                "name": "CRIT DMG",
+                "name": "EM",
                 "characters": [
-                  "xingqiu"
+                  "mona"
                 ]
               }
             ],
@@ -32429,8 +32597,9 @@
             "verdict": "MUST_KEEP",
             "substats": [
               {
-                "name": "CRIT Rate",
+                "name": "ER%",
                 "characters": [
+                  "aino",
                   "dori",
                   "collei",
                   "dendro-traveler",
@@ -32438,8 +32607,9 @@
                 ]
               },
               {
-                "name": "ER%",
+                "name": "CRIT Rate",
                 "characters": [
+                  "aino",
                   "dori",
                   "collei",
                   "dendro-traveler",
@@ -32469,6 +32639,7 @@
               }
             ],
             "usedBy": [
+              "aino",
               "dori",
               "collei",
               "dendro-traveler",
@@ -32482,6 +32653,7 @@
               {
                 "name": "ER%",
                 "characters": [
+                  "aino",
                   "amber",
                   "bennett",
                   "charlotte",
@@ -32551,6 +32723,7 @@
                   "durin",
                   "jean",
                   "kujou-sara",
+                  "mona",
                   "ororon",
                   "pyro-traveler",
                   "xingqiu"
@@ -32559,6 +32732,7 @@
               {
                 "name": "EM",
                 "characters": [
+                  "aino",
                   "amber",
                   "chongyun",
                   "dori",
@@ -32568,6 +32742,7 @@
                   "dendro-traveler",
                   "durin",
                   "jean",
+                  "mona",
                   "ororon"
                 ]
               },
@@ -32589,6 +32764,7 @@
               }
             ],
             "usedBy": [
+              "aino",
               "amber",
               "bennett",
               "charlotte",
@@ -32635,6 +32811,7 @@
                   "durin",
                   "jean",
                   "kujou-sara",
+                  "mona",
                   "ororon",
                   "pyro-traveler",
                   "xingqiu"
@@ -32655,6 +32832,7 @@
                   "durin",
                   "jean",
                   "kujou-sara",
+                  "mona",
                   "ororon",
                   "pyro-traveler",
                   "xingqiu"
@@ -32675,6 +32853,7 @@
                   "durin",
                   "jean",
                   "kujou-sara",
+                  "mona",
                   "ororon",
                   "pyro-traveler",
                   "xingqiu"
@@ -32691,6 +32870,7 @@
                   "dendro-traveler",
                   "durin",
                   "jean",
+                  "mona",
                   "ororon"
                 ]
               },
@@ -32720,6 +32900,7 @@
               "durin",
               "jean",
               "kujou-sara",
+              "mona",
               "ororon",
               "pyro-traveler",
               "xingqiu"
@@ -32816,6 +32997,49 @@
       },
       "characters": [
         {
+          "characterId": "aino",
+          "name": {
+            "en": "Aino",
+            "es": "Aino"
+          },
+          "iconUrl": "/images/characters/aino.png",
+          "element": "Hydro",
+          "role": {
+            "en": "Reaction Support",
+            "es": "Soporte de reacciones"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "ER%",
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "EM",
+              "CRIT Rate"
+            ]
+          },
+          "substatsPriority": [
+            "ER%",
+            "EM",
+            "CRIT Rate"
+          ],
+          "critTie": false,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.1",
+            "kqmVersion": "6.0",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.0)",
+            "genshinBuildsUpdated": "7.1",
+            "kqmUrl": "https://keqingmains.com/q/aino-quickguide/"
+          }
+        },
+        {
           "characterId": "amber",
           "name": {
             "en": "Amber",
@@ -32855,7 +33079,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "5.4",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 5.4)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/amber-quickguide/"
           }
@@ -32905,7 +33129,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.1",
             "kqmVersion": "5.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.1 > 5.7)",
             "genshinBuildsUpdated": "6.1 / Luna II",
             "kqmUrl": "https://keqingmains.com/q/bennett-quickguide/"
           }
@@ -32951,7 +33175,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "4.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.7)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/charlotte-quickguide/"
           }
@@ -32996,7 +33220,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "5.6",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 5.6)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/chevreuse-quickguide/"
           }
@@ -33042,7 +33266,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.2",
             "kqmVersion": "3.5",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.2 > 3.5)",
             "genshinBuildsUpdated": "6.2 / Luna III",
             "kqmUrl": "https://keqingmains.com/q/chongyun-quickguide/"
           }
@@ -33085,7 +33309,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "5.8",
             "kqmVersion": "5.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (5.8 > 5.7)",
             "genshinBuildsUpdated": "5.8",
             "kqmUrl": "https://keqingmains.com/q/dahlia-quickguide/"
           }
@@ -33262,7 +33486,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.1",
             "kqmVersion": "4.6",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.1 > 4.6)",
             "genshinBuildsUpdated": "6.1 / Luna II",
             "kqmUrl": "https://keqingmains.com/q/faruzan-quickguide/"
           }
@@ -33439,7 +33663,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "7.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 7.0)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/alyosha-quickguide/"
           }
@@ -33578,7 +33802,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "4.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 4.0)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/dendro-traveler-quickguide/"
           }
@@ -33669,7 +33893,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "6.3",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.3)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/gorou-quickguide/"
           }
@@ -33803,7 +34027,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "5.1",
             "kqmVersion": "3.2",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (5.1 > 3.2)",
             "genshinBuildsUpdated": "5.1",
             "kqmUrl": "https://keqingmains.com/q/sara-quickguide/"
           }
@@ -33828,25 +34052,27 @@
               "ATK%"
             ],
             "goblet": [
-              "Hydro DMG%",
-              "ATK%"
+              "Hydro DMG%"
             ],
             "circlet": [
-              "CRIT Rate"
+              "CRIT Rate",
+              "CRIT DMG"
             ]
           },
           "substatsPriority": [
             "ER%",
             "CRIT Rate",
-            "ATK%"
+            "CRIT DMG",
+            "ATK%",
+            "EM"
           ],
-          "critTie": false,
+          "critTie": true,
           "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "6.7",
             "kqmVersion": "7.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (7.1 > 6.7) and recommends set",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/mona-quickguide/"
           }
@@ -33977,7 +34203,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "6.6",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.6)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/prune-quickguide/"
           }
@@ -34022,7 +34248,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.0",
             "kqmVersion": "5.5",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.0 > 5.5)",
             "genshinBuildsUpdated": "7.0",
             "kqmUrl": "https://keqingmains.com/q/pyro-traveler-quickguide/"
           }
@@ -34067,7 +34293,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "4.8",
             "kqmVersion": "4.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (4.8 > 4.0)",
             "genshinBuildsUpdated": "4.8",
             "kqmUrl": "https://keqingmains.com/q/sayu-quickguide/"
           }
@@ -34154,7 +34380,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "5.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 5.7)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/xingqiu-quickguide/"
           }
@@ -34418,14 +34644,16 @@
             "substats": [
               "ER%",
               "EM",
-              "CRIT Rate"
+              "ATK%",
+              "CRIT Rate",
+              "CRIT DMG"
             ],
             "usedBy": [
               "kaedehara-kazuha"
             ],
             "reasoning": {
-              "en": "Kaedehara Kazuha can use Energy Recharge + Elemental Mastery + CRIT Rate on this set's Flower and Plume.",
-              "es": "Kaedehara Kazuha busca(n) Recarga de Energía + Maestría Elemental + Prob. CRIT en la Flor y la Pluma de este set."
+              "en": "Kaedehara Kazuha can use Energy Recharge + Elemental Mastery + ATK% + CRIT Rate + CRIT DMG on this set's Flower and Plume.",
+              "es": "Kaedehara Kazuha busca(n) Recarga de Energía + Maestría Elemental + ATQ% + Prob. CRIT + Daño CRIT en la Flor y la Pluma de este set."
             }
           },
           {
@@ -34587,7 +34815,7 @@
             "verdict": "MUST_KEEP",
             "substats": [
               {
-                "name": "CRIT Rate",
+                "name": "ATK%",
                 "characters": [
                   "anemo-traveler",
                   "jahoda",
@@ -34602,11 +34830,12 @@
                 ]
               },
               {
-                "name": "ATK%",
+                "name": "CRIT Rate",
                 "characters": [
                   "anemo-traveler",
                   "jahoda",
                   "jean",
+                  "kaedehara-kazuha",
                   "lan-yan",
                   "lynette",
                   "prune",
@@ -34632,6 +34861,7 @@
                 "characters": [
                   "anemo-traveler",
                   "jean",
+                  "kaedehara-kazuha",
                   "lynette",
                   "faruzan"
                 ]
@@ -34677,17 +34907,17 @@
               {
                 "name": "ATK%",
                 "characters": [
+                  "kaedehara-kazuha",
                   "lynette",
                   "sayu",
-                  "sucrose",
                   "venti"
                 ]
               },
               {
                 "name": "CRIT DMG",
                 "characters": [
+                  "kaedehara-kazuha",
                   "lynette",
-                  "sucrose",
                   "venti"
                 ]
               }
@@ -34807,17 +35037,17 @@
               {
                 "name": "ATK%",
                 "characters": [
+                  "kaedehara-kazuha",
                   "lynette",
                   "sayu",
-                  "sucrose",
                   "venti"
                 ]
               },
               {
                 "name": "CRIT DMG",
                 "characters": [
+                  "kaedehara-kazuha",
                   "lynette",
-                  "sucrose",
                   "venti"
                 ]
               }
@@ -35024,17 +35254,17 @@
               {
                 "name": "ATK%",
                 "characters": [
+                  "kaedehara-kazuha",
                   "lynette",
                   "sayu",
-                  "sucrose",
                   "venti"
                 ]
               },
               {
                 "name": "CRIT DMG",
                 "characters": [
+                  "kaedehara-kazuha",
                   "lynette",
-                  "sucrose",
                   "venti"
                 ]
               }
@@ -35327,7 +35557,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "6.2",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.2)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/jahoda-quickguide/"
           }
@@ -35408,15 +35638,17 @@
           "substatsPriority": [
             "ER%",
             "EM",
-            "CRIT Rate"
+            "ATK%",
+            "CRIT Rate",
+            "CRIT DMG"
           ],
-          "critTie": false,
+          "critTie": true,
           "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "6.1",
             "kqmVersion": "7.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (7.1 > 6.1) and recommends set",
             "genshinBuildsUpdated": "6.1 / Luna II",
             "kqmUrl": "https://keqingmains.com/q/kazuha-quickguide/"
           }
@@ -35552,7 +35784,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "6.6",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 6.6)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/prune-quickguide/"
           }
@@ -35641,7 +35873,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "5.4",
             "kqmVersion": "3.8",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (5.4 > 3.8)",
             "genshinBuildsUpdated": "5.4",
             "kqmUrl": "https://keqingmains.com/q/heizou-quickguide/"
           }
@@ -35674,17 +35906,15 @@
           "substatsPriority": [
             "EM",
             "ER%",
-            "ATK%",
-            "CRIT Rate",
-            "CRIT DMG"
+            "CRIT Rate"
           ],
-          "critTie": true,
+          "critTie": false,
           "erUntilRequirement": false,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "5.8",
             "kqmVersion": "6.5",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (6.5 > 5.8) and recommends set",
             "genshinBuildsUpdated": "5.8",
             "kqmUrl": "https://keqingmains.com/q/sucrose-quickguide/"
           }
@@ -35775,7 +36005,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "4.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 4.7)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/xianyun-quickguide/"
           }
@@ -36746,8 +36976,8 @@
           "mainStats": {
             "sands": [
               "EM",
-              "ATK%",
-              "ER%"
+              "ER%",
+              "ATK%"
             ],
             "goblet": [
               "Pyro DMG%"
@@ -36767,10 +36997,10 @@
           "critTie": true,
           "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "6.7",
             "kqmVersion": "7.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (7.1 > 6.7) and recommends set",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/gaming-quickguide/"
           }
@@ -36906,7 +37136,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.5",
             "kqmVersion": "4.5",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.5 > 4.5)",
             "genshinBuildsUpdated": "6.5 / Luna VI",
             "kqmUrl": "https://keqingmains.com/q/xiangling-quickguide/"
           }
@@ -36951,7 +37181,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.2",
             "kqmVersion": "6.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.2 > 6.0)",
             "genshinBuildsUpdated": "7.2",
             "kqmUrl": "https://keqingmains.com/q/yoimiya-quickguide/"
           }
@@ -37281,7 +37511,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.5",
             "kqmVersion": "6.3",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.5 > 6.3)",
             "genshinBuildsUpdated": "6.5 / Luna VI",
             "kqmUrl": "https://keqingmains.com/q/klee-quickguide/"
           }
@@ -37322,13 +37552,42 @@
               "ER%"
             ],
             "usedBy": [
-              "clorinde",
-              "keqing",
+              "clorinde"
+            ],
+            "reasoning": {
+              "en": "Clorinde can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Clorinde busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
+              "keqing"
+            ],
+            "reasoning": {
+              "en": "Keqing can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Keching busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "ER%",
+              "ATK%",
+              "EM"
+            ],
+            "usedBy": [
               "lisa"
             ],
             "reasoning": {
-              "en": "Clorinde, Keqing, Lisa can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
-              "es": "Clorinde, Keching, Lisa busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+              "en": "Lisa can use CRIT Rate + CRIT DMG + Energy Recharge + ATK% + Elemental Mastery on this set's Flower and Plume.",
+              "es": "Lisa busca(n) Prob. CRIT + Daño CRIT + Recarga de Energía + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
             }
           },
           {
@@ -37393,20 +37652,19 @@
                 ]
               },
               {
-                "name": "ER%",
-                "characters": [
-                  "clorinde",
-                  "keqing",
-                  "lisa",
-                  "razor"
-                ]
-              },
-              {
                 "name": "EM",
                 "characters": [
                   "clorinde",
                   "keqing",
                   "lisa"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde",
+                  "lisa",
+                  "razor"
                 ]
               }
             ],
@@ -37425,35 +37683,40 @@
           },
           {
             "mainStat": "ER%",
-            "verdict": "SITUATIONAL_KEEP",
+            "verdict": "MUST_KEEP",
             "substats": [
               {
                 "name": "CRIT Rate",
                 "characters": [
+                  "lisa",
                   "kaedehara-kazuha",
                   "razor"
                 ]
               },
               {
-                "name": "EM",
-                "characters": [
-                  "kaedehara-kazuha"
-                ]
-              },
-              {
                 "name": "CRIT DMG",
                 "characters": [
+                  "lisa",
                   "razor"
                 ]
               },
               {
                 "name": "ATK%",
                 "characters": [
+                  "lisa",
                   "razor"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "lisa",
+                  "kaedehara-kazuha"
                 ]
               }
             ],
             "usedBy": [
+              "lisa",
               "kaedehara-kazuha",
               "razor"
             ]
@@ -37472,15 +37735,6 @@
                 ]
               },
               {
-                "name": "ER%",
-                "characters": [
-                  "clorinde",
-                  "keqing",
-                  "lisa",
-                  "kaedehara-kazuha"
-                ]
-              },
-              {
                 "name": "CRIT DMG",
                 "characters": [
                   "clorinde",
@@ -37494,6 +37748,14 @@
                   "clorinde",
                   "keqing",
                   "lisa"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde",
+                  "lisa",
+                  "kaedehara-kazuha"
                 ]
               }
             ],
@@ -37595,20 +37857,19 @@
                 ]
               },
               {
-                "name": "ER%",
-                "characters": [
-                  "clorinde",
-                  "keqing",
-                  "lisa",
-                  "razor"
-                ]
-              },
-              {
                 "name": "EM",
                 "characters": [
                   "clorinde",
                   "keqing",
                   "lisa"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde",
+                  "lisa",
+                  "razor"
                 ]
               }
             ],
@@ -37707,20 +37968,19 @@
                 ]
               },
               {
-                "name": "ER%",
-                "characters": [
-                  "clorinde",
-                  "keqing",
-                  "lisa",
-                  "razor"
-                ]
-              },
-              {
                 "name": "EM",
                 "characters": [
                   "clorinde",
                   "keqing",
                   "lisa"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde",
+                  "lisa",
+                  "razor"
                 ]
               }
             ],
@@ -37754,20 +38014,19 @@
                 ]
               },
               {
-                "name": "ER%",
-                "characters": [
-                  "clorinde",
-                  "keqing",
-                  "lisa",
-                  "razor"
-                ]
-              },
-              {
                 "name": "EM",
                 "characters": [
                   "clorinde",
                   "keqing",
                   "lisa"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "clorinde",
+                  "lisa",
+                  "razor"
                 ]
               }
             ],
@@ -37827,7 +38086,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "5.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 5.7)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/clorinde-quickguide/"
           }
@@ -37863,16 +38122,15 @@
             "CRIT Rate",
             "CRIT DMG",
             "ATK%",
-            "EM",
-            "ER%"
+            "EM"
           ],
           "critTie": true,
           "erUntilRequirement": false,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "5.6",
             "kqmVersion": "6.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (6.0 > 5.6) and recommends set",
             "genshinBuildsUpdated": "5.6",
             "kqmUrl": "https://keqingmains.com/q/keqing-quickguide/"
           }
@@ -37894,7 +38152,8 @@
           "mainStats": {
             "sands": [
               "ATK%",
-              "EM"
+              "EM",
+              "ER%"
             ],
             "goblet": [
               "Electro DMG%"
@@ -37907,17 +38166,18 @@
           "substatsPriority": [
             "CRIT Rate",
             "CRIT DMG",
+            "ER%",
             "ATK%",
             "EM",
-            "ER%"
+            "ATK"
           ],
           "critTie": true,
           "erUntilRequirement": false,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "6.2",
             "kqmVersion": "6.5",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (6.5 > 6.2) and recommends set",
             "genshinBuildsUpdated": "6.2 / Luna III",
             "kqmUrl": "https://keqingmains.com/q/lisa-quickguide/"
           }
@@ -38040,14 +38300,15 @@
               "CRIT Rate",
               "CRIT DMG",
               "ATK%",
-              "EM"
+              "EM",
+              "ER%"
             ],
             "usedBy": [
               "keqing"
             ],
             "reasoning": {
-              "en": "Keqing can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery on this set's Flower and Plume.",
-              "es": "Keching busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental en la Flor y la Pluma de este set."
+              "en": "Keqing can use CRIT Rate + CRIT DMG + ATK% + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Keching busca(n) Prob. CRIT + Daño CRIT + ATQ% + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
             }
           }
         ]
@@ -38078,6 +38339,12 @@
               },
               {
                 "name": "EM",
+                "characters": [
+                  "keqing"
+                ]
+              },
+              {
+                "name": "ER%",
                 "characters": [
                   "keqing"
                 ]
@@ -38117,6 +38384,12 @@
               },
               {
                 "name": "ATK%",
+                "characters": [
+                  "keqing"
+                ]
+              },
+              {
+                "name": "ER%",
                 "characters": [
                   "keqing"
                 ]
@@ -38197,6 +38470,12 @@
                 "characters": [
                   "keqing"
                 ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "keqing"
+                ]
               }
             ],
             "usedBy": [
@@ -38274,6 +38553,12 @@
                 "characters": [
                   "keqing"
                 ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "keqing"
+                ]
               }
             ],
             "usedBy": [
@@ -38298,6 +38583,12 @@
               },
               {
                 "name": "EM",
+                "characters": [
+                  "keqing"
+                ]
+              },
+              {
+                "name": "ER%",
                 "characters": [
                   "keqing"
                 ]
@@ -38347,15 +38638,16 @@
             "CRIT Rate",
             "CRIT DMG",
             "ATK%",
-            "EM"
+            "EM",
+            "ER%"
           ],
           "critTie": true,
           "erUntilRequirement": false,
           "sourceValidation": {
-            "primarySource": "KQM",
+            "primarySource": "Genshin-Builds",
             "gbVersion": "5.6",
             "kqmVersion": "6.0",
-            "resolutionReason": "KQM newer (6.0 > 5.6) and recommends set",
+            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
             "genshinBuildsUpdated": "5.6",
             "kqmUrl": "https://keqingmains.com/q/keqing-quickguide/"
           }
@@ -38833,10 +39125,10 @@
           "critTie": false,
           "erUntilRequirement": false,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "KQM",
             "gbVersion": "5.8",
             "kqmVersion": "7.1",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "KQM newer (7.1 > 5.8) and recommends set",
             "genshinBuildsUpdated": "5.8",
             "kqmUrl": "https://keqingmains.com/q/zhongli-quickguide/"
           }
@@ -38878,10 +39170,10 @@
           "critTie": true,
           "erUntilRequirement": true,
           "sourceValidation": {
-            "primarySource": "Genshin-Builds",
+            "primarySource": "Both (Consensus)",
             "gbVersion": "5.0",
             "kqmVersion": "5.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Versions match (5.0 = 5.0) and KQM recommends set",
             "genshinBuildsUpdated": "5.0",
             "kqmUrl": "https://keqingmains.com/q/kachina-quickguide/"
           }
@@ -38926,7 +39218,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "5.4",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 5.4)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/xilonen-quickguide/"
           }
@@ -39338,7 +39630,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.1",
             "kqmVersion": "6.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.1 > 6.7)",
             "genshinBuildsUpdated": "7.1",
             "kqmUrl": "https://keqingmains.com/q/noelle-quickguide/"
           }
@@ -40133,7 +40425,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "4.8",
             "kqmVersion": "4.0",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (4.8 > 4.0)",
             "genshinBuildsUpdated": "4.8",
             "kqmUrl": "https://keqingmains.com/q/kirara-quickguide/"
           }
@@ -40178,7 +40470,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.7",
             "kqmVersion": "5.4",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.7 > 5.4)",
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "kqmUrl": "https://keqingmains.com/q/amber-quickguide/"
           }
@@ -40218,7 +40510,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "7.0",
             "kqmVersion": "3.2",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (7.0 > 3.2)",
             "genshinBuildsUpdated": "7.0",
             "kqmUrl": "https://keqingmains.com/q/barbara-quickguide/"
           }
@@ -40268,7 +40560,7 @@
             "primarySource": "Genshin-Builds",
             "gbVersion": "6.1",
             "kqmVersion": "5.7",
-            "resolutionReason": "Fallback to GB: set not in KQM standard recommendations",
+            "resolutionReason": "Genshin-Builds newer (6.1 > 5.7)",
             "genshinBuildsUpdated": "6.1 / Luna II",
             "kqmUrl": "https://keqingmains.com/q/bennett-quickguide/"
           }

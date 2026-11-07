@@ -27,6 +27,7 @@ import {
 } from './genshin-builds'
 import { fetchKqmGuide, formatVersion, parseVersion, type KqmGuide } from './kqm-parser'
 import { mapWithConcurrency } from './http'
+import { MANUAL_CHARACTER_INCLUSIONS } from './manual-inclusions'
 
 const ROLE_ES: Record<string, string> = {
   'Anemo DPS': 'DPS Anemo',
@@ -98,6 +99,17 @@ function resolvePrimarySource(
   if (!kqm.version || !kqmVersion) {
     return { primarySource: 'Genshin-Builds', gbVersion, resolutionReason: 'Fallback to GB: KQM version missing' }
   }
+
+  const comparison = compareVersions(kqm, gbVersionRaw)
+  if (comparison < 0) {
+    return {
+      primarySource: 'Genshin-Builds',
+      gbVersion,
+      kqmVersion,
+      resolutionReason: `Genshin-Builds newer (${gbVersion} > ${kqmVersion})`,
+    }
+  }
+
   if (!recommendedForThisSet) {
     return {
       primarySource: 'Genshin-Builds',
@@ -106,7 +118,7 @@ function resolvePrimarySource(
       resolutionReason: 'Fallback to GB: set not in KQM standard recommendations',
     }
   }
-  const comparison = compareVersions(kqm, gbVersionRaw)
+
   if (comparison > 0) {
     return {
       primarySource: 'KQM',
@@ -117,14 +129,7 @@ function resolvePrimarySource(
         : 'KQM recommends set; GB version unavailable',
     }
   }
-  if (comparison < 0) {
-    return {
-      primarySource: 'Genshin-Builds',
-      gbVersion,
-      kqmVersion,
-      resolutionReason: `Genshin-Builds newer (${gbVersion} > ${kqmVersion})`,
-    }
-  }
+
   return {
     primarySource: 'Both (Consensus)',
     gbVersion,
@@ -334,6 +339,12 @@ async function main() {
       if (!resolved) continue
       if (characters.some((entry) => entry.characterId === resolved.usage.characterId)) continue
       characters.push(resolved.usage)
+    }
+    const manualInclusions = MANUAL_CHARACTER_INCLUSIONS[target.id] ?? []
+    for (const manualChar of manualInclusions) {
+      if (!characters.some((entry) => entry.characterId === manualChar.characterId)) {
+        characters.push(manualChar)
+      }
     }
     characters.sort((a, b) => {
       const order: Record<UsageType, number> = { '4pc BiS': 0, '4pc Alternative': 1, '2pc Combo': 2 }
