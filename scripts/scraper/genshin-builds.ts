@@ -10,8 +10,7 @@ import * as cheerio from 'cheerio'
 import type { AnyNode } from 'domhandler'
 import type { StatKey } from '../../src/types/artifacts'
 import { hasCritTie, hasErUntilRequirement, normalizeStat, normalizeStatList } from '../../src/lib/stats'
-import type { TargetSetConfig } from './config'
-import { GB_BASE } from './config'
+import { GB_BASE, TARGET_SETS, type TargetSetConfig } from './config'
 import { fetchCached } from './http'
 
 export interface GBUsageRef {
@@ -61,6 +60,23 @@ export interface GBCharacterData {
   element: string
   lastUpdated: { en: string; es: string }
   builds: GBBuildData[]
+}
+
+export const GENERIC_2PC_MAP: Record<string, string[]> = {
+  '+20% hp set': ['tenacity-of-the-millelith', 'vourukashas-glow'],
+  '+20% er set': ['emblem-of-severed-fate'],
+  '+80 em set': ['wanderers-troupe', 'gilded-dreams', 'flower-of-paradise-lost'],
+  '+18% atk set': ['gladiators-finale', 'shimenawas-reminiscence'],
+  '+15% healing bonus set': ['ocean-hued-clam', 'maiden-beloved', 'song-of-days-past'],
+  '+15% anemo dmg bonus set': ['viridescent-venerer', 'desert-pavilion-chronicle'],
+  '+15% hydro dmg bonus set': ['heart-of-depth', 'nymphs-dream'],
+  '+15% cryo dmg bonus set': ['blizzard-strayer'],
+  '+15% pyro dmg bonus set': ['crimson-witch-of-flames'],
+  '+15% electro dmg bonus set': ['thundering-fury'],
+  '+15% geo dmg bonus set': ['archaic-petra'],
+  '+15% dendro dmg bonus set': ['deepwood-memories'],
+  '+25% physical dmg set': ['bloodstained-chivalry', 'pale-flame'],
+  '+30% def set': ['husk-of-opulent-dreams'],
 }
 
 const CONDITIONAL_LABEL = /\b(?:only|requires?|requiring|when|if|depending|depends?|furina|c[1-6]|constellation|meme|niche|situational|hyperspecific|teams?\s+with|paired\s+with|enabler|conditional)\b/i
@@ -184,17 +200,42 @@ function parseBuildPanels($: cheerio.CheerioAPI, targetSets: TargetSetConfig[]):
             }
           }
         }
-        if (!target) return
         const pieceCount = pieceMatch?.[1] === '4' ? 4 : pieceMatch?.[1] === '2' ? 2 : null
         if (!pieceCount) return
-        setUsages.push({
-          buildId: id,
-          setId: target.id,
-          rank,
-          pieceCount,
-          label,
-          conditional: hasConditionalLabel(visibleLabel),
-        })
+        const isConditional = hasConditionalLabel(visibleLabel)
+
+        if (target) {
+          if (!setUsages.some((u) => u.buildId === id && u.setId === target!.id)) {
+            setUsages.push({
+              buildId: id,
+              setId: target.id,
+              rank,
+              pieceCount,
+              label,
+              conditional: isConditional,
+            })
+          }
+        } else if (pieceCount === 2) {
+          for (const [pattern, setIds] of Object.entries(GENERIC_2PC_MAP)) {
+            if (haystack.includes(pattern)) {
+              for (const mappedId of setIds) {
+                if (
+                  targetSets.some((s) => s.id === mappedId) &&
+                  !setUsages.some((u) => u.buildId === id && u.setId === mappedId)
+                ) {
+                  setUsages.push({
+                    buildId: id,
+                    setId: mappedId,
+                    rank,
+                    pieceCount: 2,
+                    label: visibleLabel,
+                    conditional: isConditional,
+                  })
+                }
+              }
+            }
+          }
+        }
       })
     })
 
@@ -243,7 +284,7 @@ function parseBuildPanels($: cheerio.CheerioAPI, targetSets: TargetSetConfig[]):
 
 export async function fetchCharacter(
   slug: string,
-  targetSets: TargetSetConfig[],
+  targetSets: TargetSetConfig[] = TARGET_SETS,
 ): Promise<GBCharacterData> {
   const [en, es] = await Promise.all([
     fetchCached(`${GB_BASE}/en/${slug}`, { namespace: 'genshin-builds/en' }),

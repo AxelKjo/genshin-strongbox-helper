@@ -15,7 +15,7 @@ export type StatKey =
   | 'Pyro DMG%' | 'Hydro DMG%' | 'Cryo DMG%' | 'Electro DMG%'
   | 'Anemo DMG%' | 'Geo DMG%' | 'Dendro DMG%' | 'Physical DMG%'
 
-export type UsageType = '4pc BiS' | '4pc Alternative' | '2pc Combo'
+export type UsageType = '4pc BiS' | '4pc Alternative' | '2pc BiS' | '2pc Alternative' | '2pc Combo'
 export type UsageTier = 'BiS' | 'Alternative'
 export type PrimarySource = 'KQM' | 'Genshin-Builds' | 'Both (Consensus)'
 export type SlotKey = 'sands' | 'goblet' | 'circlet'

@@ -18,6 +18,7 @@ async function main() {
       continue
     }
     console.log('  slug:', guide.slug, 'version:', guide.version, 'recommends:', guide.recommendsSet)
+    console.log('  standardSets:', guide.standardSets.map((s) => `${s.name} (Rank ${s.rank})`).join(', '))
     console.log('  main:', guide.mainStats)
     console.log('  substats:', guide.substats)
   }

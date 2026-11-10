@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { ChevronDown, Trash2 } from 'lucide-react'
 import type { ArtifactSetTriage } from '../types/artifacts'
 import type { Lang } from '../lib/i18n'
-import { t } from '../lib/i18n'
+import { t, UI } from '../lib/i18n'
 import { isFlatStat, statLabel } from '../lib/stats'
 import { Avatar } from './Avatar'
 import { CharacterCard } from './CharacterCard'
@@ -158,7 +158,11 @@ export function SetDetail({ set, lang, reverseOrder }: SetDetailProps) {
                 </div>
                 <div className="mt-3 flex flex-wrap items-center gap-1.5">
                   {users.map((character) => (
-                    <span key={character.characterId} className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-abyss/60 py-0.5 pl-0.5 pr-2 text-xs text-slate-200">
+                    <span
+                      key={character.characterId}
+                      title={`${character.name[lang]} (${UI.usage[character.usageType][lang]})`}
+                      className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-abyss/60 py-0.5 pl-0.5 pr-2 text-xs text-slate-200"
+                    >
                       <Avatar src={character.iconUrl} alt={character.name[lang]} />
                       <span className="max-w-28 truncate">{character.name[lang]}</span>
                     </span>

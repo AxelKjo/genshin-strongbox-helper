@@ -40,9 +40,8 @@ export function CharacterCard({ character, lang }: CharacterCardProps) {
           <div className="flex flex-wrap items-center gap-2">
             <h3 className="truncate text-lg font-bold text-slate-100">{character.name[lang]}</h3>
             <span className={`rounded-full border px-2 py-0.5 text-[11px] font-bold uppercase tracking-wider ${TIER_STYLES[character.tier]}`}>
-              {UI.tier[character.tier][lang]}
+              {UI.usage[character.usageType][lang]}
             </span>
-            <span className="text-[11px] font-medium text-slate-500">{UI.usage[character.usageType][lang]}</span>
           </div>
           <p className="mt-0.5 text-xs text-slate-400">{character.element}</p>
         </div>

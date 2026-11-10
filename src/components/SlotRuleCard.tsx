@@ -50,7 +50,7 @@ export function SlotRuleCard({ set, rule, lang }: SlotRuleCardProps) {
                     ? 'border-amberNiche/40 bg-abyss/50'
                     : 'border-white/10 bg-abyss/60'
                 }`}
-                title={character.name[lang]}
+                title={`${character.name[lang]} (${UI.usage[character.usageType][lang]})`}
               >
                 <Avatar src={character.iconUrl} alt={character.name[lang]} />
                 {!singleUser && <span className="text-xs font-bold tabular-nums text-gold/80">{index + 1}.</span>}

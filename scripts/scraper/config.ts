@@ -216,8 +216,11 @@ export const TARGET_SETS: TargetSetConfig[] = [
       'Épica del Pabellón del Desierto',
       'Epica del Pabellon del Desierto',
       'Desert Pavilion Chronicle',
+      'Desert Pavillion Chronicle',
       'Desert Pavilion',
+      'Desert Pavillion',
       'Pavilion',
+      'Pavillion',
     ],
   },
   {

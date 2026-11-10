@@ -1,18 +1,21 @@
-import { mkdir, writeFile } from 'node:fs/promises'
+import { mkdir, readdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import type {
   ArtifactSetTriage,
   CharacterUsage,
   LocalizedText,
+  PrimarySource,
   StatKey,
   UsageTier,
   UsageType,
 } from '../../src/types/artifacts'
 import { buildSlotRules, buildFlowerAndPlume } from '../../src/lib/triage'
 import {
+  CACHE_ROOT,
   DATA_OUTPUT,
   GB_CONCURRENCY,
   KQM_CONCURRENCY,
+  TARGET_SETS,
   artifactImageUrl,
   characterImageUrl,
   getTargetSets,
@@ -21,13 +24,31 @@ import {
 import {
   fetchArtifactIndex,
   fetchCharacter,
-  pickSetUsage,
   type GBArtifactSet,
   type GBCharacterData,
 } from './genshin-builds'
 import { fetchKqmGuide, formatVersion, parseVersion, type KqmGuide } from './kqm-parser'
 import { mapWithConcurrency } from './http'
 import { MANUAL_CHARACTER_INCLUSIONS } from './manual-inclusions'
+
+export interface CharacterSetAssignment {
+  setId: string
+  characterId: string
+  tier: 'BiS' | 'Alternative'
+  usageType: UsageType
+  usage: CharacterUsage
+}
+
+export interface ResolvedCharacterBuild {
+  characterId: string
+  name: { en: string; es: string }
+  element: string
+  primarySource: 'KQM' | 'Genshin-Builds' | 'Both (Consensus)'
+  gbVersion: string
+  kqmVersion?: string
+  resolutionReason: string
+  assignments: CharacterSetAssignment[]
+}
 
 const ROLE_ES: Record<string, string> = {
   'Anemo DPS': 'DPS Anemo',
@@ -79,63 +100,11 @@ function uniqueStats(stats: StatKey[]): StatKey[] {
   return [...new Set(stats)]
 }
 
-function compareVersions(kqm: KqmGuide | null, gbVersion: string): number {
-  const gb = parseVersion(gbVersion)
+function compareVersions(kqm: KqmGuide | null, gbVersionRaw: string): number {
+  const gb = parseVersion(gbVersionRaw)
   if (!kqm?.version) return -1
   if (!gb) return 1
   return kqm.version.major - gb.major || kqm.version.minor - gb.minor
-}
-
-function resolvePrimarySource(
-  kqm: KqmGuide | null,
-  gbVersionRaw: string,
-  recommendedForThisSet: boolean,
-): Pick<CharacterUsage['sourceValidation'], 'primarySource' | 'gbVersion' | 'kqmVersion' | 'resolutionReason'> {
-  const gbVersion = formatVersion(parseVersion(gbVersionRaw)) ?? gbVersionRaw
-  const kqmVersion = formatVersion(kqm?.version)
-  if (!kqm) {
-    return { primarySource: 'Genshin-Builds', gbVersion, resolutionReason: 'Fallback to GB: no KQM guide' }
-  }
-  if (!kqm.version || !kqmVersion) {
-    return { primarySource: 'Genshin-Builds', gbVersion, resolutionReason: 'Fallback to GB: KQM version missing' }
-  }
-
-  const comparison = compareVersions(kqm, gbVersionRaw)
-  if (comparison < 0) {
-    return {
-      primarySource: 'Genshin-Builds',
-      gbVersion,
-      kqmVersion,
-      resolutionReason: `Genshin-Builds newer (${gbVersion} > ${kqmVersion})`,
-    }
-  }
-
-  if (!recommendedForThisSet) {
-    return {
-      primarySource: 'Genshin-Builds',
-      gbVersion,
-      kqmVersion,
-      resolutionReason: 'Fallback to GB: set not in KQM standard recommendations',
-    }
-  }
-
-  if (comparison > 0) {
-    return {
-      primarySource: 'KQM',
-      gbVersion,
-      kqmVersion,
-      resolutionReason: parseVersion(gbVersionRaw)
-        ? `KQM newer (${kqmVersion} > ${gbVersion}) and recommends set`
-        : 'KQM recommends set; GB version unavailable',
-    }
-  }
-
-  return {
-    primarySource: 'Both (Consensus)',
-    gbVersion,
-    kqmVersion,
-    resolutionReason: `Versions match (${kqmVersion} = ${gbVersion}) and KQM recommends set`,
-  }
 }
 
 function fitStats(
@@ -149,65 +118,142 @@ function fitStats(
   }
 }
 
-interface ResolvedCharacter {
-  usage: CharacterUsage
-  kqm: KqmGuide | null
-}
-
-function resolveCharacter(
+function resolveCharacterBuild(
   character: GBCharacterData,
-  target: TargetSetConfig,
-  preferredBuildId: string,
-  indexRank: string,
   kqm: KqmGuide | null,
-): ResolvedCharacter | null {
-  const picked = pickSetUsage(character, preferredBuildId, target.id)
-  if (!picked || picked.usage.pieceCount !== 4) return null
-  const { build, usage } = picked
-  const targetNames = [target.en, target.es, ...target.aliases]
-  const recommendedForThisSet = kqm?.recommendedSets.some((name) => targetNames.includes(name)) ?? false
-  const numericIndexRank = /^\d+$/.test(indexRank) ? Number.parseInt(indexRank, 10) : Number.POSITIVE_INFINITY
-  const effectiveRank = usage.rank !== Number.POSITIVE_INFINITY ? usage.rank : numericIndexRank
-  const usageType: UsageType =
-    usage.pieceCount === 4
-      ? effectiveRank === 1
-        ? '4pc BiS'
-        : '4pc Alternative'
-      : '2pc Combo'
-  const tier: UsageTier = usageType === '4pc BiS' ? 'BiS' : 'Alternative'
+  targetSets: TargetSetConfig[],
+): ResolvedCharacterBuild {
+  const bestBuild = character.builds.find((b) => b.isBestRole) ?? character.builds[0]
+  if (!bestBuild) {
+    return {
+      characterId: character.slug,
+      name: character.name,
+      element: capitalize(character.element),
+      primarySource: 'Genshin-Builds',
+      gbVersion: '1.0',
+      resolutionReason: 'No builds found for character in Genshin-Builds',
+      assignments: [],
+    }
+  }
 
-  const sourceResolution = resolvePrimarySource(kqm, build.version, recommendedForThisSet)
-  const { primarySource } = sourceResolution
+  const gbVersionRaw = bestBuild.version
+  const gb = parseVersion(gbVersionRaw)
+  const gbVersion = formatVersion(gb) ?? gbVersionRaw
+  const kqmVersion = formatVersion(kqm?.version)
+  const comparison = compareVersions(kqm, gbVersionRaw)
 
-  const gbStats = build.mainStats
+  let primarySource: PrimarySource
+  let resolutionReason: string
+
+  if (!kqm) {
+    primarySource = 'Genshin-Builds'
+    resolutionReason = 'Fallback to GB: no KQM guide'
+  } else if (!kqm.version || !kqmVersion) {
+    primarySource = 'Genshin-Builds'
+    resolutionReason = 'Fallback to GB: KQM version missing'
+  } else if (comparison < 0) {
+    primarySource = 'Genshin-Builds'
+    resolutionReason = `Genshin-Builds newer (${gbVersion} > ${kqmVersion})`
+  } else if (comparison > 0) {
+    primarySource = 'KQM'
+    resolutionReason = gb
+      ? `KQM newer (${kqmVersion} > ${gbVersion})`
+      : 'KQM guide available; GB version unavailable'
+  } else {
+    primarySource = 'Both (Consensus)'
+    resolutionReason = `Versions match (${kqmVersion} = ${gbVersion})`
+  }
+
+  const gbStats = bestBuild.mainStats
   const kqmStats = kqm?.mainStats ?? { sands: [], goblet: [], circlet: [] }
   const mainStats = primarySource === 'KQM' ? fitStats(kqmStats, gbStats) : fitStats(gbStats, kqmStats)
+
   for (const slot of ['sands', 'goblet', 'circlet'] as const) {
     if (!mainStats[slot].length) {
       throw new Error(
-        `Missing ${slot} main stats for ${character.name.en} (${target.en}); check the Genshin-Builds row for combined labels such as "CRIT Rate / CRIT DMG".`,
+        `Missing ${slot} main stats for ${character.name.en}; check the Genshin-Builds row for combined labels such as "CRIT Rate / CRIT DMG".`,
       )
     }
   }
+
   const kqmSubstats = kqm?.substats ?? []
   const useKqmSubstats =
-    primarySource === 'KQM' ? kqmSubstats.length > 0 : !build.substats.length && kqmSubstats.length > 0
-  const substatsPriority = uniqueStats(useKqmSubstats ? kqmSubstats : build.substats)
-  const critTie = useKqmSubstats ? Boolean(kqm?.critTie) : build.critTie
+    primarySource === 'KQM' ? kqmSubstats.length > 0 : !bestBuild.substats.length && kqmSubstats.length > 0
+  const substatsPriority = uniqueStats(useKqmSubstats ? kqmSubstats : bestBuild.substats)
+  const critTie = useKqmSubstats ? Boolean(kqm?.critTie) : (bestBuild.critTie || Boolean(kqm?.critTie))
   const erUntilRequirement =
-    substatsPriority[0] === 'ER%' && (build.erUntilRequirement || Boolean(kqm?.erUntilRequirement))
+    substatsPriority[0] === 'ER%' && (bestBuild.erUntilRequirement || Boolean(kqm?.erUntilRequirement))
 
-  // Strictly factual data compilation: No copyrighted guide prose or creative commentary is preserved.
-  return {
-    kqm,
-    usage: {
+  // Extract GB standard sets (both 4pc and 2pc)
+  const gbStandardSets: { setId: string; rank: 1 | 2; pieceCount: 2 | 4 }[] = []
+  for (const usage of bestBuild.setUsages) {
+    if (usage.conditional) continue
+    if (usage.pieceCount !== 4 && usage.pieceCount !== 2) continue
+    if (usage.rank !== 1 && usage.rank !== 2) continue
+    const existing = gbStandardSets.find((s) => s.setId === usage.setId)
+    if (existing) {
+      if (usage.rank < existing.rank) {
+        existing.rank = usage.rank as 1 | 2
+        existing.pieceCount = usage.pieceCount
+      } else if (usage.rank === existing.rank && usage.pieceCount > existing.pieceCount) {
+        existing.pieceCount = usage.pieceCount
+      }
+    } else {
+      gbStandardSets.push({
+        setId: usage.setId,
+        rank: usage.rank as 1 | 2,
+        pieceCount: usage.pieceCount,
+      })
+    }
+  }
+
+  type ResolvedSetRec = { setId: string; rank: 1 | 2; pieceCount: 2 | 4 }
+  let chosenSets: ResolvedSetRec[] = []
+
+  if (primarySource === 'KQM') {
+    if (kqm && kqm.standardSets.length > 0) {
+      chosenSets = kqm.standardSets.map((s) => ({
+        setId: s.setId,
+        rank: s.rank,
+        pieceCount: s.pieceCount,
+      }))
+    } else {
+      resolutionReason += '; fallback to GB sets (no standard sets in KQM)'
+      chosenSets = gbStandardSets
+    }
+  } else {
+    chosenSets = gbStandardSets
+    if (chosenSets.length === 0 && kqm && kqm.standardSets.length > 0) {
+      chosenSets = kqm.standardSets.map((s) => ({
+        setId: s.setId,
+        rank: s.rank,
+        pieceCount: s.pieceCount,
+      }))
+    }
+  }
+
+  const validTargetIds = new Set(targetSets.map((t) => t.id))
+  const assignments: CharacterSetAssignment[] = []
+  for (const rec of chosenSets) {
+    if (!validTargetIds.has(rec.setId)) continue
+    if (assignments.some((a) => a.setId === rec.setId)) continue
+    const tier: UsageTier = rec.rank === 1 ? 'BiS' : 'Alternative'
+    const usageType: UsageType =
+      rec.pieceCount === 2
+        ? rec.rank === 1
+          ? '2pc BiS'
+          : '2pc Alternative'
+        : rec.rank === 1
+          ? '4pc BiS'
+          : '4pc Alternative'
+    const usage: CharacterUsage = {
       characterId: character.slug,
       name: character.name,
       iconUrl: characterImageUrl(character.slug),
       element: capitalize(character.element),
       role: {
-        en: build.name || usage.label,
-        es: translateRole(build.name, build.nameEs ?? build.name ?? usage.label),
+        en: bestBuild.name || 'DPS',
+        es: translateRole(bestBuild.name, bestBuild.nameEs ?? bestBuild.name ?? 'DPS'),
       },
       usageType,
       tier,
@@ -216,11 +262,32 @@ function resolveCharacter(
       critTie,
       erUntilRequirement,
       sourceValidation: {
-        ...sourceResolution,
-        genshinBuildsUpdated: build.version,
+        primarySource,
+        gbVersion,
+        kqmVersion,
+        genshinBuildsUpdated: bestBuild.version,
+        resolutionReason,
         kqmUrl: kqm?.url,
       },
-    },
+    }
+    assignments.push({
+      setId: rec.setId,
+      characterId: character.slug,
+      tier,
+      usageType,
+      usage,
+    })
+  }
+
+  return {
+    characterId: character.slug,
+    name: character.name,
+    element: capitalize(character.element),
+    primarySource,
+    gbVersion,
+    kqmVersion,
+    resolutionReason,
+    assignments,
   }
 }
 
@@ -262,6 +329,28 @@ function makeSetTriage(
   }
 }
 
+async function collectAllCharacterSlugs(enIndex: GBArtifactSet[]): Promise<string[]> {
+  const indexSlugs = enIndex.flatMap((set) => set.users.map((user) => user.slug))
+  const slugsSet = new Set<string>(indexSlugs)
+
+  try {
+    const gbCacheDir = path.join(CACHE_ROOT, 'genshin-builds', 'en')
+    const files = await readdir(gbCacheDir)
+    for (const file of files) {
+      const match = file.match(
+        /^genshin-impact-helper-team\.github\.io-genshin-builds-en-([a-z0-9-]+)-[a-f0-9]+\.html$/,
+      )
+      if (match && match[1] !== 'artifacts') {
+        slugsSet.add(match[1])
+      }
+    }
+  } catch {
+    // Cache directory might not be readable or present
+  }
+
+  return [...slugsSet].sort()
+}
+
 async function main() {
   const scrapeAll = process.argv.includes('--all')
   const [enIndex, esIndex] = await Promise.all([fetchArtifactIndex('en'), fetchArtifactIndex('es')])
@@ -276,29 +365,18 @@ async function main() {
         aliases: [],
       }))
     : getTargetSets()
+
   if (targets.length === 0) {
     throw new Error('No target sets matched the provided filter.')
   }
   console.log(`[build-dataset] target sets (${targets.length}): ${targets.map((set) => set.en).join(' | ')}`)
 
-  const setDefinitions: { target: TargetSetConfig; en: GBArtifactSet; es?: GBArtifactSet }[] = []
-  for (const target of targets) {
-    const en = enById.get(target.id)
-    if (!en) {
-      console.warn(`[build-dataset] ${target.en} not found in EN index, skipping`)
-      continue
-    }
-    const es = esById.get(target.id)
-    if (!es) console.warn(`[build-dataset] ${target.en} not found in ES index; using EN bonuses as fallback`)
-    setDefinitions.push({ target, en, es })
-  }
+  const allSlugs = await collectAllCharacterSlugs(enIndex)
+  console.log(`[build-dataset] total playable characters to process: ${allSlugs.length}`)
 
-  const slugs = [...new Set(setDefinitions.flatMap((definition) => definition.en.users.map((user) => user.slug)))]
-  console.log(`[build-dataset] characters to inspect: ${slugs.length}`)
-
-  const characterEntries = await mapWithConcurrency(slugs, GB_CONCURRENCY, async (slug) => {
+  const characterEntries = await mapWithConcurrency(allSlugs, GB_CONCURRENCY, async (slug) => {
     try {
-      const data = await fetchCharacter(slug, targets)
+      const data = await fetchCharacter(slug, TARGET_SETS)
       console.log(`  [gb] ${data.name.en} (${slug})`)
       return [slug, data] as const
     } catch (error) {
@@ -308,19 +386,15 @@ async function main() {
   })
   const charactersBySlug = new Map(characterEntries)
 
-  const kqmEntries = await mapWithConcurrency(slugs, KQM_CONCURRENCY, async (slug) => {
+  const kqmEntries = await mapWithConcurrency(allSlugs, KQM_CONCURRENCY, async (slug) => {
     const character = charactersBySlug.get(slug)
     if (!character) return [slug, null] as const
-    const targetNames = [
-      ...new Set(
-        setDefinitions
-          .filter((definition) => definition.en.users.some((user) => user.slug === slug))
-          .flatMap((definition) => [definition.target.en, definition.target.es, ...definition.target.aliases]),
-      ),
-    ]
     try {
-      const guide = await fetchKqmGuide(slug, character.name.en, targetNames)
-      console.log(`  [kqm] ${character.name.en}: ${guide ? `${guide.slug} ${guide.version?.raw ?? 'no-version'} recommends=${guide.recommendsSet}` : 'not found'}`)
+      const guide = await fetchKqmGuide(slug, character.name.en, TARGET_SETS)
+      const summary = guide
+        ? `${guide.slug} ${guide.version?.raw ?? 'no-ver'} sets=[${guide.standardSets.map((s) => `${s.name}(R${s.rank})`).join(',')}]`
+        : 'not found'
+      console.log(`  [kqm] ${character.name.en}: ${summary}`)
       return [slug, guide] as const
     } catch (error) {
       console.warn(`  [kqm] failed ${slug}: ${(error as Error).message}`)
@@ -329,52 +403,86 @@ async function main() {
   })
   const kqmBySlug = new Map(kqmEntries)
 
-  const sets: ArtifactSetTriage[] = []
-  for (const { target, en, es } of setDefinitions) {
-    const characters: CharacterUsage[] = []
-    for (const user of en.users) {
-      const character = charactersBySlug.get(user.slug)
-      if (!character) continue
-      const resolved = resolveCharacter(character, target, user.buildId, user.rank, kqmBySlug.get(user.slug) ?? null)
-      if (!resolved) continue
-      if (characters.some((entry) => entry.characterId === resolved.usage.characterId)) continue
-      characters.push(resolved.usage)
-    }
-    const manualInclusions = MANUAL_CHARACTER_INCLUSIONS[target.id] ?? []
-    for (const manualChar of manualInclusions) {
-      if (!characters.some((entry) => entry.characterId === manualChar.characterId)) {
-        characters.push(manualChar)
+  const resolvedCharacters: ResolvedCharacterBuild[] = []
+  for (const slug of allSlugs) {
+    const character = charactersBySlug.get(slug)
+    if (!character) continue
+    const kqm = kqmBySlug.get(slug) ?? null
+    const resolved = resolveCharacterBuild(character, kqm, TARGET_SETS)
+    resolvedCharacters.push(resolved)
+  }
+
+  // Invert assignments: group by target set
+  const assignmentsBySet = new Map<string, CharacterUsage[]>()
+  for (const target of targets) {
+    assignmentsBySet.set(target.id, [])
+  }
+  for (const resolved of resolvedCharacters) {
+    for (const assignment of resolved.assignments) {
+      const list = assignmentsBySet.get(assignment.setId)
+      if (list && !list.some((u) => u.characterId === assignment.characterId)) {
+        list.push(assignment.usage)
       }
     }
-    characters.sort((a, b) => {
-      const order: Record<UsageType, number> = { '4pc BiS': 0, '4pc Alternative': 1, '2pc Combo': 2 }
+  }
+
+  // Inject manual inclusions & sort characters per set
+  for (const target of targets) {
+    const list = assignmentsBySet.get(target.id)
+    if (!list) continue
+    const manualList = MANUAL_CHARACTER_INCLUSIONS[target.id] ?? []
+    for (const manualChar of manualList) {
+      if (!list.some((u) => u.characterId === manualChar.characterId)) {
+        list.push(manualChar)
+      }
+    }
+    list.sort((a, b) => {
+      const order: Record<UsageType, number> = {
+        '4pc BiS': 0,
+        '2pc BiS': 1,
+        '4pc Alternative': 2,
+        '2pc Alternative': 3,
+        '2pc Combo': 4,
+      }
       return order[a.usageType] - order[b.usageType] || a.name.en.localeCompare(b.name.en)
     })
+  }
+
+  // Assemble sets triage
+  const sets: ArtifactSetTriage[] = []
+  for (const target of targets) {
+    const en = enById.get(target.id)
+    if (!en) {
+      console.warn(`[build-dataset] ${target.en} not found in EN index, skipping`)
+      continue
+    }
+    const es = esById.get(target.id)
+    const characters = assignmentsBySet.get(target.id) ?? []
     console.log(`[build-dataset] ${target.en}: ${characters.length} usable characters`)
     sets.push(makeSetTriage(target, en, es, characters))
   }
 
   const dataset = {
     generatedAt: new Date().toISOString(),
-    version: 'MVP-9-sets',
+    version: '1.0.0',
     source: 'Genshin-Builds (EN/ES) + KeqingMains Quickguides',
     sets,
   }
 
   await mkdir(path.dirname(DATA_OUTPUT), { recursive: true })
   await writeFile(DATA_OUTPUT, `${JSON.stringify(dataset, null, 2)}\n`, 'utf8')
-  console.log(`[build-dataset] wrote ${DATA_OUTPUT} (${sets.length} sets, ${sets.reduce((total, set) => total + set.characters.length, 0)} character usages)`)
-
-  const auditRows = sets.flatMap((set) =>
-    set.characters.map((character) => ({
-      Personaje: character.name.en,
-      Set: set.name.en,
-      'Versión GB': character.sourceValidation.gbVersion,
-      'Versión KQM': character.sourceValidation.kqmVersion ?? '—',
-      'Fuente Ganadora': character.sourceValidation.primarySource,
-      Motivo: character.sourceValidation.resolutionReason,
-    })),
+  console.log(
+    `[build-dataset] wrote ${DATA_OUTPUT} (${sets.length} sets, ${sets.reduce((total, set) => total + set.characters.length, 0)} character usages)`,
   )
+
+  const auditRows = resolvedCharacters.map((char) => ({
+    Personaje: char.name.en,
+    'Versión GB': char.gbVersion,
+    'Versión KQM': char.kqmVersion ?? '—',
+    'Fuente Ganadora': char.primarySource,
+    Motivo: char.resolutionReason,
+    'Sets Asignados': char.assignments.map((a) => `${a.setId} (${a.tier})`).join(', ') || 'Ninguno (2pc/niche)',
+  }))
   console.log('\n[build-dataset] source resolution audit')
   console.table(auditRows)
 }

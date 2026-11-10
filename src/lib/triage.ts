@@ -26,7 +26,7 @@ export function buildSlotRules(
     const usedBy = users.map((character) => character.characterId)
     let verdict: Verdict = 'SAFE_DISCARD'
     if (users.length > 0) {
-      verdict = users.some((character) => character.usageType === '4pc BiS') || users.length >= 3
+      verdict = users.some((character) => character.tier === 'BiS') || users.length >= 3
         ? 'MUST_KEEP'
         : 'SITUATIONAL_KEEP'
     }

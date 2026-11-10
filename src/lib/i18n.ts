@@ -73,6 +73,8 @@ export const UI = {
   usage: {
     '4pc BiS': { en: '4pc BiS', es: '4pc BiS' },
     '4pc Alternative': { en: '4pc Alternative', es: '4pc Alternativa' },
+    '2pc BiS': { en: '2pc BiS', es: '2pc BiS' },
+    '2pc Alternative': { en: '2pc Alternative', es: '2pc Alternativa' },
     '2pc Combo': { en: '2pc Combo', es: 'Combo 2pc' },
   } as const,
   tier: {
