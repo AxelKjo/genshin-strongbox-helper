@@ -6,6 +6,15 @@ export const UI = {
     en: 'Artifact keep-vs-discard guide for Genshin Impact.',
     es: 'Guía para saber qué artefactos conservar y descartar en Genshin Impact.',
   },
+  criteria: { en: 'Criteria', es: 'Criterio' },
+  criteriaP1: {
+    en: 'This tool aims to cover only the main sets and most relevant alternatives for each character, so niche builds or highly specific variants are not considered.',
+    es: 'Esta herramienta solo contempla los sets principales y alternativas más relevantes de cada personaje, por lo que no se consideran builds de nicho o variantes muy específicas.',
+  },
+  criteriaP2: {
+    en: 'This is not a character build guide, so recommendations are not explanatory, lack context, and are deliberately condensed. When in doubt, it is always recommended to use it together with the referenced guides to make more informed discard decisions.',
+    es: 'Al no ser una guía de builds, las recomendaciones no incluyen explicaciones ni contexto y están deliberadamente condensadas. Ante cualquier duda, se recomienda utilizarla en conjunto con las guías referenciadas para tomar decisiones de descarte más informadas.',
+  },
   searchPlaceholder: {
     en: 'Search set or character...',
     es: 'Busca un set o personaje...',
@@ -46,6 +55,18 @@ export const UI = {
   characterBreakdownNote: {
     en: 'It is not recommended to use this tool as a character build guide. For that, consider checking the linked guides.',
     es: 'No se recomienda utilizar esta herramienta como guía para buildear personajes. Para ello, se sugiere consultar las guías enlazadas.',
+  },
+  bisLegend: {
+    en: 'Used when sources indicate it is the best set for the character, either in general or under a prominent composition or specific playstyle.',
+    es: 'Utilizada cuando las fuentes indican que es el mejor set para el personaje, ya sea en general o bajo una composición destacada o playstyle específico.',
+  },
+  alternativeLegend: {
+    en: 'Used for second-best options or situational sets restricted to certain teams or conditions.',
+    es: 'Utilizada para segundas mejores opciones o sets situacionales restringidos a ciertos equipos o condiciones.',
+  },
+  alternativeLegendTooltip: {
+    en: 'The line between whether a conditional set is listed as BiS or Alternative depends on the discretion of each source. A conditional set in "Alternative" can be the best option if you play that specific composition. Check the guides to see their conditions.',
+    es: 'La línea entre si un set condicional figura como BiS o Alternativa depende del criterio de cada fuente. Un set condicional en "Alternativa" puede ser la mejor opción si juegas esa composición específica. Consulta las guías para ver sus condiciones.',
   },
   role: { en: 'Role', es: 'Rol' },
   mainStats: { en: 'Main stats', es: 'Estadísticas principales' },

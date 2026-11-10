@@ -4,6 +4,7 @@ import type { Lang } from './lib/i18n'
 import { FOOTER_ATTRIBUTION, t } from './lib/i18n'
 import { filterSetAlternativeBuilds } from './lib/triage'
 import { ExcludeAlternativeToggle } from './components/ExcludeAlternativeToggle'
+import { CriteriaPopover } from './components/CriteriaPopover'
 import { LanguageToggle } from './components/LanguageToggle'
 import { ReverseOrderToggle } from './components/ReverseOrderToggle'
 import { SetDetail } from './components/SetDetail'
@@ -114,7 +115,10 @@ export default function App() {
               <img src="/favicon.png" alt="" className="h-7 w-7 object-contain" aria-hidden />
             </span>
             <div>
-              <h1 className="font-display text-lg leading-tight text-goldSoft sm:text-xl">{t('appTitle', lang)}</h1>
+              <div className="flex flex-wrap items-center gap-2">
+                <h1 className="font-display text-lg leading-tight text-goldSoft sm:text-xl">{t('appTitle', lang)}</h1>
+                <CriteriaPopover lang={lang} />
+              </div>
               <p className="text-xs text-slate-400">{t('appSubtitle', lang)}</p>
             </div>
           </div>

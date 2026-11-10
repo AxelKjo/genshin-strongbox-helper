@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ChevronDown, Trash2 } from 'lucide-react'
+import { Asterisk, ChevronDown, Info, Trash2 } from 'lucide-react'
 import type { ArtifactSetTriage } from '../types/artifacts'
 import type { Lang } from '../lib/i18n'
 import { t, UI } from '../lib/i18n'
@@ -176,14 +176,49 @@ export function SetDetail({ set, lang, reverseOrder }: SetDetailProps) {
       </section>
 
       <section>
-        <div className="mb-3">
+        <div className="mb-4">
           <div className="flex items-end justify-between gap-3">
             <h2 className="font-display text-xl text-goldSoft">{t('characterBreakdown', lang)}</h2>
             <span className="text-xs text-slate-500">{set.characters.length} {t('characters', lang)}</span>
           </div>
-          <p className="mt-1 text-xs leading-relaxed text-slate-500">
-            * {t('characterBreakdownNote', lang)}
+          <p className="mt-1.5 flex items-start gap-1.5 text-xs leading-relaxed text-slate-400">
+            <Asterisk className="mt-0.5 h-3.5 w-3.5 shrink-0 text-slate-400" aria-hidden="true" />
+            <span>{t('characterBreakdownNote', lang)}</span>
           </p>
+
+          <div className="mt-3 space-y-2 rounded-xl border border-white/5 bg-abyssSoft/50 p-3 text-xs">
+            <div className="flex items-start gap-2.5">
+              <span className="shrink-0 rounded-full border border-gold/40 bg-gold/10 px-2 py-0.5 text-[11px] font-bold uppercase tracking-wider text-goldSoft">
+                {UI.tier.BiS[lang]}
+              </span>
+              <p className="pt-0.5 leading-relaxed text-slate-300">
+                {t('bisLegend', lang)}
+              </p>
+            </div>
+            <div className="flex items-start gap-2.5">
+              <span className="shrink-0 rounded-full border border-sky-400/30 bg-sky-400/10 px-2 py-0.5 text-[11px] font-bold uppercase tracking-wider text-sky-200">
+                {UI.tier.Alternative[lang]}
+              </span>
+              <p className="pt-0.5 leading-relaxed text-slate-300">
+                {t('alternativeLegend', lang)}{' '}
+                <span className="relative inline-flex items-center align-middle group/info">
+                  <button
+                    type="button"
+                    className="inline-flex items-center justify-center rounded-full p-0.5 text-slate-400 transition hover:bg-white/10 hover:text-goldSoft focus:outline-none focus:ring-1 focus:ring-gold/40 cursor-help"
+                    aria-label={lang === 'es' ? 'Más información sobre sets alternativos' : 'More information about alternative sets'}
+                  >
+                    <Info className="h-3.5 w-3.5" aria-hidden="true" />
+                  </button>
+                  <span
+                    role="tooltip"
+                    className="pointer-events-none absolute bottom-full right-0 sm:left-1/2 sm:-translate-x-1/2 sm:right-auto mb-2 w-72 sm:w-80 rounded-xl border border-white/15 bg-abyssCard/95 p-3 text-xs leading-relaxed text-slate-200 shadow-2xl backdrop-blur-md opacity-0 transition-all duration-200 group-hover/info:opacity-100 group-hover/info:pointer-events-auto group-focus-within/info:opacity-100 group-focus-within/info:pointer-events-auto z-50 text-left font-normal"
+                  >
+                    {t('alternativeLegendTooltip', lang)}
+                  </span>
+                </span>
+              </p>
+            </div>
+          </div>
         </div>
         <div className="grid gap-3 lg:grid-cols-2 2xl:grid-cols-3">
           {set.characters.map((character) => (
