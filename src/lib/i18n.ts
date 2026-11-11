@@ -30,6 +30,8 @@ export const UI = {
   twoPiece: { en: '2-piece', es: '2 piezas' },
   fourPiece: { en: '4-piece', es: '4 piezas' },
   description: { en: 'Description', es: 'Descripción' },
+  settings: { en: 'Settings', es: 'Ajustes' },
+  hide: { en: 'Hide', es: 'Ocultar' },
   keepMatrix: { en: 'Keep vs. Discard matrix', es: 'Matriz Conservar vs. Descartar' },
   excludeAlternative: {
     en: 'Exclude alternative builds',

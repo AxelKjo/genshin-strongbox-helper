@@ -1,4 +1,5 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import { ChevronsUp, Settings } from 'lucide-react'
 import type { ArtifactSetTriage, TriageDataset } from './types/artifacts'
 import type { Lang } from './lib/i18n'
 import { FOOTER_ATTRIBUTION, t } from './lib/i18n'
@@ -11,6 +12,7 @@ import { SetDetail } from './components/SetDetail'
 import { SetSidebar } from './components/SetSidebar'
 
 const LANG_KEY = 'genshin-artifact-triage:lang'
+const SETTINGS_OPEN_KEY = 'genshin-artifact-triage:settings-open'
 const SHELL_WIDTH = 'mx-auto w-full max-w-[1800px] px-4 sm:px-6 lg:px-8'
 
 function getInitialLang(): Lang {
@@ -23,6 +25,16 @@ function getInitialLang(): Lang {
     // ignore unavailable storage
   }
   return 'es'
+}
+
+function getInitialSettingsOpen(): boolean {
+  try {
+    const stored = localStorage.getItem(SETTINGS_OPEN_KEY)
+    if (stored !== null) return stored === 'true'
+  } catch {
+    // ignore unavailable storage
+  }
+  return true
 }
 
 function compareSetsByRelease(a: ArtifactSetTriage, b: ArtifactSetTriage): number {
@@ -57,9 +69,40 @@ export default function App() {
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [excludeAlternative, setExcludeAlternative] = useState(false)
   const [reverseOrder, setReverseOrder] = useState(false)
+  const [settingsOpen, setSettingsOpen] = useState(getInitialSettingsOpen)
   const [sidebarExpanded, setSidebarExpanded] = useState(
     () => window.matchMedia('(min-width: 1536px)').matches,
   )
+  const headerRef = useRef<HTMLElement>(null)
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(SETTINGS_OPEN_KEY, String(settingsOpen))
+    } catch {
+      // ignore unavailable storage
+    }
+  }, [settingsOpen])
+
+  useEffect(() => {
+    const header = headerRef.current
+    if (!header) return
+    const updateHeaderHeight = () => {
+      document.documentElement.style.setProperty('--header-height', `${header.offsetHeight}px`)
+    }
+    updateHeaderHeight()
+    const observer = new ResizeObserver(updateHeaderHeight)
+    observer.observe(header)
+    return () => observer.disconnect()
+  }, [])
+
+  useEffect(() => {
+    if (!settingsOpen) return
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setSettingsOpen(false)
+    }
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [settingsOpen])
 
   useEffect(() => {
     try {
@@ -108,7 +151,10 @@ export default function App() {
   return (
     <div className="min-h-screen overflow-x-clip bg-abyss text-slate-100">
       <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_15%_-10%,rgba(211,188,142,0.13),transparent_35%),radial-gradient(circle_at_90%_10%,rgba(78,120,180,0.12),transparent_30%)]" aria-hidden />
-      <header className="sticky top-0 z-20 border-b border-gold/15 bg-abyss/90 backdrop-blur-xl">
+      <header
+        ref={headerRef}
+        className="sticky top-0 z-20 border-b border-gold/15 bg-abyss/90 backdrop-blur-xl"
+      >
         <div className={`${SHELL_WIDTH} flex flex-wrap items-center justify-between gap-3 py-3`}>
           <div className="flex items-center gap-3">
             <span className="flex h-10 w-10 items-center justify-center rounded-xl border border-gold/30 bg-gold/25 shadow-glow">
@@ -122,14 +168,55 @@ export default function App() {
               <p className="text-xs text-slate-400">{t('appSubtitle', lang)}</p>
             </div>
           </div>
-          <div className="flex w-full flex-wrap items-center justify-end gap-2 sm:w-auto sm:gap-3">
-            <ExcludeAlternativeToggle
-              lang={lang}
-              checked={excludeAlternative}
-              onChange={setExcludeAlternative}
-            />
-            <ReverseOrderToggle lang={lang} checked={reverseOrder} onChange={setReverseOrder} />
+          <div className="flex items-center gap-2 sm:gap-2.5">
             <LanguageToggle lang={lang} onChange={setLang} />
+            <button
+              type="button"
+              onClick={() => setSettingsOpen((open) => !open)}
+              aria-expanded={settingsOpen}
+              aria-label={t('settings', lang)}
+              title={t('settings', lang)}
+              className={`flex h-10 w-10 items-center justify-center rounded-xl border transition ${
+                settingsOpen
+                  ? 'border-gold/40 bg-gold/25 text-gold shadow-glow'
+                  : 'border-gold/25 bg-abyssSoft/80 text-gold/70 hover:border-gold/35 hover:bg-gold/15 hover:text-gold'
+              }`}
+            >
+              <Settings
+                className={`h-5 w-5 transition-transform duration-300 ${
+                  settingsOpen ? 'rotate-90 text-gold' : ''
+                }`}
+                aria-hidden
+              />
+            </button>
+          </div>
+        </div>
+
+        <div
+          className={`grid transition-[grid-template-rows,border-color] duration-200 ease-out border-t ${
+            settingsOpen
+              ? 'grid-rows-[1fr] border-gold/10'
+              : 'grid-rows-[0fr] border-transparent'
+          }`}
+          inert={!settingsOpen}
+        >
+          <div className="overflow-hidden bg-abyssSoft/50 backdrop-blur-md">
+            <div className={`${SHELL_WIDTH} flex flex-wrap items-center justify-end gap-2.5 py-2.5 sm:gap-3 sm:py-3`}>
+              <ExcludeAlternativeToggle
+                lang={lang}
+                checked={excludeAlternative}
+                onChange={setExcludeAlternative}
+              />
+              <ReverseOrderToggle lang={lang} checked={reverseOrder} onChange={setReverseOrder} />
+              <button
+                type="button"
+                onClick={() => setSettingsOpen(false)}
+                className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-abyssSoft/70 px-3.5 py-1.5 text-xs font-semibold text-slate-300 transition hover:border-gold/30 hover:bg-gold/10 hover:text-goldSoft sm:px-4 sm:py-2 sm:text-sm"
+              >
+                <ChevronsUp className="h-4 w-4" aria-hidden />
+                <span>{t('hide', lang)}</span>
+              </button>
+            </div>
           </div>
         </div>
       </header>
@@ -153,7 +240,7 @@ export default function App() {
                 : 'lg:grid-cols-[96px_minmax(0,1fr)] xl:grid-cols-[104px_minmax(0,1fr)]'
             }`}
           >
-            <div className="min-w-0 lg:sticky lg:top-[76px] lg:h-[calc(100vh-96px)]">
+            <div className="min-w-0 lg:sticky lg:top-[calc(var(--header-height)+12px)] lg:h-[calc(100vh-var(--header-height)-32px)]">
               <SetSidebar
                 sets={filteredSets}
                 selectedId={effectiveSelectedId}
