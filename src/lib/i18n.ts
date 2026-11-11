@@ -41,6 +41,10 @@ export const UI = {
     en: 'Reverse order (Show discards on bottom)',
     es: 'Invertir orden (Mostrar descartes abajo)',
   },
+  compactMatrix: {
+    en: 'Compact matrix',
+    es: 'Compactar matriz',
+  },
   sands: { en: 'Sands', es: 'Arenas' },
   goblet: { en: 'Goblet', es: 'Cáliz' },
   circlet: { en: 'Circlet', es: 'Tiara' },

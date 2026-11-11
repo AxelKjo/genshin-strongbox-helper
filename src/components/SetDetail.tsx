@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Asterisk, ChevronDown, Info, Trash2 } from 'lucide-react'
+import { Asterisk, CheckCircle2, ChevronDown, Info, Trash2 } from 'lucide-react'
 import type { ArtifactSetTriage } from '../types/artifacts'
 import type { Lang } from '../lib/i18n'
 import { t, UI } from '../lib/i18n'
@@ -14,9 +14,10 @@ interface SetDetailProps {
   set: ArtifactSetTriage
   lang: Lang
   reverseOrder: boolean
+  compactMatrix: boolean
 }
 
-export function SetDetail({ set, lang, reverseOrder }: SetDetailProps) {
+export function SetDetail({ set, lang, reverseOrder, compactMatrix }: SetDetailProps) {
   const [showDescription, setShowDescription] = useState(false)
   const [artworkFailed, setArtworkFailed] = useState(false)
   const isFourStar = set.rarity === 4
@@ -109,13 +110,54 @@ export function SetDetail({ set, lang, reverseOrder }: SetDetailProps) {
                     </span>
                   ))}
                 </div>
-                <p className="mt-2 text-xs leading-relaxed text-slate-400">
-                  {lang === 'en'
-                    ? 'No current user of this set wants these main stats on this slot. Recycle them unless the substats make them a solid off-piece.'
-                    : 'Ningún personaje actual de este set quiere estas estadísticas principales en esta pieza. Recíclalas salvo que las subestadísticas las conviertan en una buena pieza externa.'}
-                </p>
+                {!compactMatrix && (
+                  <p className="mt-2 text-xs leading-relaxed text-slate-400">
+                    {lang === 'en'
+                      ? 'No current user of this set wants these main stats on this slot. Recycle them unless the substats make them a solid off-piece.'
+                      : 'Ningún personaje actual de este set quiere estas estadísticas principales en esta pieza. Recíclalas salvo que las subestadísticas las conviertan en una buena pieza externa.'}
+                  </p>
+                )}
               </article>
             ) : null
+            const keepBlock = keepRules.length > 0 ? (
+              <article className="rounded-2xl border border-emeraldKeep/30 bg-emeraldKeep/5 p-4">
+                <p className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-emeraldKeep">
+                  <CheckCircle2 className="h-3.5 w-3.5" aria-hidden /> {t('mustKeep', lang)}
+                </p>
+                <div className="mt-2 flex flex-wrap gap-1.5">
+                  {keepRules.map((rule) => {
+                    const users = rule.usedBy
+                      .map((id) => set.characters.find((c) => c.characterId === id))
+                      .filter((c): c is NonNullable<typeof c> => Boolean(c))
+                    const isSituationalOnly =
+                      users.length > 0 && users.every((c) => c.tier === 'Alternative')
+
+                    return (
+                      <span
+                        key={rule.mainStat}
+                        title={
+                          isSituationalOnly
+                            ? users.map((u) => `${u.name[lang]} (${UI.usage[u.usageType][lang]})`).join(', ')
+                            : undefined
+                        }
+                        className={`inline-flex items-center rounded-lg border px-3 py-1.5 text-xl font-medium ${
+                          isSituationalOnly
+                            ? 'border-amberNiche/30 bg-[#1b1d1e] text-amberNiche/75'
+                            : 'border-emeraldKeep/25 bg-abyss/50 text-emeraldKeep/90'
+                        }`}
+                      >
+                        {statLabel(rule.mainStat, lang)}
+                      </span>
+                    )
+                  })}
+                </div>
+              </article>
+            ) : null
+            const keepContent = compactMatrix
+              ? keepBlock
+              : keepRules.map((rule) => (
+                  <SlotRuleCard key={rule.mainStat} set={set} rule={rule} lang={lang} />
+                ))
             return (
               <div key={slot} className="space-y-3">
                 <h3 className="inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-[0.2em] text-slate-300">
@@ -123,9 +165,7 @@ export function SetDetail({ set, lang, reverseOrder }: SetDetailProps) {
                   {t(slot, lang)}
                 </h3>
                 {!reverseOrder && discardBlock}
-                {keepRules.map((rule) => (
-                  <SlotRuleCard key={rule.mainStat} set={set} rule={rule} lang={lang} />
-                ))}
+                {keepContent}
                 {reverseOrder && discardBlock}
               </div>
             )

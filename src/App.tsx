@@ -8,6 +8,7 @@ import { ExcludeAlternativeToggle } from './components/ExcludeAlternativeToggle'
 import { CriteriaPopover } from './components/CriteriaPopover'
 import { LanguageToggle } from './components/LanguageToggle'
 import { ReverseOrderToggle } from './components/ReverseOrderToggle'
+import { CompactMatrixToggle } from './components/CompactMatrixToggle'
 import { SetDetail } from './components/SetDetail'
 import { SetSidebar } from './components/SetSidebar'
 
@@ -69,6 +70,7 @@ export default function App() {
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [excludeAlternative, setExcludeAlternative] = useState(false)
   const [reverseOrder, setReverseOrder] = useState(false)
+  const [compactMatrix, setCompactMatrix] = useState(false)
   const [settingsOpen, setSettingsOpen] = useState(getInitialSettingsOpen)
   const [sidebarExpanded, setSidebarExpanded] = useState(
     () => window.matchMedia('(min-width: 1536px)').matches,
@@ -208,6 +210,7 @@ export default function App() {
                 onChange={setExcludeAlternative}
               />
               <ReverseOrderToggle lang={lang} checked={reverseOrder} onChange={setReverseOrder} />
+              <CompactMatrixToggle lang={lang} checked={compactMatrix} onChange={setCompactMatrix} />
               <button
                 type="button"
                 onClick={() => setSettingsOpen(false)}
@@ -258,7 +261,12 @@ export default function App() {
             </div>
             <div className="min-w-0">
               {selectedSet ? (
-                <SetDetail set={selectedSet} lang={lang} reverseOrder={reverseOrder} />
+                <SetDetail
+                  set={selectedSet}
+                  lang={lang}
+                  reverseOrder={reverseOrder}
+                  compactMatrix={compactMatrix}
+                />
               ) : (
                 <p className="rounded-2xl border border-white/10 bg-abyssSoft/60 p-6 text-sm text-slate-400">{t('noResults', lang)}</p>
               )}
