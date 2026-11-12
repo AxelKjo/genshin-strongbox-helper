@@ -21,7 +21,7 @@ export function SlotRuleCard({ set, rule, lang }: SlotRuleCardProps) {
   const style = VERDICT_STYLES[rule.verdict]
   const Icon = style.icon
   const users = rule.usedBy
-    .map((id) => set.characters.find((character) => character.characterId === id))
+    .map((id) => set.characters.find((character) => (character.archetypeId ?? character.characterId) === id))
     .filter((character): character is NonNullable<typeof character> => Boolean(character))
   const singleUser = users.length === 1
   const visibleSubstats = rule.substats.filter((stat) => stat.name !== rule.mainStat && !isFlatStat(stat.name))
@@ -44,13 +44,13 @@ export function SlotRuleCard({ set, rule, lang }: SlotRuleCardProps) {
           <div className="mt-2 flex flex-wrap gap-2">
             {users.map((character, index) => (
               <span
-                key={character.characterId}
+                key={character.archetypeId ?? character.characterId}
                 className={`inline-flex items-center gap-2 rounded-full border py-1 pl-1 pr-2.5 text-sm text-slate-200 ${
                   character.tier === 'Alternative'
                     ? 'border-amberNiche/40 bg-abyss/50'
                     : 'border-white/10 bg-abyss/60'
                 }`}
-                title={`${character.name[lang]} (${UI.usage[character.usageType][lang]})`}
+                title={`${character.name[lang]}${character.archetypeLabel ? ` (${character.archetypeLabel[lang]})` : ''} (${UI.usage[character.usageType][lang]})`}
               >
                 <Avatar src={character.iconUrl} alt={character.name[lang]} />
                 {!singleUser && <span className="text-xs font-bold tabular-nums text-gold/80">{index + 1}.</span>}
@@ -70,18 +70,21 @@ export function SlotRuleCard({ set, rule, lang }: SlotRuleCardProps) {
                 .map((id) => rule.usedBy.indexOf(id) + 1)
                 .filter((index) => index > 0)
               const owners = stat.characters
-                .map((id) => users.find((character) => character.characterId === id)?.name[lang])
+                .map((id) => {
+                  const u = users.find((character) => (character.archetypeId ?? character.characterId) === id)
+                  return u ? (u.archetypeLabel ? `${u.name[lang]} (${u.archetypeLabel[lang]})` : u.name[lang]) : null
+                })
                 .filter((name): name is string => Boolean(name))
-              const usedByAll = users.length > 1 && users.every((user) => stat.characters.includes(user.characterId))
+              const usedByAll = users.length > 1 && users.every((user) => stat.characters.includes(user.archetypeId ?? user.characterId))
               const numericBadge = indices.join(', ')
               let badge = usedByAll ? t('allUsers', lang) : numericBadge
               if (!usedByAll && indices.length > 6) {
                 const missing = users
                   .map((user, index) => ({ user, index: index + 1 }))
-                  .filter(({ user }) => !stat.characters.includes(user.characterId))
+                  .filter(({ user }) => !stat.characters.includes(user.archetypeId ?? user.characterId))
                 const alternative =
                   missing.length === 1
-                    ? `${t('allBut', lang)} ${missing[0].user.name[lang]}`
+                    ? `${t('allBut', lang)} ${missing[0].user.name[lang]}${missing[0].user.archetypeLabel ? ` (${missing[0].user.archetypeLabel[lang]})` : ''}`
                     : missing.length > 1
                       ? `${t('allBut', lang)} ${missing.map(({ index }) => index).join(', ')}`
                       : ''

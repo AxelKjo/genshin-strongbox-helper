@@ -87,6 +87,37 @@ function translateRole(role: string, fallback: string): string {
   return ROLE_ES[role] ?? fallback
 }
 
+const ARCHETYPE_ES: Record<string, string> = {
+  Support: 'Soporte',
+  'Bloom DPS': 'DPS Bloom',
+  'On-Field Electro DPS': 'DPS Electro On-Field',
+  'Off-Field Electro DPS / Support': 'DPS Electro Off-Field / Soporte',
+  'On-Field DPS': 'DPS On-Field',
+  'Off-Field DPS': 'DPS Off-Field',
+  'Reverse Melt': 'Reverse Melt',
+  'Reverse Melt DPS': 'DPS Reverse Melt',
+  'Freeze / Mono Cryo': 'Freeze / Mono Cryo',
+  'Freeze and Mono Cryo': 'Freeze y Mono Cryo',
+  'Freeze and Mono Cryo Support': 'Soporte Freeze y Mono Cryo',
+  Dendro: 'Dendro (Aggravate)',
+  'Dendro (Aggravate)': 'Dendro (Aggravate)',
+  Overload: 'Overload',
+  'Lunar-Charged': 'Lunar-Charged',
+  'Aggravate DPS': 'DPS Aggravate',
+  'Quickbloom DPS': 'DPS Quickbloom',
+  'Electro DPS': 'DPS Electro',
+  'General Support / Damage Dealer': 'Soporte General / Damage Dealer',
+  'Transformative Reaction–Focused': 'Enfocado en Transformative Reactions',
+  'Transformative Reaction-Focused': 'Enfocado en Transformative Reactions',
+}
+
+function translateArchetype(label: string): string {
+  if (ARCHETYPE_ES[label]) return ARCHETYPE_ES[label]
+  return label
+    .replace(/\bSupport\b/g, 'Soporte')
+    .replace(/\band\b/g, 'y')
+}
+
 function capitalize(value: string): string {
   if (!value) return value
   return value.charAt(0).toUpperCase() + value.slice(1)
@@ -207,6 +238,85 @@ function resolveCharacterBuild(
     }
   }
 
+  if (primarySource === 'KQM' && kqm && kqm.archetypes && kqm.archetypes.length > 0) {
+    const validTargetIds = new Set(targetSets.map((t) => t.id))
+    const assignments: CharacterSetAssignment[] = []
+
+    for (const archetype of kqm.archetypes) {
+      const archMainStats = fitStats(archetype.mainStats, gbStats)
+      const archSubstats = uniqueStats(archetype.substats.length > 0 ? archetype.substats : bestBuild.substats)
+      const archCritTie = archetype.substats.length > 0 ? archetype.critTie : (bestBuild.critTie || Boolean(kqm.critTie))
+      const archErUntilRequirement =
+        archSubstats[0] === 'ER%' && (bestBuild.erUntilRequirement || archetype.erUntilRequirement)
+
+      const archetypeId = `${character.slug}::${archetype.archetypeSlug}`
+      const archetypeLabel = {
+        en: archetype.archetypeLabel.en,
+        es: translateArchetype(archetype.archetypeLabel.en),
+      }
+
+      for (const rec of archetype.standardSets) {
+        if (!validTargetIds.has(rec.setId)) continue
+        if (assignments.some((a) => a.setId === rec.setId && (a.usage.archetypeId ?? a.characterId) === archetypeId)) {
+          continue
+        }
+
+        const tier: UsageTier = rec.rank === 1 ? 'BiS' : 'Alternative'
+        const usageType: UsageType =
+          rec.pieceCount === 2
+            ? rec.rank === 1
+              ? '2pc BiS'
+              : '2pc Alternative'
+            : rec.rank === 1
+              ? '4pc BiS'
+              : '4pc Alternative'
+
+        const usage: CharacterUsage = {
+          characterId: character.slug,
+          archetypeId,
+          archetypeLabel,
+          name: character.name,
+          iconUrl: characterImageUrl(character.slug),
+          element: capitalize(character.element),
+          role: archetypeLabel,
+          usageType,
+          tier,
+          mainStats: archMainStats,
+          substatsPriority: archSubstats,
+          critTie: archCritTie,
+          erUntilRequirement: archErUntilRequirement,
+          sourceValidation: {
+            primarySource,
+            gbVersion,
+            kqmVersion,
+            genshinBuildsUpdated: bestBuild.version,
+            resolutionReason: `${resolutionReason} [${archetype.archetypeLabel.en}]`,
+            kqmUrl: kqm.url,
+          },
+        }
+
+        assignments.push({
+          setId: rec.setId,
+          characterId: character.slug,
+          tier,
+          usageType,
+          usage,
+        })
+      }
+    }
+
+    return {
+      characterId: character.slug,
+      name: character.name,
+      element: capitalize(character.element),
+      primarySource,
+      gbVersion,
+      kqmVersion,
+      resolutionReason,
+      assignments,
+    }
+  }
+
   type ResolvedSetRec = { setId: string; rank: 1 | 2; pieceCount: 2 | 4 }
   let chosenSets: ResolvedSetRec[] = []
 
@@ -248,6 +358,7 @@ function resolveCharacterBuild(
           : '4pc Alternative'
     const usage: CharacterUsage = {
       characterId: character.slug,
+      archetypeId: character.slug,
       name: character.name,
       iconUrl: characterImageUrl(character.slug),
       element: capitalize(character.element),
@@ -420,7 +531,8 @@ async function main() {
   for (const resolved of resolvedCharacters) {
     for (const assignment of resolved.assignments) {
       const list = assignmentsBySet.get(assignment.setId)
-      if (list && !list.some((u) => u.characterId === assignment.characterId)) {
+      const currentKey = assignment.usage.archetypeId ?? assignment.characterId
+      if (list && !list.some((u) => (u.archetypeId ?? u.characterId) === currentKey)) {
         list.push(assignment.usage)
       }
     }
@@ -432,7 +544,8 @@ async function main() {
     if (!list) continue
     const manualList = MANUAL_CHARACTER_INCLUSIONS[target.id] ?? []
     for (const manualChar of manualList) {
-      if (!list.some((u) => u.characterId === manualChar.characterId)) {
+      const manualKey = manualChar.archetypeId ?? manualChar.characterId
+      if (!list.some((u) => (u.archetypeId ?? u.characterId) === manualKey)) {
         list.push(manualChar)
       }
     }
@@ -444,7 +557,11 @@ async function main() {
         '2pc Alternative': 3,
         '2pc Combo': 4,
       }
-      return order[a.usageType] - order[b.usageType] || a.name.en.localeCompare(b.name.en)
+      return (
+        order[a.usageType] - order[b.usageType] ||
+        a.name.en.localeCompare(b.name.en) ||
+        (a.archetypeId ?? '').localeCompare(b.archetypeId ?? '')
+      )
     })
   }
 

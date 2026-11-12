@@ -23,7 +23,7 @@ export function buildSlotRules(
 ): SlotTriageRule[] {
   return SLOT_MAIN_STATS[slot].map((mainStat) => {
     const users = characters.filter((character) => character.mainStats[slot].includes(mainStat))
-    const usedBy = users.map((character) => character.characterId)
+    const usedBy = users.map((character) => character.archetypeId ?? character.characterId)
     let verdict: Verdict = 'SAFE_DISCARD'
     if (users.length > 0) {
       verdict = users.some((character) => character.tier === 'BiS') || users.length >= 3
@@ -33,13 +33,14 @@ export function buildSlotRules(
 
     const substatUsers = new Map<StatKey, string[]>()
     for (const character of users) {
+      const charKey = character.archetypeId ?? character.characterId
       for (const stat of character.substatsPriority) {
         if (stat === mainStat || isFlatStat(stat)) continue
         const owners = substatUsers.get(stat)
         if (owners) {
-          if (!owners.includes(character.characterId)) owners.push(character.characterId)
+          if (!owners.includes(charKey)) owners.push(charKey)
         } else {
-          substatUsers.set(stat, [character.characterId])
+          substatUsers.set(stat, [charKey])
         }
       }
     }
@@ -55,6 +56,7 @@ export function buildSlotRules(
 export function buildFlowerAndPlume(characters: CharacterUsage[]) {
   const combos = new Map<string, { substats: StatKey[]; usedBy: string[]; names: LocalizedText[] }>()
   for (const character of characters) {
+    const charKey = character.archetypeId ?? character.characterId
     const stats = uniqueStats(
       character.substatsPriority.filter((stat) => !isFlatStat(stat)),
     )
@@ -62,12 +64,12 @@ export function buildFlowerAndPlume(characters: CharacterUsage[]) {
     const key = stats.join('|')
     const existing = combos.get(key)
     if (existing) {
-      if (!existing.usedBy.includes(character.characterId)) {
-        existing.usedBy.push(character.characterId)
+      if (!existing.usedBy.includes(charKey)) {
+        existing.usedBy.push(charKey)
         existing.names.push(character.name)
       }
     } else {
-      combos.set(key, { substats: stats, usedBy: [character.characterId], names: [character.name] })
+      combos.set(key, { substats: stats, usedBy: [charKey], names: [character.name] })
     }
   }
   return {

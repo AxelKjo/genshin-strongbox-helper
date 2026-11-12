@@ -1,93 +1,77 @@
 # Genshin Strongbox Helper (Genshin Artifact Triage)
 
-Bilingual (ES/EN) artifact keep-vs-discard guide for Genshin Impact. The app is powered by an offline, cached data pipeline that cross-references community theorycrafting recommendations from **Genshin-Builds (Genshin Impact Helper Team)** and **KeqingMains (KQM)**, resolving discrepancies based on guide version freshness and other criteria.
+Bilingual (ES/EN) artifact keep-vs-discard guide for Genshin Impact. The tool aims to help players quickly determine which artifact pieces are safe to recycle in the Strongbox and which ones should be kept for current characters.
 
-## Current scope
+Recommendations are powered by an offline, cached data pipeline that cross-references community theorycrafting from **Genshin-Builds (Genshin Impact Helper Team)** and **KeqingMains (KQM)**, resolving priorities based on guide version freshness.
 
-The tool currently covers 20 artifact sets:
+### Features
 
-1. Nymph's Dream / Sueño de la Ninfa
-2. Vourukasha's Glow / Fulgor de Vurukasha
-3. Marechaussee Hunter / Cazador Fantasmal
-4. Golden Troupe / Compañía Dorada
-5. Song of Days Past / Son de Antaño
-6. Nighttime Whispers in the Echoing Woods / Murmullo del Bosque Reverberante
-7. Fragment of Harmonic Whimsy / Fragmento de la Armonía Fantasiosa
-8. Unfinished Reverie / Ensoñación Inacabada
-9. Obsidian Codex / Códice de Obsidiana
-10. Scroll of the Hero of Cinder City / Pergamino del Héroe de la Ciudad de las Cenizas
-11. Long Night's Oath / Juramento de la Noche
-12. Finale of the Deep Galleries / Réquiem del Corredor
-13. Night of the Sky's Unveiling / Noche de la Revelación del Cielo
-14. Silken Moon's Serenade / Serenata de la Luna Tejida
-15. Aubade of Morningstar and Moon / Alborada de la Estrella del Alba y la Luna
-16. A Day Carved From Rising Winds / Día de los Vientos Alzantes
-17. Celestial Gift / Dádiva Celestial
-18. Disenchantment in Deep Shadow / Desilusión Congelada en las Sombras
-19. Heart of the Furnace / Corazón Forjado
-20. Scarlet Proof / Testimonio Escarlata
+- **Keep vs. Discard Matrix:** Fast visual triage for Sands, Goblet, Circlet, and viable Flower & Plume combinations.
+- **Artifact Sidebar:** Quick-search drawer indexing all sets with bilingual name search and character-based filtering.
+- **Customizable Triage:** Collapsible settings drawer with options to exclude alternative/situational builds, reverse matrix sorting, and switch to a compact matrix view.
+- **Character Breakdown:** Compact summary of the characters that use the set and direct links to the source guides.
 
-The scraper is modular and accepts an optional target-set filter, so the same code can be run for every set later without rewriting it.
+---
 
 ## Stack
 
-- Vite + React + TypeScript + Tailwind CSS
-- `cheerio` + `tsx` scraping scripts
-- On-disk HTML cache in `.cache/` (re-runs do not repeat HTTP requests)
-- Generated dataset at `public/data/artifacts-triage.json`
+- **Frontend:** React 19, Vite 8, TypeScript, Tailwind CSS, Lucide React
+- **Scraping & Pipeline:** Cheerio, `tsx`
+- **Quality & Linting:** `oxlint` (fast static analysis) and `tsc`
+- **Data & Assets:** On-disk HTML cache (`.cache/`), generated dataset (`public/data/artifacts-triage.json`), and local 256×256 PNG assets (`public/images/`)
+
+---
 
 ## Commands
 
 ```bash
+# Frontend
 npm install
-npm run dev              # local frontend
-npm run build            # typecheck + production build
-npm run lint
-npm run typecheck:scripts
+npm run dev              # local dev server
+npm run build            # typecheck (tsc -b) + production build
+npm run preview          # preview production build
+npm run lint             # static code analysis (oxlint)
+npm run typecheck        # validate app TypeScript types
+npm run typecheck:scripts # validate scraper scripts TypeScript types
 
-npm run scrape           # all configured target sets (20)
-npm run scrape -- celestial-gift
-npm run scrape -- heart-of-the-furnace
-npm run scrape -- scarlet-proof
-npm run scrape -- disenchantment-in-deep-shadow
-npm run scrape -- a-day-carved-from-rising-winds
-npm run scrape -- night-of-the-skys-unveiling
-npm run scrape -- silken-moons-serenade
-npm run scrape -- obsidian-codex
-npm run scrape -- scroll-of-the-hero-of-cinder-city
-npm run scrape -- fragment-of-harmonic-whimsy
-npm run scrape -- unfinished-reverie
-npm run scrape -- song-of-days-past
-npm run scrape -- nighttime-whispers-in-the-echoing-woods
-npm run scrape -- golden-troupe
-npm run scrape -- nymphs-dream
-npm run scrape -- vourukashas-glow
-npm run scrape:images    # download 256x256 set artwork into public/images/artifacts/
-npm run scrape:images -- --force
-npm run scrape:test-gb   # inspect Genshin-Builds extraction
-npm run scrape:test-kqm  # inspect KQM extraction
-npm run scrape:all       # remove the target-set filter and process every indexed set
+# Data Scraping & Pipeline
+npm run scrape           # process all 48 configured target sets
+npm run scrape:all       # remove filter and process every indexed set
+
+# Asset Management (Assets extracted from Project Amber (https://gi.yatta.moe) and Enka.Network (https://enka.network))
+npm run scrape:images    # download both artifact and character local images
+npm run scrape:images:artifacts   # download artifact set artwork only
+npm run scrape:images:characters  # download character portraits only
+
+# Diagnostic Tests
+npm run scrape:test-gb   # inspect Genshin-Builds parser output
+npm run scrape:test-kqm  # inspect KQM parser output
 ```
 
-## Pipeline
+---
 
-- `scripts/scraper/config.ts` — target-set filter (`TARGET_SETS`), locales, cache and concurrency settings. When adding a new set, add its entry in chronological patch order (oldest to newest), update the `Current scope` list in `README.md` in that same patch order, fetch its assets (`npm run scrape:images`), and execute `npm run scrape`.
-- `scripts/scraper/http.ts` — cached fetch with retries and concurrency helper.
-- `scripts/scraper/genshin-builds.ts` — artifact index + character build parser (EN/ES).
-- `scripts/scraper/kqm-parser.ts` — KQM slug normalization, version parsing, main stats and substats.
-- `scripts/scraper/build-dataset.ts` — source resolution, triage rules and JSON generation.
-- `scripts/scraper/download-artifact-images.ts` — resolves set artwork through the Project Amber catalog and caches 256x256 PNGs from Enka.Network under `public/images/artifacts/`.
-- `scripts/scraper/download-character-images.ts` — resolves character portraits through Project Amber and Enka.Network, caching 256x256 PNGs locally under `public/images/characters/` to eliminate hotlinking.
+## Pipeline Architecture
 
-Run `npm run scrape:all` (or `npm run scrape -- --all`) to remove the target-set filter and process every set returned by the Genshin-Builds index. No scraper rewrite is needed.
+The scraping pipeline (`scripts/scraper/`) uses a character-centric inversion model to build the triage dataset. Rather than scraping sets in isolation, the pipeline evaluates each playable character first, resolves build discrepancies, and then groups assignments into the target artifact sets:
 
-## Data & Triage Methodology
+- `scripts/scraper/config.ts` — Target sets catalog (`TARGET_SETS`), throttling limits (`NETWORK_DELAY_MS`), concurrency settings, and asset paths.
+- `scripts/scraper/http.ts` — Cached HTTP client with polite request delays, jitter, 404 caching (`.404`), and automatic retries.
+- `scripts/scraper/genshin-builds.ts` — Extracts artifact metadata and character builds from Genshin-Builds.
+- `scripts/scraper/kqm-parser.ts` — Resolves KQM Quickguides, parsing guide versions, multi-archetype section DOM scoping, standard recommendations, main stats, and substats.
+- `scripts/scraper/manual-inclusions.ts` — Whitelist preserving manually validated character inclusions against re-scrapes.
+- `scripts/scraper/build-dataset.ts` — Evaluates patch version freshness (`kqmVersion vs gbVersion`), handles multi-archetype build branching, resolves winning builds per character, inverts character assignments into the target artifact sets, and generates `public/data/artifacts-triage.json`.
+- `scripts/scraper/download-artifact-images.ts` & `download-character-images.ts` — Downloads 256×256 PNGs for sets and characters via Project Amber and Enka.Network.
 
-To keep artifact triage fast, reliable, and clean, recommendations adhere to the following criteria:
+---
 
-- **No Hallucinated Stats:** All main stat and substat priorities are sourced directly from the established community guides credited in this file.
-- **Standard Builds Only:** Focuses on primary roles, linking characters to sets where they rank as **Best-in-Slot (BiS)** or **Alternative** (most of the time meaning 2nd best, such as Wriothesley with Marechaussee Hunter). Highly niche, or non-standard builds are omitted.
-- **Preserved Stat Ties:** Combined stat labels (such as `CRIT Rate / CRIT DMG`) are treated as equal priorities (`≈`) rather than assuming an arbitrary ranking.
+## Data & Triage Criteria
+
+To keep artifact triage fast, reliable, and clean:
+
+- **Authoritative Sources:** All stat priorities are compiled directly from the community research teams credited below. No personal theorycrafting or arbitrary stats are introduced.
+- **Focus on most relevant builds:** The tool covers sets where they are ranked as **Best-in-Slot (BiS)** or top **Alternative** options. Niche variants and builds are omitted. These criteria follow the explicit ranking shown in Genshin-Builds (Genshin Impact Helper Team) and derive a positional ranking from KeqingMains tables.
+
+---
 
 ## Data Sources & Community Attribution (Fuentes y Atribución Comunitaria)
 
@@ -108,11 +92,12 @@ Las prioridades de estadísticas y recomendaciones de builds son compilaciones f
 Agradecemos sinceramente a ambos colectivos por su constante dedicación e inestimable aporte a la comunidad de jugadores.
 
 > [!NOTE]
-> **Independence & Data Curation:** This project is strictly independent and is neither affiliated with nor endorsed by the Genshin Impact Helper Team or KeqingMains. 
+> **Independence & Data Curation:** This project is strictly independent and is neither affiliated with nor endorsed by the Genshin Impact Helper Team or KeqingMains.
 > 
 > Recommendations shown here are condensed for the purposes of this tool. Any discrepancies, omissions, or loss of guide-specific nuance belong solely to this tool, not to the original research teams. For in-depth explanations and full contextual builds, please consult the original source guides directly.
 
 ### Community Opt-out & Attribution Requests
+
 If you are a maintainer, author, or representative of the **Genshin Impact Helper Team** or **KeqingMains**, and you wish to update how your team is credited, request changes to how your data is linked, or ask for the exclusion of specific guides, please open a GitHub issue or reach out to me directly.
 
 ---
@@ -121,8 +106,9 @@ If you are a maintainer, author, or representative of the **Genshin Impact Helpe
 
 In the interest of full intellectual honesty and modern open-source transparency:
 
-- Human Direction & Domain QA: Product conception, cross-validation heuristics between data sources, scope definition, UI/UX direction, auditing of artifact rules and general QA.
-- AI-Assisted Engineering: Technical architecture specification, scraping pipeline implementation, and React/TypeScript/Tailwind CSS code generation orchestrated via AI coding agents.
+- **Human Direction & Domain QA:** Product conception, cross-validation heuristics between data sources, scope definition, UI/UX direction, auditing of artifact rules and general QA.
+- **AI-Assisted Engineering:** Technical architecture specification, scraping pipeline implementation, and React/TypeScript/Tailwind CSS code generation orchestrated via AI coding agents.
+
 ---
 
 ## Legal Disclaimer & Intellectual Property

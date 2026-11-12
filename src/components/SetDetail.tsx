@@ -127,7 +127,7 @@ export function SetDetail({ set, lang, reverseOrder, compactMatrix }: SetDetailP
                 <div className="mt-2 flex flex-wrap gap-1.5">
                   {keepRules.map((rule) => {
                     const users = rule.usedBy
-                      .map((id) => set.characters.find((c) => c.characterId === id))
+                      .map((id) => set.characters.find((c) => (c.archetypeId ?? c.characterId) === id))
                       .filter((c): c is NonNullable<typeof c> => Boolean(c))
                     const isSituationalOnly =
                       users.length > 0 && users.every((c) => c.tier === 'Alternative')
@@ -137,7 +137,7 @@ export function SetDetail({ set, lang, reverseOrder, compactMatrix }: SetDetailP
                         key={rule.mainStat}
                         title={
                           isSituationalOnly
-                            ? users.map((u) => `${u.name[lang]} (${UI.usage[u.usageType][lang]})`).join(', ')
+                            ? users.map((u) => `${u.name[lang]}${u.archetypeLabel ? ` (${u.archetypeLabel[lang]})` : ''} (${UI.usage[u.usageType][lang]})`).join(', ')
                             : undefined
                         }
                         className={`inline-flex items-center rounded-lg border px-3 py-1.5 text-xl font-medium ${
@@ -184,7 +184,7 @@ export function SetDetail({ set, lang, reverseOrder, compactMatrix }: SetDetailP
         <div className="mt-4 grid gap-3 lg:grid-cols-2 2xl:grid-cols-3">
           {set.flowerAndPlumeRules.keepCombinations.map((combo, index) => {
             const users = combo.usedBy
-              .map((id) => set.characters.find((character) => character.characterId === id))
+              .map((id) => set.characters.find((character) => (character.archetypeId ?? character.characterId) === id))
               .filter((character): character is NonNullable<typeof character> => Boolean(character))
             return (
               <article key={`${combo.substats.join('-')}-${index}`} className="rounded-2xl border border-emeraldKeep/25 bg-emeraldKeep/5 p-4">
@@ -199,8 +199,8 @@ export function SetDetail({ set, lang, reverseOrder, compactMatrix }: SetDetailP
                 <div className="mt-3 flex flex-wrap items-center gap-1.5">
                   {users.map((character) => (
                     <span
-                      key={character.characterId}
-                      title={`${character.name[lang]} (${UI.usage[character.usageType][lang]})`}
+                      key={character.archetypeId ?? character.characterId}
+                      title={`${character.name[lang]}${character.archetypeLabel ? ` (${character.archetypeLabel[lang]})` : ''} (${UI.usage[character.usageType][lang]})`}
                       className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-abyss/60 py-0.5 pl-0.5 pr-2 text-xs text-slate-200"
                     >
                       <Avatar src={character.iconUrl} alt={character.name[lang]} />
@@ -262,7 +262,7 @@ export function SetDetail({ set, lang, reverseOrder, compactMatrix }: SetDetailP
         </div>
         <div className="grid gap-3 lg:grid-cols-2 2xl:grid-cols-3">
           {set.characters.map((character) => (
-            <CharacterCard key={character.characterId} character={character} lang={lang} />
+            <CharacterCard key={character.archetypeId ?? character.characterId} character={character} lang={lang} />
           ))}
         </div>
       </section>

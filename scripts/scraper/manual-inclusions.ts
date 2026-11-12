@@ -2,6 +2,7 @@ import type { CharacterUsage } from '../../src/types/artifacts'
 
 const AINO_USAGE: CharacterUsage = {
   characterId: 'aino',
+  archetypeId: 'aino',
   name: {
     en: 'Aino',
     es: 'Aino',

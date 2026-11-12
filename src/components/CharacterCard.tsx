@@ -43,7 +43,12 @@ export function CharacterCard({ character, lang }: CharacterCardProps) {
               {UI.usage[character.usageType][lang]}
             </span>
           </div>
-          <p className="mt-0.5 text-xs text-slate-400">{character.element}</p>
+          <p className="mt-0.5 text-xs text-slate-400">
+            {character.element}
+            {character.archetypeLabel && (
+              <> · <span className="text-slate-300">{t('role', lang)}: {character.archetypeLabel[lang]}</span></>
+            )}
+          </p>
         </div>
       </div>
 

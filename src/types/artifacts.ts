@@ -23,6 +23,8 @@ export type Verdict = 'MUST_KEEP' | 'SITUATIONAL_KEEP' | 'SAFE_DISCARD'
 
 export interface CharacterUsage {
   characterId: string
+  archetypeId?: string
+  archetypeLabel?: LocalizedText
   name: LocalizedText
   iconUrl: string
   element: string

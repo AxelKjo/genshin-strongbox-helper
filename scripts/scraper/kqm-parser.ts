@@ -25,6 +25,16 @@ export interface KqmStandardSetRecommendation {
   rawLabel: string
 }
 
+export interface KqmArchetype {
+  archetypeSlug: string
+  archetypeLabel: { en: string }
+  mainStats: { sands: StatKey[]; goblet: StatKey[]; circlet: StatKey[] }
+  substats: StatKey[]
+  critTie: boolean
+  erUntilRequirement: boolean
+  standardSets: KqmStandardSetRecommendation[]
+}
+
 export interface KqmGuide {
   slug: string
   url: string
@@ -37,6 +47,7 @@ export interface KqmGuide {
   recommendsSet: boolean
   recommendedSets: string[]
   setRecommendations: KqmSetRecommendation[]
+  archetypes: KqmArchetype[]
 }
 
 export interface KqmArtifactRow {
@@ -401,6 +412,313 @@ function extractArtifactRows(
   return rows
 }
 
+function slugify(text: string): string {
+  return text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
+
+function extractRowsFromTables(
+  $: cheerio.CheerioAPI,
+  tables: cheerio.Cheerio<AnyNode>[],
+  targetSets: TargetSetConfig[] = TARGET_SETS,
+): KqmArtifactRow[] {
+  const rows: KqmArtifactRow[] = []
+  const seen = new Set<string>()
+  for (const table of tables) {
+    let rankCounter = 0
+    table.find('tr').each((_, row) => {
+      const cells = $(row).find('td,th')
+      if (cells.length < 2) return
+      const label = cleanText(cells.eq(0).text())
+      const description = cleanText(cells.eq(1).text())
+      if (!label || !description) return
+      const key = `${label}|${description}`
+      if (seen.has(key)) return
+      seen.add(key)
+
+      const is2pc = /2\s*-?\s*p(?:c|iece)?\b/i.test(label) || /\b2pc\b/i.test(label)
+      const is4pc =
+        /4\s*-?\s*p(?:c|iece)?\b/i.test(label) ||
+        /^4\s+[A-Za-z]/i.test(label) ||
+        (!is2pc && extractSetsWithPieceCount(label, targetSets).some((r) => r.pieceCount === 4))
+      const matchesSets = extractSetsWithPieceCount(label, targetSets).length > 0
+      const isArtifact = is4pc || is2pc || matchesSets
+
+      let rowRank: number | null = null
+      if (isArtifact) {
+        const haystack = `${label} ${description}`
+        const isDisqualified = KQM_HARD_DISQUALIFIERS.some((p) => p.test(haystack))
+        if (!isDisqualified) {
+          rankCounter++
+          rowRank = rankCounter
+        }
+      }
+
+      rows.push({
+        label,
+        description,
+        is4pc,
+        is2pc,
+        rank: rowRank,
+      })
+    })
+  }
+  return rows
+}
+
+function rowsToStandardSets(
+  rows: KqmArtifactRow[],
+  targetSets: TargetSetConfig[] = TARGET_SETS,
+): KqmStandardSetRecommendation[] {
+  const standardSets: KqmStandardSetRecommendation[] = []
+  for (const row of rows) {
+    if (!isStandardKqmRecommendation(row)) continue
+    const rank = Math.min(2, Math.max(1, row.rank ?? 1)) as 1 | 2
+    const matched = extractSetsWithPieceCount(row.label, targetSets)
+    for (const { set, pieceCount } of matched) {
+      const existingIndex = standardSets.findIndex((s) => s.setId === set.id)
+      if (existingIndex >= 0) {
+        const existing = standardSets[existingIndex]
+        if (rank < existing.rank) {
+          existing.rank = rank
+          existing.pieceCount = pieceCount
+        } else if (rank === existing.rank && pieceCount > existing.pieceCount) {
+          existing.pieceCount = pieceCount
+        }
+      } else {
+        standardSets.push({
+          setId: set.id,
+          name: set.en,
+          rank,
+          pieceCount,
+          rawLabel: row.label,
+        })
+      }
+    }
+  }
+  return standardSets
+}
+
+function extractSubstatsFromScope(
+  $: cheerio.CheerioAPI,
+  containerNodes: cheerio.Cheerio<AnyNode>[],
+) {
+  const priorityTexts: string[] = []
+  for (const node of containerNodes) {
+    node.find('.substats, p, li').addBack('.substats, p, li').each((_, element) => {
+      const text = cleanText($(element).text())
+      const match = text.match(/Stat Priority\s*:\s*(.+)$/i)
+      if (match) priorityTexts.push(match[1])
+    })
+  }
+  const substats: StatKey[] = []
+  let critTie = false
+  let erUntilRequirement = false
+  for (const priority of priorityTexts) {
+    if (hasCritTie(priority)) critTie = true
+    if (hasErUntilRequirement(priority)) erUntilRequirement = true
+    for (const stat of normalizeStatList(priority)) {
+      if (!substats.includes(stat)) substats.push(stat)
+    }
+  }
+  return { substats, critTie, erUntilRequirement }
+}
+
+export function extractKqmArchetypes(
+  $: cheerio.CheerioAPI,
+  targetSets: TargetSetConfig[] = TARGET_SETS,
+  globalFallback: { substats: StatKey[]; critTie: boolean; erUntilRequirement: boolean },
+): KqmArchetype[] {
+  const statTables: {
+    table: cheerio.Cheerio<AnyNode>
+    stats: { sands: StatKey[]; goblet: StatKey[]; circlet: StatKey[] }
+  }[] = []
+
+  $('table').each((_, tbl) => {
+    const parsed = parseMainStatsTable($, $(tbl))
+    if (parsed) {
+      statTables.push({ table: $(tbl), stats: parsed })
+    }
+  })
+
+  if (statTables.length <= 1) {
+    return []
+  }
+
+  interface ArchetypeCandidate {
+    label: string
+    slug: string
+    headingNode: cheerio.Cheerio<AnyNode>
+    level: number
+    statTable: cheerio.Cheerio<AnyNode>
+    mainStats: { sands: StatKey[]; goblet: StatKey[]; circlet: StatKey[] }
+  }
+
+  const candidates: ArchetypeCandidate[] = []
+
+  for (const { table, stats } of statTables) {
+    let h1 = table.prevAll('h1').first()
+    if (!h1.length) h1 = table.parent().prevAll('h1').first()
+    if (!h1.length) h1 = table.parent().parent().prevAll('h1').first()
+
+    const h1Title = cleanText(h1.text())
+    let archetypeHeading: cheerio.Cheerio<AnyNode>
+    let archetypeLevel: number
+    let archetypeTitle: string
+
+    if (h1.length && !/artifacts|character overview|new content|infographic/i.test(h1Title)) {
+      archetypeHeading = h1
+      archetypeLevel = 1
+      archetypeTitle = h1Title
+    } else {
+      let h2 = table.prevAll('h2').first()
+      if (!h2.length) h2 = table.parent().prevAll('h2').first()
+      if (!h2.length) h2 = table.parent().parent().prevAll('h2').first()
+
+      const h2Title = cleanText(h2.text())
+      if (h2.length && !/artifacts|artifact stats|er requirements/i.test(h2Title)) {
+        archetypeHeading = h2
+        archetypeLevel = 2
+        archetypeTitle = h2Title
+      } else {
+        let h4 = table.prevAll('h4').first()
+        if (!h4.length) h4 = table.parent().prevAll('h4').first()
+        if (!h4.length) h4 = table.parent().parent().prevAll('h4').first()
+        archetypeHeading = h4
+        archetypeLevel = 4
+        archetypeTitle = cleanText(h4.text())
+      }
+    }
+
+    archetypeTitle = archetypeTitle
+      .replace(/\s*artifact stats\s*/gi, '')
+      .replace(/\s*infographic\s*/gi, '')
+      .replace(/^h\d+:\s*/gi, '')
+      .trim()
+
+    if (!archetypeTitle) continue
+
+    candidates.push({
+      label: archetypeTitle,
+      slug: slugify(archetypeTitle),
+      headingNode: archetypeHeading,
+      level: archetypeLevel,
+      statTable: table,
+      mainStats: stats,
+    })
+  }
+
+  const uniqueSlugs = new Set(candidates.map((c) => c.slug))
+  if (candidates.length < 2 || uniqueSlugs.size !== candidates.length) {
+    return []
+  }
+
+  const isLynetteStyle = candidates.every((c) => c.level === 4)
+  const archetypes: KqmArchetype[] = []
+
+  if (isLynetteStyle) {
+    const setsHeading = $('h2').filter((_, el) => /artifact sets\b/i.test(cleanText($(el).text()))).first()
+    const tablesPerCandidate: cheerio.Cheerio<AnyNode>[][] = candidates.map(() => [])
+
+    let currentCandidateIdx = 0
+    let el = setsHeading.next()
+    while (el.length && !/^h[1-2]$/i.test(el.prop('tagName') || '')) {
+      const text = cleanText(el.text()).toLowerCase()
+      candidates.forEach((cand, idx) => {
+        if (idx > 0 && (text.includes(cand.slug.replace(/-/g, ' ')) || text.includes('transformative'))) {
+          currentCandidateIdx = idx
+        }
+      })
+      const tables = el.is('table') ? el : el.find('table')
+      if (tables.length) {
+        tables.each((_, t) => {
+          tablesPerCandidate[currentCandidateIdx].push($(t))
+        })
+      }
+      el = el.next()
+    }
+
+    candidates.forEach((cand, idx) => {
+      const rows = extractRowsFromTables($, tablesPerCandidate[idx], targetSets)
+      const standardSets = rowsToStandardSets(rows, targetSets)
+      const substatsData = extractSubstatsFromScope($, [cand.statTable.parent(), cand.statTable])
+      const finalSubstats = substatsData.substats.length > 0 ? substatsData.substats : globalFallback.substats
+      archetypes.push({
+        archetypeSlug: cand.slug,
+        archetypeLabel: { en: cand.label },
+        mainStats: cand.mainStats,
+        substats: finalSubstats,
+        critTie: substatsData.substats.length > 0 ? substatsData.critTie : globalFallback.critTie,
+        erUntilRequirement: substatsData.substats.length > 0 ? substatsData.erUntilRequirement : globalFallback.erUntilRequirement,
+        standardSets,
+      })
+    })
+
+    return archetypes
+  }
+
+  candidates.forEach((cand) => {
+    const sectionNodes: cheerio.Cheerio<AnyNode>[] = [cand.headingNode]
+    let next = cand.headingNode.next()
+    while (next.length) {
+      const nextLevel = headingLevel(next.prop('tagName') || '')
+      if (nextLevel && nextLevel <= cand.level) break
+      sectionNodes.push(next)
+      next = next.next()
+    }
+
+    const setTables: cheerio.Cheerio<AnyNode>[] = []
+    let inSets = false
+    let setHeadingLevel = 0
+
+    for (const node of sectionNodes) {
+      const tag = node.prop('tagName') || ''
+      const text = cleanText(node.text())
+      const level = headingLevel(tag)
+
+      if (level && /artifact sets\b/i.test(text) && !/teammate/i.test(text)) {
+        inSets = true
+        setHeadingLevel = level
+        continue
+      }
+
+      if (inSets) {
+        if (level && level <= setHeadingLevel) {
+          inSets = false
+        } else {
+          const tbls = node.is('table') ? node : node.find('table')
+          tbls.each((_, t) => {
+            if (!parseMainStatsTable($, $(t))) {
+              setTables.push($(t))
+            }
+          })
+        }
+      }
+    }
+
+    const rows = extractRowsFromTables($, setTables, targetSets)
+    const standardSets = rowsToStandardSets(rows, targetSets)
+    const substatsData = extractSubstatsFromScope($, sectionNodes)
+    const finalSubstats = substatsData.substats.length > 0 ? substatsData.substats : globalFallback.substats
+
+    archetypes.push({
+      archetypeSlug: cand.slug,
+      archetypeLabel: { en: cand.label },
+      mainStats: cand.mainStats,
+      substats: finalSubstats,
+      critTie: substatsData.substats.length > 0 ? substatsData.critTie : globalFallback.critTie,
+      erUntilRequirement: substatsData.substats.length > 0 ? substatsData.erUntilRequirement : globalFallback.erUntilRequirement,
+      standardSets,
+    })
+  })
+
+  return archetypes
+}
+
 export async function fetchKqmGuide(
   characterId: string,
   englishName: string,
@@ -463,35 +781,11 @@ export async function fetchKqmGuide(
     }
 
     const artifactRows = extractArtifactRows($, targetSets)
-    const standardSets: KqmStandardSetRecommendation[] = []
-    for (const row of artifactRows) {
-      if (!isStandardKqmRecommendation(row)) continue
-      const rank = Math.min(2, Math.max(1, row.rank ?? 1)) as 1 | 2
-      const matched = extractSetsWithPieceCount(row.label, targetSets)
-      for (const { set, pieceCount } of matched) {
-        const existingIndex = standardSets.findIndex((s) => s.setId === set.id)
-        if (existingIndex >= 0) {
-          const existing = standardSets[existingIndex]
-          if (rank < existing.rank) {
-            existing.rank = rank
-            existing.pieceCount = pieceCount
-          } else if (rank === existing.rank && pieceCount > existing.pieceCount) {
-            existing.pieceCount = pieceCount
-          }
-        } else {
-          standardSets.push({
-            setId: set.id,
-            name: set.en,
-            rank,
-            pieceCount,
-            rawLabel: row.label,
-          })
-        }
-      }
-    }
+    const standardSets = rowsToStandardSets(artifactRows, targetSets)
+    const archetypes = extractKqmArchetypes($, targetSets, { substats, critTie, erUntilRequirement })
 
     const recommendedSets = standardSets.map((entry) => entry.name)
-    const recommendsSet = standardSets.length > 0
+    const recommendsSet = standardSets.length > 0 || archetypes.some((a) => a.standardSets.length > 0)
     const setRecommendations: KqmSetRecommendation[] = standardSets.map((s) => ({
       name: s.name,
       label: s.rawLabel,
@@ -510,6 +804,7 @@ export async function fetchKqmGuide(
       recommendsSet,
       recommendedSets,
       setRecommendations,
+      archetypes,
     }
   }
   return null
