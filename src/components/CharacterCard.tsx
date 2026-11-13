@@ -17,7 +17,11 @@ interface CharacterCardProps {
 
 export function CharacterCard({ character, lang }: CharacterCardProps) {
   const source = character.sourceValidation
-  const genshinBuildsUrl = `https://genshin-impact-helper-team.github.io/genshin-builds/${lang}/${character.characterId}`
+  const buildId =
+    source.primarySource !== 'KQM' && character.archetypeId?.includes('::')
+      ? character.archetypeId.split('::')[1]
+      : undefined
+  const genshinBuildsUrl = `https://genshin-impact-helper-team.github.io/genshin-builds/${lang}/${character.characterId}${buildId ? `?build=${encodeURIComponent(buildId)}` : ''}`
   const substatsText = character.substatsPriority
     .map((stat, index, stats) => {
       const next = stats[index + 1]
