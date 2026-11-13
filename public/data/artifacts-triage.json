@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T17:05:36.153Z",
+  "generatedAt": "2026-11-13T18:40:00.444Z",
   "version": "1.0.0",
   "source": "Genshin-Builds (EN/ES) + KeqingMains Quickguides",
   "sets": [
@@ -1728,6 +1728,21 @@
             "substats": [
               "CRIT Rate",
               "CRIT DMG",
+              "EM",
+              "ER%"
+            ],
+            "usedBy": [
+              "mitya"
+            ],
+            "reasoning": {
+              "en": "Mitya can use CRIT Rate + CRIT DMG + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Mitya busca(n) Prob. CRIT + Daño CRIT + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
               "ATK%",
               "EM",
               "ER%"
@@ -1847,12 +1862,21 @@
               {
                 "name": "CRIT Rate",
                 "characters": [
+                  "mitya",
                   "yae-miko"
                 ]
               },
               {
                 "name": "CRIT DMG",
                 "characters": [
+                  "mitya",
+                  "yae-miko"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "mitya",
                   "yae-miko"
                 ]
               },
@@ -1861,15 +1885,10 @@
                 "characters": [
                   "yae-miko"
                 ]
-              },
-              {
-                "name": "ER%",
-                "characters": [
-                  "yae-miko"
-                ]
               }
             ],
             "usedBy": [
+              "mitya",
               "yae-miko"
             ]
           }
@@ -1950,12 +1969,21 @@
               {
                 "name": "CRIT Rate",
                 "characters": [
+                  "mitya",
                   "yae-miko"
                 ]
               },
               {
                 "name": "CRIT DMG",
                 "characters": [
+                  "mitya",
+                  "yae-miko"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "mitya",
                   "yae-miko"
                 ]
               },
@@ -1964,15 +1992,10 @@
                 "characters": [
                   "yae-miko"
                 ]
-              },
-              {
-                "name": "ER%",
-                "characters": [
-                  "yae-miko"
-                ]
               }
             ],
             "usedBy": [
+              "mitya",
               "yae-miko"
             ]
           },
@@ -2079,9 +2102,30 @@
           },
           {
             "mainStat": "EM",
-            "verdict": "SAFE_DISCARD",
-            "substats": [],
-            "usedBy": []
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "mitya"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "mitya"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "mitya"
+                ]
+              }
+            ],
+            "usedBy": [
+              "mitya"
+            ]
           },
           {
             "mainStat": "CRIT Rate",
@@ -2092,6 +2136,20 @@
                 "characters": [
                   "cryo-traveler",
                   "cyno",
+                  "mitya",
+                  "sandrone",
+                  "wriothesley",
+                  "yae-miko",
+                  "freminet::physical-dps",
+                  "odette"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "mitya",
                   "sandrone",
                   "wriothesley",
                   "yae-miko",
@@ -2112,22 +2170,11 @@
                 ]
               },
               {
-                "name": "EM",
-                "characters": [
-                  "cryo-traveler",
-                  "cyno",
-                  "sandrone",
-                  "wriothesley",
-                  "yae-miko",
-                  "freminet::physical-dps",
-                  "odette"
-                ]
-              },
-              {
                 "name": "ER%",
                 "characters": [
                   "cryo-traveler",
                   "cyno",
+                  "mitya",
                   "sandrone",
                   "yae-miko",
                   "freminet::physical-dps"
@@ -2137,6 +2184,7 @@
             "usedBy": [
               "cryo-traveler",
               "cyno",
+              "mitya",
               "sandrone",
               "wriothesley",
               "yae-miko",
@@ -2153,6 +2201,20 @@
                 "characters": [
                   "cryo-traveler",
                   "cyno",
+                  "mitya",
+                  "sandrone",
+                  "wriothesley",
+                  "yae-miko",
+                  "freminet::physical-dps",
+                  "odette"
+                ]
+              },
+              {
+                "name": "EM",
+                "characters": [
+                  "cryo-traveler",
+                  "cyno",
+                  "mitya",
                   "sandrone",
                   "wriothesley",
                   "yae-miko",
@@ -2173,22 +2235,11 @@
                 ]
               },
               {
-                "name": "EM",
-                "characters": [
-                  "cryo-traveler",
-                  "cyno",
-                  "sandrone",
-                  "wriothesley",
-                  "yae-miko",
-                  "freminet::physical-dps",
-                  "odette"
-                ]
-              },
-              {
                 "name": "ER%",
                 "characters": [
                   "cryo-traveler",
                   "cyno",
+                  "mitya",
                   "sandrone",
                   "yae-miko",
                   "freminet::physical-dps"
@@ -2198,6 +2249,7 @@
             "usedBy": [
               "cryo-traveler",
               "cyno",
+              "mitya",
               "sandrone",
               "wriothesley",
               "yae-miko",
@@ -2300,6 +2352,49 @@
             "genshinBuildsUpdated": "7.1",
             "resolutionReason": "Genshin-Builds newer (7.1 > 4.2)",
             "kqmUrl": "https://keqingmains.com/q/cyno-quickguide/"
+          }
+        },
+        {
+          "characterId": "mitya",
+          "archetypeId": "mitya",
+          "name": {
+            "en": "Mitya",
+            "es": "Mitya"
+          },
+          "iconUrl": "/images/characters/mitya.png",
+          "element": "Electro",
+          "role": {
+            "en": "On-Field DPS",
+            "es": "DPS en campo"
+          },
+          "usageType": "4pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.2",
+            "genshinBuildsUpdated": "7.2",
+            "resolutionReason": "Fallback to GB: no KQM guide"
           }
         },
         {
@@ -19006,6 +19101,22 @@
               "CRIT Rate",
               "CRIT DMG",
               "EM",
+              "ER%"
+            ],
+            "usedBy": [
+              "mitya",
+              "yumemizuki-mizuki"
+            ],
+            "reasoning": {
+              "en": "Mitya, Yumemizuki Mizuki can use CRIT Rate + CRIT DMG + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Mitya, Yumemizuki Mizuki busca(n) Prob. CRIT + Daño CRIT + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM",
               "ATK%"
             ],
             "usedBy": [
@@ -19062,22 +19173,6 @@
             "reasoning": {
               "en": "Linnea can use CRIT Rate + CRIT DMG + DEF% + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
               "es": "Linnéa busca(n) Prob. CRIT + Daño CRIT + DEF% + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
-            }
-          },
-          {
-            "substats": [
-              "ER%",
-              "HP%",
-              "EM",
-              "CRIT Rate",
-              "CRIT DMG"
-            ],
-            "usedBy": [
-              "nilou"
-            ],
-            "reasoning": {
-              "en": "Nilou can use Energy Recharge + HP% + Elemental Mastery + CRIT Rate + CRIT DMG on this set's Flower and Plume.",
-              "es": "Nilou busca(n) Recarga de Energía + Vida% + Maestría Elemental + Prob. CRIT + Daño CRIT en la Flor y la Pluma de este set."
             }
           }
         ]
@@ -19248,6 +19343,7 @@
                   "candace::bloom-dps",
                   "kuki-shinobu",
                   "thoma",
+                  "mitya",
                   "alhaitham",
                   "yumemizuki-mizuki"
                 ]
@@ -19257,6 +19353,16 @@
                 "characters": [
                   "candace::bloom-dps",
                   "thoma",
+                  "mitya",
+                  "keqing::quickbloom-dps",
+                  "alhaitham",
+                  "yumemizuki-mizuki"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "mitya",
                   "keqing::quickbloom-dps",
                   "alhaitham",
                   "yumemizuki-mizuki"
@@ -19271,14 +19377,6 @@
                 ]
               },
               {
-                "name": "CRIT DMG",
-                "characters": [
-                  "keqing::quickbloom-dps",
-                  "alhaitham",
-                  "yumemizuki-mizuki"
-                ]
-              },
-              {
                 "name": "ATK%",
                 "characters": [
                   "keqing::quickbloom-dps",
@@ -19290,6 +19388,7 @@
               "candace::bloom-dps",
               "kuki-shinobu",
               "thoma",
+              "mitya",
               "keqing::quickbloom-dps",
               "alhaitham",
               "yumemizuki-mizuki"
@@ -19406,6 +19505,7 @@
                   "candace::bloom-dps",
                   "kuki-shinobu",
                   "thoma",
+                  "mitya",
                   "yumemizuki-mizuki"
                 ]
               },
@@ -19414,6 +19514,7 @@
                 "characters": [
                   "candace::bloom-dps",
                   "thoma",
+                  "mitya",
                   "yumemizuki-mizuki"
                 ]
               },
@@ -19428,6 +19529,7 @@
               {
                 "name": "CRIT DMG",
                 "characters": [
+                  "mitya",
                   "yumemizuki-mizuki"
                 ]
               }
@@ -19436,6 +19538,7 @@
               "candace::bloom-dps",
               "kuki-shinobu",
               "thoma",
+              "mitya",
               "yumemizuki-mizuki"
             ]
           },
@@ -19603,7 +19706,16 @@
                 "characters": [
                   "candace::bloom-dps",
                   "kuki-shinobu",
-                  "thoma"
+                  "thoma",
+                  "mitya"
+                ]
+              },
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "candace::bloom-dps",
+                  "thoma",
+                  "mitya"
                 ]
               },
               {
@@ -19615,17 +19727,17 @@
                 ]
               },
               {
-                "name": "CRIT Rate",
+                "name": "CRIT DMG",
                 "characters": [
-                  "candace::bloom-dps",
-                  "thoma"
+                  "mitya"
                 ]
               }
             ],
             "usedBy": [
               "candace::bloom-dps",
               "kuki-shinobu",
-              "thoma"
+              "thoma",
+              "mitya"
             ]
           },
           {
@@ -19635,6 +19747,7 @@
               {
                 "name": "CRIT DMG",
                 "characters": [
+                  "mitya",
                   "keqing::quickbloom-dps",
                   "alhaitham",
                   "cyno",
@@ -19645,6 +19758,7 @@
               {
                 "name": "EM",
                 "characters": [
+                  "mitya",
                   "keqing::quickbloom-dps",
                   "alhaitham",
                   "cyno",
@@ -19655,6 +19769,7 @@
               {
                 "name": "ER%",
                 "characters": [
+                  "mitya",
                   "alhaitham",
                   "cyno",
                   "linnea",
@@ -19677,6 +19792,7 @@
               }
             ],
             "usedBy": [
+              "mitya",
               "keqing::quickbloom-dps",
               "alhaitham",
               "cyno",
@@ -19691,6 +19807,7 @@
               {
                 "name": "CRIT Rate",
                 "characters": [
+                  "mitya",
                   "keqing::quickbloom-dps",
                   "alhaitham",
                   "cyno",
@@ -19701,6 +19818,7 @@
               {
                 "name": "EM",
                 "characters": [
+                  "mitya",
                   "keqing::quickbloom-dps",
                   "alhaitham",
                   "cyno",
@@ -19711,6 +19829,7 @@
               {
                 "name": "ER%",
                 "characters": [
+                  "mitya",
                   "alhaitham",
                   "cyno",
                   "linnea",
@@ -19733,6 +19852,7 @@
               }
             ],
             "usedBy": [
+              "mitya",
               "keqing::quickbloom-dps",
               "alhaitham",
               "cyno",
@@ -19882,6 +20002,49 @@
             "genshinBuildsUpdated": "7.1",
             "resolutionReason": "Genshin-Builds newer (7.1 > 5.0)",
             "kqmUrl": "https://keqingmains.com/q/thoma-quickguide/"
+          }
+        },
+        {
+          "characterId": "mitya",
+          "archetypeId": "mitya",
+          "name": {
+            "en": "Mitya",
+            "es": "Mitya"
+          },
+          "iconUrl": "/images/characters/mitya.png",
+          "element": "Electro",
+          "role": {
+            "en": "On-Field DPS",
+            "es": "DPS en campo"
+          },
+          "usageType": "2pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.2",
+            "genshinBuildsUpdated": "7.2",
+            "resolutionReason": "Fallback to GB: no KQM guide"
           }
         },
         {
@@ -21577,11 +21740,12 @@
               "ER%"
             ],
             "usedBy": [
-              "yumemizuki-mizuki"
+              "yumemizuki-mizuki",
+              "mitya"
             ],
             "reasoning": {
-              "en": "Yumemizuki Mizuki can use CRIT Rate + CRIT DMG + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
-              "es": "Yumemizuki Mizuki busca(n) Prob. CRIT + Daño CRIT + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+              "en": "Yumemizuki Mizuki, Mitya can use CRIT Rate + CRIT DMG + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Yumemizuki Mizuki, Mitya busca(n) Prob. CRIT + Daño CRIT + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
             }
           },
           {
@@ -21931,6 +22095,7 @@
                   "rosaria::reverse-melt",
                   "tighnari",
                   "yumemizuki-mizuki",
+                  "mitya",
                   "candace::bloom-dps",
                   "chongyun",
                   "diluc",
@@ -21953,6 +22118,7 @@
                   "rosaria::reverse-melt",
                   "tighnari",
                   "yumemizuki-mizuki",
+                  "mitya",
                   "candace::bloom-dps",
                   "chongyun",
                   "diluc",
@@ -21974,6 +22140,7 @@
                   "rosaria::reverse-melt",
                   "tighnari",
                   "yumemizuki-mizuki",
+                  "mitya",
                   "chongyun",
                   "diluc",
                   "keqing::quickbloom-dps",
@@ -22020,6 +22187,7 @@
               "rosaria::reverse-melt",
               "tighnari",
               "yumemizuki-mizuki",
+              "mitya",
               "candace::bloom-dps",
               "chongyun",
               "diluc",
@@ -22169,6 +22337,7 @@
                 "name": "ER%",
                 "characters": [
                   "yumemizuki-mizuki",
+                  "mitya",
                   "candace::bloom-dps",
                   "kuki-shinobu",
                   "nahida",
@@ -22180,6 +22349,7 @@
                 "name": "CRIT Rate",
                 "characters": [
                   "yumemizuki-mizuki",
+                  "mitya",
                   "candace::bloom-dps",
                   "nahida",
                   "thoma",
@@ -22190,6 +22360,7 @@
                 "name": "CRIT DMG",
                 "characters": [
                   "yumemizuki-mizuki",
+                  "mitya",
                   "nahida",
                   "yae-miko"
                 ]
@@ -22212,6 +22383,7 @@
             ],
             "usedBy": [
               "yumemizuki-mizuki",
+              "mitya",
               "candace::bloom-dps",
               "kuki-shinobu",
               "nahida",
@@ -22505,6 +22677,7 @@
               {
                 "name": "ER%",
                 "characters": [
+                  "mitya",
                   "candace::bloom-dps",
                   "kuki-shinobu",
                   "nahida",
@@ -22514,6 +22687,7 @@
               {
                 "name": "CRIT Rate",
                 "characters": [
+                  "mitya",
                   "candace::bloom-dps",
                   "nahida",
                   "thoma"
@@ -22530,6 +22704,7 @@
               {
                 "name": "CRIT DMG",
                 "characters": [
+                  "mitya",
                   "nahida"
                 ]
               },
@@ -22541,6 +22716,7 @@
               }
             ],
             "usedBy": [
+              "mitya",
               "candace::bloom-dps",
               "kuki-shinobu",
               "nahida",
@@ -22559,6 +22735,7 @@
                   "rosaria::reverse-melt",
                   "tighnari",
                   "yumemizuki-mizuki",
+                  "mitya",
                   "chongyun",
                   "cryo-traveler",
                   "cyno",
@@ -22585,6 +22762,7 @@
                   "rosaria::reverse-melt",
                   "tighnari",
                   "yumemizuki-mizuki",
+                  "mitya",
                   "chongyun",
                   "cryo-traveler",
                   "cyno",
@@ -22611,6 +22789,7 @@
                   "rosaria::reverse-melt",
                   "tighnari",
                   "yumemizuki-mizuki",
+                  "mitya",
                   "chongyun",
                   "cryo-traveler",
                   "cyno",
@@ -22664,6 +22843,7 @@
               "rosaria::reverse-melt",
               "tighnari",
               "yumemizuki-mizuki",
+              "mitya",
               "chongyun",
               "cryo-traveler",
               "cyno",
@@ -22694,6 +22874,7 @@
                   "rosaria::reverse-melt",
                   "tighnari",
                   "yumemizuki-mizuki",
+                  "mitya",
                   "chongyun",
                   "cryo-traveler",
                   "cyno",
@@ -22720,6 +22901,7 @@
                   "rosaria::reverse-melt",
                   "tighnari",
                   "yumemizuki-mizuki",
+                  "mitya",
                   "chongyun",
                   "cryo-traveler",
                   "cyno",
@@ -22746,6 +22928,7 @@
                   "rosaria::reverse-melt",
                   "tighnari",
                   "yumemizuki-mizuki",
+                  "mitya",
                   "chongyun",
                   "cryo-traveler",
                   "cyno",
@@ -22799,6 +22982,7 @@
               "rosaria::reverse-melt",
               "tighnari",
               "yumemizuki-mizuki",
+              "mitya",
               "chongyun",
               "cryo-traveler",
               "cyno",
@@ -23062,6 +23246,49 @@
             "genshinBuildsUpdated": "7.1",
             "resolutionReason": "Genshin-Builds newer (7.1 > 7.0)",
             "kqmUrl": "https://keqingmains.com/q/mizuki-quickguide/"
+          }
+        },
+        {
+          "characterId": "mitya",
+          "archetypeId": "mitya",
+          "name": {
+            "en": "Mitya",
+            "es": "Mitya"
+          },
+          "iconUrl": "/images/characters/mitya.png",
+          "element": "Electro",
+          "role": {
+            "en": "On-Field DPS",
+            "es": "DPS en campo"
+          },
+          "usageType": "2pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.2",
+            "genshinBuildsUpdated": "7.2",
+            "resolutionReason": "Fallback to GB: no KQM guide"
           }
         },
         {
@@ -36543,6 +36770,22 @@
               "CRIT Rate",
               "CRIT DMG",
               "EM",
+              "ER%"
+            ],
+            "usedBy": [
+              "mitya",
+              "yumemizuki-mizuki"
+            ],
+            "reasoning": {
+              "en": "Mitya, Yumemizuki Mizuki can use CRIT Rate + CRIT DMG + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
+              "es": "Mitya, Yumemizuki Mizuki busca(n) Prob. CRIT + Daño CRIT + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
+            }
+          },
+          {
+            "substats": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM",
               "ATK%"
             ],
             "usedBy": [
@@ -36614,21 +36857,6 @@
             "reasoning": {
               "en": "Nilou can use Energy Recharge + HP% + Elemental Mastery + CRIT Rate + CRIT DMG on this set's Flower and Plume.",
               "es": "Nilou busca(n) Recarga de Energía + Vida% + Maestría Elemental + Prob. CRIT + Daño CRIT en la Flor y la Pluma de este set."
-            }
-          },
-          {
-            "substats": [
-              "CRIT Rate",
-              "CRIT DMG",
-              "EM",
-              "ER%"
-            ],
-            "usedBy": [
-              "yumemizuki-mizuki"
-            ],
-            "reasoning": {
-              "en": "Yumemizuki Mizuki can use CRIT Rate + CRIT DMG + Elemental Mastery + Energy Recharge on this set's Flower and Plume.",
-              "es": "Yumemizuki Mizuki busca(n) Prob. CRIT + Daño CRIT + Maestría Elemental + Recarga de Energía en la Flor y la Pluma de este set."
             }
           }
         ]
@@ -36815,6 +37043,7 @@
                   "sethos::charged-attack-dps",
                   "sethos::normal-attack-dps",
                   "tighnari",
+                  "mitya",
                   "ganyu::melt",
                   "alhaitham",
                   "keqing::aggravate-dps",
@@ -36827,9 +37056,21 @@
                   "sethos::charged-attack-dps",
                   "sethos::normal-attack-dps",
                   "tighnari",
+                  "mitya",
                   "ganyu::melt",
                   "alhaitham",
                   "keqing::aggravate-dps",
+                  "yumemizuki-mizuki"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "sethos::charged-attack-dps",
+                  "sethos::normal-attack-dps",
+                  "tighnari",
+                  "mitya",
+                  "alhaitham",
                   "yumemizuki-mizuki"
                 ]
               },
@@ -36843,22 +37084,13 @@
                   "alhaitham",
                   "keqing::aggravate-dps"
                 ]
-              },
-              {
-                "name": "ER%",
-                "characters": [
-                  "sethos::charged-attack-dps",
-                  "sethos::normal-attack-dps",
-                  "tighnari",
-                  "alhaitham",
-                  "yumemizuki-mizuki"
-                ]
               }
             ],
             "usedBy": [
               "sethos::charged-attack-dps",
               "sethos::normal-attack-dps",
               "tighnari",
+              "mitya",
               "ganyu::melt",
               "alhaitham",
               "keqing::aggravate-dps",
@@ -36968,28 +37200,32 @@
           },
           {
             "mainStat": "EM",
-            "verdict": "SITUATIONAL_KEEP",
+            "verdict": "MUST_KEEP",
             "substats": [
               {
                 "name": "CRIT Rate",
                 "characters": [
+                  "mitya",
                   "yumemizuki-mizuki"
                 ]
               },
               {
                 "name": "CRIT DMG",
                 "characters": [
+                  "mitya",
                   "yumemizuki-mizuki"
                 ]
               },
               {
                 "name": "ER%",
                 "characters": [
+                  "mitya",
                   "yumemizuki-mizuki"
                 ]
               }
             ],
             "usedBy": [
+              "mitya",
               "yumemizuki-mizuki"
             ]
           },
@@ -37200,9 +37436,30 @@
           },
           {
             "mainStat": "EM",
-            "verdict": "SAFE_DISCARD",
-            "substats": [],
-            "usedBy": []
+            "verdict": "MUST_KEEP",
+            "substats": [
+              {
+                "name": "CRIT Rate",
+                "characters": [
+                  "mitya"
+                ]
+              },
+              {
+                "name": "CRIT DMG",
+                "characters": [
+                  "mitya"
+                ]
+              },
+              {
+                "name": "ER%",
+                "characters": [
+                  "mitya"
+                ]
+              }
+            ],
+            "usedBy": [
+              "mitya"
+            ]
           },
           {
             "mainStat": "CRIT Rate",
@@ -37214,6 +37471,7 @@
                   "sethos::charged-attack-dps",
                   "sethos::normal-attack-dps",
                   "tighnari",
+                  "mitya",
                   "ganyu::melt",
                   "alhaitham",
                   "cyno",
@@ -37228,6 +37486,7 @@
                   "sethos::charged-attack-dps",
                   "sethos::normal-attack-dps",
                   "tighnari",
+                  "mitya",
                   "ganyu::melt",
                   "alhaitham",
                   "cyno",
@@ -37242,6 +37501,7 @@
                   "sethos::charged-attack-dps",
                   "sethos::normal-attack-dps",
                   "tighnari",
+                  "mitya",
                   "alhaitham",
                   "cyno",
                   "linnea",
@@ -37271,6 +37531,7 @@
               "sethos::charged-attack-dps",
               "sethos::normal-attack-dps",
               "tighnari",
+              "mitya",
               "ganyu::melt",
               "alhaitham",
               "cyno",
@@ -37289,6 +37550,7 @@
                   "sethos::charged-attack-dps",
                   "sethos::normal-attack-dps",
                   "tighnari",
+                  "mitya",
                   "ganyu::melt",
                   "alhaitham",
                   "cyno",
@@ -37303,6 +37565,7 @@
                   "sethos::charged-attack-dps",
                   "sethos::normal-attack-dps",
                   "tighnari",
+                  "mitya",
                   "ganyu::melt",
                   "alhaitham",
                   "cyno",
@@ -37317,6 +37580,7 @@
                   "sethos::charged-attack-dps",
                   "sethos::normal-attack-dps",
                   "tighnari",
+                  "mitya",
                   "alhaitham",
                   "cyno",
                   "linnea",
@@ -37346,6 +37610,7 @@
               "sethos::charged-attack-dps",
               "sethos::normal-attack-dps",
               "tighnari",
+              "mitya",
               "ganyu::melt",
               "alhaitham",
               "cyno",
@@ -37508,6 +37773,49 @@
             "genshinBuildsUpdated": "6.7 / Luna VIII",
             "resolutionReason": "Genshin-Builds newer (6.7 > 4.0)",
             "kqmUrl": "https://keqingmains.com/q/tighnari-quickguide/"
+          }
+        },
+        {
+          "characterId": "mitya",
+          "archetypeId": "mitya",
+          "name": {
+            "en": "Mitya",
+            "es": "Mitya"
+          },
+          "iconUrl": "/images/characters/mitya.png",
+          "element": "Electro",
+          "role": {
+            "en": "On-Field DPS",
+            "es": "DPS en campo"
+          },
+          "usageType": "2pc BiS",
+          "tier": "BiS",
+          "mainStats": {
+            "sands": [
+              "EM"
+            ],
+            "goblet": [
+              "EM"
+            ],
+            "circlet": [
+              "CRIT Rate",
+              "CRIT DMG",
+              "EM"
+            ]
+          },
+          "substatsPriority": [
+            "CRIT Rate",
+            "CRIT DMG",
+            "EM",
+            "ER%"
+          ],
+          "critTie": true,
+          "erUntilRequirement": false,
+          "sourceValidation": {
+            "primarySource": "Genshin-Builds",
+            "gbVersion": "7.2",
+            "genshinBuildsUpdated": "7.2",
+            "resolutionReason": "Fallback to GB: no KQM guide"
           }
         },
         {

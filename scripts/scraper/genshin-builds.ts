@@ -10,7 +10,7 @@ import * as cheerio from 'cheerio'
 import type { AnyNode } from 'domhandler'
 import type { StatKey } from '../../src/types/artifacts'
 import { hasCritTie, hasErUntilRequirement, normalizeStat, normalizeStatList } from '../../src/lib/stats'
-import { GB_BASE, TARGET_SETS, type TargetSetConfig } from './config'
+import { ARTIFACT_INDEX_CACHE_TTL_MS, GB_BASE, TARGET_SETS, type TargetSetConfig } from './config'
 import { fetchCached } from './http'
 
 export interface GBUsageRef {
@@ -113,7 +113,10 @@ function hasConditionalLabel(label: string): boolean {
 
 export async function fetchArtifactIndex(lang: 'en' | 'es'): Promise<GBArtifactSet[]> {
   const url = `${GB_BASE}/${lang}/artifacts`
-  const { html } = await fetchCached(url, { namespace: `genshin-builds/${lang}` })
+  const { html } = await fetchCached(url, {
+    namespace: `genshin-builds/${lang}`,
+    maxAgeMs: ARTIFACT_INDEX_CACHE_TTL_MS,
+  })
   const $ = cheerio.load(html)
   const sets: GBArtifactSet[] = []
   $('article[data-artifact-card]').each((_, article) => {

@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto'
-import { mkdir, readFile, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, stat, unlink, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { CACHE_ROOT, NETWORK_DELAY_MS, REQUEST_HEADERS, REQUEST_TIMEOUT_MS } from './config'
 
@@ -19,6 +19,7 @@ export interface FetchOptions {
   namespace: string
   cache?: boolean
   retries?: number
+  maxAgeMs?: number
 }
 
 export interface CachedResponse {
@@ -29,19 +30,30 @@ export interface CachedResponse {
 }
 
 export async function fetchCached(url: string, options: FetchOptions): Promise<CachedResponse> {
-  const { namespace, cache = true, retries = 3 } = options
+  const { namespace, cache = true, retries = 3, maxAgeMs } = options
   const file = cachePathFor(url, namespace)
   const file404 = `${file}.404`
 
   if (cache) {
     try {
       // Check if previously cached as 404
-      const is404 = await readFile(file404, 'utf8').then(() => true).catch(() => false)
-      if (is404) {
-        return { url, status: 404, html: '', fromCache: true }
+      const stat404 = await stat(file404).catch(() => null)
+      if (stat404) {
+        if (maxAgeMs !== undefined && Date.now() - stat404.mtimeMs > maxAgeMs) {
+          // expired 404 cache, proceed to re-fetch
+        } else {
+          return { url, status: 404, html: '', fromCache: true }
+        }
       }
-      const html = await readFile(file, 'utf8')
-      if (html.length > 0) return { url, status: 200, html, fromCache: true }
+      const fileStat = await stat(file).catch(() => null)
+      if (fileStat) {
+        if (maxAgeMs !== undefined && Date.now() - fileStat.mtimeMs > maxAgeMs) {
+          // expired cache, proceed to re-fetch
+        } else {
+          const html = await readFile(file, 'utf8')
+          if (html.length > 0) return { url, status: 200, html, fromCache: true }
+        }
+      }
     } catch {
       // cache miss
     }
@@ -69,12 +81,14 @@ export async function fetchCached(url: string, options: FetchOptions): Promise<C
 
       const html = await response.text()
       if (response.ok) {
+        await unlink(file404).catch(() => {})
         await mkdir(path.dirname(file), { recursive: true })
         await writeFile(file, html, 'utf8')
         return { url, status: response.status, html, fromCache: false }
       }
       if (response.status === 404) {
         // Cache 404 to avoid repeatedly hammering community servers with invalid slugs
+        await unlink(file).catch(() => {})
         await mkdir(path.dirname(file404), { recursive: true })
         await writeFile(file404, '404', 'utf8')
         return { url, status: 404, html, fromCache: false }
@@ -99,18 +113,29 @@ export async function fetchCachedBinary(
   url: string,
   options: FetchOptions & { extension?: string },
 ): Promise<CachedBinaryResponse> {
-  const { namespace, cache = true, retries = 3, extension = 'bin' } = options
+  const { namespace, cache = true, retries = 3, extension = 'bin', maxAgeMs } = options
   const file = cachePathFor(url, namespace, extension)
   const file404 = `${file}.404`
 
   if (cache) {
     try {
-      const is404 = await readFile(file404, 'utf8').then(() => true).catch(() => false)
-      if (is404) {
-        return { url, status: 404, data: Buffer.alloc(0), fromCache: true }
+      const stat404 = await stat(file404).catch(() => null)
+      if (stat404) {
+        if (maxAgeMs !== undefined && Date.now() - stat404.mtimeMs > maxAgeMs) {
+          // expired 404 cache, proceed to re-fetch
+        } else {
+          return { url, status: 404, data: Buffer.alloc(0), fromCache: true }
+        }
       }
-      const data = await readFile(file)
-      if (data.length > 0) return { url, status: 200, data, fromCache: true }
+      const fileStat = await stat(file).catch(() => null)
+      if (fileStat) {
+        if (maxAgeMs !== undefined && Date.now() - fileStat.mtimeMs > maxAgeMs) {
+          // expired cache, proceed to re-fetch
+        } else {
+          const data = await readFile(file)
+          if (data.length > 0) return { url, status: 200, data, fromCache: true }
+        }
+      }
     } catch {
       // cache miss
     }
@@ -136,12 +161,14 @@ export async function fetchCachedBinary(
       }
 
       if (response.ok) {
+        await unlink(file404).catch(() => {})
         const data = Buffer.from(await response.arrayBuffer())
         await mkdir(path.dirname(file), { recursive: true })
         await writeFile(file, data)
         return { url, status: response.status, data, fromCache: false }
       }
       if (response.status === 404) {
+        await unlink(file).catch(() => {})
         await mkdir(path.dirname(file404), { recursive: true })
         await writeFile(file404, '404', 'utf8')
         return { url, status: 404, data: Buffer.alloc(0), fromCache: false }

@@ -36,6 +36,7 @@ npm run typecheck:scripts # validate scraper scripts TypeScript types
 
 # Data Scraping & Pipeline
 npm run scrape           # process all 48 configured target sets
+npm run scrape -- <set>  # process a single set
 npm run scrape:all       # remove filter and process every indexed set
 
 # Asset Management (Assets extracted from Project Amber (https://gi.yatta.moe) and Enka.Network (https://enka.network))
@@ -58,8 +59,8 @@ The scraping pipeline (`scripts/scraper/`) uses a character-centric inversion mo
 - `scripts/scraper/http.ts` — Cached HTTP client with polite request delays, jitter, 404 caching (`.404`), and automatic retries.
 - `scripts/scraper/genshin-builds.ts` — Extracts artifact metadata and character builds from Genshin-Builds.
 - `scripts/scraper/kqm-parser.ts` — Resolves KQM Quickguides, parsing guide versions, multi-archetype section DOM scoping, standard recommendations, main stats, and substats.
-- `scripts/scraper/manual-inclusions.ts` — Whitelist preserving manually validated character inclusions against re-scrapes.
-- `scripts/scraper/build-dataset.ts` — Evaluates patch version freshness (`kqmVersion vs gbVersion`), handles multi-archetype build branching, resolves winning builds per character, inverts character assignments into the target artifact sets, and generates `public/data/artifacts-triage.json`.
+- `scripts/scraper/manual-inclusions.ts` — Two-phase audited override pipeline: Phase 1 pre-inversion (`CHARACTER_BUILD_OVERRIDES` for deep archetype restructuring) and Phase 2 post-inversion (`SET_REMOVALS`, `SET_TIER_OVERRIDES`, `SET_ADDITIONS`, and `SET_STAT_PATCHES` for isolated slot-level stat fixes).
+- `scripts/scraper/build-dataset.ts` — Evaluates patch version freshness (`kqmVersion vs gbVersion`), branches multi-archetype builds, executes the two-phase manual override pipeline, inverts character assignments into target sets, and generates `public/data/artifacts-triage.json`.
 - `scripts/scraper/download-artifact-images.ts` & `download-character-images.ts` — Downloads 256×256 PNGs for sets and characters via Project Amber and Enka.Network.
 
 ---
@@ -68,8 +69,10 @@ The scraping pipeline (`scripts/scraper/`) uses a character-centric inversion mo
 
 To keep artifact triage fast, reliable, and clean:
 
-- **Authoritative Sources:** All stat priorities are compiled directly from the community research teams credited below. No personal theorycrafting or arbitrary stats are introduced.
+- **Authoritative Sources:** All stat priorities are compiled directly from the community research teams credited below.
 - **Focus on most relevant builds:** The tool covers sets where they are ranked as **Best-in-Slot (BiS)** or top **Alternative** options. Niche variants and builds are omitted. These criteria follow the explicit ranking shown in Genshin-Builds (Genshin Impact Helper Team) and derive a positional ranking from KeqingMains tables.
+- **Multi-Archetype Isolation:** Characters with distinct competitive playstyles are segregated into independent archetypes. This prevents cross-contamination of stats across incompatible roles.
+- **Audited Manual Corrections:** Transparent, version-controlled override layer applied to resolve guide consensus gaps, prune invalid set pairings, and maintain slot-level stat accuracy without sacrificing ethical, automated re-scraping.
 
 ---
 
@@ -94,7 +97,7 @@ Agradecemos sinceramente a ambos colectivos por su constante dedicación e inest
 > [!NOTE]
 > **Independence & Data Curation:** This project is strictly independent and is neither affiliated with nor endorsed by the Genshin Impact Helper Team or KeqingMains.
 > 
-> Recommendations shown here are condensed for the purposes of this tool. Any discrepancies, omissions, or loss of guide-specific nuance belong solely to this tool, not to the original research teams. For in-depth explanations and full contextual builds, please consult the original source guides directly.
+> Since this tool is not and doesn't intend to work as a build guide, the compiled build data shown is extremely condensed. Any discrepancies, omissions, or loss of guide-specific nuance stem solely from this tool's aggregation logic, not from the original research teams. For in-depth explanations and full contextual builds, please consult the original source guides directly.
 
 ### Community Opt-out & Attribution Requests
 

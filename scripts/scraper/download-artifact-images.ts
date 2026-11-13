@@ -3,6 +3,7 @@ import path from 'node:path'
 import {
   AMBER_CATALOG_URL,
   ARTIFACT_IMAGE_DIR,
+  ARTIFACT_INDEX_CACHE_TTL_MS,
   ENKA_ASSET_BASE,
   artifactImageUrl,
   getTargetSets,
@@ -37,7 +38,10 @@ function readPngSize(data: Buffer): { width: number; height: number } {
 }
 
 async function loadCatalog(): Promise<ReliquaryItem[]> {
-  const { html, fromCache } = await fetchCached(AMBER_CATALOG_URL, { namespace: 'amber/en' })
+  const { html, fromCache } = await fetchCached(AMBER_CATALOG_URL, {
+    namespace: 'amber/en',
+    maxAgeMs: ARTIFACT_INDEX_CACHE_TTL_MS,
+  })
   const payload = JSON.parse(html) as ReliquaryPayload
   const items = Object.values(payload.data?.items ?? {})
   if (items.length === 0) throw new Error('Project Amber reliquary catalog is empty')

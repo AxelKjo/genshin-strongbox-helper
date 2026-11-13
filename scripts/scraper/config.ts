@@ -536,6 +536,9 @@ export function characterImageUrl(characterId: string): string {
   return `${CHARACTER_IMAGE_PUBLIC_PATH}/${characterId}.png`
 }
 
+// Expiration TTL for index and catalog pages (1 week)
+export const ARTIFACT_INDEX_CACHE_TTL_MS = 7 * 24 * 60 * 60 * 1000
+
 // Explicit, polite identification of the offline research bot and public repository
 export const REQUEST_HEADERS = {
   'user-agent':

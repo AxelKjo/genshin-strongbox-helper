@@ -3,6 +3,7 @@ import path from 'node:path'
 import type { TriageDataset } from '../../src/types/artifacts'
 import {
   AMBER_AVATAR_CATALOG_URL,
+  ARTIFACT_INDEX_CACHE_TTL_MS,
   CHARACTER_IMAGE_DIR,
   DATA_OUTPUT,
   ENKA_ASSET_BASE,
@@ -45,7 +46,10 @@ function readPngSize(data: Buffer): { width: number; height: number } {
 }
 
 async function loadCatalog(): Promise<AvatarItem[]> {
-  const { html, fromCache } = await fetchCached(AMBER_AVATAR_CATALOG_URL, { namespace: 'amber/en' })
+  const { html, fromCache } = await fetchCached(AMBER_AVATAR_CATALOG_URL, {
+    namespace: 'amber/en',
+    maxAgeMs: ARTIFACT_INDEX_CACHE_TTL_MS,
+  })
   const payload = JSON.parse(html) as AvatarPayload
   const items = Object.values(payload.data?.items ?? {})
   if (items.length === 0) throw new Error('Project Amber avatar catalog is empty')
