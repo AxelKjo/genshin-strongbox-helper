@@ -30,7 +30,10 @@ import {
 } from './genshin-builds'
 import { fetchKqmGuide, formatVersion, parseVersion, type KqmGuide } from './kqm-parser'
 import { mapWithConcurrency } from './http'
-import { MANUAL_CHARACTER_INCLUSIONS } from './manual-inclusions'
+import {
+  applyCharacterBuildOverrides,
+  applySetLevelOverrides,
+} from './manual-inclusions'
 
 export interface CharacterSetAssignment {
   setId: string
@@ -932,6 +935,9 @@ async function main() {
     resolvedCharacters.push(resolved)
   }
 
+  // Apply character-level build overrides (deep archetype re-architecture)
+  applyCharacterBuildOverrides(resolvedCharacters)
+
   // Invert assignments: group by target set
   const assignmentsBySet = new Map<string, CharacterUsage[]>()
   for (const target of targets) {
@@ -942,22 +948,26 @@ async function main() {
       const list = assignmentsBySet.get(assignment.setId)
       const currentKey = assignment.usage.archetypeId ?? assignment.characterId
       if (list && !list.some((u) => (u.archetypeId ?? u.characterId) === currentKey)) {
-        list.push(assignment.usage)
+        list.push({
+          ...assignment.usage,
+          mainStats: {
+            sands: [...assignment.usage.mainStats.sands],
+            goblet: [...assignment.usage.mainStats.goblet],
+            circlet: [...assignment.usage.mainStats.circlet],
+          },
+          substatsPriority: [...assignment.usage.substatsPriority],
+        })
       }
     }
   }
 
-  // Inject manual inclusions & sort characters per set
+  // Apply post-inversion set-level operations (removals, tier overrides, additions, stat patches, manual injections)
+  applySetLevelOverrides(assignmentsBySet, resolvedCharacters)
+
+  // Sort characters per set
   for (const target of targets) {
     const list = assignmentsBySet.get(target.id)
     if (!list) continue
-    const manualList = MANUAL_CHARACTER_INCLUSIONS[target.id] ?? []
-    for (const manualChar of manualList) {
-      const manualKey = manualChar.archetypeId ?? manualChar.characterId
-      if (!list.some((u) => (u.archetypeId ?? u.characterId) === manualKey)) {
-        list.push(manualChar)
-      }
-    }
     list.sort((a, b) => {
       const order: Record<UsageType, number> = {
         '4pc BiS': 0,
