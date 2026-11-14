@@ -72,7 +72,7 @@ To keep artifact triage fast, reliable, and clean:
 - **Authoritative Sources:** All stat priorities are compiled directly from the community research teams credited below.
 - **Focus on most relevant builds:** The tool covers sets where they are ranked as **Best-in-Slot (BiS)** or top **Alternative** options. Niche variants and builds are omitted. These criteria follow the explicit ranking shown in Genshin-Builds (Genshin Impact Helper Team) and derive a positional ranking from KeqingMains tables.
 - **Multi-Archetype Isolation:** Characters with distinct competitive playstyles are segregated into independent archetypes. This prevents cross-contamination of stats across incompatible roles.
-- **Audited Manual Corrections:** Transparent, version-controlled override layer applied to resolve guide consensus gaps, prune invalid set pairings, and maintain slot-level stat accuracy without sacrificing ethical, automated re-scraping.
+- ** Manual Corrections:** A few targeted tweaks for specific characters, stats, or archetypes that the automated parsing may not have inferred correctly.
 
 ---
 
@@ -83,7 +83,7 @@ Statistical priorities and build recommendations are factual compilations derive
 - **[Genshin Impact Helper Team (Genshin-Builds)](https://genshin-impact-helper-team.github.io/genshin-builds/en)**
 - **[KeqingMains (KQM)](https://keqingmains.com/)**
 
-Sincere thanks to both teams for their continuous dedication and invaluable contributions to the Genshin Impact community.
+Sincere thanks to both teams for their continuous dedication and invaluable contributions to the Genshin Impact community. Additionally, metadata catalogs, character portraits, and artifact asset icons utilized during offline processing are sourced from **[Project Amber](https://gi.yatta.moe/)** and **[Enka.Network](https://enka.network/)**.
 
 ---
 
@@ -92,7 +92,7 @@ Las prioridades de estadísticas y recomendaciones de builds son compilaciones f
 - **[Genshin Impact Helper Team (Genshin-Builds)](https://genshin-impact-helper-team.github.io/genshin-builds/en)**
 - **[KeqingMains (KQM)](https://keqingmains.com/)**
 
-Agradecemos sinceramente a ambos colectivos por su constante dedicación e inestimable aporte a la comunidad de jugadores.
+Agradecemos sinceramente a ambos colectivos por su constante dedicación e inestimable aporte a la comunidad de jugadores. Asimismo, los catálogos de metadatos, retratos de personajes e iconos de artefactos utilizados durante el procesamiento offline provienen de **[Project Amber](https://gi.yatta.moe/)** y **[Enka.Network](https://enka.network/)**.
 
 > [!NOTE]
 > **Independence & Data Curation:** This project is strictly independent and is neither affiliated with nor endorsed by the Genshin Impact Helper Team or KeqingMains.
@@ -101,7 +101,7 @@ Agradecemos sinceramente a ambos colectivos por su constante dedicación e inest
 
 ### Community Opt-out & Attribution Requests
 
-If you are a maintainer, author, or representative of the **Genshin Impact Helper Team** or **KeqingMains**, and you wish to update how your team is credited, request changes to how your data is linked, or ask for the exclusion of specific guides, please open a GitHub issue or reach out to me directly.
+If you are a maintainer, author, or representative of the **Genshin Impact Helper Team**, **KeqingMains**, **Project Amber**, or **Enka.Network**, and you wish to update how your team is credited, request changes to how your data is linked, or ask for the exclusion of specific guides or assets, please open a GitHub issue or reach out to me directly.
 
 ---
 

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { resolveAssetUrl } from '../lib/assets'
 
 interface AvatarProps {
   src: string
@@ -18,7 +19,7 @@ export function Avatar({ src, alt, size = 'sm' }: AvatarProps) {
   }
   return (
     <img
-      src={src}
+      src={resolveAssetUrl(src)}
       alt={alt}
       loading="lazy"
       onError={() => setFailed(true)}

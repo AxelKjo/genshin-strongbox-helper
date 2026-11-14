@@ -4,6 +4,7 @@ import type { ArtifactSetTriage } from '../types/artifacts'
 import type { Lang } from '../lib/i18n'
 import { t, UI } from '../lib/i18n'
 import { isFlatStat, statLabel } from '../lib/stats'
+import { resolveAssetUrl } from '../lib/assets'
 import { Avatar } from './Avatar'
 import { CharacterCard } from './CharacterCard'
 import { SlotRuleCard } from './SlotRuleCard'
@@ -33,7 +34,7 @@ export function SetDetail({ set, lang, reverseOrder, compactMatrix }: SetDetailP
       >
         {!artworkFailed && (
           <img
-            src={set.imageUrl}
+            src={resolveAssetUrl(set.imageUrl)}
             alt=""
             aria-hidden
             onError={() => setArtworkFailed(true)}
@@ -161,7 +162,7 @@ export function SetDetail({ set, lang, reverseOrder, compactMatrix }: SetDetailP
             return (
               <div key={slot} className="space-y-3">
                 <h3 className="inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-[0.2em] text-slate-300">
-                  <img src={`/icons/slots/${slot}.svg`} alt={t(slot, lang)} className="h-6 w-6 object-contain" />
+                  <img src={resolveAssetUrl(`/icons/slots/${slot}.svg`)} alt={t(slot, lang)} className="h-6 w-6 object-contain" />
                   {t(slot, lang)}
                 </h3>
                 {!reverseOrder && discardBlock}
@@ -176,8 +177,8 @@ export function SetDetail({ set, lang, reverseOrder, compactMatrix }: SetDetailP
       <section className="rounded-3xl border border-white/10 bg-abyssSoft/60 p-5">
         <h2 className="flex items-center gap-2 font-display text-xl text-goldSoft">
           <span className="inline-flex items-center gap-1.5" aria-hidden>
-            <img src="/icons/slots/flower.svg" alt="" className="h-6 w-6 object-contain" />
-            <img src="/icons/slots/plume.svg" alt="" className="h-6 w-6 object-contain" />
+            <img src={resolveAssetUrl('/icons/slots/flower.svg')} alt="" className="h-6 w-6 object-contain" />
+            <img src={resolveAssetUrl('/icons/slots/plume.svg')} alt="" className="h-6 w-6 object-contain" />
           </span>
           {t('flowerPlume', lang)}
         </h2>

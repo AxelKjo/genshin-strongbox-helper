@@ -1,9 +1,26 @@
 import { createHash } from 'node:crypto'
 import { mkdir, readFile, stat, unlink, writeFile } from 'node:fs/promises'
 import path from 'node:path'
-import { CACHE_ROOT, NETWORK_DELAY_MS, REQUEST_HEADERS, REQUEST_TIMEOUT_MS } from './config'
+import {
+  ARTIFACT_INDEX_CACHE_TTL_MS,
+  CACHE_ROOT,
+  NETWORK_DELAY_MS,
+  REQUEST_HEADERS,
+  REQUEST_TIMEOUT_MS,
+} from './config'
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
+
+function parseRetryAfterSeconds(headerValue: string | null, fallbackSec = 5): number {
+  if (!headerValue) return fallbackSec
+  const intVal = Number.parseInt(headerValue, 10)
+  if (Number.isFinite(intVal) && intVal > 0) return intVal
+  const parsedDate = Date.parse(headerValue)
+  if (!Number.isNaN(parsedDate)) {
+    return Math.max(1, Math.ceil((parsedDate - Date.now()) / 1000))
+  }
+  return fallbackSec
+}
 
 function cachePathFor(url: string, namespace: string, extension = 'html'): string {
   const hash = createHash('sha1').update(url).digest('hex').slice(0, 12)
@@ -39,7 +56,8 @@ export async function fetchCached(url: string, options: FetchOptions): Promise<C
       // Check if previously cached as 404
       const stat404 = await stat(file404).catch(() => null)
       if (stat404) {
-        if (maxAgeMs !== undefined && Date.now() - stat404.mtimeMs > maxAgeMs) {
+        const ttl404 = maxAgeMs ?? ARTIFACT_INDEX_CACHE_TTL_MS
+        if (Date.now() - stat404.mtimeMs > ttl404) {
           // expired 404 cache, proceed to re-fetch
         } else {
           return { url, status: 404, html: '', fromCache: true }
@@ -73,8 +91,9 @@ export async function fetchCached(url: string, options: FetchOptions): Promise<C
 
       if (response.status === 429) {
         const retryAfterHeader = response.headers.get('retry-after')
-        const waitSec = retryAfterHeader ? Number.parseInt(retryAfterHeader, 10) || 5 : 5
+        const waitSec = parseRetryAfterSeconds(retryAfterHeader)
         console.warn(`[http] Rate limited (429) on ${url}. Respecting Retry-After: ${waitSec}s`)
+        lastError = new Error(`HTTP 429 Too Many Requests for ${url}`)
         await sleep(waitSec * 1000)
         continue
       }
@@ -121,7 +140,8 @@ export async function fetchCachedBinary(
     try {
       const stat404 = await stat(file404).catch(() => null)
       if (stat404) {
-        if (maxAgeMs !== undefined && Date.now() - stat404.mtimeMs > maxAgeMs) {
+        const ttl404 = maxAgeMs ?? ARTIFACT_INDEX_CACHE_TTL_MS
+        if (Date.now() - stat404.mtimeMs > ttl404) {
           // expired 404 cache, proceed to re-fetch
         } else {
           return { url, status: 404, data: Buffer.alloc(0), fromCache: true }
@@ -154,8 +174,9 @@ export async function fetchCachedBinary(
 
       if (response.status === 429) {
         const retryAfterHeader = response.headers.get('retry-after')
-        const waitSec = retryAfterHeader ? Number.parseInt(retryAfterHeader, 10) || 5 : 5
+        const waitSec = parseRetryAfterSeconds(retryAfterHeader)
         console.warn(`[http] Rate limited (429) on ${url}. Respecting Retry-After: ${waitSec}s`)
+        lastError = new Error(`HTTP 429 Too Many Requests for ${url}`)
         await sleep(waitSec * 1000)
         continue
       }
