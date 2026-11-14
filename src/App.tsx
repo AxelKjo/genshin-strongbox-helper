@@ -160,9 +160,16 @@ export default function App() {
       >
         <div className={`${SHELL_WIDTH} flex flex-wrap items-center justify-between gap-3 py-3`}>
           <div className="flex items-center gap-3">
-            <span className="flex h-10 w-10 items-center justify-center rounded-xl border border-gold/30 bg-gold/25 shadow-glow">
-              <img src={resolveAssetUrl('/favicon.png')} alt="" className="h-7 w-7 object-contain" aria-hidden />
-            </span>
+            <img
+              src={resolveAssetUrl('/favicon.png')}
+              alt=""
+              className="h-10 w-10 shrink-0 object-contain"
+              style={{
+                filter:
+                  'drop-shadow(0 0 0px rgba(211, 188, 142, 0.9)) drop-shadow(0 0 1px rgba(211, 188, 142, 0.6)) drop-shadow(0 0 0px rgba(211, 188, 142, 0.3))',
+              }}
+              aria-hidden
+            />
             <div>
               <div className="flex flex-wrap items-center gap-2">
                 <h1 className="font-display text-lg leading-tight text-goldSoft sm:text-xl">{t('appTitle', lang)}</h1>
